@@ -1227,5 +1227,454 @@
         "url": "https://ciqual.anses.fr/"
       }
     ]
+  },
+  {
+    "id": "bowl_haricot_noir_poivron_rouge",
+    "nom": "Bowl Haricot Noir & Poivron Rouge",
+    "emoji": "🫘",
+    "temps": "20 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": [
+      "fer",
+      "antioxydants",
+      "fibres",
+      "vitamine_c"
+    ],
+    "categorie_synergie": "Fer + Vitamine C",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Haricot noir",
+        "aliment_2": "Poivron rouge",
+        "benefice": "Absorption du fer +150 à +250%",
+        "mecanisme": "La vitamine C du poivron rouge (127mg/100g) réduit le fer non-héminique des haricots (Fe³⁺ → Fe²⁺), rendant 2 à 3× plus absorbable.",
+        "source": "Hallberg L. et al., Hum Nutr Appl Nutr, 1986"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "400g",
+        "nom": "Haricot noir cuit (ou 1 boîte)",
+        "note": "rincé et égoutté"
+      },
+      {
+        "quantite": "2",
+        "nom": "Poivrons rouges",
+        "note": "coupés en lamelles"
+      },
+      {
+        "quantite": "1",
+        "nom": "Citron (jus)"
+      },
+      {
+        "quantite": "1",
+        "nom": "Gousse d'ail"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Cumin en poudre"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Paprika fumé"
+      },
+      {
+        "quantite": "2 c.s.",
+        "nom": "Huile d'olive"
+      },
+      {
+        "quantite": "Sel, poivre",
+        "nom": "Assaisonnement"
+      },
+      {
+        "quantite": "Quelques feuilles",
+        "nom": "Coriandre fraîche (optionnel)"
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'ail dans l'huile d'olive à feu moyen, puis ajouter les lamelles de poivron rouge. Cuire 5 minutes jusqu'à tendreté.",
+      "Ajouter les haricots noirs égouttés, le cumin, le paprika fumé. Mélanger et chauffer 3–4 minutes.",
+      "Hors du feu, presser le citron sur l'ensemble. La vitamine C agit à froid — ne pas cuire après l'ajout.",
+      "Assaisonner, garnir de coriandre fraîche. Servir en bowl avec du riz complet ou tel quel."
+    ],
+    "conseil_synergie": "Le jus de citron final est clé : la vitamine C doit être ajoutée hors du feu pour ne pas être détruite par la chaleur.",
+    "aliments_cles": [
+      "haricot_noir",
+      "poivron_rouge",
+      "citron",
+      "ail"
+    ]
+  },
+  {
+    "id": "bowl_edamame_riz_complet",
+    "nom": "Bowl Edamame & Riz Complet",
+    "emoji": "🍱",
+    "temps": "25 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": [
+      "proteines_completes",
+      "folates",
+      "fibres",
+      "magnesium"
+    ],
+    "categorie_synergie": "Protéines complètes végétales",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Edamame",
+        "aliment_2": "Riz complet",
+        "benefice": "Profil en acides aminés complet",
+        "mecanisme": "L'edamame est riche en lysine ; le riz complet est riche en méthionine. Ensemble, ils couvrent les 9 acides aminés essentiels comme une protéine animale.",
+        "source": "Young VR, Pellett PL., Am J Clin Nutr, 1994"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "160g",
+        "nom": "Riz complet (sec)",
+        "note": "rincer avant cuisson"
+      },
+      {
+        "quantite": "200g",
+        "nom": "Edamame décortiqué (surgelé)",
+        "note": "cuit selon paquet"
+      },
+      {
+        "quantite": "1",
+        "nom": "Citron (jus + zeste)"
+      },
+      {
+        "quantite": "2 c.s.",
+        "nom": "Sauce soja (tamari)"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Huile de sésame"
+      },
+      {
+        "quantite": "1 c.s.",
+        "nom": "Graines de sésame grillées"
+      },
+      {
+        "quantite": "2",
+        "nom": "Oignons nouveaux émincés"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Gingembre râpé"
+      }
+    ],
+    "etapes": [
+      "Cuire le riz complet selon les instructions (environ 35 min). Cuire l'edamame surgelé à l'eau bouillante salée 3–4 minutes, égoutter.",
+      "Préparer la sauce : mélanger tamari, jus de citron, huile de sésame, gingembre râpé.",
+      "Assembler le bowl : riz complet, edamame, arroser de sauce.",
+      "Garnir de zeste de citron, graines de sésame et oignons nouveaux."
+    ],
+    "conseil_synergie": "La combinaison riz + edamame au même repas est le fondement de l'alimentation végétale complète en Asie depuis des millénaires — validé par la science moderne.",
+    "aliments_cles": [
+      "edamame",
+      "riz_complet",
+      "gingembre"
+    ]
+  },
+  {
+    "id": "tempeh_marine_citron_legumes",
+    "nom": "Tempeh Mariné au Citron & Légumes Sautés",
+    "emoji": "🥘",
+    "temps": "30 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": [
+      "proteines",
+      "fer",
+      "vitamine_c",
+      "probiotiques"
+    ],
+    "categorie_synergie": "Fer + Vitamine C",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Tempeh",
+        "aliment_2": "Citron",
+        "benefice": "Absorption du fer du tempeh +200%",
+        "mecanisme": "La marinade acide au citron apporte la vitamine C qui réduit le fer non-héminique du tempeh en forme absorbable (Fe²⁺), et la fermentation réduit déjà les phytates inhibiteurs.",
+        "source": "Hurrell R, Egli I., Am J Clin Nutr, 2010"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "250g",
+        "nom": "Tempeh",
+        "note": "coupé en tranches ou dés"
+      },
+      {
+        "quantite": "2",
+        "nom": "Citrons (jus)",
+        "note": "marinade"
+      },
+      {
+        "quantite": "3 c.s.",
+        "nom": "Sauce soja (tamari)"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Curcuma en poudre"
+      },
+      {
+        "quantite": "1 pincée",
+        "nom": "Poivre noir fraîchement moulu"
+      },
+      {
+        "quantite": "1",
+        "nom": "Courgette en rondelles"
+      },
+      {
+        "quantite": "1",
+        "nom": "Poivron rouge en lamelles"
+      },
+      {
+        "quantite": "2 c.s.",
+        "nom": "Huile d'olive"
+      },
+      {
+        "quantite": "1",
+        "nom": "Gousse d'ail"
+      }
+    ],
+    "etapes": [
+      "Mariner le tempeh 15 min minimum dans le jus de citron, tamari, curcuma et poivre noir. Plus longtemps = meilleure absorption du fer.",
+      "Faire revenir l'ail dans l'huile d'olive. Ajouter le tempeh mariné et le faire dorer 3–4 min de chaque côté.",
+      "Ajouter les légumes (courgette, poivron), cuire 5–7 min à feu vif en remuant.",
+      "Servir chaud, avec du riz complet ou du sarrasin. Ajouter un filet de jus de citron frais avant de servir."
+    ],
+    "conseil_synergie": "La double action citron : marinade acide + vitamine C. La fermentation du tempeh réduit déjà les phytates — la biodisponibilité du fer est donc meilleure que celle du tofu.",
+    "aliments_cles": [
+      "tempeh",
+      "citron",
+      "poivron_rouge",
+      "curcuma"
+    ]
+  },
+  {
+    "id": "riz_complet_lentilles_epices",
+    "nom": "Mujaddara — Riz Complet & Lentilles aux Épices",
+    "emoji": "🍚",
+    "temps": "35 min",
+    "difficulte": "Facile",
+    "portions": 3,
+    "bienfaits_cles": [
+      "proteines_completes",
+      "fer",
+      "fibres",
+      "magnesium"
+    ],
+    "categorie_synergie": "Protéines complètes végétales",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Riz complet",
+        "aliment_2": "Lentilles",
+        "benefice": "Protéines végétales complètes (score PDCAAS proche des protéines animales)",
+        "mecanisme": "Le riz complet est riche en méthionine (acide aminé soufré), les lentilles en lysine. Ensemble, ils couvrent tous les acides aminés essentiels.",
+        "source": "Young VR, Pellett PL., Am J Clin Nutr, 1994"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "150g",
+        "nom": "Riz complet (sec)"
+      },
+      {
+        "quantite": "200g",
+        "nom": "Lentilles vertes ou brunes (sèches)"
+      },
+      {
+        "quantite": "2",
+        "nom": "Oignons",
+        "note": "émincés finement"
+      },
+      {
+        "quantite": "3 c.s.",
+        "nom": "Huile d'olive"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Cumin en poudre"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Cannelle"
+      },
+      {
+        "quantite": "½ c.c.",
+        "nom": "Curcuma"
+      },
+      {
+        "quantite": "1 pincée",
+        "nom": "Poivre noir"
+      },
+      {
+        "quantite": "1",
+        "nom": "Citron (jus)",
+        "note": "pour servir"
+      },
+      {
+        "quantite": "Sel",
+        "nom": "Assaisonnement"
+      }
+    ],
+    "etapes": [
+      "Cuire les lentilles 20 min à l'eau bouillante salée. Cuire le riz complet en parallèle selon les instructions (30–35 min).",
+      "Pendant ce temps, faire caraméliser les oignons dans l'huile d'olive à feu moyen-doux pendant 15–20 min jusqu'à ce qu'ils soient dorés et fondants.",
+      "Mélanger riz, lentilles, la moitié des oignons, cumin, cannelle, curcuma, poivre. Assaisonner.",
+      "Servir avec les oignons caramélisés restants sur le dessus et un filet de jus de citron."
+    ],
+    "conseil_synergie": "Plat emblématique du Moyen-Orient (Mujaddara), cette association riz + lentilles est l'une des premières synergies protéiques documentées dans l'histoire de l'alimentation humaine.",
+    "aliments_cles": [
+      "riz_complet",
+      "lentille",
+      "oignon",
+      "curcuma"
+    ]
+  },
+  {
+    "id": "smoothie_orange_epinard_citron",
+    "nom": "Smoothie Orange, Épinard & Citron",
+    "emoji": "🍊",
+    "temps": "5 min",
+    "difficulte": "Très facile",
+    "portions": 1,
+    "bienfaits_cles": [
+      "fer",
+      "vitamine_c",
+      "folates",
+      "antioxydants"
+    ],
+    "categorie_synergie": "Fer + Vitamine C",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Orange",
+        "aliment_2": "Épinard",
+        "benefice": "Absorption du fer des épinards +200 à +350%",
+        "mecanisme": "La vitamine C de l'orange (53mg/100g) réduit le fer non-héminique des épinards en forme absorbable. Le jus frais maximise la teneur en vitamine C active.",
+        "source": "Hallberg L. et al., Hum Nutr Appl Nutr, 1986"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "2",
+        "nom": "Oranges (jus frais pressé)"
+      },
+      {
+        "quantite": "50g",
+        "nom": "Épinards frais",
+        "note": "ou surgelés décongelés"
+      },
+      {
+        "quantite": "½",
+        "nom": "Citron (jus)"
+      },
+      {
+        "quantite": "1",
+        "nom": "Banane congelée",
+        "note": "pour l'onctuosité"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Gingembre râpé",
+        "note": "optionnel, anti-inflammatoire bonus"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Graines de chia",
+        "note": "oméga-3 bonus"
+      }
+    ],
+    "etapes": [
+      "Presser les oranges et le citron à la main pour un jus frais (la vitamine C se dégrade à l'air — ne pas utiliser du jus en bouteille).",
+      "Mixer tous les ingrédients ensemble jusqu'à obtenir une texture lisse.",
+      "Servir immédiatement pour préserver la vitamine C active."
+    ],
+    "conseil_synergie": "Ne jamais utiliser de jus d'orange pasteurisé (en bouteille) : il perd jusqu'à 30% de sa vitamine C. Le jus fraîchement pressé est essentiel pour la synergie fer.",
+    "aliments_cles": [
+      "orange",
+      "epinard",
+      "citron",
+      "banane"
+    ]
+  },
+  {
+    "id": "bowl_lentilles_levure_nutritionnelle",
+    "nom": "Bowl Lentilles & Levure Nutritionnelle",
+    "emoji": "🫘",
+    "temps": "25 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": [
+      "proteines_completes",
+      "vitamine_b12",
+      "fer",
+      "fibres"
+    ],
+    "categorie_synergie": "Protéines complètes + Vitamine B12",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Levure nutritionnelle",
+        "aliment_2": "Lentilles",
+        "benefice": "Protéines complètes + B12 végétale",
+        "mecanisme": "La levure nutritionnelle apporte la méthionine manquante aux lentilles et la vitamine B12 absente de toutes les légumineuses, créant un repas nutritionnellement complet.",
+        "source": "Watanabe F., Exp Biol Med, 2007"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "300g",
+        "nom": "Lentilles vertes cuites (ou 1 boîte)"
+      },
+      {
+        "quantite": "3 c.s.",
+        "nom": "Levure nutritionnelle",
+        "note": "enrichie en B12"
+      },
+      {
+        "quantite": "100g",
+        "nom": "Épinards frais"
+      },
+      {
+        "quantite": "1",
+        "nom": "Citron (jus)"
+      },
+      {
+        "quantite": "1",
+        "nom": "Gousse d'ail"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Cumin"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Paprika fumé"
+      },
+      {
+        "quantite": "2 c.s.",
+        "nom": "Huile d'olive"
+      },
+      {
+        "quantite": "Sel, poivre",
+        "nom": "Assaisonnement"
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'ail dans l'huile d'olive, ajouter les lentilles cuites avec cumin et paprika. Chauffer 3–4 min.",
+      "Ajouter les épinards en fin de cuisson, mélanger jusqu'à ce qu'ils tombent (1–2 min).",
+      "Hors du feu, presser le citron et saupoudrer généreusement de levure nutritionnelle.",
+      "La levure nutritionnelle se saupoudre toujours hors du feu pour préserver ses vitamines B, notamment la B12."
+    ],
+    "conseil_synergie": "Choisir impérativement une levure nutritionnelle enrichie en B12 (indiqué sur le paquet) — la B12 naturelle de la levure non enrichie n'est pas biodisponible pour l'humain.",
+    "aliments_cles": [
+      "levure_nutritionnelle",
+      "lentille",
+      "epinard",
+      "citron"
+    ]
   }
 ]
