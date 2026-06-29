@@ -7,6 +7,33 @@ import Badge from '../ui/Badge'
 import TermeLink from '../ui/TermeLink'
 import recipesData from '../../data/recipes.json'
 
+const ARTICLES_BLOG = [
+  {
+    url: 'https://optivege.fr/fer-vitamine-c',
+    ancre: 'Comprendre la synergie fer + vitamine C',
+    aliments: ['epinard', 'lentille', 'graine_de_sesame', 'graines_de_courge', 'graines_de_chia', 'avoine', 'tofu', 'pois_chiche', 'quinoa'],
+  },
+  {
+    url: 'https://optivege.fr/proteines-vegetales-completes',
+    ancre: 'Guide des protéines végétales complètes',
+    aliments: ['quinoa', 'lentille', 'pois_chiche', 'tofu', 'graines_de_chia', 'levure_nutritionnelle'],
+  },
+  {
+    url: 'https://optivege.fr/omega3-vegetaux',
+    ancre: 'Sources d\'oméga-3 végétaux',
+    aliments: ['graines_de_chia', 'graines_de_lin', 'noix'],
+  },
+  {
+    url: 'https://optivege.fr/calcium-vitamine-d3-k2',
+    ancre: 'Calcium, D3 et K2 : la synergie osseuse',
+    aliments: ['brocoli', 'kale', 'amande', 'graine_de_sesame'],
+  },
+]
+
+function getArticles(foodId) {
+  return ARTICLES_BLOG.filter(a => a.aliments.includes(foodId))
+}
+
 const BENEFIT_EMOJI = {
   fer: '⚙️', proteines: '💪', calcium: '🦴', omega3: '🐟',
   antioxydants: '🛡️', fibres: '🌿', vitamine_c: '🍋', folates: '🧬',
@@ -123,6 +150,32 @@ export default function FoodDetail({ food }) {
               </div>
             </div>
           </Link>
+        </section>
+      )}
+
+      {/* Section Aller plus loin */}
+      {getArticles(food.id).length > 0 && (
+        <section>
+          <h2 className="section-title">📖 Aller plus loin</h2>
+          <div className="flex flex-col gap-3">
+            {getArticles(food.id).map(article => (
+              <a
+                key={article.url}
+                href={article.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 rounded-xl px-4 py-3 text-white transition-opacity hover:opacity-90"
+                style={{ backgroundColor: '#1D9E75' }}
+              >
+                <span className="text-xl">📖</span>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm font-semibold leading-snug">{article.ancre}</p>
+                  <p className="text-xs opacity-80 mt-0.5">optivege.fr</p>
+                </div>
+                <span className="text-sm font-medium whitespace-nowrap">Lire l'article complet →</span>
+              </a>
+            ))}
+          </div>
         </section>
       )}
 
