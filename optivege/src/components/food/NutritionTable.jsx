@@ -72,29 +72,43 @@ export default function NutritionTable({ teneurs }) {
               if (!item || typeof item !== 'object') return null
               const pct = calcPercent(key, item.valeur)
               return (
-                <tr key={key} className={i % 2 === 0 ? 'bg-white' : 'bg-green-bg/40'}>
-                  <td className="px-4 py-2 text-gray-700">{LABELS[key] || key}</td>
-                  <td className="px-4 py-2 text-right font-medium text-gray-900">
-                    {typeof item.valeur === 'number' ? item.valeur : item.valeur} {item.unite}
-                  </td>
-                  <td className="px-4 py-2 text-right hidden sm:table-cell">
-                    {pct !== null ? (
-                      <div className="flex items-center justify-end gap-2">
-                        <div className="w-16 bg-gray-100 rounded-full h-1.5">
-                          <div
-                            className="bg-green-main h-1.5 rounded-full"
-                            style={{ width: `${Math.min(pct, 100)}%` }}
-                          />
+                <>
+                  <tr key={key} className={i % 2 === 0 ? 'bg-white' : 'bg-green-bg/40'}>
+                    <td className="px-4 py-2 text-gray-700">{LABELS[key] || key}</td>
+                    <td className="px-4 py-2 text-right font-medium text-gray-900">
+                      {typeof item.valeur === 'number' ? item.valeur : item.valeur} {item.unite}
+                    </td>
+                    <td className="px-4 py-2 text-right hidden sm:table-cell">
+                      {pct !== null ? (
+                        <div className="flex items-center justify-end gap-2">
+                          <div className="w-16 bg-gray-100 rounded-full h-1.5">
+                            <div
+                              className="bg-green-main h-1.5 rounded-full"
+                              style={{ width: `${Math.min(pct, 100)}%` }}
+                            />
+                          </div>
+                          <span className={`text-xs font-medium ${pct >= 20 ? 'text-green-dark' : 'text-gray-500'}`}>
+                            {pct}%
+                          </span>
                         </div>
-                        <span className={`text-xs font-medium ${pct >= 20 ? 'text-green-dark' : 'text-gray-500'}`}>
-                          {pct}%
-                        </span>
-                      </div>
-                    ) : (
-                      <span className="text-gray-400 text-xs">—</span>
-                    )}
-                  </td>
-                </tr>
+                      ) : (
+                        <span className="text-gray-400 text-xs">—</span>
+                      )}
+                    </td>
+                  </tr>
+                  {item.note && (
+                    <tr key={`${key}-note`}>
+                      <td colSpan={3} className="px-4 pb-3 pt-0">
+                        <p
+                          className="text-xs italic leading-relaxed rounded-lg px-3 py-2"
+                          style={{ color: '#0F6E56', backgroundColor: '#0F6E5612' }}
+                        >
+                          ⚠️ {item.note}
+                        </p>
+                      </td>
+                    </tr>
+                  )}
+                </>
               )
             })}
           </tbody>

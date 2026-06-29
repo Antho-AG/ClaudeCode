@@ -2949,7 +2949,8 @@
       },
       "fer": {
         "valeur": 28.5,
-        "unite": "mg/100g (séchée)"
+        "unite": "mg/100g (séchée)",
+        "note": "Malgré sa teneur record en fer, la spiruline est classée avec prudence : sa biodisponibilité réelle fait l'objet de résultats contradictoires dans la littérature scientifique. À utiliser en complément, pas comme source principale de fer."
       },
       "calcium": {
         "valeur": 120,
