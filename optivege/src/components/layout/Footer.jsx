@@ -43,7 +43,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="https://optivege.fr" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-green-300 transition-colors">
+              <a href="https://optivege.fr" target="_blank" rel="noopener" className="text-white font-medium hover:text-green-300 transition-colors">
                 🌿 Blog Optivege.fr →
               </a>
             </li>
