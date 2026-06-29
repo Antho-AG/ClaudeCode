@@ -131,7 +131,7 @@ function BenefitDetail({ id }) {
 export default function BenefitSearchPage() {
   useMeta({
     title: 'Rechercher par bienfait nutritionnel (fer, calcium, protéines...) | Optivege',
-    description: 'Trouvez les aliments végétaux selon vos besoins nutritionnels : fer, calcium, protéines, oméga-3, antioxydants, vitamines. Données CIQUAL et PubMed.',
+    description: 'Explorez les aliments végétaux par bienfait nutritionnel : fer, calcium, protéines, oméga-3, antioxydants. Données sourcées CIQUAL 2020 et PubMed.',
   })
   const { id } = useParams()
   return id ? <BenefitDetail id={id} /> : <BenefitList />

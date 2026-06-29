@@ -1,17 +1,24 @@
 import { useEffect } from 'react'
 
-export default function useMeta({ title, description }) {
-  useEffect(() => {
-    if (title) document.title = title
-
-    if (description) {
-      let el = document.querySelector('meta[name="description"]')
-      if (!el) {
-        el = document.createElement('meta')
-        el.setAttribute('name', 'description')
-        document.head.appendChild(el)
-      }
-      el.setAttribute('content', description)
+function applyMeta({ title, description }) {
+  if (title) document.title = title
+  if (description) {
+    let el = document.querySelector('meta[name="description"]')
+    if (!el) {
+      el = document.createElement('meta')
+      el.setAttribute('name', 'description')
+      document.head.appendChild(el)
     }
+    el.setAttribute('content', description)
+  }
+}
+
+export default function useMeta({ title, description }) {
+  // Appliqué immédiatement lors du rendu (synchrone) pour éviter le flash
+  // du title de l'index.html avant que useEffect ne s'exécute
+  applyMeta({ title, description })
+
+  useEffect(() => {
+    applyMeta({ title, description })
   }, [title, description])
 }
