@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useAllFoods } from '../hooks/useFoodData'
 import Badge from '../components/ui/Badge'
+import useMeta from '../hooks/useMeta'
 
 const BENEFIT_EMOJI = {
   fer: '⚙️', proteines: '💪', calcium: '🦴', omega3: '🐟',
@@ -29,6 +30,10 @@ function getSuperCategory(food) {
 }
 
 export default function SuperAlimentsPage() {
+  useMeta({
+    title: 'Super aliments végétaux — Sélection scientifique | Optivege',
+    description: 'Découvrez les super aliments végétaux sélectionnés selon des critères scientifiques stricts : densité nutritionnelle exceptionnelle, études PubMed et propriétés synergiques.',
+  })
   const allFoods = useAllFoods()
   const superFoods = allFoods.filter(f => f.super_aliment)
 

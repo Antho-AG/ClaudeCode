@@ -1,10 +1,16 @@
 import { useParams, Link } from 'react-router-dom'
 import FoodDetail from '../components/food/FoodDetail'
 import { useFood } from '../hooks/useFoodData'
+import useMeta from '../hooks/useMeta'
 
 export default function FoodDetailPage() {
   const { id } = useParams()
   const food = useFood(id)
+
+  useMeta({
+    title: food ? `${food.nom} : teneurs, synergies et associations | Optivege` : 'Optivege',
+    description: food ? `Découvrez les bienfaits nutritionnels de ${food.nom}, ses synergies alimentaires documentées et les meilleures associations pour maximiser ses apports.` : undefined,
+  })
 
   if (!food) {
     return (

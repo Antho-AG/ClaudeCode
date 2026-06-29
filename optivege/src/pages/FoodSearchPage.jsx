@@ -3,10 +3,15 @@ import { useSearchParams, Link } from 'react-router-dom'
 import FoodCard from '../components/food/FoodCard'
 import { useAllFoods } from '../hooks/useFoodData'
 import { matchesQuery } from '../utils/searchUtils'
+import useMeta from '../hooks/useMeta'
 
 const CATEGORIES = ['Toutes', 'légumineuse', 'légume-feuille', 'légume', 'fruit', 'pseudo-céréale', 'oléagineux', 'épice', 'légumineuse transformée']
 
 export default function FoodSearchPage() {
+  useMeta({
+    title: 'Tous les aliments végétaux — Teneurs nutritionnelles et synergies | Optivege',
+    description: 'Base de données de 79 aliments végétaux avec teneurs nutritionnelles CIQUAL, synergies documentées et bienfaits scientifiquement validés.',
+  })
   const [searchParams, setSearchParams] = useSearchParams()
   const [query, setQuery] = useState(searchParams.get('q') || '')
   const [category, setCategory] = useState('Toutes')

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
+import useMeta from '../hooks/useMeta'
 import FoodCard from '../components/food/FoodCard'
 import { useAllFoods, useAllBenefits } from '../hooks/useFoodData'
 import foodsData from '../data/foods.json'
@@ -19,6 +20,10 @@ function getRandomSynergie() {
 const RANDOM_SYN = getRandomSynergie()
 
 export default function Home() {
+  useMeta({
+    title: 'Optivege — La synergie alimentaire végétale, données scientifiques CIQUAL & PubMed',
+    description: 'Découvrez les synergies alimentaires végétales basées sur les données CIQUAL et les études PubMed. Maximisez l\'absorption de vos nutriments grâce aux bonnes associations.',
+  })
   const [query, setQuery] = useState('')
   const navigate = useNavigate()
   const allFoods = useAllFoods()

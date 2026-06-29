@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
+import useMeta from '../hooks/useMeta'
 import { useAllBenefits, useBenefit, useFoodsByBenefit, useRecipe } from '../hooks/useFoodData'
 import SourceCitation from '../components/ui/SourceCitation'
 import FoodCard from '../components/food/FoodCard'
@@ -128,6 +129,10 @@ function BenefitDetail({ id }) {
 }
 
 export default function BenefitSearchPage() {
+  useMeta({
+    title: 'Rechercher par bienfait nutritionnel (fer, calcium, protéines...) | Optivege',
+    description: 'Trouvez les aliments végétaux selon vos besoins nutritionnels : fer, calcium, protéines, oméga-3, antioxydants, vitamines. Données CIQUAL et PubMed.',
+  })
   const { id } = useParams()
   return id ? <BenefitDetail id={id} /> : <BenefitList />
 }

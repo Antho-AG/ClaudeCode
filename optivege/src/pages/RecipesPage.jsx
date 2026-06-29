@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import useMeta from '../hooks/useMeta'
 import RecipeCard from '../components/recipes/RecipeCard'
 import RecipeDetail from '../components/recipes/RecipeDetail'
 import { useAllRecipes, useRecipe } from '../hooks/useFoodData'
@@ -127,6 +128,10 @@ function RecipeDetailPage() {
 }
 
 export default function RecipesPage() {
+  useMeta({
+    title: 'Recettes végétales avec synergies documentées | Optivege',
+    description: '21 recettes végétales conçues autour des synergies alimentaires scientifiquement documentées. Fer + vitamine C, protéines complètes, oméga-3 et plus.',
+  })
   const { id } = useParams()
   return id ? <RecipeDetailPage /> : <RecipeList />
 }
