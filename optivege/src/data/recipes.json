@@ -6,7 +6,12 @@
     "temps": "25 min",
     "difficulte": "Facile",
     "portions": 2,
-    "bienfaits_cles": ["fer", "proteines", "fibres", "folates"],
+    "bienfaits_cles": [
+      "fer",
+      "proteines",
+      "fibres",
+      "folates"
+    ],
     "categorie_synergie": "Fer + Vitamine C",
     "synergies_utilisees": [
       {
@@ -25,14 +30,39 @@
       }
     ],
     "ingredients": [
-      { "quantite": "200g", "nom": "Lentilles vertes (sèches)", "note": "rincer à l'eau froide" },
-      { "quantite": "100g", "nom": "Épinards frais" },
-      { "quantite": "1", "nom": "Citron (zeste + jus)" },
-      { "quantite": "1", "nom": "Gousse d'ail" },
-      { "quantite": "2 c.s.", "nom": "Huile d'olive extra-vierge" },
-      { "quantite": "1 c.c.", "nom": "Cumin en poudre" },
-      { "quantite": "Sel, poivre", "nom": "Assaisonnement" },
-      { "quantite": "Optionnel", "nom": "Graines de courge (fer++)" }
+      {
+        "quantite": "200g",
+        "nom": "Lentilles vertes (sèches)",
+        "note": "rincer à l'eau froide"
+      },
+      {
+        "quantite": "100g",
+        "nom": "Épinards frais"
+      },
+      {
+        "quantite": "1",
+        "nom": "Citron (zeste + jus)"
+      },
+      {
+        "quantite": "1",
+        "nom": "Gousse d'ail"
+      },
+      {
+        "quantite": "2 c.s.",
+        "nom": "Huile d'olive extra-vierge"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Cumin en poudre"
+      },
+      {
+        "quantite": "Sel, poivre",
+        "nom": "Assaisonnement"
+      },
+      {
+        "quantite": "Optionnel",
+        "nom": "Graines de courge (fer++)"
+      }
     ],
     "etapes": [
       "Cuire les lentilles dans 2× leur volume d'eau pendant 20-25 min (sans sel pour éviter de les durcir). Égoutter.",
@@ -63,7 +93,11 @@
     "temps": "30 min",
     "difficulte": "Facile",
     "portions": 4,
-    "bienfaits_cles": ["fer", "proteines", "anti_inflammatoire"],
+    "bienfaits_cles": [
+      "fer",
+      "proteines",
+      "anti_inflammatoire"
+    ],
     "categorie_synergie": "Fer + Vitamine C",
     "synergies_utilisees": [
       {
@@ -82,16 +116,46 @@
       }
     ],
     "ingredients": [
-      { "quantite": "250g", "nom": "Lentilles corail" },
-      { "quantite": "1", "nom": "Citron (jus)" },
-      { "quantite": "1 boîte", "nom": "Lait de coco (400ml)" },
-      { "quantite": "400ml", "nom": "Bouillon de légumes" },
-      { "quantite": "1 c.c.", "nom": "Curcuma en poudre" },
-      { "quantite": "1 c.c.", "nom": "Cumin" },
-      { "quantite": "1 pincée", "nom": "Poivre noir fraîchement moulu" },
-      { "quantite": "1", "nom": "Oignon haché" },
-      { "quantite": "2", "nom": "Gousses d'ail" },
-      { "quantite": "1 c.s.", "nom": "Huile de coco ou olive" }
+      {
+        "quantite": "250g",
+        "nom": "Lentilles corail"
+      },
+      {
+        "quantite": "1",
+        "nom": "Citron (jus)"
+      },
+      {
+        "quantite": "1 boîte",
+        "nom": "Lait de coco (400ml)"
+      },
+      {
+        "quantite": "400ml",
+        "nom": "Bouillon de légumes"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Curcuma en poudre"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Cumin"
+      },
+      {
+        "quantite": "1 pincée",
+        "nom": "Poivre noir fraîchement moulu"
+      },
+      {
+        "quantite": "1",
+        "nom": "Oignon haché"
+      },
+      {
+        "quantite": "2",
+        "nom": "Gousses d'ail"
+      },
+      {
+        "quantite": "1 c.s.",
+        "nom": "Huile de coco ou olive"
+      }
     ],
     "etapes": [
       "Faire revenir l'oignon et l'ail dans l'huile pendant 3 min.",
@@ -121,7 +185,11 @@
     "temps": "20 min",
     "difficulte": "Facile",
     "portions": 2,
-    "bienfaits_cles": ["calcium", "proteines", "vitamine_k"],
+    "bienfaits_cles": [
+      "calcium",
+      "proteines",
+      "vitamine_k"
+    ],
     "categorie_synergie": "Calcium + Vitamine K",
     "synergies_utilisees": [
       {
@@ -133,13 +201,34 @@
       }
     ],
     "ingredients": [
-      { "quantite": "200g", "nom": "Tofu ferme (coagulé au sulfate de calcium)" },
-      { "quantite": "300g", "nom": "Brocoli en fleurettes" },
-      { "quantite": "2 c.s.", "nom": "Sauce soja (tamari sans gluten si besoin)" },
-      { "quantite": "1 c.s.", "nom": "Sésame grillé" },
-      { "quantite": "1 c.c.", "nom": "Huile de sésame" },
-      { "quantite": "1 c.c.", "nom": "Gingembre râpé" },
-      { "quantite": "1", "nom": "Gousse d'ail" }
+      {
+        "quantite": "200g",
+        "nom": "Tofu ferme (coagulé au sulfate de calcium)"
+      },
+      {
+        "quantite": "300g",
+        "nom": "Brocoli en fleurettes"
+      },
+      {
+        "quantite": "2 c.s.",
+        "nom": "Sauce soja (tamari sans gluten si besoin)"
+      },
+      {
+        "quantite": "1 c.s.",
+        "nom": "Sésame grillé"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Huile de sésame"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Gingembre râpé"
+      },
+      {
+        "quantite": "1",
+        "nom": "Gousse d'ail"
+      }
     ],
     "etapes": [
       "Égoutter et presser le tofu entre deux torchons, puis le couper en cubes.",
@@ -170,7 +259,11 @@
     "temps": "35 min",
     "difficulte": "Facile",
     "portions": 2,
-    "bienfaits_cles": ["proteines_completes", "omega9", "antioxydants"],
+    "bienfaits_cles": [
+      "proteines_completes",
+      "omega9",
+      "antioxydants"
+    ],
     "categorie_synergie": "Protéines complètes",
     "synergies_utilisees": [
       {
@@ -182,14 +275,38 @@
       }
     ],
     "ingredients": [
-      { "quantite": "160g", "nom": "Quinoa (sec)" },
-      { "quantite": "1", "nom": "Avocat mûr" },
-      { "quantite": "1", "nom": "Patate douce (cubes)" },
-      { "quantite": "100g", "nom": "Pois chiches cuits" },
-      { "quantite": "1", "nom": "Poivron rouge" },
-      { "quantite": "1", "nom": "Citron (jus)" },
-      { "quantite": "2 c.s.", "nom": "Huile d'olive" },
-      { "quantite": "Épices", "nom": "Cumin, paprika fumé, sel" }
+      {
+        "quantite": "160g",
+        "nom": "Quinoa (sec)"
+      },
+      {
+        "quantite": "1",
+        "nom": "Avocat mûr"
+      },
+      {
+        "quantite": "1",
+        "nom": "Patate douce (cubes)"
+      },
+      {
+        "quantite": "100g",
+        "nom": "Pois chiches cuits"
+      },
+      {
+        "quantite": "1",
+        "nom": "Poivron rouge"
+      },
+      {
+        "quantite": "1",
+        "nom": "Citron (jus)"
+      },
+      {
+        "quantite": "2 c.s.",
+        "nom": "Huile d'olive"
+      },
+      {
+        "quantite": "Épices",
+        "nom": "Cumin, paprika fumé, sel"
+      }
     ],
     "etapes": [
       "Préchauffer le four à 200°C. Couper la patate douce et le poivron en cubes.",
@@ -220,7 +337,12 @@
     "temps": "10 min + 4h repos",
     "difficulte": "Très facile",
     "portions": 2,
-    "bienfaits_cles": ["omega3", "calcium", "fer", "fibres"],
+    "bienfaits_cles": [
+      "omega3",
+      "calcium",
+      "fer",
+      "fibres"
+    ],
     "categorie_synergie": "Oméga-3 + absorption",
     "synergies_utilisees": [
       {
@@ -232,12 +354,30 @@
       }
     ],
     "ingredients": [
-      { "quantite": "60g (4 c.s.)", "nom": "Graines de chia" },
-      { "quantite": "400ml", "nom": "Lait végétal enrichi en calcium (amande ou avoine)" },
-      { "quantite": "1", "nom": "Mangue fraîche ou surgelée" },
-      { "quantite": "1", "nom": "Citron (jus)" },
-      { "quantite": "1 c.c.", "nom": "Vanille en poudre" },
-      { "quantite": "Optionnel", "nom": "Sirop d'agave, miel ou dattes" }
+      {
+        "quantite": "60g (4 c.s.)",
+        "nom": "Graines de chia"
+      },
+      {
+        "quantite": "400ml",
+        "nom": "Lait végétal enrichi en calcium (amande ou avoine)"
+      },
+      {
+        "quantite": "1",
+        "nom": "Mangue fraîche ou surgelée"
+      },
+      {
+        "quantite": "1",
+        "nom": "Citron (jus)"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Vanille en poudre"
+      },
+      {
+        "quantite": "Optionnel",
+        "nom": "Sirop d'agave, miel ou dattes"
+      }
     ],
     "etapes": [
       "Mélanger les graines de chia avec le lait végétal et la vanille.",
@@ -267,7 +407,12 @@
     "temps": "15 min",
     "difficulte": "Très facile",
     "portions": 2,
-    "bienfaits_cles": ["fer", "proteines", "antioxydants", "fibres"],
+    "bienfaits_cles": [
+      "fer",
+      "proteines",
+      "antioxydants",
+      "fibres"
+    ],
     "categorie_synergie": "Fer + Vitamine C",
     "synergies_utilisees": [
       {
@@ -279,14 +424,38 @@
       }
     ],
     "ingredients": [
-      { "quantite": "400g", "nom": "Pois chiches cuits (ou 1 boîte égouttée)" },
-      { "quantite": "2", "nom": "Poivrons rouges en brunoise" },
-      { "quantite": "1 botte", "nom": "Persil plat haché" },
-      { "quantite": "½", "nom": "Concombre en dés" },
-      { "quantite": "1", "nom": "Citron (jus + zeste)" },
-      { "quantite": "3 c.s.", "nom": "Huile d'olive extra-vierge" },
-      { "quantite": "1 c.c.", "nom": "Cumin" },
-      { "quantite": "Sel, poivre", "nom": "" }
+      {
+        "quantite": "400g",
+        "nom": "Pois chiches cuits (ou 1 boîte égouttée)"
+      },
+      {
+        "quantite": "2",
+        "nom": "Poivrons rouges en brunoise"
+      },
+      {
+        "quantite": "1 botte",
+        "nom": "Persil plat haché"
+      },
+      {
+        "quantite": "½",
+        "nom": "Concombre en dés"
+      },
+      {
+        "quantite": "1",
+        "nom": "Citron (jus + zeste)"
+      },
+      {
+        "quantite": "3 c.s.",
+        "nom": "Huile d'olive extra-vierge"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Cumin"
+      },
+      {
+        "quantite": "Sel, poivre",
+        "nom": ""
+      }
     ],
     "etapes": [
       "Égoutter et rincer les pois chiches.",
@@ -316,7 +485,12 @@
     "temps": "10 min",
     "difficulte": "Très facile",
     "portions": 1,
-    "bienfaits_cles": ["omega3", "antioxydants", "fibres", "vitamine_e"],
+    "bienfaits_cles": [
+      "omega3",
+      "antioxydants",
+      "fibres",
+      "vitamine_e"
+    ],
     "categorie_synergie": "Antioxydants",
     "synergies_utilisees": [
       {
@@ -328,13 +502,34 @@
       }
     ],
     "ingredients": [
-      { "quantite": "80g", "nom": "Flocons d'avoine" },
-      { "quantite": "250ml", "nom": "Lait végétal (amande ou avoine)" },
-      { "quantite": "100g", "nom": "Myrtilles fraîches ou surgelées" },
-      { "quantite": "20g", "nom": "Amandes effilées ou entières" },
-      { "quantite": "1 c.s.", "nom": "Graines de chia (oméga-3 bonus)" },
-      { "quantite": "1 c.c.", "nom": "Vanille" },
-      { "quantite": "Optionnel", "nom": "Miel ou sirop d'agave" }
+      {
+        "quantite": "80g",
+        "nom": "Flocons d'avoine"
+      },
+      {
+        "quantite": "250ml",
+        "nom": "Lait végétal (amande ou avoine)"
+      },
+      {
+        "quantite": "100g",
+        "nom": "Myrtilles fraîches ou surgelées"
+      },
+      {
+        "quantite": "20g",
+        "nom": "Amandes effilées ou entières"
+      },
+      {
+        "quantite": "1 c.s.",
+        "nom": "Graines de chia (oméga-3 bonus)"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Vanille"
+      },
+      {
+        "quantite": "Optionnel",
+        "nom": "Miel ou sirop d'agave"
+      }
     ],
     "etapes": [
       "Chauffer le lait végétal dans une casserole à feu moyen.",
@@ -363,7 +558,11 @@
     "temps": "5 min",
     "difficulte": "Très facile",
     "portions": 1,
-    "bienfaits_cles": ["anti_inflammatoire", "antioxydants", "calcium"],
+    "bienfaits_cles": [
+      "anti_inflammatoire",
+      "antioxydants",
+      "calcium"
+    ],
     "categorie_synergie": "Antioxydants",
     "synergies_utilisees": [
       {
@@ -382,13 +581,34 @@
       }
     ],
     "ingredients": [
-      { "quantite": "250ml", "nom": "Lait végétal (avoine, amande ou coco)" },
-      { "quantite": "1 c.c.", "nom": "Curcuma en poudre" },
-      { "quantite": "1 pincée", "nom": "Poivre noir fraîchement moulu (ESSENTIEL)" },
-      { "quantite": "½ c.c.", "nom": "Cannelle" },
-      { "quantite": "1 c.c.", "nom": "Huile de coco ou beurre de cacao (lipides)" },
-      { "quantite": "Optionnel", "nom": "Miel, sirop d'agave" },
-      { "quantite": "Optionnel", "nom": "Gingembre frais râpé (anti-inflammatoire bonus)" }
+      {
+        "quantite": "250ml",
+        "nom": "Lait végétal (avoine, amande ou coco)"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Curcuma en poudre"
+      },
+      {
+        "quantite": "1 pincée",
+        "nom": "Poivre noir fraîchement moulu (ESSENTIEL)"
+      },
+      {
+        "quantite": "½ c.c.",
+        "nom": "Cannelle"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Huile de coco ou beurre de cacao (lipides)"
+      },
+      {
+        "quantite": "Optionnel",
+        "nom": "Miel, sirop d'agave"
+      },
+      {
+        "quantite": "Optionnel",
+        "nom": "Gingembre frais râpé (anti-inflammatoire bonus)"
+      }
     ],
     "etapes": [
       "Chauffer le lait végétal sans le faire bouillir.",
@@ -417,7 +637,12 @@
     "temps": "30 min",
     "difficulte": "Facile",
     "portions": 2,
-    "bienfaits_cles": ["proteines_completes", "fer", "fibres", "magnesium"],
+    "bienfaits_cles": [
+      "proteines_completes",
+      "fer",
+      "fibres",
+      "magnesium"
+    ],
     "categorie_synergie": "Protéines complètes",
     "synergies_utilisees": [
       {
@@ -436,14 +661,38 @@
       }
     ],
     "ingredients": [
-      { "quantite": "120g", "nom": "Quinoa (sec)" },
-      { "quantite": "150g", "nom": "Lentilles corail (sèches)" },
-      { "quantite": "1", "nom": "Patate douce (cubes, rôtis)" },
-      { "quantite": "1 poignée", "nom": "Roquette ou épinards" },
-      { "quantite": "1", "nom": "Citron (jus)" },
-      { "quantite": "2 c.s.", "nom": "Tahini" },
-      { "quantite": "1 c.s.", "nom": "Huile d'olive" },
-      { "quantite": "Épices", "nom": "Cumin, paprika, sel" }
+      {
+        "quantite": "120g",
+        "nom": "Quinoa (sec)"
+      },
+      {
+        "quantite": "150g",
+        "nom": "Lentilles corail (sèches)"
+      },
+      {
+        "quantite": "1",
+        "nom": "Patate douce (cubes, rôtis)"
+      },
+      {
+        "quantite": "1 poignée",
+        "nom": "Roquette ou épinards"
+      },
+      {
+        "quantite": "1",
+        "nom": "Citron (jus)"
+      },
+      {
+        "quantite": "2 c.s.",
+        "nom": "Tahini"
+      },
+      {
+        "quantite": "1 c.s.",
+        "nom": "Huile d'olive"
+      },
+      {
+        "quantite": "Épices",
+        "nom": "Cumin, paprika, sel"
+      }
     ],
     "etapes": [
       "Rôtir les cubes de patate douce à 200°C avec huile d'olive et épices, 25 min.",
@@ -461,6 +710,519 @@
         "auteurs": "Anses / USDA",
         "titre": "CIQUAL 2020 / FoodData Central 2019",
         "journal": "Anses / USDA",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
+  },
+  {
+    "id": "curry_tofu_kale_sesame",
+    "nom": "Curry Tofu & Kale aux Graines de Sésame",
+    "emoji": "🍛",
+    "temps": "30 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": [
+      "calcium",
+      "proteines",
+      "fer",
+      "vitamine_k"
+    ],
+    "categorie_synergie": "Calcium + Vitamine K",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Tofu (calcium)",
+        "aliment_2": "Kale (vitamine K)",
+        "benefice": "Fixation osseuse du calcium optimisée",
+        "mecanisme": "La vitamine K1 du kale active l'ostéocalcine, protéine qui fixe le calcium du tofu dans la matrice osseuse. Le kale contient 817 µg/100g de vitamine K.",
+        "source": "Schurgers LJ, Vermeer C., Biochim Biophys Acta, 2002"
+      },
+      {
+        "aliment_1": "Sésame (calcium)",
+        "aliment_2": "Kale (vitamine K)",
+        "benefice": "Double apport calcium + cofacteur de fixation",
+        "mecanisme": "Le sésame apporte 975 mg de calcium/100g. Combiné au kale riche en vitamine K, la fixation osseuse est maximisée.",
+        "source": "Anses CIQUAL 2020 — données teneurs calcium sésame"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "250g",
+        "nom": "Tofu ferme (coagulé au sulfate de calcium)"
+      },
+      {
+        "quantite": "150g",
+        "nom": "Kale frais (tiges retirées)"
+      },
+      {
+        "quantite": "2 c.s.",
+        "nom": "Graines de sésame"
+      },
+      {
+        "quantite": "200ml",
+        "nom": "Lait de coco"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Curry en poudre"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Curcuma"
+      },
+      {
+        "quantite": "1 pincée",
+        "nom": "Poivre noir fraîchement moulu"
+      },
+      {
+        "quantite": "1",
+        "nom": "Oignon haché"
+      },
+      {
+        "quantite": "2",
+        "nom": "Gousses d'ail"
+      },
+      {
+        "quantite": "1 c.s.",
+        "nom": "Huile de coco ou olive"
+      }
+    ],
+    "etapes": [
+      "Égoutter et presser le tofu, le couper en cubes et le faire dorer dans l'huile 5 min.",
+      "Faire revenir l'oignon et l'ail jusqu'à translucidité.",
+      "Ajouter le curry, curcuma et poivre. Mélanger 30 secondes.",
+      "Verser le lait de coco. Porter à frémissement.",
+      "Ajouter le tofu doré. Cuire 10 min à feu doux.",
+      "Ajouter le kale haché, mélanger 3-4 min (il doit rester légèrement croquant).",
+      "Parsemer de graines de sésame au service. Servir avec du riz complet."
+    ],
+    "conseil_cuisson": "Ne pas trop cuire le kale : il perd sa vitamine K à chaleur prolongée. 3-4 min suffisent pour le ramollir tout en préservant ses nutriments.",
+    "note_nutritionnelle": "Ce plat couvre environ 80% des AJR en calcium (tofu + sésame + kale) et 45% en protéines. La vitamine K du kale optimise la fixation osseuse.",
+    "variantes": "Remplacer le kale par des épinards ou du brocoli. Ajouter des pois chiches pour encore plus de protéines.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses",
+        "titre": "CIQUAL 2020",
+        "journal": "Anses",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
+  },
+  {
+    "id": "smoothie_kale_amande_citron",
+    "nom": "Smoothie Kale, Amande & Citron",
+    "emoji": "🥤",
+    "temps": "5 min",
+    "difficulte": "Très facile",
+    "portions": 1,
+    "bienfaits_cles": [
+      "calcium",
+      "vitamine_k",
+      "vitamine_c",
+      "antioxydants"
+    ],
+    "categorie_synergie": "Calcium + Vitamine K",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Kale (calcium 157 mg/100g + vitamine K)",
+        "aliment_2": "Amande (calcium + vitamine E)",
+        "benefice": "Apport calcium végétal optimisé, double antioxydant",
+        "mecanisme": "La vitamine K du kale active l'ostéocalcine. Le calcium du kale et des amandes se combinent pour un apport osseux significatif. La vitamine E des amandes protège les lipides cellulaires.",
+        "source": "USDA FoodData Central — données kale et amandes"
+      },
+      {
+        "aliment_1": "Kale (fer non-héminique)",
+        "aliment_2": "Citron (vitamine C)",
+        "benefice": "Absorption du fer du kale x2 à x3",
+        "mecanisme": "La vitamine C du citron convertit le fer ferrique du kale en fer ferreux absorbable.",
+        "source": "Hurrell R., Am J Clin Nutr, 2010"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "80g",
+        "nom": "Kale frais (feuilles sans tiges)"
+      },
+      {
+        "quantite": "250ml",
+        "nom": "Lait d'amande non sucré enrichi en calcium"
+      },
+      {
+        "quantite": "½",
+        "nom": "Citron (jus)"
+      },
+      {
+        "quantite": "1",
+        "nom": "Banane congelée (onctuosité)"
+      },
+      {
+        "quantite": "1 c.s.",
+        "nom": "Beurre d'amande"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Graines de chia (oméga-3 bonus)"
+      },
+      {
+        "quantite": "Optionnel",
+        "nom": "Dattes ou miel pour sucrer"
+      }
+    ],
+    "etapes": [
+      "Laver le kale et retirer les tiges épaisses.",
+      "Mixer le kale avec le lait d'amande jusqu'à consistance lisse.",
+      "Ajouter la banane congelée, le beurre d'amande, les graines de chia.",
+      "Ajouter le jus de citron. Mixer à nouveau.",
+      "Goûter et sucrer si nécessaire.",
+      "Servir immédiatement pour préserver la vitamine C."
+    ],
+    "conseil_cuisson": "Utiliser une banane congelée pour l'onctuosité sans sucre ajouté. La consommer immédiatement : la vitamine C se dégrade en quelques heures à l'air libre.",
+    "note_nutritionnelle": "Ce smoothie couvre environ 50% des AJR en calcium et 30% en vitamine K en une seule prise. Idéal pour les personnes intolérantes aux produits laitiers.",
+    "variantes": "Ajouter des épinards si le goût du kale est trop prononcé. Remplacer le citron par du kiwi pour une touche tropicale.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "USDA",
+        "titre": "FoodData Central 2019",
+        "journal": "USDA",
+        "annee": 2019,
+        "url": "https://fdc.nal.usda.gov/"
+      }
+    ]
+  },
+  {
+    "id": "salade_noix_betterave_grenade",
+    "nom": "Salade Noix, Betterave & Grenade",
+    "emoji": "🍇",
+    "temps": "15 min",
+    "difficulte": "Très facile",
+    "portions": 2,
+    "bienfaits_cles": [
+      "omega3",
+      "antioxydants",
+      "fer",
+      "acide_folique"
+    ],
+    "categorie_synergie": "Oméga-3 + absorption",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Noix (ALA oméga-3)",
+        "aliment_2": "Betterave (nitrates, antioxydants)",
+        "benefice": "Synergie cardioprotectrice et anti-inflammatoire",
+        "mecanisme": "Les ALA des noix et les nitrates de betterave agissent en synergie sur la santé cardiovasculaire : les ALA réduisent l'inflammation vasculaire, les nitrates améliorent la vasodilatation.",
+        "source": "Ros E., Br J Nutr, 2010 ; Webb AJ et al., Hypertension, 2008"
+      },
+      {
+        "aliment_1": "Grenade (acide ellagique)",
+        "aliment_2": "Noix (oméga-3 + polyphénols)",
+        "benefice": "Synergie antioxydante puissante",
+        "mecanisme": "L'acide ellagique de la grenade et les polyphénols des noix exercent une action antioxydante synergique, supérieure à chaque aliment seul.",
+        "source": "Aviram M. et al., Nutrition, 2006"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "2 betteraves",
+        "nom": "Betteraves cuites (ou 200g en sachet)"
+      },
+      {
+        "quantite": "1",
+        "nom": "Grenade (graines extraites)"
+      },
+      {
+        "quantite": "40g",
+        "nom": "Noix de Grenoble (cerneaux)"
+      },
+      {
+        "quantite": "50g",
+        "nom": "Roquette ou mâche"
+      },
+      {
+        "quantite": "50g",
+        "nom": "Chèvre frais ou feta (optionnel)"
+      },
+      {
+        "quantite": "1 c.s.",
+        "nom": "Huile de noix (oméga-3 bonus)"
+      },
+      {
+        "quantite": "1 c.s.",
+        "nom": "Vinaigre balsamique"
+      },
+      {
+        "quantite": "Sel, poivre",
+        "nom": ""
+      }
+    ],
+    "etapes": [
+      "Couper les betteraves en tranches ou en cubes.",
+      "Extraire les graines de grenade.",
+      "Préparer la vinaigrette : huile de noix, vinaigre balsamique, sel, poivre.",
+      "Dresser la roquette dans les assiettes.",
+      "Ajouter les betteraves, les graines de grenade et les noix.",
+      "Émietter le chèvre ou la feta si souhaité.",
+      "Arroser de vinaigrette. Servir immédiatement."
+    ],
+    "conseil_cuisson": "Utiliser de l'huile de noix dans la vinaigrette pour maximiser l'apport en ALA oméga-3. Ne pas chauffer l'huile de noix (sensible à l'oxydation).",
+    "note_nutritionnelle": "Cette salade est une bombe antioxydante et cardiovasculaire. Les noix apportent 2,6 g d'ALA par portion, proche des recommandations journalières.",
+    "variantes": "Ajouter des graines de lin broyées pour tripler l'apport en ALA. Remplacer la roquette par du kale pour plus de calcium.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "USDA",
+        "titre": "FoodData Central 2019",
+        "journal": "USDA",
+        "annee": 2019,
+        "url": "https://fdc.nal.usda.gov/"
+      }
+    ]
+  },
+  {
+    "id": "bowl_sarrasin_lin_myrtille",
+    "nom": "Bowl Sarrasin, Graines de Lin & Myrtilles",
+    "emoji": "🫐",
+    "temps": "20 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": [
+      "omega3",
+      "antioxydants",
+      "fibres",
+      "magnesium"
+    ],
+    "categorie_synergie": "Oméga-3 + absorption",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Graines de lin broyées (ALA oméga-3)",
+        "aliment_2": "Myrtilles (antioxydants)",
+        "benefice": "Protection des oméga-3 contre l'oxydation",
+        "mecanisme": "Les ALA oméga-3 sont sensibles à l'oxydation lipidique. Les anthocyanes des myrtilles, puissants antioxydants, protègent les oméga-3 et prolongent leur action anti-inflammatoire.",
+        "source": "Scalbert A. et al., Crit Rev Food Sci Nutr, 2005"
+      },
+      {
+        "aliment_1": "Sarrasin (rutine)",
+        "aliment_2": "Myrtilles (anthocyanes)",
+        "benefice": "Synergie flavonoïdes — protection vasculaire renforcée",
+        "mecanisme": "La rutine du sarrasin et les anthocyanes des myrtilles sont deux flavonoïdes complémentaires qui renforcent la paroi des vaisseaux sanguins et réduisent l'inflammation vasculaire.",
+        "source": "Kreft I. et al., Eur J Nutr, 2006"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "160g",
+        "nom": "Sarrasin (décortiqué, sec)"
+      },
+      {
+        "quantite": "2 c.s.",
+        "nom": "Graines de lin broyées (fraîchement moulues)"
+      },
+      {
+        "quantite": "150g",
+        "nom": "Myrtilles fraîches ou surgelées"
+      },
+      {
+        "quantite": "1",
+        "nom": "Banane"
+      },
+      {
+        "quantite": "200ml",
+        "nom": "Lait végétal"
+      },
+      {
+        "quantite": "2 c.s.",
+        "nom": "Yaourt de soja nature"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Cannelle"
+      },
+      {
+        "quantite": "Optionnel",
+        "nom": "Noix ou noisettes concassées"
+      }
+    ],
+    "etapes": [
+      "Rincer le sarrasin à l'eau froide. Cuire 15 min dans 2× son volume d'eau. Égoutter.",
+      "Laisser refroidir légèrement le sarrasin.",
+      "Dresser le sarrasin dans des bols.",
+      "Ajouter les myrtilles, la banane en rondelles.",
+      "Mélanger le yaourt de soja avec la cannelle, ajouter au bol.",
+      "Parsemer de graines de lin broyées. Arroser de lait végétal si souhaité.",
+      "Ajouter les noix concassées."
+    ],
+    "conseil_cuisson": "Broyer les graines de lin juste avant utilisation : une fois broyées, les ALA s'oxydent rapidement. Conserver les graines entières et moudre à la demande.",
+    "note_nutritionnelle": "Ce bowl apporte 4,5 g d'ALA oméga-3 (1 portion), soit 3x les AJR en ALA. Les antioxydants des myrtilles protègent ces acides gras sensibles.",
+    "variantes": "Version chaude : chauffer le sarrasin avec le lait végétal comme un porridge. Remplacer les myrtilles par des framboises.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "USDA",
+        "titre": "FoodData Central 2019 — Buckwheat",
+        "journal": "USDA",
+        "annee": 2019,
+        "url": "https://fdc.nal.usda.gov/"
+      }
+    ]
+  },
+  {
+    "id": "chocolat_chaud_myrtille_spiruline",
+    "nom": "Chocolat Chaud Myrtille & Spiruline",
+    "emoji": "🍫",
+    "temps": "10 min",
+    "difficulte": "Très facile",
+    "portions": 1,
+    "bienfaits_cles": [
+      "antioxydants",
+      "fer",
+      "proteines",
+      "magnesium"
+    ],
+    "categorie_synergie": "Antioxydants",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Chocolat noir (flavonoïdes, fer)",
+        "aliment_2": "Spiruline (protéines, fer, bêta-carotène)",
+        "benefice": "Triple synergie antioxydante + fer végétal dense",
+        "mecanisme": "Les flavonoïdes du cacao et la phycocyanine de la spiruline exercent une action antioxydante complémentaire. Ensemble, ils fournissent une quantité remarquable de fer végétal (cacao 10 mg/100g + spiruline 28 mg/100g).",
+        "source": "Dillard CJ, German JB., J Sci Food Agric, 2000"
+      },
+      {
+        "aliment_1": "Myrtilles (anthocyanes)",
+        "aliment_2": "Chocolat noir (flavanols)",
+        "benefice": "Synergie flavonoïdes — neuroprotection renforcée",
+        "mecanisme": "Les anthocyanes des myrtilles et les flavanols du cacao ont une action synergique sur la santé cognitive et vasculaire, supérieure à chaque aliment seul.",
+        "source": "Spencer JP., Br J Nutr, 2010"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "250ml",
+        "nom": "Lait végétal (avoine ou amande)"
+      },
+      {
+        "quantite": "2 c.s.",
+        "nom": "Cacao en poudre non sucré (ou chocolat noir 85% fondu)"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Spiruline en poudre"
+      },
+      {
+        "quantite": "50g",
+        "nom": "Myrtilles fraîches (garniture)"
+      },
+      {
+        "quantite": "1 pincée",
+        "nom": "Poivre de Cayenne (circulation bonus)"
+      },
+      {
+        "quantite": "1 pincée",
+        "nom": "Cannelle"
+      },
+      {
+        "quantite": "Optionnel",
+        "nom": "Sirop d'agave ou sucre de coco"
+      }
+    ],
+    "etapes": [
+      "Chauffer le lait végétal sans le faire bouillir.",
+      "Ajouter le cacao en poudre, la cannelle et le cayenne. Fouetter vigoureusement.",
+      "Hors du feu, ajouter la spiruline et mélanger (éviter de cuire la spiruline).",
+      "Sucrer selon le goût.",
+      "Verser dans une tasse. Garnir de myrtilles fraîches.",
+      "Savourer chaud."
+    ],
+    "conseil_cuisson": "Ajouter la spiruline hors du feu : la chaleur excessive dégrade ses protéines et sa phycocyanine. La spiruline se dissout parfaitement dans un liquide chaud mais pas bouillant.",
+    "note_nutritionnelle": "Boisson antioxydante concentrée. 1 c.c. de spiruline apporte 3 g de protéines complètes et 0,28 mg de fer. Combinée au cacao, l'apport en magnésium est remarquable.",
+    "variantes": "Version froide : préparer avec du lait glacé pour un smoothie cacao-myrtille. Ajouter 1 c.s. de beurre d'amande pour les protéines.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "USDA",
+        "titre": "FoodData Central 2019 — Spirulina",
+        "journal": "USDA",
+        "annee": 2019,
+        "url": "https://fdc.nal.usda.gov/"
+      }
+    ]
+  },
+  {
+    "id": "tabloule_sarrasin_herbes_citron",
+    "nom": "Taboulé de Sarrasin aux Herbes & Citron",
+    "emoji": "🌿",
+    "temps": "20 min + 30 min repos",
+    "difficulte": "Très facile",
+    "portions": 4,
+    "bienfaits_cles": [
+      "fer",
+      "fibres",
+      "antioxydants",
+      "vitamine_c"
+    ],
+    "categorie_synergie": "Fer + Vitamine C",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Sarrasin (fer 2,2 mg/100g, magnésium)",
+        "aliment_2": "Citron + Persil (vitamine C)",
+        "benefice": "Absorption du fer du sarrasin x2 à x3",
+        "mecanisme": "Le persil (133 mg/100g de vitamine C) et le citron cumulent leur vitamine C pour potentialiser le fer non-héminique du sarrasin. Une grande quantité de persil est typique du taboulé.",
+        "source": "Hallberg L. et al., Hum Nutr Appl Nutr, 1986"
+      },
+      {
+        "aliment_1": "Tomate (lycopène)",
+        "aliment_2": "Huile d'olive (lipides)",
+        "benefice": "Absorption du lycopène x3 à x4",
+        "mecanisme": "Le lycopène est liposoluble : l'huile d'olive améliore significativement son absorption par les entérocytes.",
+        "source": "Unlu NZ et al., J Nutr, 2005"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "200g",
+        "nom": "Sarrasin décortiqué (sec)"
+      },
+      {
+        "quantite": "2 bouquets",
+        "nom": "Persil plat haché (généreux !)"
+      },
+      {
+        "quantite": "½ bouquet",
+        "nom": "Menthe fraîche hachée"
+      },
+      {
+        "quantite": "3",
+        "nom": "Tomates bien mûres"
+      },
+      {
+        "quantite": "½",
+        "nom": "Concombre"
+      },
+      {
+        "quantite": "2",
+        "nom": "Citrons (jus + zeste)"
+      },
+      {
+        "quantite": "3 c.s.",
+        "nom": "Huile d'olive extra-vierge"
+      },
+      {
+        "quantite": "Sel, poivre",
+        "nom": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le sarrasin 15 min dans 2× son volume d'eau. Égoutter, rincer à l'eau froide. Laisser refroidir complètement.",
+      "Hacher finement le persil et la menthe. Couper les tomates et le concombre en petits dés.",
+      "Dans un grand saladier, mélanger le sarrasin froid, les herbes, les légumes.",
+      "Préparer la vinaigrette : jus et zeste de citron, huile d'olive, sel, poivre.",
+      "Arroser la salade et mélanger soigneusement.",
+      "Laisser reposer 30 min au réfrigérateur avant de servir (les saveurs se développent)."
+    ],
+    "conseil_cuisson": "Le sarrasin doit être complètement froid avant de l'incorporer aux herbes, sinon la chaleur résiduelle oxyde la vitamine C du persil. Rincer à l'eau froide après cuisson.",
+    "note_nutritionnelle": "Le taboulé de sarrasin est sans gluten et riche en rutine, un flavonoïde cardiovasculaire propre au sarrasin. La quantité de persil en fait aussi une source exceptionnelle de vitamine C et de fer.",
+    "variantes": "Ajouter des pois chiches pour un repas complet en protéines. Remplacer le sarrasin par du quinoa pour un profil protéique encore plus complet.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses",
+        "titre": "CIQUAL 2020",
+        "journal": "Anses",
         "annee": 2020,
         "url": "https://ciqual.anses.fr/"
       }

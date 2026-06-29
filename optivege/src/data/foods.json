@@ -53,16 +53,46 @@
       }
     ],
     "teneurs": {
-      "calories": { "valeur": 23, "unite": "kcal/100g" },
-      "proteines": { "valeur": 2.9, "unite": "g/100g" },
-      "glucides": { "valeur": 3.6, "unite": "g/100g" },
-      "lipides": { "valeur": 0.4, "unite": "g/100g" },
-      "fibres": { "valeur": 2.2, "unite": "g/100g" },
-      "fer": { "valeur": 2.7, "unite": "mg/100g" },
-      "vitamine_c": { "valeur": 28, "unite": "mg/100g" },
-      "folates": { "valeur": 194, "unite": "µg/100g" },
-      "calcium": { "valeur": 99, "unite": "mg/100g" },
-      "magnesium": { "valeur": 79, "unite": "mg/100g" },
+      "calories": {
+        "valeur": 23,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 2.9,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 3.6,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.4,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 2.2,
+        "unite": "g/100g"
+      },
+      "fer": {
+        "valeur": 2.7,
+        "unite": "mg/100g"
+      },
+      "vitamine_c": {
+        "valeur": 28,
+        "unite": "mg/100g"
+      },
+      "folates": {
+        "valeur": 194,
+        "unite": "µg/100g"
+      },
+      "calcium": {
+        "valeur": 99,
+        "unite": "mg/100g"
+      },
+      "magnesium": {
+        "valeur": 79,
+        "unite": "mg/100g"
+      },
       "source_teneurs": "CIQUAL 2020 — Anses"
     },
     "synergies": [
@@ -104,7 +134,13 @@
       }
     ],
     "recette_idee_id": "bowl_epinard_lentilles_citron",
-    "tags": ["fer", "folates", "vitamine_k", "calcium", "magnesium"]
+    "tags": [
+      "fer",
+      "folates",
+      "vitamine_k",
+      "calcium",
+      "magnesium"
+    ]
   },
   {
     "id": "lentille",
@@ -160,14 +196,38 @@
       }
     ],
     "teneurs": {
-      "calories": { "valeur": 116, "unite": "kcal/100g (cuites)" },
-      "proteines": { "valeur": 9.0, "unite": "g/100g (cuites)" },
-      "glucides": { "valeur": 17.5, "unite": "g/100g (cuites)" },
-      "lipides": { "valeur": 0.4, "unite": "g/100g (cuites)" },
-      "fibres": { "valeur": 5.2, "unite": "g/100g (cuites)" },
-      "fer": { "valeur": 3.3, "unite": "mg/100g (cuites)" },
-      "folates": { "valeur": 181, "unite": "µg/100g (cuites)" },
-      "potassium": { "valeur": 369, "unite": "mg/100g (cuites)" },
+      "calories": {
+        "valeur": 116,
+        "unite": "kcal/100g (cuites)"
+      },
+      "proteines": {
+        "valeur": 9,
+        "unite": "g/100g (cuites)"
+      },
+      "glucides": {
+        "valeur": 17.5,
+        "unite": "g/100g (cuites)"
+      },
+      "lipides": {
+        "valeur": 0.4,
+        "unite": "g/100g (cuites)"
+      },
+      "fibres": {
+        "valeur": 5.2,
+        "unite": "g/100g (cuites)"
+      },
+      "fer": {
+        "valeur": 3.3,
+        "unite": "mg/100g (cuites)"
+      },
+      "folates": {
+        "valeur": 181,
+        "unite": "µg/100g (cuites)"
+      },
+      "potassium": {
+        "valeur": 369,
+        "unite": "mg/100g (cuites)"
+      },
       "source_teneurs": "CIQUAL 2020 — Anses"
     },
     "synergies": [
@@ -209,7 +269,12 @@
       }
     ],
     "recette_idee_id": "dhal_lentilles_corail_citron",
-    "tags": ["proteines", "fer", "fibres", "folates"]
+    "tags": [
+      "proteines",
+      "fer",
+      "fibres",
+      "folates"
+    ]
   },
   {
     "id": "brocoli",
@@ -270,15 +335,42 @@
       }
     ],
     "teneurs": {
-      "calories": { "valeur": 34, "unite": "kcal/100g" },
-      "proteines": { "valeur": 2.8, "unite": "g/100g" },
-      "glucides": { "valeur": 6.6, "unite": "g/100g" },
-      "lipides": { "valeur": 0.4, "unite": "g/100g" },
-      "fibres": { "valeur": 2.6, "unite": "g/100g" },
-      "vitamine_c": { "valeur": 89, "unite": "mg/100g" },
-      "calcium": { "valeur": 47, "unite": "mg/100g" },
-      "folates": { "valeur": 63, "unite": "µg/100g" },
-      "vitamine_k": { "valeur": 102, "unite": "µg/100g" },
+      "calories": {
+        "valeur": 34,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 2.8,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 6.6,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.4,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 2.6,
+        "unite": "g/100g"
+      },
+      "vitamine_c": {
+        "valeur": 89,
+        "unite": "mg/100g"
+      },
+      "calcium": {
+        "valeur": 47,
+        "unite": "mg/100g"
+      },
+      "folates": {
+        "valeur": 63,
+        "unite": "µg/100g"
+      },
+      "vitamine_k": {
+        "valeur": 102,
+        "unite": "µg/100g"
+      },
       "source_teneurs": "CIQUAL 2020 — Anses"
     },
     "synergies": [
@@ -325,7 +417,13 @@
       }
     ],
     "recette_idee_id": "poele_brocoli_tofu_sesame",
-    "tags": ["vitamine_c", "calcium", "folates", "antioxydants", "sulforaphane"]
+    "tags": [
+      "vitamine_c",
+      "calcium",
+      "folates",
+      "antioxydants",
+      "sulforaphane"
+    ]
   },
   {
     "id": "pois_chiche",
@@ -366,13 +464,34 @@
       }
     ],
     "teneurs": {
-      "calories": { "valeur": 164, "unite": "kcal/100g (cuits)" },
-      "proteines": { "valeur": 8.9, "unite": "g/100g (cuits)" },
-      "glucides": { "valeur": 27.4, "unite": "g/100g (cuits)" },
-      "lipides": { "valeur": 2.6, "unite": "g/100g (cuits)" },
-      "fibres": { "valeur": 7.6, "unite": "g/100g (cuits)" },
-      "fer": { "valeur": 2.9, "unite": "mg/100g (cuits)" },
-      "folates": { "valeur": 172, "unite": "µg/100g (cuits)" },
+      "calories": {
+        "valeur": 164,
+        "unite": "kcal/100g (cuits)"
+      },
+      "proteines": {
+        "valeur": 8.9,
+        "unite": "g/100g (cuits)"
+      },
+      "glucides": {
+        "valeur": 27.4,
+        "unite": "g/100g (cuits)"
+      },
+      "lipides": {
+        "valeur": 2.6,
+        "unite": "g/100g (cuits)"
+      },
+      "fibres": {
+        "valeur": 7.6,
+        "unite": "g/100g (cuits)"
+      },
+      "fer": {
+        "valeur": 2.9,
+        "unite": "mg/100g (cuits)"
+      },
+      "folates": {
+        "valeur": 172,
+        "unite": "µg/100g (cuits)"
+      },
       "source_teneurs": "CIQUAL 2020 — Anses"
     },
     "synergies": [
@@ -396,7 +515,12 @@
       }
     ],
     "recette_idee_id": "salade_pois_chiche_poivron",
-    "tags": ["proteines", "fer", "fibres", "folates"]
+    "tags": [
+      "proteines",
+      "fer",
+      "fibres",
+      "folates"
+    ]
   },
   {
     "id": "quinoa",
@@ -437,14 +561,38 @@
       }
     ],
     "teneurs": {
-      "calories": { "valeur": 120, "unite": "kcal/100g (cuit)" },
-      "proteines": { "valeur": 4.4, "unite": "g/100g (cuit)" },
-      "glucides": { "valeur": 21.3, "unite": "g/100g (cuit)" },
-      "lipides": { "valeur": 1.9, "unite": "g/100g (cuit)" },
-      "fibres": { "valeur": 2.8, "unite": "g/100g (cuit)" },
-      "fer": { "valeur": 1.5, "unite": "mg/100g (cuit)" },
-      "magnesium": { "valeur": 64, "unite": "mg/100g (cuit)" },
-      "zinc": { "valeur": 1.1, "unite": "mg/100g (cuit)" },
+      "calories": {
+        "valeur": 120,
+        "unite": "kcal/100g (cuit)"
+      },
+      "proteines": {
+        "valeur": 4.4,
+        "unite": "g/100g (cuit)"
+      },
+      "glucides": {
+        "valeur": 21.3,
+        "unite": "g/100g (cuit)"
+      },
+      "lipides": {
+        "valeur": 1.9,
+        "unite": "g/100g (cuit)"
+      },
+      "fibres": {
+        "valeur": 2.8,
+        "unite": "g/100g (cuit)"
+      },
+      "fer": {
+        "valeur": 1.5,
+        "unite": "mg/100g (cuit)"
+      },
+      "magnesium": {
+        "valeur": 64,
+        "unite": "mg/100g (cuit)"
+      },
+      "zinc": {
+        "valeur": 1.1,
+        "unite": "mg/100g (cuit)"
+      },
       "source_teneurs": "USDA FoodData Central 2019"
     },
     "synergies": [
@@ -468,7 +616,12 @@
       }
     ],
     "recette_idee_id": "bowl_quinoa_legumes_rotis",
-    "tags": ["proteines_completes", "magnesium", "fer", "zinc"]
+    "tags": [
+      "proteines_completes",
+      "magnesium",
+      "fer",
+      "zinc"
+    ]
   },
   {
     "id": "tofu",
@@ -529,13 +682,34 @@
       }
     ],
     "teneurs": {
-      "calories": { "valeur": 76, "unite": "kcal/100g" },
-      "proteines": { "valeur": 8.1, "unite": "g/100g" },
-      "glucides": { "valeur": 1.9, "unite": "g/100g" },
-      "lipides": { "valeur": 4.2, "unite": "g/100g" },
-      "fibres": { "valeur": 0.3, "unite": "g/100g" },
-      "calcium": { "valeur": 350, "unite": "mg/100g" },
-      "fer": { "valeur": 1.6, "unite": "mg/100g" },
+      "calories": {
+        "valeur": 76,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 8.1,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 1.9,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 4.2,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 0.3,
+        "unite": "g/100g"
+      },
+      "calcium": {
+        "valeur": 350,
+        "unite": "mg/100g"
+      },
+      "fer": {
+        "valeur": 1.6,
+        "unite": "mg/100g"
+      },
       "source_teneurs": "CIQUAL 2020 — Anses"
     },
     "synergies": [
@@ -559,7 +733,12 @@
       }
     ],
     "recette_idee_id": "poele_brocoli_tofu_sesame",
-    "tags": ["proteines", "calcium", "fer", "isoflavones"]
+    "tags": [
+      "proteines",
+      "calcium",
+      "fer",
+      "isoflavones"
+    ]
   },
   {
     "id": "avocat",
@@ -600,14 +779,38 @@
       }
     ],
     "teneurs": {
-      "calories": { "valeur": 160, "unite": "kcal/100g" },
-      "proteines": { "valeur": 2.0, "unite": "g/100g" },
-      "glucides": { "valeur": 8.5, "unite": "g/100g" },
-      "lipides": { "valeur": 9.8, "unite": "g/100g" },
-      "fibres": { "valeur": 6.7, "unite": "g/100g" },
-      "potassium": { "valeur": 485, "unite": "mg/100g" },
-      "vitamine_e": { "valeur": 2.1, "unite": "mg/100g" },
-      "vitamine_k": { "valeur": 21, "unite": "µg/100g" },
+      "calories": {
+        "valeur": 160,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 2,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 8.5,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 9.8,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 6.7,
+        "unite": "g/100g"
+      },
+      "potassium": {
+        "valeur": 485,
+        "unite": "mg/100g"
+      },
+      "vitamine_e": {
+        "valeur": 2.1,
+        "unite": "mg/100g"
+      },
+      "vitamine_k": {
+        "valeur": 21,
+        "unite": "µg/100g"
+      },
       "source_teneurs": "CIQUAL 2020 — Anses"
     },
     "synergies": [
@@ -631,7 +834,12 @@
       }
     ],
     "recette_idee_id": "bowl_quinoa_legumes_rotis",
-    "tags": ["omega9", "potassium", "fibres", "vitamine_e"]
+    "tags": [
+      "omega9",
+      "potassium",
+      "fibres",
+      "vitamine_e"
+    ]
   },
   {
     "id": "graines_de_chia",
@@ -677,14 +885,38 @@
       }
     ],
     "teneurs": {
-      "calories": { "valeur": 486, "unite": "kcal/100g" },
-      "proteines": { "valeur": 16.5, "unite": "g/100g" },
-      "glucides": { "valeur": 42.1, "unite": "g/100g" },
-      "lipides": { "valeur": 30.7, "unite": "g/100g" },
-      "fibres": { "valeur": 34.4, "unite": "g/100g" },
-      "calcium": { "valeur": 631, "unite": "mg/100g" },
-      "omega3_ala": { "valeur": 17.8, "unite": "g/100g" },
-      "fer": { "valeur": 7.7, "unite": "mg/100g" },
+      "calories": {
+        "valeur": 486,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 16.5,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 42.1,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 30.7,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 34.4,
+        "unite": "g/100g"
+      },
+      "calcium": {
+        "valeur": 631,
+        "unite": "mg/100g"
+      },
+      "omega3_ala": {
+        "valeur": 17.8,
+        "unite": "g/100g"
+      },
+      "fer": {
+        "valeur": 7.7,
+        "unite": "mg/100g"
+      },
       "source_teneurs": "USDA FoodData Central 2019"
     },
     "synergies": [
@@ -708,7 +940,13 @@
       }
     ],
     "recette_idee_id": "pudding_chia_mangue",
-    "tags": ["omega3", "calcium", "fibres", "fer", "proteines"]
+    "tags": [
+      "omega3",
+      "calcium",
+      "fibres",
+      "fer",
+      "proteines"
+    ]
   },
   {
     "id": "citron",
@@ -734,12 +972,30 @@
       }
     ],
     "teneurs": {
-      "calories": { "valeur": 29, "unite": "kcal/100g" },
-      "proteines": { "valeur": 1.1, "unite": "g/100g" },
-      "glucides": { "valeur": 9.3, "unite": "g/100g" },
-      "lipides": { "valeur": 0.3, "unite": "g/100g" },
-      "fibres": { "valeur": 2.8, "unite": "g/100g" },
-      "vitamine_c": { "valeur": 53, "unite": "mg/100g" },
+      "calories": {
+        "valeur": 29,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 1.1,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 9.3,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.3,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 2.8,
+        "unite": "g/100g"
+      },
+      "vitamine_c": {
+        "valeur": 53,
+        "unite": "mg/100g"
+      },
       "source_teneurs": "CIQUAL 2020 — Anses"
     },
     "synergies": [
@@ -781,7 +1037,10 @@
       }
     ],
     "recette_idee_id": "dhal_lentilles_corail_citron",
-    "tags": ["vitamine_c", "antioxydants"]
+    "tags": [
+      "vitamine_c",
+      "antioxydants"
+    ]
   },
   {
     "id": "amande",
@@ -822,14 +1081,38 @@
       }
     ],
     "teneurs": {
-      "calories": { "valeur": 579, "unite": "kcal/100g" },
-      "proteines": { "valeur": 21.2, "unite": "g/100g" },
-      "glucides": { "valeur": 21.7, "unite": "g/100g" },
-      "lipides": { "valeur": 49.4, "unite": "g/100g" },
-      "fibres": { "valeur": 12.5, "unite": "g/100g" },
-      "vitamine_e": { "valeur": 25.6, "unite": "mg/100g" },
-      "calcium": { "valeur": 264, "unite": "mg/100g" },
-      "magnesium": { "valeur": 270, "unite": "mg/100g" },
+      "calories": {
+        "valeur": 579,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 21.2,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 21.7,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 49.4,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 12.5,
+        "unite": "g/100g"
+      },
+      "vitamine_e": {
+        "valeur": 25.6,
+        "unite": "mg/100g"
+      },
+      "calcium": {
+        "valeur": 264,
+        "unite": "mg/100g"
+      },
+      "magnesium": {
+        "valeur": 270,
+        "unite": "mg/100g"
+      },
       "source_teneurs": "USDA FoodData Central 2019 / CIQUAL 2020"
     },
     "synergies": [
@@ -858,7 +1141,12 @@
       }
     ],
     "recette_idee_id": "porridge_avoine_myrtille_amande",
-    "tags": ["vitamine_e", "calcium", "magnesium", "antioxydants"]
+    "tags": [
+      "vitamine_e",
+      "calcium",
+      "magnesium",
+      "antioxydants"
+    ]
   },
   {
     "id": "curcuma",
@@ -889,12 +1177,30 @@
       }
     ],
     "teneurs": {
-      "calories": { "valeur": 354, "unite": "kcal/100g" },
-      "proteines": { "valeur": 7.8, "unite": "g/100g" },
-      "glucides": { "valeur": 64.9, "unite": "g/100g" },
-      "lipides": { "valeur": 9.9, "unite": "g/100g" },
-      "fibres": { "valeur": 21.1, "unite": "g/100g" },
-      "curcumine": { "valeur": "2-9% de la poudre", "unite": "selon qualité" },
+      "calories": {
+        "valeur": 354,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 7.8,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 64.9,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 9.9,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 21.1,
+        "unite": "g/100g"
+      },
+      "curcumine": {
+        "valeur": "2-9% de la poudre",
+        "unite": "selon qualité"
+      },
       "source_teneurs": "USDA FoodData Central 2019"
     },
     "synergies": [
@@ -936,6 +1242,1985 @@
       }
     ],
     "recette_idee_id": "golden_milk_curcuma",
-    "tags": ["anti_inflammatoire", "antioxydants"]
+    "tags": [
+      "anti_inflammatoire",
+      "antioxydants"
+    ]
+  },
+  {
+    "id": "lentille_corail",
+    "nom": "Lentille corail",
+    "categorie": "légumineuse",
+    "emoji": "🫘",
+    "description": "Variété de lentille décortiquée, la lentille corail cuit en 15 minutes sans trempage. Plus digeste que la lentille verte, elle est particulièrement riche en protéines et fer, et constitue la base du dhal indien.",
+    "bienfaits": [
+      {
+        "id": "proteines",
+        "label": "Riche en protéines végétales",
+        "detail": "Les lentilles corail cuites apportent 8,5g de protéines pour 100g avec un bon profil en acides aminés, complété idéalement par une céréale.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Lentille corail cuite",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "fer",
+        "label": "Source de fer non-héminique",
+        "detail": "La lentille corail apporte 3,1mg de fer pour 100g cuite, avec une biodisponibilité augmentée par la présence de vitamine C.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 110,
+        "unite": "kcal/100g (cuites)"
+      },
+      "proteines": {
+        "valeur": 8.5,
+        "unite": "g/100g (cuites)"
+      },
+      "glucides": {
+        "valeur": 17,
+        "unite": "g/100g (cuites)"
+      },
+      "lipides": {
+        "valeur": 0.3,
+        "unite": "g/100g (cuites)"
+      },
+      "fibres": {
+        "valeur": 4,
+        "unite": "g/100g (cuites)"
+      },
+      "fer": {
+        "valeur": 3.1,
+        "unite": "mg/100g (cuites)"
+      },
+      "folates": {
+        "valeur": 160,
+        "unite": "µg/100g (cuites)"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "La vitamine C du citron réduit le fer non-héminique en forme absorbable et inhibe les phytates inhibiteurs.",
+        "gain_estime": "+200 à +300% absorption du fer",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hurrell R, Egli I.",
+            "titre": "Iron bioavailability and dietary reference values",
+            "journal": "Am J Clin Nutr",
+            "annee": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20200263/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "dhal_lentilles_corail_citron",
+    "tags": [
+      "proteines",
+      "fer",
+      "fibres",
+      "folates"
+    ]
+  },
+  {
+    "id": "haricot_noir",
+    "nom": "Haricot noir",
+    "categorie": "légumineuse",
+    "emoji": "🫘",
+    "description": "Légumineuse populaire en cuisine latino-américaine et antillaise, le haricot noir est exceptionnel par sa teneur en antioxydants (anthocyanes dans la peau noire) et en fer. Sa couleur intense témoigne de sa richesse en polyphénols.",
+    "bienfaits": [
+      {
+        "id": "antioxydants",
+        "label": "Très riche en anthocyanes antioxydantes",
+        "detail": "La peau noire du haricot noir contient des anthocyanes, pigments antioxydants hydrosolubles. Sa teneur en antioxydants est parmi les plus élevées des légumineuses.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Aparicio-Fernandez X et al.",
+            "titre": "Phenolic compounds in the seed coat of black beans",
+            "journal": "J Agric Food Chem",
+            "annee": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15769135/"
+          }
+        ]
+      },
+      {
+        "id": "fer",
+        "label": "Riche en fer végétal",
+        "detail": "Le haricot noir cuit contient 2,1mg de fer pour 100g. Sa teneur en polyphénols peut réduire légèrement l'absorption mais l'association avec la vitamine C compense largement.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Black beans, cooked",
+            "journal": "USDA",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 132,
+        "unite": "kcal/100g (cuits)"
+      },
+      "proteines": {
+        "valeur": 8.9,
+        "unite": "g/100g (cuits)"
+      },
+      "glucides": {
+        "valeur": 24,
+        "unite": "g/100g (cuits)"
+      },
+      "lipides": {
+        "valeur": 0.5,
+        "unite": "g/100g (cuits)"
+      },
+      "fibres": {
+        "valeur": 8.7,
+        "unite": "g/100g (cuits)"
+      },
+      "fer": {
+        "valeur": 2.1,
+        "unite": "mg/100g (cuits)"
+      },
+      "folates": {
+        "valeur": 149,
+        "unite": "µg/100g (cuits)"
+      },
+      "source_teneurs": "USDA FoodData Central 2019"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "poivron_rouge",
+        "aliment_associe_nom": "Poivron rouge",
+        "aliment_associe_emoji": "🫑",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "La vitamine C du poivron rouge (127mg/100g) optimise l'absorption du fer des haricots noirs en le réduisant en forme absorbable (Fe²⁺).",
+        "gain_estime": "+150 à +250% absorption fer",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hallberg L et al.",
+            "titre": "Effect of ascorbic acid on iron absorption",
+            "journal": "Hum Nutr Appl Nutr",
+            "annee": 1986,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3771220/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "salade_pois_chiche_poivron",
+    "tags": [
+      "antioxydants",
+      "fer",
+      "proteines",
+      "fibres"
+    ]
+  },
+  {
+    "id": "edamame",
+    "nom": "Edamame",
+    "categorie": "légumineuse",
+    "emoji": "🫛",
+    "description": "Soja vert récolté immature, l'edamame est une légumineuse exceptionnelle par son profil protéique complet et sa teneur en vitamine K et folates. Il constitue l'une des sources végétales les plus complètes en acides aminés essentiels.",
+    "bienfaits": [
+      {
+        "id": "proteines_completes",
+        "label": "Protéines complètes avec tous les acides aminés essentiels",
+        "detail": "L'edamame contient 11g de protéines pour 100g avec un profil en acides aminés complet, similaire aux protéines animales.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Edamame, cooked",
+            "journal": "USDA",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/"
+          }
+        ]
+      },
+      {
+        "id": "folates",
+        "label": "Excellente source de folates (B9)",
+        "detail": "L'edamame cuit apporte 311µg de folates pour 100g, soit 94% des AJR — l'une des meilleures sources végétales.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Edamame",
+            "journal": "USDA",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 121,
+        "unite": "kcal/100g (cuit)"
+      },
+      "proteines": {
+        "valeur": 11,
+        "unite": "g/100g (cuit)"
+      },
+      "glucides": {
+        "valeur": 8.9,
+        "unite": "g/100g (cuit)"
+      },
+      "lipides": {
+        "valeur": 5.2,
+        "unite": "g/100g (cuit)"
+      },
+      "fibres": {
+        "valeur": 5.2,
+        "unite": "g/100g (cuit)"
+      },
+      "fer": {
+        "valeur": 2.3,
+        "unite": "mg/100g (cuit)"
+      },
+      "folates": {
+        "valeur": 311,
+        "unite": "µg/100g (cuit)"
+      },
+      "calcium": {
+        "valeur": 63,
+        "unite": "mg/100g (cuit)"
+      },
+      "source_teneurs": "USDA FoodData Central 2019"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "riz_complet",
+        "aliment_associe_nom": "Riz complet",
+        "aliment_associe_emoji": "🍚",
+        "nutriment_cle": "Protéines complètes",
+        "mecanisme": "L'edamame est riche en lysine ; le riz est riche en méthionine. Ensemble, ils couvrent le profil complet en acides aminés essentiels.",
+        "gain_estime": "Profil protéique complet",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Young VR, Pellett PL.",
+            "titre": "Plant proteins in relation to human protein",
+            "journal": "Am J Clin Nutr",
+            "annee": 1994,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8172124/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "bowl_proteines_complet_lentille_quinoa",
+    "tags": [
+      "proteines_completes",
+      "folates",
+      "fer",
+      "fibres"
+    ]
+  },
+  {
+    "id": "tempeh",
+    "nom": "Tempeh",
+    "categorie": "légumineuse transformée",
+    "emoji": "🟫",
+    "description": "Soja fermenté originaire d'Indonésie, le tempeh est nutritionnellement supérieur au tofu : plus riche en protéines, fibres et vitamines B, avec une meilleure digestibilité grâce à la fermentation. Il contient naturellement de la vitamine B12 sous forme de traces (selon la culture).",
+    "bienfaits": [
+      {
+        "id": "proteines",
+        "label": "Très riche en protéines",
+        "detail": "Le tempeh contient 18,5g de protéines pour 100g, nettement plus que le tofu. La fermentation améliore la biodisponibilité des protéines.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Tempeh",
+            "journal": "USDA",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/"
+          }
+        ]
+      },
+      {
+        "id": "probiotiques",
+        "label": "Source de prébiotiques bénéfiques pour le microbiome",
+        "detail": "La fermentation du tempeh produit des composés prébiotiques et améliore la digestibilité du soja en réduisant les facteurs antinutritionnels.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Nout MJR, Kiers JL.",
+            "titre": "Tempeh fermentation, innovation and functionality",
+            "journal": "J Appl Microbiol",
+            "annee": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15836490/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 193,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 18.5,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 9.4,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 10.8,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 0,
+        "unite": "g/100g"
+      },
+      "calcium": {
+        "valeur": 111,
+        "unite": "mg/100g"
+      },
+      "fer": {
+        "valeur": 2.7,
+        "unite": "mg/100g"
+      },
+      "magnesium": {
+        "valeur": 81,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "USDA FoodData Central 2019"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "La marinade au citron utilisée pour le tempeh apporte la vitamine C nécessaire à l'absorption optimale de son fer non-héminique.",
+        "gain_estime": "+200% absorption fer",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hurrell R, Egli I.",
+            "titre": "Iron bioavailability",
+            "journal": "Am J Clin Nutr",
+            "annee": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20200263/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "poele_brocoli_tofu_sesame",
+    "tags": [
+      "proteines",
+      "fer",
+      "calcium",
+      "magnesium"
+    ]
+  },
+  {
+    "id": "riz_complet",
+    "nom": "Riz complet",
+    "categorie": "céréale",
+    "emoji": "🍚",
+    "description": "Contrairement au riz blanc, le riz complet conserve son son et son germe, riches en fibres, magnésium, sélénium et vitamines B. Son index glycémique est modéré et sa complémentarité avec les légumineuses en fait un pilier des associations protéiques végétales.",
+    "bienfaits": [
+      {
+        "id": "magnesium",
+        "label": "Bonne source de magnésium",
+        "detail": "Le riz complet cuit contient 43mg de magnésium pour 100g, soit environ 11% des AJR. Le magnésium est cofacteur de plus de 300 réactions enzymatiques.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Brown rice, cooked",
+            "journal": "USDA",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/"
+          }
+        ]
+      },
+      {
+        "id": "fibres",
+        "label": "Riche en fibres vs riz blanc",
+        "detail": "Le riz complet contient 1,8g de fibres pour 100g cuit contre 0,4g pour le riz blanc, avec un index glycémique inférieur (55 vs 72).",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Foster-Powell K et al.",
+            "titre": "International table of glycemic index and glycemic load values",
+            "journal": "Am J Clin Nutr",
+            "annee": 2002,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12081815/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 111,
+        "unite": "kcal/100g (cuit)"
+      },
+      "proteines": {
+        "valeur": 2.6,
+        "unite": "g/100g (cuit)"
+      },
+      "glucides": {
+        "valeur": 22.8,
+        "unite": "g/100g (cuit)"
+      },
+      "lipides": {
+        "valeur": 0.9,
+        "unite": "g/100g (cuit)"
+      },
+      "fibres": {
+        "valeur": 1.8,
+        "unite": "g/100g (cuit)"
+      },
+      "magnesium": {
+        "valeur": 43,
+        "unite": "mg/100g (cuit)"
+      },
+      "source_teneurs": "USDA FoodData Central 2019"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "lentille",
+        "aliment_associe_nom": "Lentille",
+        "aliment_associe_emoji": "🫘",
+        "nutriment_cle": "Protéines complètes",
+        "mecanisme": "Le riz est riche en méthionine (acide aminé soufré), les lentilles en lysine. Associés, ils couvrent tous les acides aminés essentiels pour une protéine végétale complète.",
+        "gain_estime": "Score PDCAAS proche des protéines animales",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Young VR, Pellett PL.",
+            "titre": "Plant proteins in relation to human protein",
+            "journal": "Am J Clin Nutr",
+            "annee": 1994,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8172124/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "bowl_proteines_complet_lentille_quinoa",
+    "tags": [
+      "fibres",
+      "magnesium",
+      "proteines"
+    ]
+  },
+  {
+    "id": "avoine",
+    "nom": "Avoine (flocons)",
+    "categorie": "céréale",
+    "emoji": "🌾",
+    "description": "Céréale riche en bêta-glucanes, fibres solubles dont les effets cardiovasculaires sont parmi les mieux documentés en nutrition. L'avoine abaisse le cholestérol LDL et régule la glycémie postprandiale. Elle est naturellement sans gluten mais peut être contaminée croisée.",
+    "bienfaits": [
+      {
+        "id": "beta_glucanes",
+        "label": "Bêta-glucanes et santé cardiovasculaire",
+        "detail": "3g de bêta-glucanes d'avoine par jour (environ 75g de flocons) permettent de réduire le LDL-cholestérol d'environ 5-7% selon les méta-analyses. Effet validé par l'EFSA en 2011.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "EFSA Panel on Dietetic Products",
+            "titre": "Scientific Opinion on the substantiation of a health claim related to oat beta-glucan",
+            "journal": "EFSA Journal",
+            "annee": 2011,
+            "url": "https://efsa.onlinelibrary.wiley.com/doi/abs/10.2903/j.efsa.2011.2207"
+          }
+        ]
+      },
+      {
+        "id": "fibres",
+        "label": "Excellente source de fibres solubles",
+        "detail": "Les flocons d'avoine contiennent 10g de fibres totales pour 100g, dont environ 4g de bêta-glucanes. Ces fibres solubles forment un gel dans l'intestin, ralentissant l'absorption des sucres.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Flocons d'avoine",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 367,
+        "unite": "kcal/100g (sec)"
+      },
+      "proteines": {
+        "valeur": 12.5,
+        "unite": "g/100g (sec)"
+      },
+      "glucides": {
+        "valeur": 58.7,
+        "unite": "g/100g (sec)"
+      },
+      "lipides": {
+        "valeur": 7,
+        "unite": "g/100g (sec)"
+      },
+      "fibres": {
+        "valeur": 10,
+        "unite": "g/100g (sec)"
+      },
+      "magnesium": {
+        "valeur": 138,
+        "unite": "mg/100g (sec)"
+      },
+      "fer": {
+        "valeur": 4.7,
+        "unite": "mg/100g (sec)"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "myrtille",
+        "aliment_associe_nom": "Myrtille",
+        "aliment_associe_emoji": "🫐",
+        "nutriment_cle": "Bêta-glucanes + Anthocyanes",
+        "mecanisme": "Les bêta-glucanes de l'avoine et les anthocyanes des myrtilles agissent en synergie sur la santé cardiovasculaire. Les bêta-glucanes réduisent le LDL, les anthocyanes améliorent la fonction endothéliale.",
+        "gain_estime": "Synergie cardiovasculaire documentée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Olas B.",
+            "titre": "Berry Phenolic Antioxidants",
+            "journal": "J Funct Foods",
+            "annee": 2018,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29403541/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "porridge_avoine_myrtille_amande",
+    "tags": [
+      "fibres",
+      "beta_glucanes",
+      "magnesium",
+      "fer"
+    ]
+  },
+  {
+    "id": "sarrasin",
+    "nom": "Sarrasin",
+    "categorie": "pseudo-céréale",
+    "emoji": "🌾",
+    "description": "Pseudo-céréale naturellement sans gluten, le sarrasin est unique par sa teneur en rutine, un flavonoïde aux propriétés vasculaires documentées. Riche en protéines complètes et magnésium, il offre une alternative nutritionnelle intéressante au blé.",
+    "bienfaits": [
+      {
+        "id": "rutine",
+        "label": "Rutine et santé vasculaire",
+        "detail": "Le sarrasin est l'une des meilleures sources alimentaires de rutine (flavonoïde). La rutine renforce les parois capillaires et a des propriétés anti-inflammatoires et antioxydantes.",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Des études montrent des effets vasculoprotecteurs de la rutine. Le sarrasin réduit le LDL dans certaines études.",
+          "contre": "Les études cliniques chez l'humain restent limitées. La biodisponibilité de la rutine varie selon les individus.",
+          "recommandation": "Le sarrasin reste un aliment nutritionnellement excellent indépendamment de la rutine."
+        },
+        "sources": [
+          {
+            "auteurs": "Kreft I et al.",
+            "titre": "Nutritional value of buckwheat",
+            "journal": "Eur J Plant Sci Biotechnol",
+            "annee": 2012,
+            "url": "https://www.globalsciencebooks.info/Online/GSBOnline/images/2012/EJPSB_6(SI2)/EJPSB_6(SI2)1-9o.pdf"
+          }
+        ]
+      },
+      {
+        "id": "magnesium",
+        "label": "Riche en magnésium",
+        "detail": "Le sarrasin cuit contient 51mg de magnésium pour 100g, soutenant la fonction nerveuse, musculaire et la synthèse protéique.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Buckwheat, cooked",
+            "journal": "USDA",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 92,
+        "unite": "kcal/100g (cuit)"
+      },
+      "proteines": {
+        "valeur": 3.4,
+        "unite": "g/100g (cuit)"
+      },
+      "glucides": {
+        "valeur": 19.9,
+        "unite": "g/100g (cuit)"
+      },
+      "lipides": {
+        "valeur": 0.6,
+        "unite": "g/100g (cuit)"
+      },
+      "fibres": {
+        "valeur": 2.7,
+        "unite": "g/100g (cuit)"
+      },
+      "magnesium": {
+        "valeur": 51,
+        "unite": "mg/100g (cuit)"
+      },
+      "source_teneurs": "USDA FoodData Central 2019"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "myrtille",
+        "aliment_associe_nom": "Myrtille",
+        "aliment_associe_emoji": "🫐",
+        "nutriment_cle": "Rutine + Anthocyanes",
+        "mecanisme": "La rutine du sarrasin et les anthocyanes des myrtilles agissent ensemble pour renforcer la paroi des capillaires et exercer une activité antioxydante complémentaire.",
+        "gain_estime": "Synergie vasculaire et antioxydante",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Effets synergiques in vitro documentés sur la protection vasculaire.",
+          "contre": "Études in vivo chez l'humain limitées.",
+          "recommandation": "Association nutritionnellement pertinente quelle que soit la synergie spécifique."
+        },
+        "sources": [
+          {
+            "auteurs": "Olas B.",
+            "titre": "Berry Phenolic Antioxidants",
+            "journal": "J Funct Foods",
+            "annee": 2018,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29403541/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "porridge_avoine_myrtille_amande",
+    "tags": [
+      "magnesium",
+      "antioxydants",
+      "fibres"
+    ]
+  },
+  {
+    "id": "kale",
+    "nom": "Kale (chou frisé)",
+    "categorie": "légume-feuille",
+    "emoji": "🥬",
+    "description": "Super-légume aux valeurs nutritionnelles hors normes, le kale est champion en vitamine K, vitamine C, calcium biodisponible et sulforaphane. Son calcium est remarquablement bien absorbé (environ 49%) grâce à sa faible teneur en oxalates.",
+    "bienfaits": [
+      {
+        "id": "calcium",
+        "label": "Calcium hautement biodisponible",
+        "detail": "Le kale contient 150mg de calcium pour 100g avec une biodisponibilité de ~49% — supérieure au lait (~32%) et bien au-dessus des épinards (<5% à cause des oxalates).",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Weaver CM, Proulx WR, Heaney R.",
+            "titre": "Choices for achieving adequate dietary calcium with a vegetarian diet",
+            "journal": "Am J Clin Nutr",
+            "annee": 1999,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10522431/"
+          }
+        ]
+      },
+      {
+        "id": "vitamine_k",
+        "label": "Source majeure de vitamine K1",
+        "detail": "Le kale cru contient 817µg de vitamine K1 pour 100g, soit plus de 700% des AJR. Essentielle à la coagulation et à la fixation osseuse du calcium.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Kale, raw",
+            "journal": "USDA",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 35,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 2.9,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 4.4,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 1.5,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 4.1,
+        "unite": "g/100g"
+      },
+      "calcium": {
+        "valeur": 150,
+        "unite": "mg/100g"
+      },
+      "vitamine_c": {
+        "valeur": 93,
+        "unite": "mg/100g"
+      },
+      "vitamine_k": {
+        "valeur": 817,
+        "unite": "µg/100g"
+      },
+      "fer": {
+        "valeur": 1.5,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "USDA FoodData Central 2019"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "tofu",
+        "aliment_associe_nom": "Tofu",
+        "aliment_associe_emoji": "🧊",
+        "nutriment_cle": "Calcium + Vitamine K",
+        "mecanisme": "Le kale apporte la vitamine K1 qui active l'ostéocalcine pour fixer le calcium du tofu dans les os. Double source de calcium cumulée.",
+        "gain_estime": "Santé osseuse optimisée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Schurgers LJ, Vermeer C.",
+            "titre": "Differential lipoprotein transport pathways of K-vitamins",
+            "journal": "Biochim Biophys Acta",
+            "annee": 2002,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11812302/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "poele_brocoli_tofu_sesame",
+    "tags": [
+      "calcium",
+      "vitamine_k",
+      "vitamine_c",
+      "antioxydants"
+    ]
+  },
+  {
+    "id": "betterave",
+    "nom": "Betterave",
+    "categorie": "légume",
+    "emoji": "🫚",
+    "description": "Légume racine à la couleur pourpre intense, la betterave est riche en nitrates alimentaires qui améliorent les performances physiques, en bétalaïnes antioxydantes et en folates. Sa saveur sucrée et terreuse est unique.",
+    "bienfaits": [
+      {
+        "id": "nitrates",
+        "label": "Nitrates et performances physiques",
+        "detail": "Les nitrates de la betterave sont convertis en oxyde nitrique (NO) par les bactéries orales et la muqueuse gastrique. Le NO dilate les vaisseaux sanguins, améliorant l'oxygénation musculaire et l'endurance de 1 à 3%.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Larsen FJ et al.",
+            "titre": "Dietary inorganic nitrate improves mitochondrial efficiency",
+            "journal": "Cell Metab",
+            "annee": 2011,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21284982/"
+          }
+        ]
+      },
+      {
+        "id": "folates",
+        "label": "Riche en folates",
+        "detail": "La betterave contient 109µg de folates pour 100g, contribuant aux besoins en vitamine B9 essentiels à la synthèse de l'ADN.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Betterave rouge cuite",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 44,
+        "unite": "kcal/100g (cuite)"
+      },
+      "proteines": {
+        "valeur": 1.7,
+        "unite": "g/100g (cuite)"
+      },
+      "glucides": {
+        "valeur": 10,
+        "unite": "g/100g (cuite)"
+      },
+      "lipides": {
+        "valeur": 0.2,
+        "unite": "g/100g (cuite)"
+      },
+      "fibres": {
+        "valeur": 2.8,
+        "unite": "g/100g (cuite)"
+      },
+      "folates": {
+        "valeur": 109,
+        "unite": "µg/100g (cuite)"
+      },
+      "potassium": {
+        "valeur": 305,
+        "unite": "mg/100g (cuite)"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Bétalaïnes + Vitamine C",
+        "mecanisme": "La vitamine C du citron stabilise les bétalaïnes (pigments antioxydants de la betterave) en milieu acide, prolongeant leur activité antioxydante et leur absorption.",
+        "gain_estime": "Stabilité antioxydante améliorée",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Des études in vitro montrent que le pH acide stabilise les bétalaïnes.",
+          "contre": "Les effets in vivo restent à confirmer à grande échelle.",
+          "recommandation": "L'assaisonnement citron-betterave reste cohérent nutritionnellement."
+        },
+        "sources": [
+          {
+            "auteurs": "Stintzing FC, Carle R.",
+            "titre": "Functional properties of anthocyanins and betalains",
+            "journal": "Trends Food Sci Technol",
+            "annee": 2004,
+            "url": "https://www.sciencedirect.com/science/article/pii/S0924224404000786"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "salade_pois_chiche_poivron",
+    "tags": [
+      "folates",
+      "antioxydants",
+      "potassium"
+    ]
+  },
+  {
+    "id": "poivron_rouge",
+    "nom": "Poivron rouge",
+    "categorie": "légume",
+    "emoji": "🫑",
+    "description": "Champion absolu de la vitamine C parmi les légumes courants, le poivron rouge mûr contient jusqu'à 3 fois plus de vitamine C que l'orange. C'est l'ingrédient synergie par excellence pour potentialiser l'absorption du fer végétal dans n'importe quel repas.",
+    "bienfaits": [
+      {
+        "id": "vitamine_c",
+        "label": "Champion en vitamine C",
+        "detail": "Le poivron rouge contient 127mg de vitamine C pour 100g (cru), soit 115% des AJR. Sa teneur est 3 fois supérieure à l'orange (53mg/100g). Il est également riche en bêta-carotène (provitamine A).",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Poivron rouge cru",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 31,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 1,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 6,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.3,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 2.1,
+        "unite": "g/100g"
+      },
+      "vitamine_c": {
+        "valeur": 127,
+        "unite": "mg/100g"
+      },
+      "beta_carotene": {
+        "valeur": 1624,
+        "unite": "µg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "pois_chiche",
+        "aliment_associe_nom": "Pois chiche",
+        "aliment_associe_emoji": "🫘",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "Le poivron rouge est l'ingrédient synergie universel pour toutes les légumineuses. Sa vitamine C triple l'absorption du fer non-héminique des pois chiches.",
+        "gain_estime": "+150 à +300% absorption fer",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hallberg L et al.",
+            "titre": "Effect of ascorbic acid on iron absorption",
+            "journal": "Hum Nutr Appl Nutr",
+            "annee": 1986,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3771220/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "salade_pois_chiche_poivron",
+    "tags": [
+      "vitamine_c",
+      "antioxydants",
+      "beta_carotene"
+    ]
+  },
+  {
+    "id": "patate_douce",
+    "nom": "Patate douce",
+    "categorie": "légume",
+    "emoji": "🍠",
+    "description": "Tubercule d'une richesse nutritionnelle remarquable, la patate douce est la source végétale la plus concentrée en bêta-carotène (provitamine A) parmi les légumes courants. Sa chair orange vif témoigne de cette concentration en caroténoïdes liposolubles.",
+    "bienfaits": [
+      {
+        "id": "beta_carotene",
+        "label": "Source majeure de bêta-carotène",
+        "detail": "La patate douce contient 8509µg de bêta-carotène pour 100g (cuite), soit plus de 5 fois plus que la carotte. Le bêta-carotène est un précurseur de la vitamine A essentielle à la vision et à l'immunité.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Sweet potato, cooked",
+            "journal": "USDA",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/"
+          }
+        ]
+      },
+      {
+        "id": "potassium",
+        "label": "Excellente source de potassium",
+        "detail": "La patate douce cuite contient 475mg de potassium pour 100g, contribuant à la régulation de la pression artérielle et à la fonction musculaire.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Sweet potato",
+            "journal": "USDA",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 86,
+        "unite": "kcal/100g (cuite)"
+      },
+      "proteines": {
+        "valeur": 1.6,
+        "unite": "g/100g (cuite)"
+      },
+      "glucides": {
+        "valeur": 20.1,
+        "unite": "g/100g (cuite)"
+      },
+      "lipides": {
+        "valeur": 0.1,
+        "unite": "g/100g (cuite)"
+      },
+      "fibres": {
+        "valeur": 3,
+        "unite": "g/100g (cuite)"
+      },
+      "beta_carotene": {
+        "valeur": 8509,
+        "unite": "µg/100g (cuite)"
+      },
+      "potassium": {
+        "valeur": 475,
+        "unite": "mg/100g (cuite)"
+      },
+      "vitamine_c": {
+        "valeur": 17,
+        "unite": "mg/100g (cuite)"
+      },
+      "source_teneurs": "USDA FoodData Central 2019"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "avocat",
+        "aliment_associe_nom": "Avocat",
+        "aliment_associe_emoji": "🥑",
+        "nutriment_cle": "Bêta-carotène + Lipides",
+        "mecanisme": "Le bêta-carotène est liposoluble : son absorption intestinale est multipliée par 2,5 à 4 fois en présence de graisses alimentaires. Les acides gras mono-insaturés de l'avocat sont particulièrement efficaces.",
+        "gain_estime": "+2,5 à +4x absorption bêta-carotène",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Unlu NZ et al.",
+            "titre": "Carotenoid Absorption from Salad and Salsa",
+            "journal": "J Nutr",
+            "annee": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15735074/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "bowl_quinoa_legumes_rotis",
+    "tags": [
+      "beta_carotene",
+      "potassium",
+      "fibres",
+      "vitamine_c"
+    ]
+  },
+  {
+    "id": "orange",
+    "nom": "Orange",
+    "categorie": "fruit",
+    "emoji": "🍊",
+    "description": "Agrume populaire et source classique de vitamine C, l'orange contient aussi des flavonoïdes (hespéridine, naringénine) aux propriétés cardioprotectrices et anti-inflammatoires. Son jus est souvent utilisé comme synergie fer dans les repas.",
+    "bienfaits": [
+      {
+        "id": "vitamine_c",
+        "label": "Bonne source de vitamine C",
+        "detail": "L'orange contient 53mg de vitamine C pour 100g, soit 48% des AJR. Moins concentrée que le poivron rouge, mais sa forme fraîche et sa consommation habituelle en font une source pratique et appréciée.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Orange crue",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "hesperidine",
+        "label": "Hespéridine et santé cardiovasculaire",
+        "detail": "L'hespéridine, flavonoïde spécifique des agrumes, améliore la fonction endothéliale et a des effets anti-inflammatoires documentés.",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Des études cliniques montrent une amélioration de la fonction des artères avec la consommation régulière d'agrumes.",
+          "contre": "Les effets sont modestes et variables selon les études. La biodisponibilité de l'hespéridine est limitée.",
+          "recommandation": "La consommation régulière d'agrumes est associée à de meilleurs marqueurs cardiovasculaires dans les études épidémiologiques."
+        },
+        "sources": [
+          {
+            "auteurs": "Morand C et al.",
+            "titre": "Hesperidin contributes to the vascular protective effects of orange juice",
+            "journal": "Am J Clin Nutr",
+            "annee": 2011,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21068346/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 47,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 0.9,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 12,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.1,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 2.4,
+        "unite": "g/100g"
+      },
+      "vitamine_c": {
+        "valeur": 53,
+        "unite": "mg/100g"
+      },
+      "folates": {
+        "valeur": 30,
+        "unite": "µg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "epinard",
+        "aliment_associe_nom": "Épinard",
+        "aliment_associe_emoji": "🥬",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "Même que le citron : la vitamine C de l'orange réduit le fer non-héminique des épinards en forme absorbable. La forme jus fraîchement pressé maximise la teneur en vitamine C active.",
+        "gain_estime": "+200 à +350% absorption fer",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hallberg L et al.",
+            "titre": "Effect of ascorbic acid on iron absorption",
+            "journal": "Hum Nutr Appl Nutr",
+            "annee": 1986,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3771220/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "bowl_epinard_lentilles_citron",
+    "tags": [
+      "vitamine_c",
+      "antioxydants",
+      "folates"
+    ]
+  },
+  {
+    "id": "myrtille",
+    "nom": "Myrtille",
+    "categorie": "fruit",
+    "emoji": "🫐",
+    "description": "Petit fruit aux propriétés antioxydantes exceptionnelles, la myrtille est l'une des meilleures sources alimentaires d'anthocyanes — des pigments polyphénoliques associés à de nombreux effets santé (cognition, vision, cardiovasculaire). Sa couleur bleue profonde en est le signe.",
+    "bienfaits": [
+      {
+        "id": "anthocyanes",
+        "label": "Teneur exceptionnelle en anthocyanes antioxydantes",
+        "detail": "La myrtille contient 163mg d'anthocyanes pour 100g, parmi les concentrations les plus élevées du règne végétal. Ces pigments exercent des effets antioxydants, anti-inflammatoires et neuroprotecteurs.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Manganaris GA et al.",
+            "titre": "Berry antioxidants: small fruits providing large benefits",
+            "journal": "J Sci Food Agric",
+            "annee": 2014,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24122540/"
+          }
+        ]
+      },
+      {
+        "id": "cognition",
+        "label": "Effets sur la cognition et la mémoire",
+        "detail": "Des études cliniques montrent qu'une consommation régulière de myrtilles (150-200g/j) améliore la mémoire à court terme et les fonctions exécutives chez les adultes âgés.",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Plusieurs essais cliniques randomisés chez l'humain montrent des améliorations de la mémoire et de la vitesse de traitement cognitif.",
+          "contre": "Les doses étudiées (équivalent 200-400g/j) sont difficiles à atteindre quotidiennement. Les effets à long terme et la durabilité restent à confirmer.",
+          "recommandation": "Une consommation régulière de fruits rouges (100-200g/j) est recommandée dans le cadre d'une alimentation variée."
+        },
+        "sources": [
+          {
+            "auteurs": "Devore EE et al.",
+            "titre": "Dietary intakes of berries and flavonoids in relation to cognitive decline",
+            "journal": "Ann Neurol",
+            "annee": 2012,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22535616/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 57,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 0.7,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 14.5,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.3,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 2.4,
+        "unite": "g/100g"
+      },
+      "vitamine_c": {
+        "valeur": 9.7,
+        "unite": "mg/100g"
+      },
+      "anthocyanes": {
+        "valeur": 163,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "USDA FoodData Central 2019"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "amande",
+        "aliment_associe_nom": "Amande",
+        "aliment_associe_emoji": "🌰",
+        "nutriment_cle": "Anthocyanes + Vitamine E",
+        "mecanisme": "Les anthocyanes (hydrosolubles) et la vitamine E des amandes (liposoluble) exercent une protection antioxydante complémentaire : les anthocyanes protègent les milieux aqueux des cellules, la vitamine E protège les membranes lipidiques.",
+        "gain_estime": "Protection antioxydante large spectre",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Synergie antioxydante in vitro entre polyphénols hydrosolubles et tocophérols liposolubles bien documentée.",
+          "contre": "Les effets in vivo chez l'humain sont peu étudiés spécifiquement.",
+          "recommandation": "L'association reste bénéfique nutritionnellement."
+        },
+        "sources": [
+          {
+            "auteurs": "Scalbert A et al.",
+            "titre": "Dietary polyphenols and the prevention of diseases",
+            "journal": "Crit Rev Food Sci Nutr",
+            "annee": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15700048/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "porridge_avoine_myrtille_amande",
+    "tags": [
+      "antioxydants",
+      "anthocyanes",
+      "fibres"
+    ]
+  },
+  {
+    "id": "grenade",
+    "nom": "Grenade",
+    "categorie": "fruit",
+    "emoji": "❤️",
+    "description": "Fruit aux graines rubis, la grenade est particulièrement riche en punicalagines et en acide ellagique, des polyphénols aux propriétés anti-inflammatoires et cardioprotectrices parmi les mieux documentées du règne végétal.",
+    "bienfaits": [
+      {
+        "id": "punicalagines",
+        "label": "Punicalagines : antioxydants les plus puissants du règne végétal",
+        "detail": "La grenade contient des punicalagines (hydrolysées en urolithines par le microbiote), dont l'activité antioxydante est 2 à 3 fois supérieure au thé vert ou au vin rouge. Elles inhibent l'oxydation du LDL.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Seeram NP et al.",
+            "titre": "Pomegranate juice ellagitannin metabolites are present in human plasma and some persist in urine",
+            "journal": "J Nutr",
+            "annee": 2006,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16614424/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 83,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 1.7,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 18.7,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 1.2,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 4,
+        "unite": "g/100g"
+      },
+      "vitamine_c": {
+        "valeur": 10.2,
+        "unite": "mg/100g"
+      },
+      "potassium": {
+        "valeur": 236,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "USDA FoodData Central 2019"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "myrtille",
+        "aliment_associe_nom": "Myrtille",
+        "aliment_associe_emoji": "🫐",
+        "nutriment_cle": "Punicalagines + Anthocyanes",
+        "mecanisme": "Association de deux des familles de polyphénols les plus actifs : punicalagines (grenade) et anthocyanes (myrtille) agissent sur des voies antioxydantes différentes, créant une couverture antioxydante très large.",
+        "gain_estime": "Capacité ORAC combinée très élevée",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Études in vitro montrent une synergie antioxydante.",
+          "contre": "Les effets in vivo dépendent du microbiote (conversion en urolithines).",
+          "recommandation": "L'association de fruits rouges et violets variés est recommandée."
+        },
+        "sources": [
+          {
+            "auteurs": "Seeram NP et al.",
+            "titre": "Comparison of antioxidant potency of commonly consumed polyphenol-rich beverages",
+            "journal": "J Agric Food Chem",
+            "annee": 2008,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18038940/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "porridge_avoine_myrtille_amande",
+    "tags": [
+      "antioxydants",
+      "fibres",
+      "potassium"
+    ]
+  },
+  {
+    "id": "noix",
+    "nom": "Noix de Grenoble",
+    "categorie": "oléagineux",
+    "emoji": "🌰",
+    "description": "Unique parmi les oléagineux, la noix est la meilleure source végétale d'oméga-3 ALA en dehors des graines de lin et de chia. Son rapport oméga-6/oméga-3 (4:1) est l'un des plus équilibrés des fruits à coque, favorisant un profil lipidique anti-inflammatoire.",
+    "bienfaits": [
+      {
+        "id": "omega3",
+        "label": "Meilleure source d'oméga-3 ALA parmi les fruits à coque",
+        "detail": "La noix contient 9,1g d'ALA pour 100g — de loin la meilleure source parmi les oléagineux communs. Une poignée (30g) couvre environ 150% des AJR en ALA (1,8g).",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Walnuts",
+            "journal": "USDA",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/"
+          }
+        ]
+      },
+      {
+        "id": "cognition",
+        "label": "Association épidémiologique avec la santé cognitive",
+        "detail": "Des études épidémiologiques associent la consommation régulière de noix à de meilleures performances cognitives et à un moindre déclin cognitif lié à l'âge.",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Études épidémiologiques (PREDIMED) montrent une association entre consommation de noix et moindre déclin cognitif. Des biomarqueurs cérébraux améliorés ont été documentés.",
+          "contre": "Difficile de distinguer l'effet des noix de celui du régime méditerranéen global. Les essais randomisés spécifiques sont peu nombreux.",
+          "recommandation": "Une poignée de noix (30g/j) est recommandée dans le cadre d'une alimentation variée."
+        },
+        "sources": [
+          {
+            "auteurs": "Valls-Pedret C et al.",
+            "titre": "Mediterranean Diet and Age-Related Cognitive Decline",
+            "journal": "JAMA Intern Med",
+            "annee": 2015,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25961184/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 654,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 15.2,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 13.7,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 65.2,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 6.7,
+        "unite": "g/100g"
+      },
+      "omega3_ala": {
+        "valeur": 9.1,
+        "unite": "g/100g"
+      },
+      "magnesium": {
+        "valeur": 158,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "USDA FoodData Central 2019"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "myrtille",
+        "aliment_associe_nom": "Myrtille",
+        "aliment_associe_emoji": "🫐",
+        "nutriment_cle": "ALA + Anthocyanes",
+        "mecanisme": "Les oméga-3 ALA des noix et les anthocyanes des myrtilles exercent des effets anti-inflammatoires complémentaires : les oméga-3 modulant la production de prostaglandines pro-inflammatoires, les anthocyanes inhibant NF-kB.",
+        "gain_estime": "Synergie anti-inflammatoire documentée",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Des études séparées documentent les effets anti-inflammatoires des deux. La combinaison est cohérente mécanistiquement.",
+          "contre": "Pas d'étude clinique spécifique à cette combinaison exacte.",
+          "recommandation": "Association recommandée dans le cadre d'une alimentation variée."
+        },
+        "sources": [
+          {
+            "auteurs": "Calder PC.",
+            "titre": "Omega-3 fatty acids and inflammatory processes",
+            "journal": "Nutrients",
+            "annee": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22254027/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "porridge_avoine_myrtille_amande",
+    "tags": [
+      "omega3",
+      "antioxydants",
+      "magnesium",
+      "fibres"
+    ]
+  },
+  {
+    "id": "graines_de_lin",
+    "nom": "Graines de lin",
+    "categorie": "oléagineux",
+    "emoji": "🌱",
+    "description": "Les graines de lin moulues sont une source végétale exceptionnelle d'oméga-3 ALA et de lignanes, des phytoestrogènes aux propriétés antioxydantes et potentiellement protectrices contre certains cancers hormonodépendants. Entières, elles traversent le tractus digestif sans être absorbées.",
+    "bienfaits": [
+      {
+        "id": "omega3",
+        "label": "Source végétale la plus concentrée en ALA",
+        "detail": "Les graines de lin moulues contiennent 22,8g d'ALA pour 100g, la concentration la plus élevée parmi les aliments courants. Une c.s. de graines moulues (10g) couvre 125% des AJR en ALA.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Flaxseeds",
+            "journal": "USDA",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/"
+          }
+        ]
+      },
+      {
+        "id": "lignanes",
+        "label": "Lignanes et protection hormonale",
+        "detail": "Les graines de lin contiennent 335mg de lignanes pour 100g — 75 à 800 fois plus que les autres végétaux. Converties en entérolignanes par le microbiote, elles pourraient réduire le risque de cancer du sein selon certaines études.",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Des études épidémiologiques associent la consommation de lin à un moindre risque de cancer du sein. Les entérolignanes ont des effets anti-prolifératifs in vitro.",
+          "contre": "Les résultats sont inconsistants entre études. La conversion des lignanes dépend fortement du microbiote.",
+          "recommandation": "La consommation modérée (1-2 c.s./j de graines moulues) est considérée sûre pour la population générale."
+        },
+        "sources": [
+          {
+            "auteurs": "Adlercreutz H.",
+            "titre": "Lignans and human health",
+            "journal": "Crit Rev Clin Lab Sci",
+            "annee": 2007,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17943494/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 534,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 18.3,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 28.9,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 42.2,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 27.3,
+        "unite": "g/100g"
+      },
+      "omega3_ala": {
+        "valeur": 22.8,
+        "unite": "g/100g"
+      },
+      "calcium": {
+        "valeur": 255,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "USDA FoodData Central 2019"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "myrtille",
+        "aliment_associe_nom": "Myrtille",
+        "aliment_associe_emoji": "🫐",
+        "nutriment_cle": "ALA + Anthocyanes",
+        "mecanisme": "Les oméga-3 ALA du lin et les anthocyanes des myrtilles agissent sur des voies anti-inflammatoires complémentaires, avec un effet potentiel sur la santé cardiovasculaire et cérébrale.",
+        "gain_estime": "Synergie anti-inflammatoire",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Mécanismes complémentaires bien documentés séparément.",
+          "contre": "Pas d'étude clinique spécifique à cette combinaison.",
+          "recommandation": "Association cohérente dans le cadre d'une alimentation anti-inflammatoire."
+        },
+        "sources": [
+          {
+            "auteurs": "Calder PC.",
+            "titre": "Omega-3 fatty acids and inflammatory processes",
+            "journal": "Nutrients",
+            "annee": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22254027/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "pudding_chia_mangue",
+    "tags": [
+      "omega3",
+      "fibres",
+      "calcium",
+      "antioxydants"
+    ]
+  },
+  {
+    "id": "spiruline",
+    "nom": "Spiruline",
+    "categorie": "algue",
+    "emoji": "🌊",
+    "description": "Micro-algue bleu-vert cultivée depuis les Aztèques, la spiruline est l'aliment le plus concentré en protéines de la planète (60-70% de son poids sec). Elle contient aussi du fer, de la phycocyanine (pigment antioxydant) et des acides gras essentiels GLA.",
+    "bienfaits": [
+      {
+        "id": "proteines",
+        "label": "Source protéique la plus concentrée connue",
+        "detail": "La spiruline contient 57g de protéines pour 100g (séchée), avec un profil en acides aminés complet. Sa digestibilité est de 83-90%, meilleure que de nombreux aliments d'origine animale.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Karkos PD et al.",
+            "titre": "Spirulina in Clinical Practice: Evidence-Based Human Applications",
+            "journal": "Evid Based Complement Alternat Med",
+            "annee": 2011,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19914211/"
+          }
+        ]
+      },
+      {
+        "id": "fer",
+        "label": "Très riche en fer biodisponible",
+        "detail": "La spiruline contient 28,5mg de fer pour 100g (séchée). Sa phycocyanine pourrait améliorer la biodisponibilité du fer selon certaines études préliminaires.",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Teneur en fer très élevée. Des études cliniques montrent une amélioration du statut en fer chez les enfants et femmes enceintes supplémentées.",
+          "contre": "La forme de fer dans la spiruline (non-héminique) reste sujet à débat sur sa biodisponibilité réelle comparée au fer héminique.",
+          "recommandation": "La spiruline peut contribuer aux apports en fer mais ne remplace pas une alimentation diversifiée. Toujours l'associer à une source de vitamine C."
+        },
+        "sources": [
+          {
+            "auteurs": "Selmi C et al.",
+            "titre": "The effects of Spirulina on anemia and immune function in senior citizens",
+            "journal": "Cell Mol Immunol",
+            "annee": 2011,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21278762/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 290,
+        "unite": "kcal/100g (séchée)"
+      },
+      "proteines": {
+        "valeur": 57.5,
+        "unite": "g/100g (séchée)"
+      },
+      "glucides": {
+        "valeur": 23.9,
+        "unite": "g/100g (séchée)"
+      },
+      "lipides": {
+        "valeur": 7.7,
+        "unite": "g/100g (séchée)"
+      },
+      "fibres": {
+        "valeur": 3.6,
+        "unite": "g/100g (séchée)"
+      },
+      "fer": {
+        "valeur": 28.5,
+        "unite": "mg/100g (séchée)"
+      },
+      "calcium": {
+        "valeur": 120,
+        "unite": "mg/100g (séchée)"
+      },
+      "source_teneurs": "USDA FoodData Central 2019"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "Toujours consommer la spiruline avec une source de vitamine C (citron, jus d'orange, kiwi) pour optimiser l'absorption de son fer non-héminique concentré. Une pincée dans un smoothie citronné double l'absorption du fer.",
+        "gain_estime": "+200% absorption du fer de la spiruline",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hurrell R, Egli I.",
+            "titre": "Iron bioavailability and dietary reference values",
+            "journal": "Am J Clin Nutr",
+            "annee": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20200263/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "pudding_chia_mangue",
+    "tags": [
+      "proteines",
+      "fer",
+      "antioxydants",
+      "calcium"
+    ]
+  },
+  {
+    "id": "levure_nutritionnelle",
+    "nom": "Levure nutritionnelle",
+    "categorie": "condiment",
+    "emoji": "🧂",
+    "description": "Levure de bière désactivée au goût umami fromager, la levure nutritionnelle est un incontournable végétarien. Fortifiée, elle est souvent enrichie en vitamine B12 (la seule vitamine absente des régimes végétaux stricts) et est naturellement riche en protéines complètes et vitamines B.",
+    "bienfaits": [
+      {
+        "id": "vitamine_b12",
+        "label": "Source végétale de vitamine B12 (si enrichie)",
+        "detail": "La levure nutritionnelle enrichie peut apporter 4-8µg de vitamine B12 par cuillère à soupe (soit 160-320% des AJR). C'est l'une des rares sources végétales de cette vitamine essentielle au système nerveux.",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Plusieurs marques proposent une levure enrichie en B12 sous forme de cyanocobalamine ou méthylcobalamine, biologiquement actives.",
+          "contre": "Toutes les levures nutritionnelles ne sont pas enrichies. Il faut vérifier l'étiquette. La B12 naturellement présente dans la levure non-enrichie n'est pas biodisponible.",
+          "recommandation": "Choisir une levure expressément enrichie en B12. Pour les végétaliens, une supplémentation directe reste la solution la plus fiable."
+        },
+        "sources": [
+          {
+            "auteurs": "Watanabe F.",
+            "titre": "Vitamin B12 sources and bioavailability",
+            "journal": "Exp Biol Med",
+            "annee": 2007,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17959839/"
+          }
+        ]
+      },
+      {
+        "id": "proteines",
+        "label": "Protéines complètes",
+        "detail": "La levure nutritionnelle contient 50g de protéines pour 100g avec tous les acides aminés essentiels. Une utilisation culinaire courante apporte 5-10g de protéines par repas.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Nutritional yeast",
+            "journal": "USDA",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 325,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 50,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 37.5,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 6,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 25,
+        "unite": "g/100g"
+      },
+      "zinc": {
+        "valeur": 7.6,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "USDA FoodData Central 2019"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "lentille",
+        "aliment_associe_nom": "Lentille",
+        "aliment_associe_emoji": "🫘",
+        "nutriment_cle": "Protéines complètes + B12",
+        "mecanisme": "Saupoudrée sur un plat de lentilles, la levure nutritionnelle enrichie complète le profil protéique (méthionine supplémentaire) et apporte la vitamine B12 absente des légumineuses.",
+        "gain_estime": "Profil B12 + protéines complètes",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Watanabe F.",
+            "titre": "Vitamin B12 sources and bioavailability",
+            "journal": "Exp Biol Med",
+            "annee": 2007,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17959839/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "bowl_proteines_complet_lentille_quinoa",
+    "tags": [
+      "proteines",
+      "vitamine_b12",
+      "zinc",
+      "fibres"
+    ]
+  },
+  {
+    "id": "chocolat_noir",
+    "nom": "Chocolat noir (70%+)",
+    "categorie": "autre",
+    "emoji": "🍫",
+    "description": "Le chocolat noir à plus de 70% de cacao est une source concentrée de polyphénols (flavanols), de magnésium et de fer. Ses effets cardiovasculaires sont parmi les mieux documentés en nutrition clinique, avec des effets sur la tension artérielle et la fonction endothéliale.",
+    "bienfaits": [
+      {
+        "id": "flavanols",
+        "label": "Flavanols du cacao et santé cardiovasculaire",
+        "detail": "Les flavanols du cacao (épicatéchine principalement) augmentent la production d'oxyde nitrique par l'endothélium vasculaire, réduisant la pression artérielle de 2-3 mmHg et améliorant la circulation. Effet validé par l'EFSA en 2012.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "EFSA Panel on Dietetic Products",
+            "titre": "Scientific Opinion on cocoa flavanols and endothelium-dependent vasodilation",
+            "journal": "EFSA Journal",
+            "annee": 2012,
+            "url": "https://efsa.onlinelibrary.wiley.com/doi/abs/10.2903/j.efsa.2012.2809"
+          }
+        ]
+      },
+      {
+        "id": "magnesium",
+        "label": "Source exceptionnelle de magnésium",
+        "detail": "Le chocolat noir à 70% contient 228mg de magnésium pour 100g, soit 61% des AJR. Une carrée de 20g apporte 46mg de magnésium.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Chocolat noir 70% cacao",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 598,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 7.8,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 45.9,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 42.6,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 10.9,
+        "unite": "g/100g"
+      },
+      "magnesium": {
+        "valeur": 228,
+        "unite": "mg/100g"
+      },
+      "fer": {
+        "valeur": 10.9,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "myrtille",
+        "aliment_associe_nom": "Myrtille",
+        "aliment_associe_emoji": "🫐",
+        "nutriment_cle": "Flavanols + Anthocyanes",
+        "mecanisme": "Les flavanols du chocolat noir (épicatéchine) et les anthocyanes des myrtilles augmentent tous deux la biodisponibilité de l'oxyde nitrique et exercent une synergie cardiovasculaire documentée sur l'endothélium.",
+        "gain_estime": "Synergie cardiovasculaire renforcée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Loke WM et al.",
+            "titre": "Pure dietary flavonoids quercetin and (-)-epicatechin augment nitric oxide products",
+            "journal": "J Agric Food Chem",
+            "annee": 2008,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18399641/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "porridge_avoine_myrtille_amande",
+    "tags": [
+      "antioxydants",
+      "magnesium",
+      "fer",
+      "flavanols"
+    ]
+  },
+  {
+    "id": "gingembre",
+    "nom": "Gingembre",
+    "categorie": "épice",
+    "emoji": "🫚",
+    "description": "Rhizome épicé aux propriétés anti-nauséeuses et anti-inflammatoires les mieux documentées parmi les épices. Le gingembre contient des gingérols et shogaols (à la cuisson) aux effets COX-2 inhibiteurs similaires à certains anti-inflammatoires non stéroïdiens.",
+    "bienfaits": [
+      {
+        "id": "anti_nausee",
+        "label": "Anti-nauséeux : efficacité cliniquement prouvée",
+        "detail": "Le gingembre (1-1,5g/j) est l'un des seuls remèdes naturels avec des preuves cliniques solides contre les nausées de grossesse (grade A OMS) et de chimiothérapie.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Viljoen E et al.",
+            "titre": "A systematic review and meta-analysis of the effect of ginger in the treatment of pregnancy-associated nausea and vomiting",
+            "journal": "Nutr J",
+            "annee": 2014,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24642205/"
+          }
+        ]
+      },
+      {
+        "id": "anti_inflammatoire",
+        "label": "Anti-inflammatoire via inhibition COX-2",
+        "detail": "Les gingérols inhibent la COX-2 (cyclooxygénase-2), enzyme pro-inflammatoire. Des méta-analyses montrent une réduction de la douleur arthritique comparable à l'ibuprofène à des doses élevées.",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Méta-analyses montrent une efficacité significative sur la douleur arthritique à 255-1000mg/j d'extrait.",
+          "contre": "Les effets nécessitent souvent des doses d'extrait concentré non atteintes par la cuisine courante.",
+          "recommandation": "L'ajout régulier de gingembre frais dans les plats reste bénéfique dans le cadre d'une alimentation anti-inflammatoire globale."
+        },
+        "sources": [
+          {
+            "auteurs": "Daily JW et al.",
+            "titre": "Efficacy of Ginger for Alleviating the Symptoms of Primary Dysmenorrhea",
+            "journal": "J Pain Res",
+            "annee": 2015,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26797947/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 80,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 1.8,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 17.8,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.8,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 2,
+        "unite": "g/100g"
+      },
+      "source_teneurs": "USDA FoodData Central 2019"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "curcuma",
+        "aliment_associe_nom": "Curcuma",
+        "aliment_associe_emoji": "🟡",
+        "nutriment_cle": "Gingérols + Curcumine",
+        "mecanisme": "Gingérols et curcumine inhibent tous deux la COX-2 et NF-kB, mais via des mécanismes légèrement différents. Associés (avec poivre noir), ils exercent une synergie anti-inflammatoire complémentaire.",
+        "gain_estime": "Inhibition COX-2 renforcée",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Mécanismes complémentaires documentés séparément. Synergie plausible et cohérente.",
+          "contre": "Peu d'études cliniques spécifiques à la combinaison exacte curcuma-gingembre.",
+          "recommandation": "Association classique des médecines traditionnelles, cohérente avec les données mécanistiques actuelles."
+        },
+        "sources": [
+          {
+            "auteurs": "Hewlings SJ, Kalman DS.",
+            "titre": "Curcumin: A Review of Its Effects on Human Health",
+            "journal": "Foods",
+            "annee": 2017,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29065496/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "golden_milk_curcuma",
+    "tags": [
+      "anti_inflammatoire",
+      "antioxydants"
+    ]
   }
 ]
