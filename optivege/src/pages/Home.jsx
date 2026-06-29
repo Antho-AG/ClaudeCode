@@ -131,7 +131,7 @@ export default function Home() {
                   to={`/aliments/${RANDOM_SYN.food.id}`}
                   className="inline-block mt-3 text-sm text-green-dark font-medium hover:text-green-mid"
                 >
-                  En savoir plus sur l'épinard →
+                  En savoir plus sur {RANDOM_SYN.food.nom} →
                 </Link>
               </div>
             </div>
