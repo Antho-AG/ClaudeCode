@@ -1,0 +1,469 @@
+[
+  {
+    "id": "bowl_epinard_lentilles_citron",
+    "nom": "Bowl Épinards & Lentilles au Citron",
+    "emoji": "🥗",
+    "temps": "25 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": ["fer", "proteines", "fibres", "folates"],
+    "categorie_synergie": "Fer + Vitamine C",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Lentilles",
+        "aliment_2": "Citron",
+        "benefice": "Absorption du fer x2 à x3",
+        "mecanisme": "La vitamine C du citron convertit le fer non-héminique (Fe³⁺) en fer absorbable (Fe²⁺), neutralisant aussi les phytates inhibiteurs.",
+        "source": "Hallberg L. et al., Hum Nutr Appl Nutr, 1986"
+      },
+      {
+        "aliment_1": "Épinards",
+        "aliment_2": "Citron",
+        "benefice": "Absorption du fer des épinards multipliée",
+        "mecanisme": "Double synergie fer : lentilles ET épinards bénéficient de la vitamine C du citron dans le même repas.",
+        "source": "Hurrell R., Am J Clin Nutr, 2010"
+      }
+    ],
+    "ingredients": [
+      { "quantite": "200g", "nom": "Lentilles vertes (sèches)", "note": "rincer à l'eau froide" },
+      { "quantite": "100g", "nom": "Épinards frais" },
+      { "quantite": "1", "nom": "Citron (zeste + jus)" },
+      { "quantite": "1", "nom": "Gousse d'ail" },
+      { "quantite": "2 c.s.", "nom": "Huile d'olive extra-vierge" },
+      { "quantite": "1 c.c.", "nom": "Cumin en poudre" },
+      { "quantite": "Sel, poivre", "nom": "Assaisonnement" },
+      { "quantite": "Optionnel", "nom": "Graines de courge (fer++)" }
+    ],
+    "etapes": [
+      "Cuire les lentilles dans 2× leur volume d'eau pendant 20-25 min (sans sel pour éviter de les durcir). Égoutter.",
+      "Dans une poêle, faire revenir l'ail haché dans l'huile d'olive 1 min.",
+      "Ajouter les épinards et faire tomber 2 min à feu vif.",
+      "Ajouter les lentilles égouttées, le cumin, sel et poivre. Mélanger.",
+      "Hors du feu, ajouter le jus et le zeste du citron. Mélanger.",
+      "Dresser dans des bols, parsemer de graines de courge si souhaité.",
+      "Servir immédiatement pour préserver la vitamine C du citron."
+    ],
+    "conseil_cuisson": "Ne pas ajouter le citron à la cuisson — la chaleur détruit une partie de la vitamine C. Toujours l'ajouter hors du feu.",
+    "note_nutritionnelle": "Ce bowl couvre environ 45% des AJR en fer pour une femme adulte (8mg sur 16mg recommandés). La synergie citron-lentille-épinard optimise l'absorption de ce fer végétal.",
+    "variantes": "Remplacer les lentilles vertes par des lentilles corail (cuisson 15 min). Ajouter du tahini pour les protéines et le calcium.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses",
+        "titre": "CIQUAL 2020",
+        "journal": "Anses",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
+  },
+  {
+    "id": "dhal_lentilles_corail_citron",
+    "nom": "Dhal de Lentilles Corail au Citron & Curcuma",
+    "emoji": "🍛",
+    "temps": "30 min",
+    "difficulte": "Facile",
+    "portions": 4,
+    "bienfaits_cles": ["fer", "proteines", "anti_inflammatoire"],
+    "categorie_synergie": "Fer + Vitamine C",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Lentilles corail",
+        "aliment_2": "Citron",
+        "benefice": "Absorption du fer x2 à x3",
+        "mecanisme": "La vitamine C du citron convertit le fer non-héminique en forme absorbable.",
+        "source": "Hurrell R., Am J Clin Nutr, 2010"
+      },
+      {
+        "aliment_1": "Curcuma",
+        "aliment_2": "Poivre noir + huile de coco",
+        "benefice": "Biodisponibilité curcumine +2000%",
+        "mecanisme": "La pipérine du poivre noir inhibe le métabolisme hépatique de la curcumine. Les lipides améliorent sa solubilité.",
+        "source": "Shoba G. et al., Planta Med, 1998"
+      }
+    ],
+    "ingredients": [
+      { "quantite": "250g", "nom": "Lentilles corail" },
+      { "quantite": "1", "nom": "Citron (jus)" },
+      { "quantite": "1 boîte", "nom": "Lait de coco (400ml)" },
+      { "quantite": "400ml", "nom": "Bouillon de légumes" },
+      { "quantite": "1 c.c.", "nom": "Curcuma en poudre" },
+      { "quantite": "1 c.c.", "nom": "Cumin" },
+      { "quantite": "1 pincée", "nom": "Poivre noir fraîchement moulu" },
+      { "quantite": "1", "nom": "Oignon haché" },
+      { "quantite": "2", "nom": "Gousses d'ail" },
+      { "quantite": "1 c.s.", "nom": "Huile de coco ou olive" }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon et l'ail dans l'huile pendant 3 min.",
+      "Ajouter le curcuma, cumin et poivre, mélanger 30 secondes.",
+      "Ajouter les lentilles rincées, le lait de coco et le bouillon.",
+      "Porter à ébullition puis mijoter à feu doux 15-20 min, jusqu'à obtenir une consistance crémeuse.",
+      "Hors du feu, ajouter le jus de citron. Ajuster l'assaisonnement.",
+      "Servir avec du riz complet ou du pain naan."
+    ],
+    "conseil_cuisson": "Le jus de citron est ajouté hors du feu pour préserver la vitamine C. Le poivre noir est essentiel pour activer la curcumine.",
+    "note_nutritionnelle": "Une portion couvre environ 30% des AJR en fer et 35% des AJR en protéines végétales.",
+    "variantes": "Ajouter des épinards frais en fin de cuisson pour doubler l'apport en fer.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses",
+        "titre": "CIQUAL 2020",
+        "journal": "Anses",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
+  },
+  {
+    "id": "poele_brocoli_tofu_sesame",
+    "nom": "Poêlée Brocoli & Tofu au Sésame",
+    "emoji": "🥦",
+    "temps": "20 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": ["calcium", "proteines", "vitamine_k"],
+    "categorie_synergie": "Calcium + Vitamine K",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Tofu (calcium sulfate)",
+        "aliment_2": "Brocoli (vitamine K)",
+        "benefice": "Fixation osseuse du calcium optimisée",
+        "mecanisme": "La vitamine K1 du brocoli active l'ostéocalcine, protéine qui fixe le calcium du tofu dans la matrice osseuse.",
+        "source": "Schurgers LJ, Vermeer C., Biochim Biophys Acta, 2002"
+      }
+    ],
+    "ingredients": [
+      { "quantite": "200g", "nom": "Tofu ferme (coagulé au sulfate de calcium)" },
+      { "quantite": "300g", "nom": "Brocoli en fleurettes" },
+      { "quantite": "2 c.s.", "nom": "Sauce soja (tamari sans gluten si besoin)" },
+      { "quantite": "1 c.s.", "nom": "Sésame grillé" },
+      { "quantite": "1 c.c.", "nom": "Huile de sésame" },
+      { "quantite": "1 c.c.", "nom": "Gingembre râpé" },
+      { "quantite": "1", "nom": "Gousse d'ail" }
+    ],
+    "etapes": [
+      "Égoutter et presser le tofu entre deux torchons, puis le couper en cubes.",
+      "Cuire le brocoli à la vapeur 5 min (pour préserver la vitamine C et les glucosinolates).",
+      "Dans un wok, faire dorer le tofu avec un peu d'huile jusqu'à obtenir des cubes dorés.",
+      "Ajouter l'ail et le gingembre, mélanger 1 min.",
+      "Ajouter le brocoli vapeur, la sauce soja. Mélanger 2 min.",
+      "Finir avec l'huile de sésame et parsemer de graines de sésame.",
+      "Servir avec du riz complet ou des nouilles soba."
+    ],
+    "conseil_cuisson": "Cuire le brocoli à la vapeur plutôt qu'à l'eau bouillante : préserve 70% de la vitamine C vs 50% à l'eau.",
+    "note_nutritionnelle": "Ce plat couvre environ 60% des AJR en calcium (via tofu + sésame + brocoli) et 40% des AJR en protéines.",
+    "variantes": "Ajouter du tempeh pour encore plus de protéines. Ajouter des edamames pour un profil protéique encore plus complet.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses",
+        "titre": "CIQUAL 2020",
+        "journal": "Anses",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
+  },
+  {
+    "id": "bowl_quinoa_legumes_rotis",
+    "nom": "Bowl Quinoa, Légumes Rôtis & Avocat",
+    "emoji": "🌾",
+    "temps": "35 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": ["proteines_completes", "omega9", "antioxydants"],
+    "categorie_synergie": "Protéines complètes",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Quinoa (protéines complètes)",
+        "aliment_2": "Avocat (acides gras)",
+        "benefice": "Absorption des vitamines liposolubles +2 à +4x",
+        "mecanisme": "Les graisses mono-insaturées de l'avocat améliorent l'absorption des caroténoïdes et vitamines liposolubles présents dans les légumes du bowl.",
+        "source": "Unlu NZ et al., J Nutr, 2005"
+      }
+    ],
+    "ingredients": [
+      { "quantite": "160g", "nom": "Quinoa (sec)" },
+      { "quantite": "1", "nom": "Avocat mûr" },
+      { "quantite": "1", "nom": "Patate douce (cubes)" },
+      { "quantite": "100g", "nom": "Pois chiches cuits" },
+      { "quantite": "1", "nom": "Poivron rouge" },
+      { "quantite": "1", "nom": "Citron (jus)" },
+      { "quantite": "2 c.s.", "nom": "Huile d'olive" },
+      { "quantite": "Épices", "nom": "Cumin, paprika fumé, sel" }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200°C. Couper la patate douce et le poivron en cubes.",
+      "Badigeonner de l'huile d'olive et des épices. Rôtir 25 min.",
+      "Pendant ce temps, rincer le quinoa et le cuire dans 2× son volume d'eau 15 min.",
+      "Égoutter et laisser reposer 5 min à couvert.",
+      "Dresser le quinoa dans des bols, ajouter les légumes rôtis et les pois chiches.",
+      "Couper l'avocat en tranches, ajouter au bowl.",
+      "Arroser de jus de citron. Assaisonner."
+    ],
+    "conseil_cuisson": "La patate douce est riche en bêta-carotène : sa présence aux côtés de l'avocat double son absorption.",
+    "note_nutritionnelle": "Ce bowl est nutritionnellement complet : protéines complètes (quinoa), acides gras sains (avocat), fibres (légumes), glucides complexes.",
+    "variantes": "Ajouter du tahini dilué avec du jus de citron pour une sauce crémeuse supplémentaire en calcium.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "USDA",
+        "titre": "FoodData Central 2019",
+        "journal": "USDA",
+        "annee": 2019,
+        "url": "https://fdc.nal.usda.gov/"
+      }
+    ]
+  },
+  {
+    "id": "pudding_chia_mangue",
+    "nom": "Pudding de Chia Mangue & Citron",
+    "emoji": "🥭",
+    "temps": "10 min + 4h repos",
+    "difficulte": "Très facile",
+    "portions": 2,
+    "bienfaits_cles": ["omega3", "calcium", "fer", "fibres"],
+    "categorie_synergie": "Oméga-3 + absorption",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Graines de chia (fer, ALA)",
+        "aliment_2": "Citron (vitamine C)",
+        "benefice": "Absorption du fer du chia x2",
+        "mecanisme": "La vitamine C du citron améliore l'absorption du fer non-héminique concentré des graines de chia (7,7 mg/100g).",
+        "source": "Hurrell R., Am J Clin Nutr, 2010"
+      }
+    ],
+    "ingredients": [
+      { "quantite": "60g (4 c.s.)", "nom": "Graines de chia" },
+      { "quantite": "400ml", "nom": "Lait végétal enrichi en calcium (amande ou avoine)" },
+      { "quantite": "1", "nom": "Mangue fraîche ou surgelée" },
+      { "quantite": "1", "nom": "Citron (jus)" },
+      { "quantite": "1 c.c.", "nom": "Vanille en poudre" },
+      { "quantite": "Optionnel", "nom": "Sirop d'agave, miel ou dattes" }
+    ],
+    "etapes": [
+      "Mélanger les graines de chia avec le lait végétal et la vanille.",
+      "Laisser reposer 10 min, remuer pour éviter les grumeaux, puis réfrigérer 4h minimum (ou toute la nuit).",
+      "Couper la mangue en petits cubes.",
+      "Au moment de servir, verser le jus de citron sur les cubes de mangue.",
+      "Dresser le pudding de chia dans des verres, ajouter la mangue citronnée par-dessus.",
+      "Sucrer selon le goût."
+    ],
+    "conseil_cuisson": "Le jus de citron est ajouté frais au service, jamais à l'avance, pour préserver la vitamine C et son effet synergique.",
+    "note_nutritionnelle": "4 c.s. de chia (60g) couvrent environ 29% des AJR en calcium et 58% des AJR en fer pour une femme adulte. La synergie citron double l'absorption de ce fer.",
+    "variantes": "Utiliser du kiwi à la place de la mangue pour encore plus de vitamine C. Ajouter des myrtilles pour les anthocyanes antioxydantes.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "USDA",
+        "titre": "FoodData Central — Chia seeds",
+        "journal": "USDA",
+        "annee": 2019,
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170554/nutrients"
+      }
+    ]
+  },
+  {
+    "id": "salade_pois_chiche_poivron",
+    "nom": "Salade Pois Chiches, Poivron Rouge & Herbes",
+    "emoji": "🫑",
+    "temps": "15 min",
+    "difficulte": "Très facile",
+    "portions": 2,
+    "bienfaits_cles": ["fer", "proteines", "antioxydants", "fibres"],
+    "categorie_synergie": "Fer + Vitamine C",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Pois chiches (fer)",
+        "aliment_2": "Poivron rouge (vitamine C)",
+        "benefice": "Absorption du fer +150 à +300%",
+        "mecanisme": "Le poivron rouge est l'un des légumes les plus riches en vitamine C (127 mg/100g), idéal pour potentialiser l'absorption du fer des légumineuses.",
+        "source": "Hallberg L. et al., Hum Nutr Appl Nutr, 1986"
+      }
+    ],
+    "ingredients": [
+      { "quantite": "400g", "nom": "Pois chiches cuits (ou 1 boîte égouttée)" },
+      { "quantite": "2", "nom": "Poivrons rouges en brunoise" },
+      { "quantite": "1 botte", "nom": "Persil plat haché" },
+      { "quantite": "½", "nom": "Concombre en dés" },
+      { "quantite": "1", "nom": "Citron (jus + zeste)" },
+      { "quantite": "3 c.s.", "nom": "Huile d'olive extra-vierge" },
+      { "quantite": "1 c.c.", "nom": "Cumin" },
+      { "quantite": "Sel, poivre", "nom": "" }
+    ],
+    "etapes": [
+      "Égoutter et rincer les pois chiches.",
+      "Couper les poivrons en petits dés, hacher le persil.",
+      "Dans un saladier, mélanger pois chiches, poivrons, concombre et persil.",
+      "Préparer la vinaigrette : jus et zeste de citron, huile d'olive, cumin, sel, poivre.",
+      "Verser la vinaigrette sur la salade et mélanger.",
+      "Laisser mariner 15 min avant de servir pour que les saveurs se développent."
+    ],
+    "conseil_cuisson": "Utiliser le poivron cru : la cuisson réduit la teneur en vitamine C. Cru, il en contient 127 mg/100g.",
+    "note_nutritionnelle": "Cette salade est rapide, nutritive et hautement biodisponible en fer grâce à la synergie poivron-pois chiche.",
+    "variantes": "Ajouter du quinoa cuit pour un plat complet en protéines. Une poignée de graines de courge apporte du zinc et du magnésium.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses",
+        "titre": "CIQUAL 2020",
+        "journal": "Anses",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
+  },
+  {
+    "id": "porridge_avoine_myrtille_amande",
+    "nom": "Porridge Avoine, Myrtilles & Amandes",
+    "emoji": "🫐",
+    "temps": "10 min",
+    "difficulte": "Très facile",
+    "portions": 1,
+    "bienfaits_cles": ["omega3", "antioxydants", "fibres", "vitamine_e"],
+    "categorie_synergie": "Antioxydants",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Myrtilles (anthocyanes)",
+        "aliment_2": "Amandes (vitamine E)",
+        "benefice": "Synergie antioxydante étendue",
+        "mecanisme": "Les anthocyanes (hydrosolubles) et la vitamine E (liposoluble) des amandes protègent les milieux aqueux et lipidiques des cellules, couvrant un spectre antioxydant complet.",
+        "source": "Scalbert A. et al., Crit Rev Food Sci Nutr, 2005"
+      }
+    ],
+    "ingredients": [
+      { "quantite": "80g", "nom": "Flocons d'avoine" },
+      { "quantite": "250ml", "nom": "Lait végétal (amande ou avoine)" },
+      { "quantite": "100g", "nom": "Myrtilles fraîches ou surgelées" },
+      { "quantite": "20g", "nom": "Amandes effilées ou entières" },
+      { "quantite": "1 c.s.", "nom": "Graines de chia (oméga-3 bonus)" },
+      { "quantite": "1 c.c.", "nom": "Vanille" },
+      { "quantite": "Optionnel", "nom": "Miel ou sirop d'agave" }
+    ],
+    "etapes": [
+      "Chauffer le lait végétal dans une casserole à feu moyen.",
+      "Ajouter les flocons d'avoine et la vanille. Remuer constamment.",
+      "Cuire 5 min jusqu'à obtenir la consistance désirée.",
+      "Verser dans un bol. Ajouter les myrtilles, les amandes et les graines de chia.",
+      "Sucrer selon le goût."
+    ],
+    "conseil_cuisson": "Ajouter les myrtilles après cuisson pour préserver leurs anthocyanes. La chaleur excessive les dégrade.",
+    "note_nutritionnelle": "Ce porridge est un excellent petit-déjeuner végétarien couvrant fibres (avoine), oméga-3 ALA (chia), antioxydants (myrtilles) et vitamine E (amandes).",
+    "variantes": "Ajouter une c.s. de beurre d'amande pour augmenter les protéines. Remplacer les myrtilles par des framboises selon la saison.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "USDA",
+        "titre": "FoodData Central 2019",
+        "journal": "USDA",
+        "annee": 2019,
+        "url": "https://fdc.nal.usda.gov/"
+      }
+    ]
+  },
+  {
+    "id": "golden_milk_curcuma",
+    "nom": "Golden Milk au Curcuma & Poivre Noir",
+    "emoji": "🌙",
+    "temps": "5 min",
+    "difficulte": "Très facile",
+    "portions": 1,
+    "bienfaits_cles": ["anti_inflammatoire", "antioxydants", "calcium"],
+    "categorie_synergie": "Antioxydants",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Curcuma (curcumine)",
+        "aliment_2": "Poivre noir (pipérine)",
+        "benefice": "Biodisponibilité curcumine x20",
+        "mecanisme": "La pipérine inhibe les enzymes hépatiques (glucuronidase) qui métabolisent et éliminent rapidement la curcumine. Résultat : la curcumine reste 20x plus longtemps dans le sang.",
+        "source": "Shoba G. et al., Planta Med, 1998"
+      },
+      {
+        "aliment_1": "Curcuma (curcumine)",
+        "aliment_2": "Lait de coco (lipides)",
+        "benefice": "Absorption curcumine améliorée",
+        "mecanisme": "La curcumine est liposoluble. Les lipides du lait de coco améliorent sa dissolution et son absorption dans les entérocytes.",
+        "source": "Anand P. et al., Mol Pharmaceutics, 2007"
+      }
+    ],
+    "ingredients": [
+      { "quantite": "250ml", "nom": "Lait végétal (avoine, amande ou coco)" },
+      { "quantite": "1 c.c.", "nom": "Curcuma en poudre" },
+      { "quantite": "1 pincée", "nom": "Poivre noir fraîchement moulu (ESSENTIEL)" },
+      { "quantite": "½ c.c.", "nom": "Cannelle" },
+      { "quantite": "1 c.c.", "nom": "Huile de coco ou beurre de cacao (lipides)" },
+      { "quantite": "Optionnel", "nom": "Miel, sirop d'agave" },
+      { "quantite": "Optionnel", "nom": "Gingembre frais râpé (anti-inflammatoire bonus)" }
+    ],
+    "etapes": [
+      "Chauffer le lait végétal sans le faire bouillir.",
+      "Ajouter le curcuma, la cannelle, le poivre noir et l'huile de coco.",
+      "Fouetter pour bien mélanger. Chauffer encore 2 min.",
+      "Verser dans une tasse. Ajouter le gingembre râpé si souhaité.",
+      "Sucrer selon le goût."
+    ],
+    "conseil_cuisson": "Le poivre noir EST la synergie star de cette boisson. Ne jamais l'omettre : sans lui, la curcumine est quasi inutilisable par l'organisme.",
+    "note_nutritionnelle": "Boisson anti-inflammatoire de référence. La triple synergie curcumine + pipérine + lipides maximise la biodisponibilité. Idéale le soir.",
+    "variantes": "En version froide : mélanger à froid avec de la glace. En version latte : faire mousser le lait végétal.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Shoba G et al.",
+        "titre": "Influence of piperine on the pharmacokinetics of curcumin",
+        "journal": "Planta Med",
+        "annee": 1998,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9619120/"
+      }
+    ]
+  },
+  {
+    "id": "bowl_proteines_complet_lentille_quinoa",
+    "nom": "Bowl Protéines Complètes Quinoa & Lentilles",
+    "emoji": "💪",
+    "temps": "30 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": ["proteines_completes", "fer", "fibres", "magnesium"],
+    "categorie_synergie": "Protéines complètes",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Quinoa (riche en méthionine)",
+        "aliment_2": "Lentilles (riches en lysine)",
+        "benefice": "Profil en acides aminés équivalent aux protéines animales",
+        "mecanisme": "Le quinoa est riche en méthionine mais limité en lysine ; les lentilles sont l'inverse. Ensemble, ils couvrent tous les acides aminés essentiels.",
+        "source": "Young VR, Pellett PL., Am J Clin Nutr, 1994"
+      },
+      {
+        "aliment_1": "Lentilles",
+        "aliment_2": "Citron",
+        "benefice": "Absorption du fer optimisée",
+        "mecanisme": "Synergie classique vitamine C + fer non-héminique.",
+        "source": "Hurrell R., Am J Clin Nutr, 2010"
+      }
+    ],
+    "ingredients": [
+      { "quantite": "120g", "nom": "Quinoa (sec)" },
+      { "quantite": "150g", "nom": "Lentilles corail (sèches)" },
+      { "quantite": "1", "nom": "Patate douce (cubes, rôtis)" },
+      { "quantite": "1 poignée", "nom": "Roquette ou épinards" },
+      { "quantite": "1", "nom": "Citron (jus)" },
+      { "quantite": "2 c.s.", "nom": "Tahini" },
+      { "quantite": "1 c.s.", "nom": "Huile d'olive" },
+      { "quantite": "Épices", "nom": "Cumin, paprika, sel" }
+    ],
+    "etapes": [
+      "Rôtir les cubes de patate douce à 200°C avec huile d'olive et épices, 25 min.",
+      "Cuire le quinoa (2× eau, 15 min) et les lentilles corail (1,5× eau, 15 min) séparément.",
+      "Préparer la sauce tahini : mélanger tahini + jus de citron + eau pour diluer.",
+      "Assembler le bowl : quinoa + lentilles + roquette + patate douce.",
+      "Arroser de sauce tahini citronnée.",
+      "Optionnel : graines de sésame, graines de courge."
+    ],
+    "conseil_cuisson": "Ce bowl est idéal en meal-prep : préparer quinoa et lentilles en avance et assembler au moment de manger.",
+    "note_nutritionnelle": "Ce bowl couvre environ 50% des AJR en protéines, 40% en fer et 45% en fibres pour un adulte.",
+    "variantes": "Remplacer la patate douce par du potimarron rôti en automne.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses / USDA",
+        "titre": "CIQUAL 2020 / FoodData Central 2019",
+        "journal": "Anses / USDA",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "fer",
+    "label": "Fer",
+    "emoji": "⚙️",
+    "description": "Minéral essentiel au transport de l'oxygène dans le sang via l'hémoglobine, à la respiration cellulaire (myoglobine) et au fonctionnement de nombreuses enzymes. La carence en fer est la déficience nutritionnelle la plus répandue dans le monde.",
+    "role": "Transport de l'O₂, synthèse d'ADN, production d'énergie cellulaire",
+    "ajr": { "valeur": "11 mg/j (homme adulte) — 16 mg/j (femme adulte)", "source": "Anses 2021" },
+    "note": "Le fer végétal (non-héminique) est moins absorbé que le fer animal. Son absorption est modulable par l'alimentation.",
+    "aliments_top": ["epinard", "lentille", "graines_de_chia", "pois_chiche", "tofu"],
+    "conseil_synergie_global": "Toujours accompagner une source de fer végétal d'un aliment riche en vitamine C (citron, poivron rouge, kiwi). La cuisson à la vapeur préserve mieux la vitamine C que l'ébullition. Éviter le thé et le café pendant le repas (tanins inhibiteurs).",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Références nutritionnelles en vitamines et minéraux — Fer",
+        "journal": "Anses",
+        "annee": 2021,
+        "url": "https://www.anses.fr/fr/content/les-r%C3%A9f%C3%A9rences-nutritionnelles-en-vitamines-et-min%C3%A9raux"
+      },
+      {
+        "auteurs": "Hurrell R, Egli I.",
+        "titre": "Iron bioavailability and dietary reference values",
+        "journal": "Am J Clin Nutr",
+        "annee": 2010,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20200263/"
+      }
+    ],
+    "recette_optimisee_id": "bowl_epinard_lentilles_citron"
+  },
+  {
+    "id": "proteines",
+    "label": "Protéines",
+    "emoji": "💪",
+    "description": "Macronutriments structurels essentiels à la croissance musculaire, à la réparation tissulaire, à la synthèse d'enzymes et d'hormones. Les protéines végétales, souvent incomplètes seules, peuvent couvrir tous les besoins par complémentarité.",
+    "role": "Construction et réparation des tissus, enzymes, hormones, anticorps",
+    "ajr": { "valeur": "0,83 g/kg de poids corporel/j", "source": "Anses 2019" },
+    "note": "Les protéines végétales sont dites 'incomplètes' car généralement déficitaires en un ou plusieurs acides aminés essentiels. La complémentarité (légumineuses + céréales) résout ce problème.",
+    "aliments_top": ["tofu", "lentille", "pois_chiche", "quinoa", "amande"],
+    "conseil_synergie_global": "Associer légumineuses (riches en lysine) et céréales (riches en méthionine) pour obtenir un profil complet en acides aminés. Cette complémentarité peut s'étaler sur la journée, pas nécessairement au même repas.",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Protéines — Référence nutritionnelle pour la population (RNP)",
+        "journal": "Anses",
+        "annee": 2019,
+        "url": "https://www.anses.fr/fr"
+      },
+      {
+        "auteurs": "Young VR, Pellett PL.",
+        "titre": "Plant proteins in relation to human protein and amino acid nutrition",
+        "journal": "Am J Clin Nutr",
+        "annee": 1994,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8172124/"
+      }
+    ],
+    "recette_optimisee_id": "bowl_proteines_complet_lentille_quinoa"
+  },
+  {
+    "id": "calcium",
+    "label": "Calcium",
+    "emoji": "🦴",
+    "description": "Minéral le plus abondant du corps humain, essentiel à la solidité des os et des dents, à la contraction musculaire, à la transmission nerveuse et à la coagulation sanguine.",
+    "role": "Structure osseuse et dentaire, contraction musculaire, signal cellulaire",
+    "ajr": { "valeur": "950 mg/j (adulte)", "source": "Anses 2021" },
+    "note": "La biodisponibilité du calcium végétal varie selon la présence d'oxalates (spinards, oseille — réduit absorption) et de vitamine K (crucifères — améliore fixation osseuse).",
+    "aliments_top": ["tofu", "amande", "brocoli", "graines_de_chia", "epinard"],
+    "conseil_synergie_global": "Associer calcium végétal (tofu, chou kale, brocoli) avec des aliments riches en vitamine K (légumes verts à feuilles) et éviter l'excès de phytates (tremper les légumineuses avant cuisson). La vitamine D est indispensable à l'absorption intestinale du calcium.",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Références nutritionnelles en calcium",
+        "journal": "Anses",
+        "annee": 2021,
+        "url": "https://www.anses.fr/fr"
+      },
+      {
+        "auteurs": "Weaver CM, Proulx WR, Heaney R.",
+        "titre": "Choices for achieving adequate dietary calcium with a vegetarian diet",
+        "journal": "Am J Clin Nutr",
+        "annee": 1999,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10522431/"
+      }
+    ],
+    "recette_optimisee_id": "poele_brocoli_tofu_sesame"
+  },
+  {
+    "id": "omega3",
+    "label": "Oméga-3",
+    "emoji": "🐟",
+    "description": "Acides gras polyinsaturés essentiels (ALA, EPA, DHA) impliqués dans la santé cardiovasculaire, le développement cérébral, la régulation de l'inflammation et la santé oculaire. Les végétaux apportent l'ALA, précurseur des EPA/DHA.",
+    "role": "Santé cardiovasculaire, fonction cérébrale, régulation de l'inflammation",
+    "ajr": { "valeur": "ALA : 1,8 g/j (homme) — 1,5 g/j (femme)", "source": "Anses 2019" },
+    "note": "Les végétaux n'apportent que l'ALA (acide alpha-linolénique). La conversion en EPA/DHA est limitée (environ 5-15%). Les végétaliens devraient envisager des algues riches en DHA.",
+    "aliments_top": ["graines_de_chia", "graines_de_lin", "noix", "avocat"],
+    "conseil_synergie_global": "Pour optimiser la conversion ALA → EPA/DHA, limiter l'excès d'oméga-6 (rapport oméga-6/oméga-3 idéalement < 5:1). Curcuma + poivre noir réduit l'inflammation systémique et peut améliorer l'utilisation des oméga-3.",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Acides gras de la famille oméga 3 et système cardiovasculaire",
+        "journal": "Anses",
+        "annee": 2010,
+        "url": "https://www.anses.fr/fr"
+      },
+      {
+        "auteurs": "Calder PC.",
+        "titre": "Omega-3 fatty acids and inflammatory processes",
+        "journal": "Nutrients",
+        "annee": 2010,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22254027/"
+      }
+    ],
+    "recette_optimisee_id": "porridge_avoine_myrtille_amande"
+  },
+  {
+    "id": "antioxydants",
+    "label": "Antioxydants",
+    "emoji": "🛡️",
+    "description": "Molécules qui neutralisent les radicaux libres et le stress oxydatif, réduisant ainsi les dommages cellulaires associés au vieillissement et à de nombreuses maladies chroniques. Incluent vitamines C, E, caroténoïdes, polyphénols.",
+    "role": "Protection cellulaire contre le stress oxydatif, réduction de l'inflammation",
+    "ajr": { "valeur": "Pas d'AJR unique — varie selon la molécule", "source": "Anses" },
+    "aliments_top": ["myrtille", "brocoli", "citron", "curcuma", "amande"],
+    "conseil_synergie_global": "La synergie antioxydante est maximale avec la diversité : associer antioxydants hydrosolubles (vitamine C, anthocyanes) et liposolubles (vitamine E, caroténoïdes). Les graisses saines (avocat, huile d'olive) améliorent l'absorption des antioxydants liposolubles.",
+    "sources": [
+      {
+        "auteurs": "Scalbert A et al.",
+        "titre": "Dietary polyphenols and the prevention of diseases",
+        "journal": "Crit Rev Food Sci Nutr",
+        "annee": 2005,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15700048/"
+      }
+    ],
+    "recette_optimisee_id": "salade_pois_chiche_poivron"
+  }
+]

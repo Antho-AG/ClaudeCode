@@ -1,0 +1,941 @@
+[
+  {
+    "id": "epinard",
+    "nom": "Épinard",
+    "categorie": "légume-feuille",
+    "emoji": "🥬",
+    "description": "Légume-feuille parmi les plus nutritifs, l'épinard est une source remarquable de fer non-héminique, de vitamine K et de folates. Cru ou cuit à la vapeur, il s'intègre facilement dans une alimentation végétarienne équilibrée.",
+    "bienfaits": [
+      {
+        "id": "fer",
+        "label": "Riche en fer non-héminique",
+        "detail": "L'épinard contient 2,7 mg de fer pour 100g, principalement sous forme non-héminique (Fe³⁺). Ce type de fer est moins bien absorbé que le fer héminique animal, mais son absorption peut être multipliée par 2 à 4 fois par la présence de vitamine C.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hallberg L, Hulthen L.",
+            "titre": "Prediction of dietary iron absorption: an algorithm for calculating absorption and bioavailability of dietary iron",
+            "journal": "Am J Clin Nutr",
+            "annee": 2000,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10799377/"
+          }
+        ]
+      },
+      {
+        "id": "folates",
+        "label": "Excellent apport en folates (B9)",
+        "detail": "100g d'épinards crus apportent environ 194 µg de folates, soit près de 97% des apports journaliers recommandés pour un adulte (200 µg/j selon l'ANSES). Essentiels à la synthèse de l'ADN et à la division cellulaire.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "Table de composition nutritionnelle des aliments CIQUAL 2020",
+            "journal": "Anses — Agence nationale de sécurité sanitaire",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "vitamine_k",
+        "label": "Source majeure de vitamine K1",
+        "detail": "L'épinard est l'une des meilleures sources végétales de vitamine K1 (phylloquinone), indispensable à la coagulation sanguine et à la santé osseuse.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Épinard cru",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": { "valeur": 23, "unite": "kcal/100g" },
+      "proteines": { "valeur": 2.9, "unite": "g/100g" },
+      "glucides": { "valeur": 3.6, "unite": "g/100g" },
+      "lipides": { "valeur": 0.4, "unite": "g/100g" },
+      "fibres": { "valeur": 2.2, "unite": "g/100g" },
+      "fer": { "valeur": 2.7, "unite": "mg/100g" },
+      "vitamine_c": { "valeur": 28, "unite": "mg/100g" },
+      "folates": { "valeur": 194, "unite": "µg/100g" },
+      "calcium": { "valeur": 99, "unite": "mg/100g" },
+      "magnesium": { "valeur": 79, "unite": "mg/100g" },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "La vitamine C (acide ascorbique) réduit le fer non-héminique Fe³⁺ en Fe²⁺, la forme directement absorbable par l'intestin. Elle inhibe aussi la liaison du fer aux phytates qui en bloquent l'absorption.",
+        "gain_estime": "+200 à +400% d'absorption du fer",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hallberg L, Brune M, Rossander L.",
+            "titre": "Effect of ascorbic acid on iron absorption from different types of meals",
+            "journal": "Hum Nutr Appl Nutr",
+            "annee": 1986,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3771220/"
+          }
+        ]
+      },
+      {
+        "aliment_associe_id": "lentille",
+        "aliment_associe_nom": "Lentille",
+        "aliment_associe_emoji": "🫘",
+        "nutriment_cle": "Protéines complètes",
+        "mecanisme": "Les épinards complètent le profil en acides aminés des lentilles, notamment en méthionine. L'association végétal + légumineuse permet d'obtenir tous les acides aminés essentiels.",
+        "gain_estime": "Profil protéique complet",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Young VR, Pellett PL.",
+            "titre": "Plant proteins in relation to human protein and amino acid nutrition",
+            "journal": "Am J Clin Nutr",
+            "annee": 1994,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8172124/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "bowl_epinard_lentilles_citron",
+    "tags": ["fer", "folates", "vitamine_k", "calcium", "magnesium"]
+  },
+  {
+    "id": "lentille",
+    "nom": "Lentille verte",
+    "categorie": "légumineuse",
+    "emoji": "🫘",
+    "description": "Légumineuse exceptionnelle par sa richesse en protéines, fer et fibres, la lentille verte est un pilier de l'alimentation végétarienne. Elle ne nécessite pas de trempage et cuit en 20-25 minutes, ce qui en fait l'une des légumineuses les plus pratiques.",
+    "bienfaits": [
+      {
+        "id": "proteines",
+        "label": "Source de protéines végétales",
+        "detail": "Les lentilles cuites apportent environ 9g de protéines pour 100g, ce qui en fait l'une des meilleures sources protéiques végétales. Leur profil en acides aminés est complémentaire des céréales.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Lentille verte cuite",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "fer",
+        "label": "Excellente source de fer",
+        "detail": "Les lentilles vertes cuites contiennent 3,3 mg de fer pour 100g, ce qui en fait l'une des légumineuses les plus riches en fer.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Lentille verte cuite",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "fibres",
+        "label": "Riche en fibres",
+        "detail": "Avec 5,2g de fibres pour 100g (cuites), les lentilles contribuent significativement à la santé digestive et à la satiété.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Lentille verte cuite",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": { "valeur": 116, "unite": "kcal/100g (cuites)" },
+      "proteines": { "valeur": 9.0, "unite": "g/100g (cuites)" },
+      "glucides": { "valeur": 17.5, "unite": "g/100g (cuites)" },
+      "lipides": { "valeur": 0.4, "unite": "g/100g (cuites)" },
+      "fibres": { "valeur": 5.2, "unite": "g/100g (cuites)" },
+      "fer": { "valeur": 3.3, "unite": "mg/100g (cuites)" },
+      "folates": { "valeur": 181, "unite": "µg/100g (cuites)" },
+      "potassium": { "valeur": 369, "unite": "mg/100g (cuites)" },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "La vitamine C du citron convertit le fer non-héminique des lentilles en forme absorbable (Fe²⁺) et neutralise les phytates inhibiteurs.",
+        "gain_estime": "+2 à +3x absorption du fer",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hurrell R, Egli I.",
+            "titre": "Iron bioavailability and dietary reference values",
+            "journal": "Am J Clin Nutr",
+            "annee": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20200263/"
+          }
+        ]
+      },
+      {
+        "aliment_associe_id": "riz_complet",
+        "aliment_associe_nom": "Riz complet",
+        "aliment_associe_emoji": "🍚",
+        "nutriment_cle": "Protéines complètes",
+        "mecanisme": "Les lentilles sont riches en lysine mais pauvres en méthionine ; le riz complet est l'inverse. Ensemble, ils forment un profil en acides aminés essentiels complet.",
+        "gain_estime": "Protéines complètes équivalentes aux protéines animales",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Young VR, Pellett PL.",
+            "titre": "Plant proteins in relation to human protein and amino acid nutrition",
+            "journal": "Am J Clin Nutr",
+            "annee": 1994,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8172124/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "dhal_lentilles_corail_citron",
+    "tags": ["proteines", "fer", "fibres", "folates"]
+  },
+  {
+    "id": "brocoli",
+    "nom": "Brocoli",
+    "categorie": "légume",
+    "emoji": "🥦",
+    "description": "Légume crucifère aux vertus nutritionnelles exceptionnelles, le brocoli est une source remarquable de vitamine C, de calcium, de folates et de composés sulforaphane aux propriétés antioxydantes et potentiellement anti-inflammatoires.",
+    "bienfaits": [
+      {
+        "id": "vitamine_c",
+        "label": "Très riche en vitamine C",
+        "detail": "Le brocoli cru contient 89 mg de vitamine C pour 100g, soit plus que l'orange. La cuisson à la vapeur préserve environ 70% de cette teneur, contre 50% à l'eau bouillante.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Brocoli cru",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "sulforaphane",
+        "label": "Sulforaphane aux propriétés anti-cancer",
+        "detail": "Le brocoli est riche en glucosinolates qui se convertissent en sulforaphane lors de la mastication. Des études suggèrent une activité anti-cancéreuse, notamment contre les cancers colorectaux.",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Plusieurs études in vitro et sur animaux montrent une activité anti-tumorale du sulforaphane. Certaines études épidémiologiques associent la consommation de crucifères à un risque réduit de certains cancers.",
+          "contre": "Les études cliniques chez l'humain sont encore limitées. La quantité de sulforaphane réellement absorbée varie selon les individus, la cuisson et le microbiome.",
+          "recommandation": "La consommation régulière de crucifères reste recommandée dans le cadre d'une alimentation variée, même si les mécanismes précis font encore l'objet de recherches."
+        },
+        "sources": [
+          {
+            "auteurs": "Vanduchova A, Anzenbacher P, Anzenbacherova E.",
+            "titre": "Isothiocyanate from Broccoli, Sulforaphane, and Its Properties",
+            "journal": "J Med Food",
+            "annee": 2019,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30372361/"
+          }
+        ]
+      },
+      {
+        "id": "calcium",
+        "label": "Source de calcium végétal biodisponible",
+        "detail": "Le brocoli contient 47 mg de calcium pour 100g, avec une biodisponibilité d'environ 61%, supérieure à celle du calcium du lait (environ 32%). La faible teneur en oxalates le rend particulièrement intéressant.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Weaver CM, Proulx WR, Heaney R.",
+            "titre": "Choices for achieving adequate dietary calcium with a vegetarian diet",
+            "journal": "Am J Clin Nutr",
+            "annee": 1999,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10522431/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": { "valeur": 34, "unite": "kcal/100g" },
+      "proteines": { "valeur": 2.8, "unite": "g/100g" },
+      "glucides": { "valeur": 6.6, "unite": "g/100g" },
+      "lipides": { "valeur": 0.4, "unite": "g/100g" },
+      "fibres": { "valeur": 2.6, "unite": "g/100g" },
+      "vitamine_c": { "valeur": 89, "unite": "mg/100g" },
+      "calcium": { "valeur": 47, "unite": "mg/100g" },
+      "folates": { "valeur": 63, "unite": "µg/100g" },
+      "vitamine_k": { "valeur": 102, "unite": "µg/100g" },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "tofu",
+        "aliment_associe_nom": "Tofu",
+        "aliment_associe_emoji": "🧊",
+        "nutriment_cle": "Calcium + Vitamine K",
+        "mecanisme": "Le tofu (coagulé au sulfate de calcium) et le brocoli cumulent leurs apports en calcium. La vitamine K du brocoli active les protéines ostéocalcine et MGP qui fixent le calcium dans les os.",
+        "gain_estime": "Synergie os maximale",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Schurgers LJ, Vermeer C.",
+            "titre": "Differential lipoprotein transport pathways of K-vitamins in healthy subjects",
+            "journal": "Biochim Biophys Acta",
+            "annee": 2002,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11812302/"
+          }
+        ]
+      },
+      {
+        "aliment_associe_id": "graines_de_tournesol",
+        "aliment_associe_nom": "Graines de tournesol",
+        "aliment_associe_emoji": "🌻",
+        "nutriment_cle": "Vitamine E + Sulforaphane",
+        "mecanisme": "La vitamine E des graines de tournesol et le sulforaphane du brocoli agissent en synergie antioxydante. La vitamine E protège les lipides membranaires de l'oxydation tandis que le sulforaphane active les enzymes de détoxification.",
+        "gain_estime": "Synergie antioxydante renforcée",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Des études in vitro montrent une potentialisation de l'effet antioxydant.",
+          "contre": "Les études in vivo chez l'humain sont peu nombreuses et les effets réels restent à confirmer.",
+          "recommandation": "L'association reste nutritionnellement intéressante au-delà de la synergie spéculative."
+        },
+        "sources": [
+          {
+            "auteurs": "Finley JW.",
+            "titre": "Proposed Criteria for Assessing the Efficacy of Cancer Reduction by Plant Foods Enriched in Carotenoids, Glucosinolates, Polyphenols and Selenocompounds",
+            "journal": "Ann Bot",
+            "annee": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15701653/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "poele_brocoli_tofu_sesame",
+    "tags": ["vitamine_c", "calcium", "folates", "antioxydants", "sulforaphane"]
+  },
+  {
+    "id": "pois_chiche",
+    "nom": "Pois chiche",
+    "categorie": "légumineuse",
+    "emoji": "🫘",
+    "description": "Base culinaire méditerranéenne et source protéique incontournable du végétarisme, le pois chiche apporte protéines, fibres, fer et folates. Sa polyvalence culinaire (houmous, curry, salade) en fait un aliment du quotidien.",
+    "bienfaits": [
+      {
+        "id": "proteines",
+        "label": "Riche en protéines végétales",
+        "detail": "Les pois chiches cuits contiennent 8,9g de protéines pour 100g. Combinés avec des céréales, ils forment un profil protéique complet.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Pois chiche cuit",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "fibres",
+        "label": "Excellente source de fibres",
+        "detail": "Avec 7,6g de fibres pour 100g (cuits), les pois chiches favorisent la satiété, régulent la glycémie et nourrissent le microbiome intestinal.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Pois chiche cuit",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": { "valeur": 164, "unite": "kcal/100g (cuits)" },
+      "proteines": { "valeur": 8.9, "unite": "g/100g (cuits)" },
+      "glucides": { "valeur": 27.4, "unite": "g/100g (cuits)" },
+      "lipides": { "valeur": 2.6, "unite": "g/100g (cuits)" },
+      "fibres": { "valeur": 7.6, "unite": "g/100g (cuits)" },
+      "fer": { "valeur": 2.9, "unite": "mg/100g (cuits)" },
+      "folates": { "valeur": 172, "unite": "µg/100g (cuits)" },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "poivron_rouge",
+        "aliment_associe_nom": "Poivron rouge",
+        "aliment_associe_emoji": "🫑",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "Le poivron rouge est l'un des légumes les plus riches en vitamine C (127 mg/100g). Associé aux pois chiches, il optimise l'absorption du fer non-héminique.",
+        "gain_estime": "+150 à +300% absorption du fer",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hallberg L, Brune M, Rossander L.",
+            "titre": "Effect of ascorbic acid on iron absorption",
+            "journal": "Hum Nutr Appl Nutr",
+            "annee": 1986,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3771220/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "salade_pois_chiche_poivron",
+    "tags": ["proteines", "fer", "fibres", "folates"]
+  },
+  {
+    "id": "quinoa",
+    "nom": "Quinoa",
+    "categorie": "pseudo-céréale",
+    "emoji": "🌾",
+    "description": "Pseudo-céréale originaire des Andes, le quinoa est l'un des rares végétaux à contenir les neuf acides aminés essentiels. Sans gluten, riche en protéines et en minéraux, c'est un aliment de choix pour les végétariens.",
+    "bienfaits": [
+      {
+        "id": "proteines_completes",
+        "label": "Protéines complètes — tous les acides aminés essentiels",
+        "detail": "Contrairement à la plupart des végétaux, le quinoa contient les neuf acides aminés essentiels en quantités significatives, dont la lysine souvent déficitaire dans les céréales.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Vega-Gálvez A et al.",
+            "titre": "Nutrition facts and functional potential of quinoa",
+            "journal": "J Sci Food Agric",
+            "annee": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20814881/"
+          }
+        ]
+      },
+      {
+        "id": "magnesium",
+        "label": "Riche en magnésium",
+        "detail": "Le quinoa cuit apporte 64 mg de magnésium pour 100g, contribuant à la fonction musculaire, nerveuse et à la synthèse des protéines.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Quinoa, cooked",
+            "journal": "USDA FoodData Central",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/168917/nutrients"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": { "valeur": 120, "unite": "kcal/100g (cuit)" },
+      "proteines": { "valeur": 4.4, "unite": "g/100g (cuit)" },
+      "glucides": { "valeur": 21.3, "unite": "g/100g (cuit)" },
+      "lipides": { "valeur": 1.9, "unite": "g/100g (cuit)" },
+      "fibres": { "valeur": 2.8, "unite": "g/100g (cuit)" },
+      "fer": { "valeur": 1.5, "unite": "mg/100g (cuit)" },
+      "magnesium": { "valeur": 64, "unite": "mg/100g (cuit)" },
+      "zinc": { "valeur": 1.1, "unite": "mg/100g (cuit)" },
+      "source_teneurs": "USDA FoodData Central 2019"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "avocat",
+        "aliment_associe_nom": "Avocat",
+        "aliment_associe_emoji": "🥑",
+        "nutriment_cle": "Oméga-9 + absorption liposolubles",
+        "mecanisme": "Les lipides mono-insaturés de l'avocat améliorent l'absorption des vitamines liposolubles (E, K) et des caroténoïdes présents dans les ingrédients associés au quinoa.",
+        "gain_estime": "+2 à +4x absorption des caroténoïdes",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Unlu NZ et al.",
+            "titre": "Carotenoid Absorption from Salad and Salsa by Humans Is Enhanced by the Addition of Avocado or Avocado Oil",
+            "journal": "J Nutr",
+            "annee": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15735074/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "bowl_quinoa_legumes_rotis",
+    "tags": ["proteines_completes", "magnesium", "fer", "zinc"]
+  },
+  {
+    "id": "tofu",
+    "nom": "Tofu",
+    "categorie": "légumineuse transformée",
+    "emoji": "🧊",
+    "description": "Fromage de soja coagulé, le tofu est une source de protéines complètes, de calcium (surtout quand coagulé au sulfate de calcium) et d'isoflavones. Neutre en goût, il absorbe les saveurs de cuisson et s'adapte à de nombreuses préparations.",
+    "bienfaits": [
+      {
+        "id": "proteines",
+        "label": "Protéines complètes de haute qualité",
+        "detail": "Le tofu contient 8,1g de protéines pour 100g avec un score PDCAAS élevé. Les protéines de soja contiennent tous les acides aminés essentiels.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Tofu nature",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "calcium",
+        "label": "Excellente source de calcium",
+        "detail": "Le tofu coagulé au sulfate de calcium (nigari) contient 350 mg de calcium pour 100g, proche du lait. La biodisponibilité est estimée à 31-37%.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Weaver CM, Heaney RP.",
+            "titre": "Calcium in Human Health",
+            "journal": "Humana Press",
+            "annee": 2006,
+            "url": "https://link.springer.com/book/10.1007/978-1-59259-961-5"
+          }
+        ]
+      },
+      {
+        "id": "isoflavones",
+        "label": "Isoflavones et santé cardiovasculaire",
+        "detail": "Les isoflavones du soja (génistéine, daidzéine) ont des effets cardioprotecteurs potentiels et pourraient moduler le risque de certains cancers hormonodépendants.",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Des méta-analyses montrent une réduction de 3-5% du LDL-cholestérol avec la consommation régulière de protéines de soja. Effets protecteurs cardiovasculaires documentés.",
+          "contre": "Les effets sur les cancers hormonodépendants (sein, endomètre) sont controversés. Certaines études suggèrent une prudence en cas d'antécédents familiaux.",
+          "recommandation": "La consommation modérée (1-2 portions/jour) est considérée comme sûre pour la population générale selon l'EFSA. Consulter un médecin en cas de pathologies hormonales."
+        },
+        "sources": [
+          {
+            "auteurs": "Messina M.",
+            "titre": "Soy and Health Update: Evaluation of the Clinical and Epidemiologic Literature",
+            "journal": "Nutrients",
+            "annee": 2016,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27854350/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": { "valeur": 76, "unite": "kcal/100g" },
+      "proteines": { "valeur": 8.1, "unite": "g/100g" },
+      "glucides": { "valeur": 1.9, "unite": "g/100g" },
+      "lipides": { "valeur": 4.2, "unite": "g/100g" },
+      "fibres": { "valeur": 0.3, "unite": "g/100g" },
+      "calcium": { "valeur": 350, "unite": "mg/100g" },
+      "fer": { "valeur": 1.6, "unite": "mg/100g" },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "brocoli",
+        "aliment_associe_nom": "Brocoli",
+        "aliment_associe_emoji": "🥦",
+        "nutriment_cle": "Calcium + Vitamine K",
+        "mecanisme": "La vitamine K1 du brocoli est nécessaire à la carboxylation de l'ostéocalcine, protéine qui fixe le calcium dans la matrice osseuse. L'apport cumulé calcium (tofu) + vitamine K (brocoli) optimise la santé osseuse.",
+        "gain_estime": "Santé osseuse optimisée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Schurgers LJ, Vermeer C.",
+            "titre": "Determination of phylloquinone and menaquinones in food",
+            "journal": "Haemostasis",
+            "annee": 2000,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11356998/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "poele_brocoli_tofu_sesame",
+    "tags": ["proteines", "calcium", "fer", "isoflavones"]
+  },
+  {
+    "id": "avocat",
+    "nom": "Avocat",
+    "categorie": "fruit",
+    "emoji": "🥑",
+    "description": "Fruit unique par sa teneur en graisses saines, l'avocat est riche en acides gras mono-insaturés, en potassium et en vitamines B. Sa teneur élevée en lipides en fait un vecteur exceptionnel pour l'absorption des vitamines liposolubles.",
+    "bienfaits": [
+      {
+        "id": "omega9",
+        "label": "Riche en acides gras mono-insaturés",
+        "detail": "L'avocat contient 9,8g de lipides pour 100g dont 67% d'acide oléique (oméga-9), reconnu pour ses effets cardiovasculaires bénéfiques.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Avocat cru",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "potassium",
+        "label": "Riche en potassium",
+        "detail": "L'avocat contient 485 mg de potassium pour 100g, plus que la banane (358 mg). Le potassium est essentiel à la régulation de la pression artérielle.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Avocat cru",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": { "valeur": 160, "unite": "kcal/100g" },
+      "proteines": { "valeur": 2.0, "unite": "g/100g" },
+      "glucides": { "valeur": 8.5, "unite": "g/100g" },
+      "lipides": { "valeur": 9.8, "unite": "g/100g" },
+      "fibres": { "valeur": 6.7, "unite": "g/100g" },
+      "potassium": { "valeur": 485, "unite": "mg/100g" },
+      "vitamine_e": { "valeur": 2.1, "unite": "mg/100g" },
+      "vitamine_k": { "valeur": 21, "unite": "µg/100g" },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "tomate",
+        "aliment_associe_nom": "Tomate",
+        "aliment_associe_emoji": "🍅",
+        "nutriment_cle": "Lycopène + lipides",
+        "mecanisme": "Le lycopène est un caroténoïde liposoluble : sa concentration augmente à la cuisson et son absorption est multipliée par la présence de graisses. L'avocat fournit les lipides nécessaires à cette absorption.",
+        "gain_estime": "+4x absorption du lycopène",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Unlu NZ et al.",
+            "titre": "Carotenoid Absorption from Salad and Salsa by Humans Is Enhanced by the Addition of Avocado or Avocado Oil",
+            "journal": "J Nutr",
+            "annee": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15735074/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "bowl_quinoa_legumes_rotis",
+    "tags": ["omega9", "potassium", "fibres", "vitamine_e"]
+  },
+  {
+    "id": "graines_de_chia",
+    "nom": "Graines de chia",
+    "categorie": "oléagineux",
+    "emoji": "🌱",
+    "description": "Petites graines aux propriétés nutritionnelles impressionnantes, les graines de chia sont une source végétale d'oméga-3 ALA, de calcium, de fibres et de protéines. Elles gélifient au contact de l'eau, créant une texture unique.",
+    "bienfaits": [
+      {
+        "id": "omega3",
+        "label": "Source végétale d'oméga-3 ALA",
+        "detail": "Les graines de chia sont l'une des sources végétales les plus riches en acide alpha-linolénique (ALA), un oméga-3 essentiel. L'ALA peut être converti en EPA et DHA par l'organisme, avec un taux de conversion limité (5-15% pour l'EPA).",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "L'ALA est un oméga-3 essentiel que l'organisme doit obtenir par l'alimentation. Les graines de chia constituent une source concentrée.",
+          "contre": "Le taux de conversion de l'ALA en EPA/DHA (les formes actives) est faible chez l'humain. Les végétaliens peuvent avoir besoin de supplémentation en algues DHA.",
+          "recommandation": "Les graines de chia restent une excellente source d'ALA. Pour assurer un apport suffisant en EPA/DHA, envisager une algue DHA en complément."
+        },
+        "sources": [
+          {
+            "auteurs": "Calder PC.",
+            "titre": "Omega-3 fatty acids and inflammatory processes",
+            "journal": "Nutrients",
+            "annee": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22254027/"
+          }
+        ]
+      },
+      {
+        "id": "calcium",
+        "label": "Source de calcium concentrée",
+        "detail": "Les graines de chia contiennent 631 mg de calcium pour 100g, soit plus de 6 fois plus que le lait entier. Une cuillère à soupe (15g) couvre environ 13% des AJR.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Chia seeds",
+            "journal": "USDA FoodData Central",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170554/nutrients"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": { "valeur": 486, "unite": "kcal/100g" },
+      "proteines": { "valeur": 16.5, "unite": "g/100g" },
+      "glucides": { "valeur": 42.1, "unite": "g/100g" },
+      "lipides": { "valeur": 30.7, "unite": "g/100g" },
+      "fibres": { "valeur": 34.4, "unite": "g/100g" },
+      "calcium": { "valeur": 631, "unite": "mg/100g" },
+      "omega3_ala": { "valeur": 17.8, "unite": "g/100g" },
+      "fer": { "valeur": 7.7, "unite": "mg/100g" },
+      "source_teneurs": "USDA FoodData Central 2019"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "Les graines de chia sont très riches en fer (7,7 mg/100g). L'ajout de jus de citron dans un pudding de chia améliore significativement l'absorption de ce fer non-héminique.",
+        "gain_estime": "+200% absorption du fer",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hurrell R, Egli I.",
+            "titre": "Iron bioavailability and dietary reference values",
+            "journal": "Am J Clin Nutr",
+            "annee": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20200263/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "pudding_chia_mangue",
+    "tags": ["omega3", "calcium", "fibres", "fer", "proteines"]
+  },
+  {
+    "id": "citron",
+    "nom": "Citron",
+    "categorie": "fruit",
+    "emoji": "🍋",
+    "description": "Agrume aux multiples vertus, le citron est avant tout une source concentrée de vitamine C et d'acide citrique. Son rôle en synergie alimentaire est fondamental : il potentialise l'absorption du fer non-héminique de nombreux végétaux.",
+    "bienfaits": [
+      {
+        "id": "vitamine_c",
+        "label": "Source concentrée de vitamine C",
+        "detail": "Le jus de citron contient 46 mg de vitamine C pour 100ml, soit environ 51% des AJR (90 mg/j selon l'ANSES pour un adulte). La vitamine C est un antioxydant majeur et cofacteur de nombreuses réactions enzymatiques.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Jus de citron cru",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": { "valeur": 29, "unite": "kcal/100g" },
+      "proteines": { "valeur": 1.1, "unite": "g/100g" },
+      "glucides": { "valeur": 9.3, "unite": "g/100g" },
+      "lipides": { "valeur": 0.3, "unite": "g/100g" },
+      "fibres": { "valeur": 2.8, "unite": "g/100g" },
+      "vitamine_c": { "valeur": 53, "unite": "mg/100g" },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "epinard",
+        "aliment_associe_nom": "Épinard",
+        "aliment_associe_emoji": "🥬",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "L'acide ascorbique du citron réduit le fer ferrique (Fe³⁺) des épinards en fer ferreux (Fe²⁺), la seule forme absorbable par les entérocytes duodénaux. Il chélate également le fer, le protégeant des inhibiteurs comme les phytates et les tannins.",
+        "gain_estime": "+200 à +400% absorption du fer",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hallberg L, Brune M, Rossander L.",
+            "titre": "Effect of ascorbic acid on iron absorption from different types of meals",
+            "journal": "Hum Nutr Appl Nutr",
+            "annee": 1986,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3771220/"
+          }
+        ]
+      },
+      {
+        "aliment_associe_id": "lentille",
+        "aliment_associe_nom": "Lentille",
+        "aliment_associe_emoji": "🫘",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "Même mécanisme que pour les épinards. Le citron est l'ingrédient synergie universel pour toutes les légumineuses riches en fer.",
+        "gain_estime": "+200 à +300% absorption du fer",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hurrell R, Egli I.",
+            "titre": "Iron bioavailability and dietary reference values",
+            "journal": "Am J Clin Nutr",
+            "annee": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20200263/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "dhal_lentilles_corail_citron",
+    "tags": ["vitamine_c", "antioxydants"]
+  },
+  {
+    "id": "amande",
+    "nom": "Amande",
+    "categorie": "oléagineux",
+    "emoji": "🌰",
+    "description": "Fruit à coque aux vertus nutritionnelles remarquables, l'amande est une source concentrée de vitamine E, de calcium, de magnésium et de graisses saines. Une poignée (30g) constitue une collation nutritionnellement dense.",
+    "bienfaits": [
+      {
+        "id": "vitamine_e",
+        "label": "Source majeure de vitamine E",
+        "detail": "Les amandes sont l'un des aliments les plus riches en vitamine E (tocophérol) : 25,6 mg pour 100g, soit plus de 213% des AJR. La vitamine E est un antioxydant liposoluble protégeant les membranes cellulaires.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Almonds",
+            "journal": "USDA FoodData Central",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170567/nutrients"
+          }
+        ]
+      },
+      {
+        "id": "calcium",
+        "label": "Bonne source de calcium végétal",
+        "detail": "Les amandes contiennent 264 mg de calcium pour 100g. Une poignée (30g) apporte 79 mg de calcium, soit 8% des AJR.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Amande sèche",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": { "valeur": 579, "unite": "kcal/100g" },
+      "proteines": { "valeur": 21.2, "unite": "g/100g" },
+      "glucides": { "valeur": 21.7, "unite": "g/100g" },
+      "lipides": { "valeur": 49.4, "unite": "g/100g" },
+      "fibres": { "valeur": 12.5, "unite": "g/100g" },
+      "vitamine_e": { "valeur": 25.6, "unite": "mg/100g" },
+      "calcium": { "valeur": 264, "unite": "mg/100g" },
+      "magnesium": { "valeur": 270, "unite": "mg/100g" },
+      "source_teneurs": "USDA FoodData Central 2019 / CIQUAL 2020"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "myrtille",
+        "aliment_associe_nom": "Myrtille",
+        "aliment_associe_emoji": "🫐",
+        "nutriment_cle": "Vitamine E + Anthocyanes",
+        "mecanisme": "La vitamine E (liposoluble) et les anthocyanes des myrtilles (hydrosolubles) opèrent en synergie antioxydante complémentaire, protégeant à la fois les milieux lipidiques et aqueux des cellules.",
+        "gain_estime": "Potentiel antioxydant combiné supérieur",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Des études in vitro montrent une synergie antioxydante entre tocophérols et anthocyanes.",
+          "contre": "Les effets in vivo chez l'humain sont encore peu documentés.",
+          "recommandation": "L'association reste nutritionnellement bénéfique quelle que soit la synergie spécifique."
+        },
+        "sources": [
+          {
+            "auteurs": "Scalbert A et al.",
+            "titre": "Dietary polyphenols and the prevention of diseases",
+            "journal": "Crit Rev Food Sci Nutr",
+            "annee": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15700048/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "porridge_avoine_myrtille_amande",
+    "tags": ["vitamine_e", "calcium", "magnesium", "antioxydants"]
+  },
+  {
+    "id": "curcuma",
+    "nom": "Curcuma",
+    "categorie": "épice",
+    "emoji": "🟡",
+    "description": "Épice dorée incontournable de la cuisine indienne, le curcuma contient de la curcumine, un polyphénol aux propriétés anti-inflammatoires intensément étudiées. Sa biodisponibilité naturelle est faible mais peut être considérablement augmentée par certaines associations.",
+    "bienfaits": [
+      {
+        "id": "anti_inflammatoire",
+        "label": "Propriétés anti-inflammatoires (curcumine)",
+        "detail": "La curcumine inhibe plusieurs enzymes pro-inflammatoires dont la COX-2 et la NF-kB. Des études cliniques montrent des effets comparables à l'ibuprofène sur certaines douleurs arthritiques.",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Plusieurs méta-analyses (PubMed, Cochrane) montrent des effets anti-inflammatoires significatifs. Efficacité sur l'arthrose du genou documentée.",
+          "contre": "La biodisponibilité de la curcumine seule est très faible (< 1%). De nombreuses études utilisent des extraits concentrés non représentatifs de la cuisine courante.",
+          "recommandation": "Consommer le curcuma avec du poivre noir et des graisses pour maximiser la biodisponibilité."
+        },
+        "sources": [
+          {
+            "auteurs": "Hewlings SJ, Kalman DS.",
+            "titre": "Curcumin: A Review of Its Effects on Human Health",
+            "journal": "Foods",
+            "annee": 2017,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29065496/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": { "valeur": 354, "unite": "kcal/100g" },
+      "proteines": { "valeur": 7.8, "unite": "g/100g" },
+      "glucides": { "valeur": 64.9, "unite": "g/100g" },
+      "lipides": { "valeur": 9.9, "unite": "g/100g" },
+      "fibres": { "valeur": 21.1, "unite": "g/100g" },
+      "curcumine": { "valeur": "2-9% de la poudre", "unite": "selon qualité" },
+      "source_teneurs": "USDA FoodData Central 2019"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "poivre_noir",
+        "aliment_associe_nom": "Poivre noir",
+        "aliment_associe_emoji": "🫙",
+        "nutriment_cle": "Pipérine + Curcumine",
+        "mecanisme": "La pipérine du poivre noir inhibe la glucuronidation hépatique et intestinale de la curcumine, prolongeant sa présence dans la circulation sanguine. L'effet est massif : +2000% de biodisponibilité de la curcumine.",
+        "gain_estime": "+2000% biodisponibilité curcumine",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Shoba G et al.",
+            "titre": "Influence of piperine on the pharmacokinetics of curcumin in animals and human volunteers",
+            "journal": "Planta Med",
+            "annee": 1998,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9619120/"
+          }
+        ]
+      },
+      {
+        "aliment_associe_id": "huile_olive",
+        "aliment_associe_nom": "Huile d'olive",
+        "aliment_associe_emoji": "🫒",
+        "nutriment_cle": "Lipides + Curcumine",
+        "mecanisme": "La curcumine est liposoluble : son absorption intestinale est nettement améliorée en présence de lipides alimentaires. L'huile d'olive favorise sa dissolution et sa pénétration dans les entérocytes.",
+        "gain_estime": "Absorption curcumine améliorée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anand P et al.",
+            "titre": "Bioavailability of Curcumin: Problems and Promises",
+            "journal": "Mol Pharmaceutics",
+            "annee": 2007,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17999464/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": "golden_milk_curcuma",
+    "tags": ["anti_inflammatoire", "antioxydants"]
+  }
+]
