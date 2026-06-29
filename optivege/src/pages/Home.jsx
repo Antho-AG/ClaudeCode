@@ -30,6 +30,9 @@ export default function Home() {
   }
 
   const featured = allFoods.slice(0, 4)
+  const superFoods = allFoods.filter(f => f.super_aliment)
+  const superFeatured = superFoods.slice(0, 4)
+  const superCount = superFoods.length
 
   return (
     <div className="min-h-screen">
@@ -157,6 +160,30 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {featured.map(food => <FoodCard key={food.id} food={food} />)}
+        </div>
+      </section>
+
+
+      {/* Super Aliments */}
+      <section className="bg-gradient-to-br from-orange-50 to-cream border-y border-orange-100 py-10 px-4">
+        <div className="max-w-3xl mx-auto">
+          <div className="flex items-center justify-between mb-2">
+            <h2 className="section-title mb-0">⭐ Super Aliments</h2>
+            <Link to="/super-aliments" className="text-sm text-green-dark font-medium hover:text-green-mid">
+              Voir tous →
+            </Link>
+          </div>
+          <p className="text-gray-600 text-sm mb-5">
+            Les aliments végétaux à densité nutritionnelle exceptionnelle, sélectionnés sur critères scientifiques.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {superFeatured.map(food => <FoodCard key={food.id} food={food} />)}
+          </div>
+          <div className="text-center mt-5">
+            <Link to="/super-aliments" className="btn-secondary inline-block">
+              ⭐ Découvrir les {superCount} super aliments →
+            </Link>
+          </div>
         </div>
       </section>
 

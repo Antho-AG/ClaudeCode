@@ -6,17 +6,23 @@ const BENEFIT_EMOJI = {
   antioxydants: '🛡️', fibres: '🌿', vitamine_c: '🍋', folates: '🧬',
   magnesium: '⚡', proteines_completes: '💪', vitamine_k: '🦴',
   isoflavones: '🌱', omega9: '🫒', potassium: '❤️', anti_inflammatoire: '🔥',
+  zinc: '⚡', iode: '🌊', detox: '🧹', immunite: '🛡️',
 }
 
-// Card compacte d'un aliment pour les listes et la page d'accueil
 export default function FoodCard({ food }) {
   if (!food) return null
 
   return (
     <Link
       to={`/aliments/${food.id}`}
-      className="card group hover:shadow-md hover:border-green-main transition-all duration-200 flex flex-col gap-3"
+      className="card group hover:shadow-md hover:border-green-main transition-all duration-200 flex flex-col gap-3 relative"
     >
+      {food.super_aliment && (
+        <div className="absolute -top-2 -right-2 bg-orange-main text-white text-xs px-2 py-0.5 rounded-full font-bold shadow">
+          ⭐ Super
+        </div>
+      )}
+
       <div className="flex items-start gap-3">
         <span className="text-4xl">{food.emoji}</span>
         <div className="flex-1 min-w-0">

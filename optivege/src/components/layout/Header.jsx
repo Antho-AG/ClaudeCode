@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 const NAV_LINKS = [
   { to: '/aliments', label: '🥦 Aliments' },
+  { to: '/super-aliments', label: '⭐ Super Aliments' },
   { to: '/bienfaits', label: '💪 Bienfaits' },
   { to: '/recettes', label: '🍽️ Recettes' },
 ]
@@ -18,7 +19,6 @@ export default function Header() {
           <span className="font-heading text-xl font-bold text-green-dark">Optivege</span>
         </Link>
 
-        {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-1">
           {NAV_LINKS.map(({ to, label }) => (
             <NavLink
@@ -45,7 +45,6 @@ export default function Header() {
           </a>
         </nav>
 
-        {/* Mobile burger */}
         <button
           className="md:hidden p-2 rounded-lg text-gray-600 hover:bg-green-bg"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -57,7 +56,6 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile menu */}
       {menuOpen && (
         <nav className="md:hidden border-t border-green-pale bg-white px-4 pb-4 flex flex-col gap-1">
           {NAV_LINKS.map(({ to, label }) => (

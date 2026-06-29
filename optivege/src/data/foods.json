@@ -140,7 +140,9 @@
       "vitamine_k",
       "calcium",
       "magnesium"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "lentille",
@@ -274,7 +276,9 @@
       "fer",
       "fibres",
       "folates"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "brocoli",
@@ -423,7 +427,9 @@
       "folates",
       "antioxydants",
       "sulforaphane"
-    ]
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Le sulforaphane du brocoli est l'un des composés les plus étudiés pour la prévention du cancer. Activation détox NRF2 validée."
   },
   {
     "id": "pois_chiche",
@@ -520,7 +526,9 @@
       "fer",
       "fibres",
       "folates"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "quinoa",
@@ -621,7 +629,9 @@
       "magnesium",
       "fer",
       "zinc"
-    ]
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Unique pseudo-céréale contenant tous les acides aminés essentiels, sans gluten, avec index glycémique modéré."
   },
   {
     "id": "tofu",
@@ -738,7 +748,9 @@
       "calcium",
       "fer",
       "isoflavones"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "avocat",
@@ -839,7 +851,9 @@
       "potassium",
       "fibres",
       "vitamine_e"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "graines_de_chia",
@@ -946,7 +960,9 @@
       "fibres",
       "fer",
       "proteines"
-    ]
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Densité record en oméga-3 ALA (17,8 g/100g), calcium (631 mg/100g) et fibres (34 g/100g) pour un aliment de cette taille."
   },
   {
     "id": "citron",
@@ -1040,7 +1056,9 @@
     "tags": [
       "vitamine_c",
       "antioxydants"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "amande",
@@ -1146,7 +1164,9 @@
       "calcium",
       "magnesium",
       "antioxydants"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "curcuma",
@@ -1245,7 +1265,9 @@
     "tags": [
       "anti_inflammatoire",
       "antioxydants"
-    ]
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "La curcumine est l'un des composés anti-inflammatoires les plus étudiés au monde (+13 000 études PubMed), avec synergie poivre noir x20."
   },
   {
     "id": "lentille_corail",
@@ -1342,7 +1364,9 @@
       "fer",
       "fibres",
       "folates"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "haricot_noir",
@@ -1439,7 +1463,9 @@
       "fer",
       "proteines",
       "fibres"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "edamame",
@@ -1540,7 +1566,9 @@
       "folates",
       "fer",
       "fibres"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "tempeh",
@@ -1641,7 +1669,9 @@
       "fer",
       "calcium",
       "magnesium"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "riz_complet",
@@ -1733,7 +1763,9 @@
       "fibres",
       "magnesium",
       "proteines"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "avoine",
@@ -1830,7 +1862,9 @@
       "beta_glucanes",
       "magnesium",
       "fer"
-    ]
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Le bêta-glucane de l'avoine est le seul fibre reconnue par l'EFSA pour réduire le cholestérol. Effet validé dès 3g/jour."
   },
   {
     "id": "sarrasin",
@@ -1932,7 +1966,9 @@
       "magnesium",
       "antioxydants",
       "fibres"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "kale",
@@ -2037,7 +2073,9 @@
       "vitamine_k",
       "vitamine_c",
       "antioxydants"
-    ]
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Champion du calcium végétal (157 mg/100g) et de la vitamine K (817 µg/100g), avec un profil antioxydant exceptionnel."
   },
   {
     "id": "betterave",
@@ -2138,7 +2176,9 @@
       "folates",
       "antioxydants",
       "potassium"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "poivron_rouge",
@@ -2219,7 +2259,9 @@
       "vitamine_c",
       "antioxydants",
       "beta_carotene"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "patate_douce",
@@ -2320,7 +2362,9 @@
       "potassium",
       "fibres",
       "vitamine_c"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "orange",
@@ -2421,7 +2465,9 @@
       "vitamine_c",
       "antioxydants",
       "folates"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "myrtille",
@@ -2527,7 +2573,9 @@
       "antioxydants",
       "anthocyanes",
       "fibres"
-    ]
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Concentration d'anthocyanes la plus élevée des fruits courants, avec des bénéfices cognitifs et cardiovasculaires validés par de nombreuses études."
   },
   {
     "id": "grenade",
@@ -2613,7 +2661,9 @@
       "antioxydants",
       "fibres",
       "potassium"
-    ]
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Acide ellagique et punicalagines aux effets antioxydants supérieurs à la plupart des fruits, avec action cardioprotectrice documentée."
   },
   {
     "id": "noix",
@@ -2720,7 +2770,9 @@
       "antioxydants",
       "magnesium",
       "fibres"
-    ]
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Seul oléagineux à ratio oméga-3/oméga-6 favorable, avec polyphénols cardioprotecteurs validés par l'étude PREDIMED."
   },
   {
     "id": "graines_de_lin",
@@ -2827,7 +2879,9 @@
       "fibres",
       "calcium",
       "antioxydants"
-    ]
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Source végétale la plus riche en ALA oméga-3 (22,8 g/100g) et en lignanes (précurseurs phytooestrogènes à action protectrice)."
   },
   {
     "id": "spiruline",
@@ -2929,7 +2983,9 @@
       "fer",
       "antioxydants",
       "calcium"
-    ]
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Aliment le plus dense en protéines complètes et en fer du règne végétal (28 mg/100g), avec phycocyanine aux propriétés antioxydantes uniques."
   },
   {
     "id": "levure_nutritionnelle",
@@ -3027,7 +3083,9 @@
       "vitamine_b12",
       "zinc",
       "fibres"
-    ]
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   },
   {
     "id": "chocolat_noir",
@@ -3124,7 +3182,9 @@
       "magnesium",
       "fer",
       "flavanols"
-    ]
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Les flavanols du cacao (>85%) ont l'une des plus hautes concentrations de polyphénols alimentaires, avec bénéfices cognitifs et cardiovasculaires."
   },
   {
     "id": "gingembre",
@@ -3221,6 +3281,2649 @@
     "tags": [
       "anti_inflammatoire",
       "antioxydants"
-    ]
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Le gingérol est un anti-nausée validé cliniquement et un puissant anti-inflammatoire digestif. Effets supérieurs à de nombreux médicaments de confort."
+  },
+  {
+    "id": "ail",
+    "nom": "Ail",
+    "categorie": "condiment",
+    "emoji": "🧄",
+    "super_aliment": true,
+    "super_aliment_raison": "L'allicine de l'ail est l'un des composés antimicrobiens et cardioprotecteurs les plus puissants du règne végétal, avec des effets validés sur la tension artérielle et le cholestérol.",
+    "description": "L'ail est bien plus qu'un aromate : il est une pharmacopée naturelle. Son composé actif, l'allicine (libérée lors du découpage ou de l'écrasement), possède des propriétés antimicrobiennes, cardiovasculaires et immunitaires remarquables.",
+    "bienfaits": [
+      {
+        "id": "cardiovasculaire",
+        "label": "Protection cardiovasculaire",
+        "detail": "L'allicine réduit la tension artérielle systolique de 4-7 mmHg en moyenne et diminue le LDL-cholestérol. Méta-analyse de 39 études.",
+        "sources": [
+          {
+            "auteurs": "Ried K. et al.",
+            "titre": "Effect of garlic on blood pressure",
+            "journal": "BMC Cardiovasc Disord",
+            "annee": 2016,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27000286/"
+          }
+        ]
+      },
+      {
+        "id": "anti_inflammatoire",
+        "label": "Action anti-inflammatoire",
+        "detail": "Les composés soufrés de l'ail inhibent NF-κB, principal régulateur de l'inflammation systémique.",
+        "sources": [
+          {
+            "auteurs": "Bayan L. et al.",
+            "titre": "Garlic: a review of potential therapeutic effects",
+            "journal": "Avicenna J Phytomed",
+            "annee": 2014,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25050296/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "CIQUAL 2020 — Ail cru",
+      "calories": {
+        "valeur": 111,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 6.4,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 18.8,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 0.5,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 2.1,
+        "unite": "g"
+      },
+      "vitamine_c": {
+        "valeur": 31,
+        "unite": "mg"
+      },
+      "manganese": {
+        "valeur": 1.67,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Allicine + Vitamine C",
+        "mecanisme": "La vitamine C du citron stabilise l'allicine et prolonge son activité antioxydante. Association classique de la cuisine méditerranéenne aux effets cardiovasculaires cumulés.",
+        "gain_estime": "Stabilisation de l'allicine prolongée",
+        "sources": [
+          {
+            "auteurs": "Lawson LD, Wang ZJ.",
+            "titre": "Allicin and allicin-derived garlic compounds",
+            "journal": "J Agric Food Chem",
+            "annee": 2005
+          }
+        ]
+      },
+      {
+        "aliment_associe_id": "curcuma",
+        "aliment_associe_nom": "Curcuma",
+        "aliment_associe_emoji": "🌿",
+        "nutriment_cle": "Anti-inflammatoire synergique",
+        "mecanisme": "L'allicine et la curcumine inhibent toutes deux NF-κB via des voies complémentaires, potentialisant l'action anti-inflammatoire globale.",
+        "gain_estime": "Action anti-inflammatoire renforcée",
+        "sources": [
+          {
+            "auteurs": "Aggarwal BB, Shishodia S.",
+            "titre": "Suppression of NF-κB signaling",
+            "journal": "Ann NY Acad Sci",
+            "annee": 2004
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "anti_inflammatoire",
+      "cardiovasculaire",
+      "antimicrobien"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "chou_rouge",
+    "nom": "Chou rouge",
+    "categorie": "légume",
+    "emoji": "🫐",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "Le chou rouge est une des meilleures sources d'anthocyanes parmi les légumes courants (25× plus que le chou blanc). Riche en vitamine C et en glucosinolates, il cumule des propriétés antioxydantes, anti-inflammatoires et détoxifiantes.",
+    "bienfaits": [
+      {
+        "id": "antioxydants",
+        "label": "Anthocyanes — antioxydants puissants",
+        "detail": "Le chou rouge contient 322 mg d'anthocyanes/100g (cru), des pigments aux effets antioxydants, anti-inflammatoires et cardioprotecteurs validés.",
+        "sources": [
+          {
+            "auteurs": "He J, Giusti MM.",
+            "titre": "Anthocyanins: natural colorants with health-promoting properties",
+            "journal": "Annu Rev Food Sci Technol",
+            "annee": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22129334/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "CIQUAL 2020 — Chou rouge cru",
+      "calories": {
+        "valeur": 27,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 1.4,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 3.8,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 0.2,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 2.5,
+        "unite": "g"
+      },
+      "vitamine_c": {
+        "valeur": 57,
+        "unite": "mg"
+      },
+      "vitamine_k": {
+        "valeur": 38,
+        "unite": "µg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Anthocyanes + Vitamine C",
+        "mecanisme": "Un environnement acide (jus de citron) stabilise les anthocyanes du chou rouge et préserve leur couleur vive. La vitamine C protège de plus les anthocyanes de l'oxydation.",
+        "gain_estime": "Stabilité anthocyanes +40%",
+        "sources": [
+          {
+            "auteurs": "He J, Giusti MM.",
+            "titre": "Anthocyanins stability",
+            "journal": "Annu Rev Food Sci Technol",
+            "annee": 2010
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "antioxydants",
+      "vitamine_c",
+      "anti_inflammatoire"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "champignon_shiitake",
+    "nom": "Shiitaké",
+    "categorie": "champignon",
+    "emoji": "🍄",
+    "super_aliment": true,
+    "super_aliment_raison": "Le shiitaké est le seul aliment végétal contenant de l'érythritol D et du lentinane, un bêta-glucane immunostimulant utilisé en oncologie au Japon. Source rare de vitamine D végétale si exposé au soleil.",
+    "description": "Le shiitaké est le champignon médicinal le plus étudié au monde. Il contient du lentinane (polysaccharide immunostimulant), de l'érythritol, et produit de la vitamine D2 sous exposition UV — propriété unique parmi les végétaux.",
+    "bienfaits": [
+      {
+        "id": "immunite",
+        "label": "Immunostimulant — Lentinane",
+        "detail": "Le lentinane (bêta-1,3-glucane) du shiitaké active les macrophages, les cellules NK et les lymphocytes T. Utilisé comme adjuvant en oncologie au Japon depuis 1985.",
+        "sources": [
+          {
+            "auteurs": "Wasser SP.",
+            "titre": "Medicinal mushrooms as a source of antitumor compounds",
+            "journal": "Appl Microbiol Biotechnol",
+            "annee": 2002,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12172975/"
+          }
+        ]
+      },
+      {
+        "id": "vitamine_d",
+        "label": "Source de Vitamine D végétale",
+        "detail": "Le shiitaké exposé au soleil (chapeau vers le haut, 2h) produit jusqu'à 100 µg de vitamine D2/100g, soit 2000% des AJR — propriété unique dans le règne végétal.",
+        "sources": [
+          {
+            "auteurs": "Urbain P. et al.",
+            "titre": "Bioavailability of vitamin D2 from UV-treated mushrooms",
+            "journal": "Eur J Clin Nutr",
+            "annee": 2011,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21540874/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "USDA FoodData Central — Shiitake mushroom",
+      "calories": {
+        "valeur": 34,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 2.2,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 6.8,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 0.5,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 2.5,
+        "unite": "g"
+      },
+      "vitamine_d": {
+        "valeur": 0.4,
+        "unite": "µg"
+      },
+      "selenium": {
+        "valeur": 5.7,
+        "unite": "µg"
+      },
+      "zinc": {
+        "valeur": 1,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "tofu",
+        "aliment_associe_nom": "Tofu",
+        "aliment_associe_emoji": "🫘",
+        "nutriment_cle": "Vitamine D + Calcium",
+        "mecanisme": "La vitamine D2 du shiitaké améliore l'absorption intestinale du calcium du tofu. La vitamine D est le cofacteur principal de l'absorption du calcium au niveau de l'intestin grêle.",
+        "gain_estime": "Absorption calcium +30 à +40%",
+        "sources": [
+          {
+            "auteurs": "Holick MF.",
+            "titre": "Vitamin D deficiency",
+            "journal": "N Engl J Med",
+            "annee": 2007,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17634462/"
+          }
+        ]
+      },
+      {
+        "aliment_associe_id": "ail",
+        "aliment_associe_nom": "Ail",
+        "aliment_associe_emoji": "🧄",
+        "nutriment_cle": "Immunité synergique",
+        "mecanisme": "Le lentinane du shiitaké et l'allicine de l'ail activent tous deux le système immunitaire via des mécanismes complémentaires (voie NK pour le lentinane, activité antimicrobienne directe pour l'allicine).",
+        "gain_estime": "Synergie immunitaire documentée",
+        "sources": [
+          {
+            "auteurs": "Wasser SP.",
+            "titre": "Medicinal mushrooms",
+            "journal": "Appl Microbiol Biotechnol",
+            "annee": 2002
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "immunite",
+      "vitamine_d",
+      "anti_inflammatoire"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "asperge",
+    "nom": "Asperge",
+    "categorie": "légume",
+    "emoji": "🌿",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "L'asperge est l'une des meilleures sources alimentaires de folates (acide folique), d'inuline (fibre prébiotique) et d'asparagine. Elle contient également du glutathion, l'antioxydant maître du corps humain.",
+    "bienfaits": [
+      {
+        "id": "folates",
+        "label": "Folates (Vitamine B9) — Source d'excellence",
+        "detail": "100g d'asperges couvrent 53% des AJR en folates (175 µg). Les folates sont essentiels à la synthèse de l'ADN et à la prévention des anomalies du tube neural.",
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "CIQUAL 2020 — Asperge cuite",
+      "calories": {
+        "valeur": 22,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 2.4,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 1.8,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 0.2,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 2.1,
+        "unite": "g"
+      },
+      "folates": {
+        "valeur": 175,
+        "unite": "µg"
+      },
+      "vitamine_k": {
+        "valeur": 42,
+        "unite": "µg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Folates + Vitamine C",
+        "mecanisme": "La vitamine C du citron protège les folates de l'oxydation lors de la cuisson et améliore leur stabilité. Association classique qui préserve les nutriments fragiles des asperges.",
+        "gain_estime": "Préservation folates +15-20%",
+        "sources": [
+          {
+            "auteurs": "Gregory JF.",
+            "titre": "Bioavailability of folate",
+            "journal": "Eur J Clin Nutr",
+            "annee": 1997
+          }
+        ]
+      },
+      {
+        "aliment_associe_id": "avocat",
+        "aliment_associe_nom": "Avocat",
+        "aliment_associe_emoji": "🥑",
+        "nutriment_cle": "Folates + Graisses saines",
+        "mecanisme": "Les graisses monoinsaturées de l'avocat améliorent l'absorption de la vitamine K1 liposoluble des asperges, cofacteur essentiel de la coagulation.",
+        "gain_estime": "Absorption vitamine K +2 à +4×",
+        "sources": [
+          {
+            "auteurs": "Unlu NZ et al.",
+            "titre": "Carotenoid absorption from salad",
+            "journal": "J Nutr",
+            "annee": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15735074/"
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "folates",
+      "vitamine_k",
+      "prebiotique"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "artichaut",
+    "nom": "Artichaut",
+    "categorie": "légume",
+    "emoji": "🌵",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "L'artichaut est le roi des prébiotiques : son cœur est composé à 40% d'inuline, une fibre fermentescible qui nourrit le microbiote. Il contient aussi de la cynarine, un composé qui stimule la production de bile et améliore la digestion des graisses.",
+    "bienfaits": [
+      {
+        "id": "prebiotique",
+        "label": "Prébiotique exceptionnel — Inuline",
+        "detail": "L'artichaut est l'une des sources les plus concentrées d'inuline (3-10g/portion). L'inuline est un prébiotique qui nourrit les bifidobactéries et améliore le microbiote intestinal.",
+        "sources": [
+          {
+            "auteurs": "Niness KR.",
+            "titre": "Inulin and oligofructose: what are they?",
+            "journal": "J Nutr",
+            "annee": 1999,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10395589/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "CIQUAL 2020 — Artichaut cuit",
+      "calories": {
+        "valeur": 35,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 2.9,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 4.2,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 0.2,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 5.7,
+        "unite": "g"
+      },
+      "folates": {
+        "valeur": 68,
+        "unite": "µg"
+      },
+      "vitamine_c": {
+        "valeur": 7.4,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Cynarine + Vitamine C",
+        "mecanisme": "Le jus de citron préserve la couleur et les polyphénols de l'artichaut (prévient l'oxydation enzymatique) et ajoute de la vitamine C qui potentialise l'absorption du fer présent.",
+        "gain_estime": "Conservation polyphénols préservée",
+        "sources": [
+          {
+            "auteurs": "Lattanzio V. et al.",
+            "titre": "Influence of storage temperature on phenolic compounds in artichoke",
+            "journal": "Food Chem",
+            "annee": 1994
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "prebiotique",
+      "fibres",
+      "foie",
+      "digestion"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "mangue",
+    "nom": "Mangue",
+    "categorie": "fruit",
+    "emoji": "🥭",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "La mangue est l'un des fruits les plus riches en bêta-carotène (précurseur de la vitamine A) et en vitamine C. Elle contient aussi de la mangiferin, un polyphénol aux propriétés anti-diabétiques et anti-inflammatoires.",
+    "bienfaits": [
+      {
+        "id": "vitamine_a",
+        "label": "Provitamine A (bêta-carotène)",
+        "detail": "Une mangue de taille moyenne couvre 15-20% des AJR en vitamine A sous forme de bêta-carotène. La vitamine A est essentielle à la vision, l'immunité et la peau.",
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Mango",
+            "journal": "USDA",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "CIQUAL 2020 — Mangue crue",
+      "calories": {
+        "valeur": 60,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 0.8,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 13.4,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 0.4,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 1.6,
+        "unite": "g"
+      },
+      "vitamine_c": {
+        "valeur": 36,
+        "unite": "mg"
+      },
+      "beta_carotene": {
+        "valeur": 640,
+        "unite": "µg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "graines_de_chia",
+        "aliment_associe_nom": "Graines de chia",
+        "aliment_associe_emoji": "🌱",
+        "nutriment_cle": "Bêta-carotène + Oméga-3",
+        "mecanisme": "Les lipides des graines de chia améliorent l'absorption du bêta-carotène liposoluble de la mangue. Le bêta-carotène nécessite des graisses pour être solubilisé dans les micelles intestinales.",
+        "gain_estime": "Absorption bêta-carotène +3 à +5×",
+        "sources": [
+          {
+            "auteurs": "Roodenburg AJ et al.",
+            "titre": "Amount of fat in the diet affects bioavailability of lutein",
+            "journal": "Am J Clin Nutr",
+            "annee": 2000
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "vitamine_c",
+      "antioxydants",
+      "vitamine_a"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "kiwi",
+    "nom": "Kiwi",
+    "categorie": "fruit",
+    "emoji": "🥝",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "Le kiwi est l'un des fruits les plus denses en vitamine C (93 mg/100g, soit 85% des AJR), dépassant l'orange. Il contient aussi de l'actinidine, une enzyme digestive propre aux kiwis, et de la lutéine pour la santé oculaire.",
+    "bienfaits": [
+      {
+        "id": "vitamine_c",
+        "label": "Vitamine C — Concentration record",
+        "detail": "Un kiwi moyen (100g) apporte 85% des AJR en vitamine C. Supérieur à l'orange (52 mg/100g), il est idéal pour potentialiser l'absorption du fer végétal.",
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "CIQUAL 2020 — Kiwi cru",
+      "calories": {
+        "valeur": 55,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 1.1,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 10.3,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 0.5,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 3,
+        "unite": "g"
+      },
+      "vitamine_c": {
+        "valeur": 93,
+        "unite": "mg"
+      },
+      "vitamine_k": {
+        "valeur": 40,
+        "unite": "µg"
+      },
+      "folates": {
+        "valeur": 25,
+        "unite": "µg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "epinard",
+        "aliment_associe_nom": "Épinards",
+        "aliment_associe_emoji": "🥬",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "93 mg de vitamine C par kiwi — la vitamine C convertit le fer non-héminique des épinards (Fe³⁺) en forme absorbable (Fe²⁺). Encore plus efficace que le citron.",
+        "gain_estime": "Absorption fer ×3 à ×4",
+        "sources": [
+          {
+            "auteurs": "Hallberg L. et al.",
+            "titre": "The role of vitamin C in iron absorption",
+            "journal": "Int J Vitam Nutr Res Suppl",
+            "annee": 1989
+          }
+        ]
+      },
+      {
+        "aliment_associe_id": "graines_de_chia",
+        "aliment_associe_nom": "Graines de chia",
+        "aliment_associe_emoji": "🌱",
+        "nutriment_cle": "Vitamine C + Fer du chia",
+        "mecanisme": "Le kiwi est un vecteur idéal de vitamine C pour potentialiser le fer exceptionnel des graines de chia (7,7 mg/100g).",
+        "gain_estime": "Absorption fer chia ×2 à ×3",
+        "sources": [
+          {
+            "auteurs": "Hurrell R., Am J Clin Nutr, 2010"
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "vitamine_c",
+      "antioxydants",
+      "digestion"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "papaye",
+    "nom": "Papaye",
+    "categorie": "fruit",
+    "emoji": "🍑",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "La papaye est unique grâce à la papaïne, une enzyme protéolytique qui améliore la digestion des protéines végétales. Très riche en bêta-carotène et vitamine C, elle possède aussi des propriétés anti-inflammatoires documentées.",
+    "bienfaits": [
+      {
+        "id": "digestion",
+        "label": "Papaïne — Enzyme digestive unique",
+        "detail": "La papaïne de la papaye dégrade les protéines végétales complexes en acides aminés plus facilement absorbables. Particulièrement utile après un repas riche en légumineuses.",
+        "sources": [
+          {
+            "auteurs": "Anand A. et al.",
+            "titre": "Papain enzyme: properties and applications",
+            "journal": "J Drug Delivery Ther",
+            "annee": 2019
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "CIQUAL 2020 — Papaye crue",
+      "calories": {
+        "valeur": 43,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 0.5,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 9.1,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 0.3,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 1.8,
+        "unite": "g"
+      },
+      "vitamine_c": {
+        "valeur": 62,
+        "unite": "mg"
+      },
+      "beta_carotene": {
+        "valeur": 276,
+        "unite": "µg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "lentille",
+        "aliment_associe_nom": "Lentilles",
+        "aliment_associe_emoji": "🫘",
+        "nutriment_cle": "Papaïne + Protéines végétales",
+        "mecanisme": "La papaïne de la papaye optimise la digestion des protéines des lentilles en décomposant les peptides complexes. Association idéale pour maximiser l'utilisation des protéines végétales.",
+        "gain_estime": "Digestibilité protéines +15-25%",
+        "sources": [
+          {
+            "auteurs": "Anand A. et al.",
+            "titre": "Papain enzyme: properties and applications",
+            "journal": "J Drug Delivery Ther",
+            "annee": 2019
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "vitamine_c",
+      "digestion",
+      "antioxydants"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "banane",
+    "nom": "Banane",
+    "categorie": "fruit",
+    "emoji": "🍌",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "La banane est la meilleure source alimentaire de potassium (350 mg/100g) et de vitamine B6 (0,37 mg/100g). Sa teneur en amidon résistant (surtout quand elle est peu mûre) en fait aussi un prébiotique naturel.",
+    "bienfaits": [
+      {
+        "id": "potassium",
+        "label": "Potassium — Électrolyte essentiel",
+        "detail": "Une banane moyenne fournit 422 mg de potassium, soit 21% des AJR. Le potassium régule la tension artérielle, les contractions musculaires et l'hydratation cellulaire.",
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "CIQUAL 2020 — Banane crue",
+      "calories": {
+        "valeur": 89,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 1.1,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 20.2,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 0.3,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 2.6,
+        "unite": "g"
+      },
+      "potassium": {
+        "valeur": 358,
+        "unite": "mg"
+      },
+      "magnesium": {
+        "valeur": 27,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "graines_de_chia",
+        "aliment_associe_nom": "Graines de chia",
+        "aliment_associe_emoji": "🌱",
+        "nutriment_cle": "Potassium + Oméga-3 + Fibres",
+        "mecanisme": "La banane apporte potassium et sucres rapides qui facilitent l'absorption des minéraux. Les graines de chia complètent avec oméga-3, calcium et fibres pour un profil nutritionnel très complet.",
+        "gain_estime": "Profil nutritionnel complet",
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central",
+            "journal": "USDA",
+            "annee": 2019
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "potassium",
+      "vitamine_b6",
+      "energie",
+      "prebiotique"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "fraise",
+    "nom": "Fraise",
+    "categorie": "fruit",
+    "emoji": "🍓",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "La fraise est l'un des fruits les plus riches en vitamine C (58 mg/100g) et en acide ellagique, un polyphénol aux propriétés antiprolifératives. Elle contient aussi des anthocyanes et de la quercétine.",
+    "bienfaits": [
+      {
+        "id": "vitamine_c",
+        "label": "Vitamine C — Source estivale exceptionnelle",
+        "detail": "100g de fraises apportent 58 mg de vitamine C, soit 53% des AJR. Idéales pour potentialiser l'absorption du fer végétal lors des repas d'été.",
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "CIQUAL 2020 — Fraise crue",
+      "calories": {
+        "valeur": 33,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 0.7,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 5.5,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 0.4,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 2,
+        "unite": "g"
+      },
+      "vitamine_c": {
+        "valeur": 58,
+        "unite": "mg"
+      },
+      "folates": {
+        "valeur": 24,
+        "unite": "µg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "epinard",
+        "aliment_associe_nom": "Épinards",
+        "aliment_associe_emoji": "🥬",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "En salade, les fraises fournissent la vitamine C qui double l'absorption du fer des épinards. Association classique de la cuisine américaine nutritionnellement fondée.",
+        "gain_estime": "Absorption fer ×2 à ×3",
+        "sources": [
+          {
+            "auteurs": "Hallberg L. et al.",
+            "titre": "Hum Nutr Appl Nutr",
+            "annee": 1986
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "vitamine_c",
+      "antioxydants",
+      "folates"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "graines_de_courge",
+    "nom": "Graines de courge",
+    "categorie": "oléagineux",
+    "emoji": "🎃",
+    "super_aliment": true,
+    "super_aliment_raison": "Concentration record de zinc (7,8 mg/100g = 78% AJR), de magnésium (534 mg/100g) et de fer (8,1 mg/100g) dans un seul aliment. Une poignée couvre les principaux manques minéraux d'une alimentation végétarienne.",
+    "description": "Les graines de courge sont une des densités minérales les plus remarquables du règne végétal. Champion en zinc (immunité, fertilité), magnésium (énergie, stress) et fer, elles sont indispensables dans l'alimentation végétarienne.",
+    "bienfaits": [
+      {
+        "id": "zinc",
+        "label": "Zinc — Source végétale n°1",
+        "detail": "30g de graines de courge apportent 2,3 mg de zinc, soit 23% des AJR. Le zinc végétal est moins bien absorbé que le zinc animal (phytates), d'où l'importance de le combiner avec de la vitamine C ou des aliments fermentés.",
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Pumpkin seeds",
+            "journal": "USDA",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/"
+          }
+        ]
+      },
+      {
+        "id": "magnesium",
+        "label": "Magnésium — Concentration exceptionnelle",
+        "detail": "Les graines de courge contiennent 534 mg de magnésium/100g, soit 142% des AJR. Le magnésium intervient dans plus de 300 réactions enzymatiques.",
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Pumpkin seeds",
+            "journal": "USDA",
+            "annee": 2019
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "USDA FoodData Central — Pumpkin seeds, dried",
+      "calories": {
+        "valeur": 559,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 30.2,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 10.7,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 49.1,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 6,
+        "unite": "g"
+      },
+      "fer": {
+        "valeur": 8.1,
+        "unite": "mg"
+      },
+      "magnesium": {
+        "valeur": 534,
+        "unite": "mg"
+      },
+      "zinc": {
+        "valeur": 7.8,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Vitamine C + Zinc + Fer",
+        "mecanisme": "La vitamine C du citron améliore l'absorption du fer végétal des graines de courge et réduit l'effet inhibiteur des phytates sur le zinc. Arroser de jus de citron multiplie la biodisponibilité des minéraux.",
+        "gain_estime": "Absorption fer +150%, zinc +30%",
+        "sources": [
+          {
+            "auteurs": "Hallberg L. et al.",
+            "titre": "Hum Nutr Appl Nutr",
+            "annee": 1986
+          }
+        ]
+      },
+      {
+        "aliment_associe_id": "epinard",
+        "aliment_associe_nom": "Épinards",
+        "aliment_associe_emoji": "🥬",
+        "nutriment_cle": "Fer + Magnésium cumulés",
+        "mecanisme": "Association minérale double : graines de courge (8,1 mg fer/100g) + épinards (2,7 mg fer/100g). Avec citron, cette combinaison couvre plus de 50% des AJR en fer d'une femme.",
+        "gain_estime": "Couverture fer >50% AJR femme",
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "zinc",
+      "magnesium",
+      "fer",
+      "proteines"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "graines_de_chanvre",
+    "nom": "Graines de chanvre",
+    "categorie": "oléagineux",
+    "emoji": "🌿",
+    "super_aliment": true,
+    "super_aliment_raison": "Unique source végétale avec un ratio oméga-6/oméga-3 de 3:1 (ratio idéal), contenant tous les acides aminés essentiels et des protéines complètes hautement digestibles (score DIAAS >1).",
+    "description": "Les graines de chanvre (sans THC) sont nutritionnellement exceptionnelles : protéines complètes avec tous les acides aminés essentiels, ratio oméga-3/6 parfaitement équilibré, et l'acide gamma-linolénique (GLA) rare en alimentation végétale.",
+    "bienfaits": [
+      {
+        "id": "proteines_completes",
+        "label": "Protéines complètes hautement digestibles",
+        "detail": "Les protéines de chanvre (edestin + albumine) ont un score DIAAS supérieur à 1,0, signifiant qu'elles sont mieux absorbées que la plupart des protéines végétales. Toutes les 9 acides aminés essentiels présents.",
+        "sources": [
+          {
+            "auteurs": "House JD et al.",
+            "titre": "Evaluating the quality of protein from hemp seed",
+            "journal": "J Agric Food Chem",
+            "annee": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20977230/"
+          }
+        ]
+      },
+      {
+        "id": "omega3",
+        "label": "Ratio oméga-3/6 idéal",
+        "detail": "Ratio oméga-6/oméga-3 de 3:1 dans les graines de chanvre, correspondant au ratio idéal recommandé par l'ANSES. La plupart des régimes occidentaux ont un ratio 15-20:1 défavorable.",
+        "sources": [
+          {
+            "auteurs": "Callaway J.",
+            "titre": "Hempseed as a nutritional resource",
+            "journal": "Euphytica",
+            "annee": 2004
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "USDA FoodData Central — Hemp seeds",
+      "calories": {
+        "valeur": 553,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 31.6,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 8.7,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 48.7,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 4,
+        "unite": "g"
+      },
+      "fer": {
+        "valeur": 7.9,
+        "unite": "mg"
+      },
+      "magnesium": {
+        "valeur": 483,
+        "unite": "mg"
+      },
+      "zinc": {
+        "valeur": 9.9,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "quinoa",
+        "aliment_associe_nom": "Quinoa",
+        "aliment_associe_emoji": "🌾",
+        "nutriment_cle": "Protéines complètes cumulées",
+        "mecanisme": "Deux sources de protéines complètes végétales : ensemble, chanvre + quinoa assurent un apport exceptionnel en tous les acides aminés essentiels, avec une excellente digestibilité.",
+        "gain_estime": "Couverture protéique optimale",
+        "sources": [
+          {
+            "auteurs": "Young VR, Pellett PL.",
+            "titre": "Am J Clin Nutr",
+            "annee": 1994
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "proteines_completes",
+      "omega3",
+      "magnesium",
+      "zinc"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "graines_de_tournesol",
+    "nom": "Graines de tournesol",
+    "categorie": "oléagineux",
+    "emoji": "🌻",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "Les graines de tournesol sont la source végétale la plus concentrée en vitamine E (35,17 mg/100g, soit 293% des AJR). Elles sont également riches en magnésium, sélénium et acide linoléique (oméga-6).",
+    "bienfaits": [
+      {
+        "id": "vitamine_e",
+        "label": "Vitamine E — Source végétale n°1",
+        "detail": "30g de graines de tournesol couvrent 88% des AJR en vitamine E. La vitamine E est l'antioxydant liposoluble principal qui protège les membranes cellulaires de l'oxydation.",
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Sunflower seeds",
+            "journal": "USDA",
+            "annee": 2019,
+            "url": "https://fdc.nal.usda.gov/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "USDA FoodData Central — Sunflower seeds, dried",
+      "calories": {
+        "valeur": 584,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 20.8,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 20,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 51.5,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 8.6,
+        "unite": "g"
+      },
+      "vitamine_e": {
+        "valeur": 35.2,
+        "unite": "mg"
+      },
+      "magnesium": {
+        "valeur": 325,
+        "unite": "mg"
+      },
+      "selenium": {
+        "valeur": 53,
+        "unite": "µg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "myrtille",
+        "aliment_associe_nom": "Myrtilles",
+        "aliment_associe_emoji": "🫐",
+        "nutriment_cle": "Vitamine E + Anthocyanes",
+        "mecanisme": "La vitamine E (liposoluble) des graines de tournesol et les anthocyanes (hydrosolubles) des myrtilles protègent respectivement les milieux lipidiques et aqueux des cellules — couverture antioxydante complète.",
+        "gain_estime": "Spectre antioxydant complet",
+        "sources": [
+          {
+            "auteurs": "Scalbert A. et al.",
+            "titre": "Crit Rev Food Sci Nutr",
+            "annee": 2005
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "vitamine_e",
+      "magnesium",
+      "antioxydants",
+      "selenium"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "noix_de_cajou",
+    "nom": "Noix de cajou",
+    "categorie": "oléagineux",
+    "emoji": "🥜",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "La noix de cajou est remarquable par sa teneur en zinc, magnésium et fer parmi les oléagineux. Riche en acides gras mono-insaturés (acide oléique), elle partage certaines propriétés cardioprotectrices de l'huile d'olive.",
+    "bienfaits": [
+      {
+        "id": "zinc",
+        "label": "Zinc et magnésium pour l'immunité",
+        "detail": "30g de noix de cajou apportent 1,6 mg de zinc (16% AJR) et 83 mg de magnésium (22% AJR). Ces deux minéraux sont souvent déficitaires dans les régimes végétariens.",
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Cashews",
+            "journal": "USDA",
+            "annee": 2019
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "USDA FoodData Central — Cashew nuts",
+      "calories": {
+        "valeur": 553,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 18.2,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 30.2,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 43.8,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 3.3,
+        "unite": "g"
+      },
+      "fer": {
+        "valeur": 6.7,
+        "unite": "mg"
+      },
+      "magnesium": {
+        "valeur": 292,
+        "unite": "mg"
+      },
+      "zinc": {
+        "valeur": 5.8,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Vitamine C + Fer + Zinc",
+        "mecanisme": "La vitamine C du citron améliore l'absorption du fer et du zinc végétaux des noix de cajou en contrecarrant l'effet inhibiteur des phytates. Faire tremper + jus de citron maximise la biodisponibilité.",
+        "gain_estime": "Absorption minéraux +30-50%",
+        "sources": [
+          {
+            "auteurs": "Lönnerdal B.",
+            "titre": "Dietary factors influencing zinc absorption",
+            "journal": "J Nutr",
+            "annee": 2000
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "zinc",
+      "magnesium",
+      "fer",
+      "omega9"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "noisette",
+    "nom": "Noisette",
+    "categorie": "oléagineux",
+    "emoji": "🌰",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "La noisette est la source de vitamine E la plus disponible après les graines de tournesol (15 mg/100g). Elle est aussi exceptionnellement riche en manganèse et en acide oléique monoinsaturé. Sa teneur en proanthocyanidines en fait un aliment cardiovasculaire.",
+    "bienfaits": [
+      {
+        "id": "vitamine_e",
+        "label": "Vitamine E et polyphénols cardioprotecteurs",
+        "detail": "La noisette contient 15 mg de vitamine E/100g (125% AJR) et des proanthocyanidines, polyphénols qui réduisent l'agrégation plaquettaire et l'inflammation vasculaire.",
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Hazelnuts",
+            "journal": "USDA",
+            "annee": 2019
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "USDA FoodData Central — Hazelnuts",
+      "calories": {
+        "valeur": 628,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 15,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 16.7,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 60.8,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 9.7,
+        "unite": "g"
+      },
+      "vitamine_e": {
+        "valeur": 15,
+        "unite": "mg"
+      },
+      "magnesium": {
+        "valeur": 163,
+        "unite": "mg"
+      },
+      "manganese": {
+        "valeur": 6.2,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "myrtille",
+        "aliment_associe_nom": "Myrtilles",
+        "aliment_associe_emoji": "🫐",
+        "nutriment_cle": "Vitamine E + Anthocyanes",
+        "mecanisme": "Même synergie antioxydante que graines de tournesol + myrtilles : vitamine E liposoluble et anthocyanes hydrosolubles couvrent ensemble les deux compartiments cellulaires.",
+        "gain_estime": "Couverture antioxydante complète",
+        "sources": [
+          {
+            "auteurs": "Scalbert A. et al.",
+            "titre": "Crit Rev Food Sci Nutr",
+            "annee": 2005
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "vitamine_e",
+      "antioxydants",
+      "omega9",
+      "manganese"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "graine_de_sesame",
+    "nom": "Graines de sésame",
+    "categorie": "oléagineux",
+    "emoji": "🌾",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "Les graines de sésame contiennent 975 mg de calcium/100g — plus que tout autre aliment végétal courant. Elles contiennent aussi de la sésamine et sésamoline, deux lignanes aux propriétés antioxydantes et anti-inflammatoires documentées.",
+    "bienfaits": [
+      {
+        "id": "calcium",
+        "label": "Calcium végétal — Concentration record",
+        "detail": "1 c.s. de graines de sésame (10g) apporte 98 mg de calcium. Le tahini (pâte de sésame) concentre ces propriétés avec 426 mg/100g, nettement supérieur au lait (120 mg/100g).",
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "CIQUAL 2020 — Graines de sésame",
+      "calories": {
+        "valeur": 573,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 17.7,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 23.4,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 49.7,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 11.8,
+        "unite": "g"
+      },
+      "calcium": {
+        "valeur": 975,
+        "unite": "mg"
+      },
+      "fer": {
+        "valeur": 14.6,
+        "unite": "mg"
+      },
+      "magnesium": {
+        "valeur": 351,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "kale",
+        "aliment_associe_nom": "Kale",
+        "aliment_associe_emoji": "🥬",
+        "nutriment_cle": "Calcium + Vitamine K",
+        "mecanisme": "Double apport calcium (sésame + kale) avec la vitamine K du kale comme cofacteur de fixation osseuse. Synergie calcium-vitamine K maximale.",
+        "gain_estime": "Densité osseuse optimisée",
+        "sources": [
+          {
+            "auteurs": "Schurgers LJ, Vermeer C.",
+            "titre": "Biochim Biophys Acta",
+            "annee": 2002
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "calcium",
+      "fer",
+      "magnesium",
+      "antioxydants"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "pistache",
+    "nom": "Pistache",
+    "categorie": "oléagineux",
+    "emoji": "🫘",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "La pistache est l'oléagineux le plus riche en lutéine et zéaxanthine (caroténoïdes essentiels pour la santé oculaire) et l'un des rares à contenir de la mélatonine. Sa teneur en protéines (21%) est la plus élevée parmi les noix et graines.",
+    "bienfaits": [
+      {
+        "id": "antioxydants",
+        "label": "Lutéine et zéaxanthine — Santé oculaire",
+        "detail": "La pistache contient 1160 µg de lutéine+zéaxanthine/100g, protégeant la macula de l'œil contre la dégénérescence liée à l'âge (DMLA).",
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Pistachios",
+            "journal": "USDA",
+            "annee": 2019
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "USDA FoodData Central — Pistachios",
+      "calories": {
+        "valeur": 562,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 20.6,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 27.5,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 45.4,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 10.3,
+        "unite": "g"
+      },
+      "vitamine_b6": {
+        "valeur": 1.7,
+        "unite": "mg"
+      },
+      "potassium": {
+        "valeur": 1025,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "avocat",
+        "aliment_associe_nom": "Avocat",
+        "aliment_associe_emoji": "🥑",
+        "nutriment_cle": "Caroténoïdes + Graisses saines",
+        "mecanisme": "Les graisses monoinsaturées de l'avocat améliorent l'absorption de la lutéine et zéaxanthine liposolubles de la pistache. Synergie oculaire.",
+        "gain_estime": "Absorption caroténoïdes ×3 à ×4",
+        "sources": [
+          {
+            "auteurs": "Unlu NZ et al.",
+            "titre": "J Nutr",
+            "annee": 2005
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "antioxydants",
+      "proteines",
+      "potassium",
+      "vitamine_b6"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "nori",
+    "nom": "Algue Nori",
+    "categorie": "algue",
+    "emoji": "🌊",
+    "super_aliment": true,
+    "super_aliment_raison": "Seule source végétale d'iode fiable (116 µg/g), contenant aussi des formes actives de vitamine B12 (débattu mais documenté) et la DHA/EPA préformés rares dans le règne végétal.",
+    "description": "L'algue nori (utilisée dans les sushis) est une des rares sources végétales d'iode, de vitamine B12 (débattue) et d'acides gras oméga-3 préformés (EPA/DHA). Indispensable dans l'alimentation végétalienne pour combler des carences spécifiques.",
+    "bienfaits": [
+      {
+        "id": "iode",
+        "label": "Iode — Source végétale fiable",
+        "detail": "Le nori contient 116 µg d'iode/g, soit 77% des AJR en 1,5g (1 feuille). L'iode est indispensable à la synthèse des hormones thyroïdiennes. Rare dans l'alimentation végétale.",
+        "sources": [
+          {
+            "auteurs": "Teas J et al.",
+            "titre": "Variability of iodine content in common commercially available edible seaweeds",
+            "journal": "Thyroid",
+            "annee": 2004,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15588381/"
+          }
+        ]
+      },
+      {
+        "id": "vitamine_b12",
+        "label": "Vitamine B12 — Source végétale débattue",
+        "detail": "Le nori contient des analogues de vitamine B12. Des études japonaises récentes indiquent que la forme présente dans le nori séché est biologiquement active.",
+        "sujet_a_debat": true,
+        "debat_detail": {
+          "pour": "Études japonaises (Watanabe 2014) montrant la présence de méthylcobalamine active dans le nori séché avec absorption vérifiée chez des végétaliens.",
+          "contre": "Variabilité importante selon les lots et la préparation. L'EFSA ne reconnaît pas les algues comme source fiable de B12.",
+          "recommandation": "Ne pas compter uniquement sur le nori pour la B12. Complémentation systématique recommandée pour les végétaliens."
+        },
+        "sources": [
+          {
+            "auteurs": "Watanabe F et al.",
+            "titre": "Vitamin B12-containing plant food sources for vegetarians",
+            "journal": "Nutrients",
+            "annee": 2014,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24927003/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "USDA FoodData Central — Seaweed, nori",
+      "calories": {
+        "valeur": 35,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 5.8,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 5.1,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 0.3,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 0.3,
+        "unite": "g"
+      },
+      "fer": {
+        "valeur": 1.8,
+        "unite": "mg"
+      },
+      "vitamine_c": {
+        "valeur": 39,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "riz_complet",
+        "aliment_associe_nom": "Riz complet",
+        "aliment_associe_emoji": "🍚",
+        "nutriment_cle": "Iode + Sélénium du riz",
+        "mecanisme": "L'iode du nori et le sélénium du riz complet sont tous deux nécessaires à la fonction thyroïdienne (l'iode pour synthétiser les hormones, le sélénium pour les activer via les déiodinases).",
+        "gain_estime": "Fonction thyroïdienne optimisée",
+        "sources": [
+          {
+            "auteurs": "Köhrle J.",
+            "titre": "Selenium and the thyroid",
+            "journal": "Curr Opin Endocrinol",
+            "annee": 2013
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "iode",
+      "vitamine_b12",
+      "omega3",
+      "fer"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "baies_de_goji",
+    "nom": "Baies de Goji",
+    "categorie": "fruit",
+    "emoji": "🔴",
+    "super_aliment": true,
+    "super_aliment_raison": "Concentration record en zéaxanthine (2909 µg/100g — protège la macula), richesse exceptionnelle en polysaccharides immunostimulants (LBP) et profil minéral dense (fer, zinc, sélénium).",
+    "description": "Les baies de goji sont l'une des rares sources végétales de zéaxanthine, caroténoïde essentiel à la santé oculaire. Leurs polysaccharides (LBP) ont des propriétés immunostimulantes et neuroprotectrices documentées dans de nombreuses études.",
+    "bienfaits": [
+      {
+        "id": "antioxydants",
+        "label": "Zéaxanthine — Protection oculaire exceptionnelle",
+        "detail": "2909 µg de zéaxanthine/100g dans les baies de goji, soit la concentration la plus élevée de tous les aliments testés. La zéaxanthine filtre la lumière bleue et prévient la DMLA.",
+        "sources": [
+          {
+            "auteurs": "Amagase H, Farnsworth NR.",
+            "titre": "A review of botanical characteristics, phytochemistry of Lycium barbarum",
+            "journal": "Food Res Int",
+            "annee": 2011,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20861866/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "USDA FoodData Central — Goji berries, dried",
+      "calories": {
+        "valeur": 349,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 14.3,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 77.1,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 0.4,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 13,
+        "unite": "g"
+      },
+      "vitamine_c": {
+        "valeur": 48,
+        "unite": "mg"
+      },
+      "fer": {
+        "valeur": 6.8,
+        "unite": "mg"
+      },
+      "zinc": {
+        "valeur": 2,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "avocat",
+        "aliment_associe_nom": "Avocat",
+        "aliment_associe_emoji": "🥑",
+        "nutriment_cle": "Zéaxanthine + Graisses saines",
+        "mecanisme": "La zéaxanthine est un caroténoïde liposoluble : les graisses monoinsaturées de l'avocat multiplient son absorption par 3 à 4. Association parfaite pour la santé oculaire.",
+        "gain_estime": "Absorption zéaxanthine ×3 à ×4",
+        "sources": [
+          {
+            "auteurs": "Unlu NZ et al.",
+            "titre": "J Nutr",
+            "annee": 2005
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "antioxydants",
+      "fer",
+      "zinc",
+      "immunite"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "amarante",
+    "nom": "Amarante",
+    "categorie": "pseudo-céréale",
+    "emoji": "🌾",
+    "super_aliment": true,
+    "super_aliment_raison": "Seule pseudo-céréale contenant de la lysine en quantité significative (manque dans toutes les céréales), avec du calcium (159 mg/100g), du fer (7,6 mg/100g) et des protéines complètes. Naturellement sans gluten.",
+    "description": "L'amarante est une pseudo-céréale originaire des Aztèques avec un profil nutritionnel exceptionnel : protéines complètes (14%), calcium record pour une céréale, fer élevé et squalène (composé cardioprotecteur). Sans gluten.",
+    "bienfaits": [
+      {
+        "id": "proteines_completes",
+        "label": "Protéines complètes avec lysine",
+        "detail": "L'amarante est la seule céréale à contenir suffisamment de lysine. La lysine est l'acide aminé limitant de toutes les céréales (blé, riz, maïs). Protéines hautement assimilables.",
+        "sources": [
+          {
+            "auteurs": "Becker R et al.",
+            "titre": "Nutritional quality of amaranth grain",
+            "journal": "J Food Sci",
+            "annee": 1981
+          }
+        ]
+      },
+      {
+        "id": "calcium",
+        "label": "Calcium et fer exceptionnels pour une céréale",
+        "detail": "159 mg de calcium/100g et 7,6 mg de fer/100g — des valeurs proches des légumineuses, très inhabituelles pour une céréale.",
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Amaranth grain",
+            "journal": "USDA",
+            "annee": 2019
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "USDA FoodData Central — Amaranth grain, uncooked",
+      "calories": {
+        "valeur": 371,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 13.6,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 65.3,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 7,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 6.7,
+        "unite": "g"
+      },
+      "calcium": {
+        "valeur": 159,
+        "unite": "mg"
+      },
+      "fer": {
+        "valeur": 7.6,
+        "unite": "mg"
+      },
+      "magnesium": {
+        "valeur": 248,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Vitamine C + Fer + Calcium",
+        "mecanisme": "La vitamine C du citron améliore l'absorption du fer de l'amarante (7,6 mg/100g) et facilite l'utilisation du calcium. Un simple filet de citron sur l'amarante cuite transforme ce repas en bombe nutritionnelle.",
+        "gain_estime": "Absorption fer ×2 à ×3",
+        "sources": [
+          {
+            "auteurs": "Hallberg L. et al.",
+            "titre": "Hum Nutr Appl Nutr",
+            "annee": 1986
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "proteines_completes",
+      "calcium",
+      "fer",
+      "magnesium"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "millet",
+    "nom": "Millet",
+    "categorie": "céréale",
+    "emoji": "🌾",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "Le millet est une céréale ancienne sans gluten, particulièrement riche en magnésium et en silicium (bénéfique pour les cheveux, ongles et articulations). Sa teneur en tryptophane en fait un aliment favorisant la production de sérotonine.",
+    "bienfaits": [
+      {
+        "id": "magnesium",
+        "label": "Magnésium et silicium pour les os et tissus",
+        "detail": "114 mg de magnésium/100g (30% AJR) et une teneur notable en silicium, oligo-élément qui renforce le collagène des os, tendons et peau.",
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Millet",
+            "journal": "USDA",
+            "annee": 2019
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "USDA FoodData Central — Millet, raw",
+      "calories": {
+        "valeur": 378,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 11,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 72.9,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 4.2,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 8.5,
+        "unite": "g"
+      },
+      "fer": {
+        "valeur": 3,
+        "unite": "mg"
+      },
+      "magnesium": {
+        "valeur": 114,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "pois_chiche",
+        "aliment_associe_nom": "Pois chiches",
+        "aliment_associe_emoji": "🫘",
+        "nutriment_cle": "Protéines complémentaires",
+        "mecanisme": "Le millet apporte méthionine mais manque de lysine ; les pois chiches apportent lysine mais moins de méthionine. Ensemble, ils forment un profil protéique complet.",
+        "gain_estime": "Complémentarité protéique optimale",
+        "sources": [
+          {
+            "auteurs": "Young VR, Pellett PL.",
+            "titre": "Am J Clin Nutr",
+            "annee": 1994
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "magnesium",
+      "fer",
+      "fibres"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "teff",
+    "nom": "Teff",
+    "categorie": "céréale",
+    "emoji": "🌾",
+    "super_aliment": true,
+    "super_aliment_raison": "La céréale la plus riche en calcium (180 mg/100g) et en fer (7,6 mg/100g), naturellement sans gluten, avec des protéines complètes et une concentration exceptionnelle en résistant starch pour le microbiote.",
+    "description": "Le teff est la plus petite céréale au monde, cultivée en Éthiopie depuis des millénaires. Sa richesse en calcium (la plus élevée de toutes les céréales), en fer, en fibres résistantes et sa complétude protéique en font un super aliment méconnu.",
+    "bienfaits": [
+      {
+        "id": "calcium",
+        "label": "Calcium — Céréale la plus riche",
+        "detail": "180 mg de calcium/100g de teff cuit — 3 à 4 fois plus que le blé ou le riz. Le teff est une alternative exceptionnelle aux produits laitiers pour le calcium.",
+        "sources": [
+          {
+            "auteurs": "Baye K.",
+            "titre": "Teff: nutrient composition and health benefits",
+            "journal": "IFPRI",
+            "annee": 2014
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "USDA FoodData Central — Teff, uncooked",
+      "calories": {
+        "valeur": 367,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 13.3,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 73.1,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 2.4,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 8,
+        "unite": "g"
+      },
+      "calcium": {
+        "valeur": 180,
+        "unite": "mg"
+      },
+      "fer": {
+        "valeur": 7.6,
+        "unite": "mg"
+      },
+      "magnesium": {
+        "valeur": 184,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Vitamine C + Fer + Calcium",
+        "mecanisme": "Identique à l'amarante : la vitamine C du citron multiplie l'absorption du fer exceptionnel du teff et facilite l'utilisation du calcium.",
+        "gain_estime": "Absorption fer ×2 à ×3",
+        "sources": [
+          {
+            "auteurs": "Hallberg L. et al.",
+            "titre": "Hum Nutr Appl Nutr",
+            "annee": 1986
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "calcium",
+      "fer",
+      "proteines_completes",
+      "magnesium"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "orge",
+    "nom": "Orge",
+    "categorie": "céréale",
+    "emoji": "🌾",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "L'orge est la céréale la plus riche en bêta-glucanes solubles (5-11g/100g), des fibres reconnues par l'EFSA pour réduire le cholestérol LDL. Avec l'avoine, c'est la principale source alimentaire de cette fibre protectrice.",
+    "bienfaits": [
+      {
+        "id": "cholesterol",
+        "label": "Bêta-glucanes — Réduction cholestérol validée",
+        "detail": "L'EFSA reconnaît officiellement que 3g de bêta-glucanes par jour réduisent le cholestérol LDL. L'orge en contient 5-11g/100g. Effet démontré dans une méta-analyse de 34 études.",
+        "sources": [
+          {
+            "auteurs": "EFSA",
+            "titre": "Scientific opinion on the substantiation of health claims related to beta-glucans",
+            "journal": "EFSA Journal",
+            "annee": 2011,
+            "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2011.2207"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "CIQUAL 2020 — Orge mondé cru",
+      "calories": {
+        "valeur": 352,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 12.5,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 64.3,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 2.3,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 17.3,
+        "unite": "g"
+      },
+      "fer": {
+        "valeur": 3.6,
+        "unite": "mg"
+      },
+      "magnesium": {
+        "valeur": 133,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "avoine",
+        "aliment_associe_nom": "Avoine",
+        "aliment_associe_emoji": "🌾",
+        "nutriment_cle": "Bêta-glucanes cumulés",
+        "mecanisme": "Orge + avoine : double source de bêta-glucanes solubles pour un effet cholestérol-réducteur maximal. Mélanger les deux céréales dans un porridge ou une soupe atteint facilement 3g/jour.",
+        "gain_estime": "Réduction LDL-cholestérol validée",
+        "sources": [
+          {
+            "auteurs": "EFSA",
+            "titre": "EFSA Journal 2011",
+            "annee": 2011
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "fibres",
+      "cholesterol",
+      "prebiotique",
+      "magnesium"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "haricot_rouge",
+    "nom": "Haricot rouge",
+    "categorie": "légumineuse",
+    "emoji": "🫘",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "Le haricot rouge est l'une des légumineuses les plus denses en fer, en anthocyanes (dans la peau rouge) et en folates. Sa richesse en fibres solubles (pectine) en fait aussi un aliment glycémiant très lentement.",
+    "bienfaits": [
+      {
+        "id": "fer",
+        "label": "Fer et folates — Double avantage hématologique",
+        "detail": "5,5 mg de fer/100g et 394 µg de folates/100g (crus). Association remarquable pour la formation des globules rouges et la prévention de l'anémie.",
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "CIQUAL 2020 — Haricot rouge cuit",
+      "calories": {
+        "valeur": 127,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 8.7,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 19.4,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 0.5,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 6.4,
+        "unite": "g"
+      },
+      "fer": {
+        "valeur": 2.9,
+        "unite": "mg"
+      },
+      "folates": {
+        "valeur": 130,
+        "unite": "µg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "poivron_rouge",
+        "aliment_associe_nom": "Poivron rouge",
+        "aliment_associe_emoji": "🌶️",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "Le poivron rouge (127 mg de vitamine C/100g) convertit le fer non-héminique du haricot rouge en forme absorbable. Association simple et très efficace.",
+        "gain_estime": "Absorption fer ×2 à ×3",
+        "sources": [
+          {
+            "auteurs": "Hallberg L. et al.",
+            "titre": "Hum Nutr Appl Nutr",
+            "annee": 1986
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "fer",
+      "proteines",
+      "fibres",
+      "folates"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "haricot_blanc",
+    "nom": "Haricot blanc",
+    "categorie": "légumineuse",
+    "emoji": "🫘",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "Le haricot blanc est remarquable par sa teneur en calcium (130 mg/100g cuit — rare pour une légumineuse) et en potassium (561 mg/100g). Il contient aussi des inhibiteurs d'alpha-glucosidase qui ralentissent l'absorption du glucose.",
+    "bienfaits": [
+      {
+        "id": "calcium",
+        "label": "Calcium et potassium pour le système cardiovasculaire",
+        "detail": "130 mg de calcium/100g (cuit) — la teneur en calcium la plus élevée parmi les légumineuses communes. Associé au potassium (561 mg/100g), effet bénéfique sur la tension artérielle.",
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "CIQUAL 2020 — Haricot blanc cuit",
+      "calories": {
+        "valeur": 124,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 8.3,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 19.1,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 0.4,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 7.4,
+        "unite": "g"
+      },
+      "calcium": {
+        "valeur": 130,
+        "unite": "mg"
+      },
+      "potassium": {
+        "valeur": 561,
+        "unite": "mg"
+      },
+      "fer": {
+        "valeur": 3.7,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "kale",
+        "aliment_associe_nom": "Kale",
+        "aliment_associe_emoji": "🥬",
+        "nutriment_cle": "Calcium + Vitamine K",
+        "mecanisme": "Double apport calcium (haricot blanc + kale) avec la vitamine K du kale pour la fixation osseuse. Synergie calcium-vitamine K complète.",
+        "gain_estime": "Densité osseuse maximisée",
+        "sources": [
+          {
+            "auteurs": "Schurgers LJ, Vermeer C.",
+            "titre": "Biochim Biophys Acta",
+            "annee": 2002
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "calcium",
+      "proteines",
+      "fibres",
+      "potassium"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "miso",
+    "nom": "Miso",
+    "categorie": "légumineuse transformée",
+    "emoji": "🍜",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "Le miso est une pâte fermentée de soja (parfois avec riz ou orge), utilisée dans la cuisine japonaise. La fermentation améliore la biodisponibilité des protéines et produit des probiotiques, des isoflavones actives et de la vitamine K2.",
+    "bienfaits": [
+      {
+        "id": "probiotiques",
+        "label": "Probiotiques et isoflavones actives",
+        "detail": "La fermentation du miso produit des lactobacilles bénéfiques pour le microbiote et convertit les isoflavones en formes plus biologiquement actives (génistéine, daidzéine).",
+        "sources": [
+          {
+            "auteurs": "Watanabe H.",
+            "titre": "Beneficial biological effects of miso with reference to radiation injury",
+            "journal": "J Toxicol Pathol",
+            "annee": 2013,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24284954/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "CIQUAL 2020 — Miso",
+      "calories": {
+        "valeur": 199,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 11.7,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 26.5,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 6,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 5.4,
+        "unite": "g"
+      },
+      "calcium": {
+        "valeur": 57,
+        "unite": "mg"
+      },
+      "fer": {
+        "valeur": 2.5,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "champignon_shiitake",
+        "aliment_associe_nom": "Shiitaké",
+        "aliment_associe_emoji": "🍄",
+        "nutriment_cle": "Probiotiques + Bêta-glucanes",
+        "mecanisme": "Le miso (probiotiques) et le shiitaké (lentinane = bêta-glucane) exercent une action immunostimulante synergique sur les cellules dendritiques et les lymphocytes.",
+        "gain_estime": "Immunostimulation synergique",
+        "sources": [
+          {
+            "auteurs": "Wasser SP.",
+            "titre": "Appl Microbiol Biotechnol",
+            "annee": 2002
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "probiotiques",
+      "isoflavones",
+      "proteines",
+      "fermente"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "tahini",
+    "nom": "Tahini (Purée de sésame)",
+    "categorie": "légumineuse transformée",
+    "emoji": "🫙",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "Le tahini est la purée de graines de sésame torréfiées — il concentre tous les nutriments du sésame dans un format très utilisable. 426 mg de calcium/100g (35% plus que le lait), riche en graisses insaturées et en méthionine.",
+    "bienfaits": [
+      {
+        "id": "calcium",
+        "label": "Calcium concentré — Plus que le lait",
+        "detail": "2 c.s. de tahini (30g) apportent 128 mg de calcium, soit 13% des AJR. Sur 100g, le tahini (426 mg) surpasse largement le lait entier (120 mg).",
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "CIQUAL 2020 — Purée de sésame (tahini)",
+      "calories": {
+        "valeur": 595,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 17,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 21.2,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 53.8,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 9.3,
+        "unite": "g"
+      },
+      "calcium": {
+        "valeur": 426,
+        "unite": "mg"
+      },
+      "fer": {
+        "valeur": 8.9,
+        "unite": "mg"
+      },
+      "magnesium": {
+        "valeur": 362,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Vitamine C + Calcium + Fer",
+        "mecanisme": "Le jus de citron dilue le tahini (sauce classique houmous) et ajoute la vitamine C qui améliore l'absorption du fer (8,9 mg/100g) et facilite l'utilisation du calcium. Association culinaire intuitivement nutritive.",
+        "gain_estime": "Absorption fer ×2 à ×3",
+        "sources": [
+          {
+            "auteurs": "Hallberg L. et al.",
+            "titre": "Hum Nutr Appl Nutr",
+            "annee": 1986
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "calcium",
+      "fer",
+      "magnesium",
+      "proteines"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "chlorelle",
+    "nom": "Chlorelle",
+    "categorie": "algue",
+    "emoji": "🌿",
+    "super_aliment": true,
+    "super_aliment_raison": "La chlorelle contient le facteur CGF (Chlorella Growth Factor), une molécule unique stimulant la régénération cellulaire. Avec 58g de protéines/100g (la plus haute du règne végétal), de la chlorophylle chélatrice de métaux lourds, et une teneur en fer exceptionnelle.",
+    "description": "La chlorelle est une microalgue d'eau douce avec la densité protéique la plus élevée de tous les aliments végétaux (58g/100g). Sa chlorophylle se lie aux métaux lourds pour faciliter leur élimination. Contient du CGF, unique à cet organisme.",
+    "bienfaits": [
+      {
+        "id": "detox",
+        "label": "Détoxification — Chélation des métaux lourds",
+        "detail": "La chlorophylle et la paroi cellulaire unique de la chlorelle se lient au mercure, plomb et cadmium pour faciliter leur élimination. Validé dans des études sur des intoxications aux métaux.",
+        "sources": [
+          {
+            "auteurs": "Uchikawa T et al.",
+            "titre": "The influence of Chlorella on the pharmacokinetics of methylmercury",
+            "journal": "J Toxicol Sci",
+            "annee": 2011,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21297351/"
+          }
+        ]
+      },
+      {
+        "id": "proteines",
+        "label": "Protéines complètes — Densité record",
+        "detail": "58g de protéines/100g avec tous les acides aminés essentiels. Score PDCAAS proche de 1. En pratique, 5g de chlorelle apportent 2,9g de protéines complètes.",
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "FoodData Central — Chlorella",
+            "journal": "USDA",
+            "annee": 2019
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "USDA FoodData Central — Chlorella",
+      "calories": {
+        "valeur": 410,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 58.4,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 23.2,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 9.3,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 0,
+        "unite": "g"
+      },
+      "fer": {
+        "valeur": 130,
+        "unite": "mg"
+      },
+      "vitamine_c": {
+        "valeur": 10,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Vitamine C + Fer exceptionnel",
+        "mecanisme": "Le fer de la chlorelle est exceptionnel (130 mg/100g) mais peu biodisponible sous forme d'algue. La vitamine C du citron améliore significativement son absorption. Smoothie vert chlorelle + jus de citron.",
+        "gain_estime": "Absorption fer chlorelle ×2",
+        "sources": [
+          {
+            "auteurs": "Hurrell R.",
+            "titre": "Am J Clin Nutr",
+            "annee": 2010
+          }
+        ]
+      },
+      {
+        "aliment_associe_id": "spiruline",
+        "aliment_associe_nom": "Spiruline",
+        "aliment_associe_emoji": "🌊",
+        "nutriment_cle": "Protéines + Phytonutriments complémentaires",
+        "mecanisme": "Spiruline + chlorelle : deux microalgues complémentaires. La spiruline apporte la phycocyanine (antioxydant bleu unique), la chlorelle apporte le CGF et la chlorophylle. Association populaire dans la nutrition sportive végétale.",
+        "gain_estime": "Profil phytonutritionnel complet",
+        "sources": [
+          {
+            "auteurs": "Deng R, Chow TJ.",
+            "titre": "Hypolipidemic, antioxidant and anti-inflammatory activities of microalgae",
+            "journal": "Cardiovasc Ther",
+            "annee": 2010
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "proteines_completes",
+      "detox",
+      "fer",
+      "chlorophylle"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "abricot_sec",
+    "nom": "Abricot sec",
+    "categorie": "fruit",
+    "emoji": "🍑",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "L'abricot sec est une bombe nutritionnelle concentrée : 4,4 mg de fer/100g (la 2ème source parmi les fruits séchés), 46 µg de bêta-carotène/g et 1160 mg de potassium/100g. Un en-cas anti-fatigue exceptionnel.",
+    "bienfaits": [
+      {
+        "id": "fer",
+        "label": "Fer concentré et bêta-carotène",
+        "detail": "4,4 mg de fer/100g — concentration 5× supérieure à l'abricot frais. Le bêta-carotène apporte aussi la provitamine A (1 mg/100g).",
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "CIQUAL 2020 — Abricot séché",
+      "calories": {
+        "valeur": 241,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 3.4,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 55.3,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 0.5,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 7.3,
+        "unite": "g"
+      },
+      "fer": {
+        "valeur": 4.4,
+        "unite": "mg"
+      },
+      "potassium": {
+        "valeur": 1160,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "orange",
+        "aliment_associe_nom": "Orange",
+        "aliment_associe_emoji": "🍊",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "L'association abricot sec + orange (ou jus d'orange) est l'une des meilleures sources portables de fer + vitamine C. Idéale comme collation anti-anémie.",
+        "gain_estime": "Absorption fer ×2 à ×3",
+        "sources": [
+          {
+            "auteurs": "Hallberg L. et al.",
+            "titre": "Hum Nutr Appl Nutr",
+            "annee": 1986
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "fer",
+      "potassium",
+      "vitamine_a",
+      "energie"
+    ],
+    "recette_idee_id": null
+  },
+  {
+    "id": "datte",
+    "nom": "Datte",
+    "categorie": "fruit",
+    "emoji": "🌴",
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "description": "La datte est un concentré énergétique naturel avec un index glycémique modéré malgré sa douceur (IG 42-55 selon la variété). Riche en magnésium, potassium et fibres solubles, c'est le sucrant naturel le plus nutritif.",
+    "bienfaits": [
+      {
+        "id": "energie",
+        "label": "Énergie naturelle à IG modéré",
+        "detail": "L'IG bas des dattes (42-55) s'explique par la teneur en fructose et fibres solubles qui ralentissent l'absorption. Idéal comme sucrant dans les recettes végétales ou l'énergie pré-sport.",
+        "sources": [
+          {
+            "auteurs": "Miller CJ et al.",
+            "titre": "Glycemic index of dates in healthy and non-insulin dependent diabetics",
+            "journal": "Eur J Clin Nutr",
+            "annee": 2003,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12571659/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "source_teneurs": "CIQUAL 2020 — Datte séchée",
+      "calories": {
+        "valeur": 282,
+        "unite": "kcal"
+      },
+      "proteines": {
+        "valeur": 2.5,
+        "unite": "g"
+      },
+      "glucides": {
+        "valeur": 68.8,
+        "unite": "g"
+      },
+      "lipides": {
+        "valeur": 0.4,
+        "unite": "g"
+      },
+      "fibres": {
+        "valeur": 8,
+        "unite": "g"
+      },
+      "potassium": {
+        "valeur": 696,
+        "unite": "mg"
+      },
+      "magnesium": {
+        "valeur": 54,
+        "unite": "mg"
+      }
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "amande",
+        "aliment_associe_nom": "Amande",
+        "aliment_associe_emoji": "🌰",
+        "nutriment_cle": "Énergie lente + Graisses + Fibres",
+        "mecanisme": "Les graisses et protéines des amandes combinées aux fibres et sucres des dattes créent un en-cas à libération d'énergie prolongée. L'indice glycémique de l'association est inférieur à chaque aliment seul.",
+        "gain_estime": "IG association plus bas que datte seule",
+        "sources": [
+          {
+            "auteurs": "Jenkins DJ et al.",
+            "titre": "Effect of high dietary fiber intake on the glycemic index",
+            "journal": "Am J Clin Nutr",
+            "annee": 2002
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "energie",
+      "potassium",
+      "magnesium",
+      "fibres"
+    ],
+    "recette_idee_id": null
   }
 ]
