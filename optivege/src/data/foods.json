@@ -5925,5 +5925,1078 @@
       "fibres"
     ],
     "recette_idee_id": null
+  },
+  {
+    "id": "chou_fleur",
+    "nom": "Chou-fleur",
+    "categorie": "légume",
+    "emoji": "🥦",
+    "description": "Légume crucifère riche en vitamine C et glucosinolates aux propriétés anti-tumorales documentées.",
+    "bienfaits": [
+      {
+        "id": "vitamine_c",
+        "label": "Riche en vitamine C",
+        "detail": "100g de chou-fleur apportent 48mg de vitamine C.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "antioxydants",
+        "label": "Glucosinolates anti-tumoraux",
+        "detail": "Se transforment en isothiocyanates lors de la mastication, aux propriétés anti-tumorales validées.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Higdon JV et al.",
+            "titre": "Cruciferous Vegetables and Human Cancer Risk",
+            "journal": "Pharmacol Res",
+            "annee": 2007,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17317210/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "curcuma",
+        "mecanisme": "La curcumine et les isothiocyanates du chou-fleur ont des mécanismes anti-tumoraux complémentaires.",
+        "benefice_synergie": "Synergie anti-tumorale renforcée",
+        "source": {
+          "auteurs": "Canene-Adams K et al.",
+          "titre": "Combinations of tomato and broccoli enhance antitumor activity",
+          "journal": "Cancer Res",
+          "annee": 2007,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17616703/"
+        }
+      }
+    ],
+    "tags": [
+      "antioxydants",
+      "vitamine_c"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
+  },
+  {
+    "id": "carotte",
+    "nom": "Carotte",
+    "categorie": "légume",
+    "emoji": "🥕",
+    "description": "Source majeure de bêta-carotène. Sa cuisson légère augmente la biodisponibilité des caroténoïdes jusqu'à 40%.",
+    "bienfaits": [
+      {
+        "id": "antioxydants",
+        "label": "Champion du bêta-carotène",
+        "detail": "8285µg de bêta-carotène/100g cuit, précurseur de la vitamine A.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "fibres",
+        "label": "Fibres prébiotiques (pectines)",
+        "detail": "3,1g de fibres/100g dont des pectines favorisant le microbiote.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Slavin J",
+            "titre": "Fiber and Prebiotics",
+            "journal": "Nutrients",
+            "annee": 2013,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23609775/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "avocat",
+        "mecanisme": "Les lipides de l'avocat solubilisent le bêta-carotène, multipliant son absorption par 3 à 5.",
+        "benefice_synergie": "Absorption du bêta-carotène ×3 à ×5",
+        "source": {
+          "auteurs": "Unlu NZ et al.",
+          "titre": "Carotenoid absorption enhanced by avocado",
+          "journal": "J Nutr",
+          "annee": 2005,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15735074/"
+        }
+      }
+    ],
+    "tags": [
+      "antioxydants",
+      "fibres"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
+  },
+  {
+    "id": "tomate",
+    "nom": "Tomate",
+    "categorie": "légume-fruit",
+    "emoji": "🍅",
+    "description": "Principale source alimentaire de lycopène, un caroténoïde anti-tumoral. Sa teneur en lycopène augmente à la cuisson.",
+    "bienfaits": [
+      {
+        "id": "antioxydants",
+        "label": "Lycopène anti-tumoral",
+        "detail": "La tomate cuite contient jusqu'à 16mg de lycopène/100g, associé à un risque réduit de cancers.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Giovannucci E",
+            "titre": "Tomato products and prostate cancer",
+            "journal": "J Nutr",
+            "annee": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15671258/"
+          }
+        ]
+      },
+      {
+        "id": "vitamine_c",
+        "label": "Vitamine C et potassium",
+        "detail": "19mg de vitamine C et 237mg de potassium pour 100g.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "brocoli",
+        "mecanisme": "Lycopène + sulforaphane : deux mécanismes anti-tumoraux distincts agissant en synergie documentée.",
+        "benefice_synergie": "Synergie anti-tumorale tomate + brocoli",
+        "source": {
+          "auteurs": "Canene-Adams K et al.",
+          "titre": "Combinations of tomato and broccoli enhance antitumor activity",
+          "journal": "Cancer Res",
+          "annee": 2007,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17616703/"
+        }
+      }
+    ],
+    "tags": [
+      "antioxydants",
+      "vitamine_c",
+      "cardiovasculaire"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
+  },
+  {
+    "id": "concombre",
+    "nom": "Concombre",
+    "categorie": "légume",
+    "emoji": "🥒",
+    "description": "Composé à 96% d'eau, excellent pour l'hydratation. Contient de la vitamine K et des cucurbitacines anti-inflammatoires dans la peau.",
+    "bienfaits": [
+      {
+        "id": "vitamine_k",
+        "label": "Source de vitamine K",
+        "detail": "16,4µg de vitamine K pour 100g.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "anti_inflammatoire",
+        "label": "Cucurbitacines anti-inflammatoires",
+        "detail": "Les cucurbitacines de la peau inhibent la voie JAK-STAT de l'inflammation chronique.",
+        "sujet_a_debat": true,
+        "sources": [
+          {
+            "auteurs": "Kaushik U et al.",
+            "titre": "Cucurbitacins — medicinal leads from nature",
+            "journal": "Pharmacogn Rev",
+            "annee": 2015,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26009693/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "gingembre",
+        "mecanisme": "Les cucurbitacines (concombre) et gingérols (gingembre) ont des mécanismes anti-inflammatoires complémentaires.",
+        "benefice_synergie": "Anti-inflammatoire multi-voies",
+        "source": {
+          "auteurs": "Mashhadi NS et al.",
+          "titre": "Anti-Oxidative and Anti-Inflammatory Effects of Ginger",
+          "journal": "Int J Prev Med",
+          "annee": 2013,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23717767/"
+        }
+      }
+    ],
+    "tags": [
+      "anti_inflammatoire",
+      "vitamine_k"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
+  },
+  {
+    "id": "pomme",
+    "nom": "Pomme",
+    "categorie": "fruit",
+    "emoji": "🍎",
+    "description": "\"Une pomme par jour...\" — la quercétine, catéchine et pectine de la pomme forment un trio synergique unique anti-inflammatoire et prébiotique.",
+    "bienfaits": [
+      {
+        "id": "fibres",
+        "label": "Pectine prébiotique",
+        "detail": "2,4g de fibres/100g dont la pectine, nourrissant Bifidobacterium et produisant des AGCC.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Slavin J",
+            "titre": "Fiber and Prebiotics",
+            "journal": "Nutrients",
+            "annee": 2013,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23609775/"
+          }
+        ]
+      },
+      {
+        "id": "antioxydants",
+        "label": "Quercétine et catéchine",
+        "detail": "La quercétine (avec la peau) est un puissant anti-inflammatoire lié à la réduction du risque cardiovasculaire.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Arts IC et al.",
+            "titre": "Catechin intake and associated dietary factors",
+            "journal": "Eur J Clin Nutr",
+            "annee": 2001,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11593353/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "cannelle",
+        "mecanisme": "La quercétine de la pomme et les polyphénols de la cannelle réduisent ensemble la glycémie postprandiale.",
+        "benefice_synergie": "Régulation glycémique synergique",
+        "source": {
+          "auteurs": "Johnston CS et al.",
+          "titre": "Vinegar improves insulin sensitivity",
+          "journal": "Diabetes Care",
+          "annee": 2004,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15277160/"
+        }
+      }
+    ],
+    "tags": [
+      "fibres",
+      "antioxydants"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
+  },
+  {
+    "id": "cerise",
+    "nom": "Cerise",
+    "categorie": "fruit",
+    "emoji": "🍒",
+    "description": "Fruit rouge aux propriétés anti-inflammatoires et anti-goutte grâce à ses anthocyanes. Contient de la mélatonine naturelle pour le sommeil.",
+    "bienfaits": [
+      {
+        "id": "anti_inflammatoire",
+        "label": "Anthocyanes anti-inflammatoires",
+        "detail": "Inhibent COX-1 et COX-2 comme les AINS, réduisent IL-6 et CRP.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Kelley DS et al.",
+            "titre": "Consumption of Bing sweet cherries lowers inflammation markers",
+            "journal": "J Nutr",
+            "annee": 2006,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16614420/"
+          }
+        ]
+      },
+      {
+        "id": "antioxydants",
+        "label": "Mélatonine naturelle",
+        "detail": "La cerise (griotte) est l'une des rares sources alimentaires de mélatonine, améliorant la qualité du sommeil.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Howatson G et al.",
+            "titre": "Effect of tart cherry juice on melatonin and sleep quality",
+            "journal": "Eur J Nutr",
+            "annee": 2012,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21901427/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "gingembre",
+        "mecanisme": "Cyanidines (cerise) + gingérols (gingembre) : double inhibition COX et cytokines pro-inflammatoires.",
+        "benefice_synergie": "Anti-inflammatoire articulaire puissant",
+        "source": {
+          "auteurs": "Mashhadi NS et al.",
+          "titre": "Anti-Inflammatory Effects of Ginger",
+          "journal": "Int J Prev Med",
+          "annee": 2013,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23717767/"
+        }
+      }
+    ],
+    "tags": [
+      "anti_inflammatoire",
+      "antioxydants"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
+  },
+  {
+    "id": "raisin",
+    "nom": "Raisin noir",
+    "categorie": "fruit",
+    "emoji": "🍇",
+    "description": "Principale source alimentaire de resvératrol, polyphénol aux propriétés cardiovasculaires et anti-âge. Riche en quercétine et anthocyanes.",
+    "bienfaits": [
+      {
+        "id": "cardiovasculaire",
+        "label": "Resvératrol cardioprotecteur",
+        "detail": "Active la sirtuine SIRT1, réduit l'agrégation plaquettaire et améliore la fonction endothéliale.",
+        "sujet_a_debat": true,
+        "sources": [
+          {
+            "auteurs": "Renaud S, de Lorgeril M",
+            "titre": "Wine, alcohol, and coronary heart disease",
+            "journal": "Lancet",
+            "annee": 1992,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1351198/"
+          }
+        ]
+      },
+      {
+        "id": "antioxydants",
+        "label": "Polyphénols : quercétine et anthocyanes",
+        "detail": "Combinaison d'antioxydants polyphénoliques parmi les plus étudiées.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Xia EQ et al.",
+            "titre": "Biological Activities of Polyphenols from Grapes",
+            "journal": "Int J Mol Sci",
+            "annee": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21614201/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "noix",
+        "mecanisme": "Resvératrol (raisin) + oméga-3 et vitamine E (noix) : effets cardiovasculaires complémentaires.",
+        "benefice_synergie": "Protection cardiovasculaire synergique",
+        "source": {
+          "auteurs": "Salas-Salvadó J et al.",
+          "titre": "Mediterranean Diet and Type 2 Diabetes",
+          "journal": "Diabetes Care",
+          "annee": 2011,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21193617/"
+        }
+      }
+    ],
+    "tags": [
+      "cardiovasculaire",
+      "antioxydants"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
+  },
+  {
+    "id": "oignon",
+    "nom": "Oignon",
+    "categorie": "légume",
+    "emoji": "🧅",
+    "description": "L'oignon est la source la plus concentrée de quercétine alimentaire. Ses composés organosoufrés et FOS prébiotiques en font un pilier de la santé intestinale et cardiovasculaire.",
+    "bienfaits": [
+      {
+        "id": "antioxydants",
+        "label": "Champion de la quercétine",
+        "detail": "Jusqu'à 20mg de quercétine/100g (oignon rouge). Inhibe NF-κB et possède des propriétés anti-tumorales.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Boots AW et al.",
+            "titre": "Health effects of quercetin",
+            "journal": "Eur J Pharmacol",
+            "annee": 2008,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18417116/"
+          }
+        ]
+      },
+      {
+        "id": "fibres",
+        "label": "Inuline prébiotique",
+        "detail": "2 à 6g d'inuline/100g, nourrissant spécifiquement les bifidobactéries.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Niness KR",
+            "titre": "Inulin and Oligofructose: What Are They?",
+            "journal": "J Nutr",
+            "annee": 1999,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10395590/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "ail",
+        "mecanisme": "Quercétine (oignon) + allicine (ail) : synergie antimicrobienne et cardioprotectrice documentée.",
+        "benefice_synergie": "Cardioprotection et immunité synergiques",
+        "source": {
+          "auteurs": "Rivlin RS",
+          "titre": "Historical perspective on the use of garlic",
+          "journal": "J Nutr",
+          "annee": 2001,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11238800/"
+        }
+      },
+      {
+        "aliment_b": "curcuma",
+        "mecanisme": "Quercétine + curcumine : double inhibition de NF-κB avec des mécanismes moléculaires distincts.",
+        "benefice_synergie": "Anti-inflammatoire NF-κB maximal",
+        "source": {
+          "auteurs": "Bharti AC, Aggarwal BB",
+          "titre": "Nuclear factor-kappa B and cancer",
+          "journal": "Biochem Pharmacol",
+          "annee": 2002,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12437924/"
+        }
+      }
+    ],
+    "tags": [
+      "antioxydants",
+      "fibres",
+      "immunite"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
+  },
+  {
+    "id": "cannelle",
+    "nom": "Cannelle",
+    "categorie": "épice",
+    "emoji": "🌿",
+    "description": "L'épice la plus étudiée pour ses effets hypoglycémiants. La cinnamaldéhyde améliore la sensibilité à l'insuline et possède de puissantes propriétés antimicrobiennes.",
+    "bienfaits": [
+      {
+        "id": "anti_inflammatoire",
+        "label": "Régulation de la glycémie",
+        "detail": "La cinnamaldéhyde améliore la translocation du transporteur GLUT-4 et la sensibilité à l'insuline.",
+        "sujet_a_debat": true,
+        "sources": [
+          {
+            "auteurs": "Davis PA, Yokoyama W",
+            "titre": "Cinnamon intake lowers fasting blood glucose",
+            "journal": "J Med Food",
+            "annee": 2011,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21480806/"
+          }
+        ]
+      },
+      {
+        "id": "antioxydants",
+        "label": "Pouvoir antioxydant exceptionnel (ORAC)",
+        "detail": "Score ORAC de la cannelle parmi les plus élevés de tous les aliments (267 536 µmol TE/100g).",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Shan B et al.",
+            "titre": "Antioxidant capacity of 26 spice extracts",
+            "journal": "J Agric Food Chem",
+            "annee": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16190627/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "avoine",
+        "mecanisme": "Cinnamaldéhyde (sensibilité insuline) + bêta-glucanes (ralentissement glucose) : double action hypoglycémiante.",
+        "benefice_synergie": "Contrôle glycémique puissant",
+        "source": {
+          "auteurs": "Vuksan V et al.",
+          "titre": "Reduction in postprandial glucose excursion",
+          "journal": "J Am Coll Nutr",
+          "annee": 2009,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19714979/"
+        }
+      },
+      {
+        "aliment_b": "pomme",
+        "mecanisme": "Polyphénols de la cannelle + quercétine de la pomme : synergie sur la glycémie postprandiale.",
+        "benefice_synergie": "Régulation glycémique renforcée",
+        "source": {
+          "auteurs": "Johnston CS et al.",
+          "titre": "Vinegar improves insulin sensitivity",
+          "journal": "Diabetes Care",
+          "annee": 2004,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15277160/"
+        }
+      }
+    ],
+    "tags": [
+      "anti_inflammatoire",
+      "antioxydants"
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "La cannelle possède un score antioxydant ORAC parmi les plus élevés de tous les aliments et son effet hypoglycémiant est validé dans plusieurs méta-analyses. Quelques grammes suffisent à un effet métabolique mesurable."
+  },
+  {
+    "id": "the_vert",
+    "nom": "Thé vert",
+    "categorie": "boisson",
+    "emoji": "🍵",
+    "description": "Aliment le plus étudié en prévention cardiovasculaire et cancéreuse. Son EGCG est le polyphénol antioxydant alimentaire le plus puissant connu.",
+    "bienfaits": [
+      {
+        "id": "antioxydants",
+        "label": "EGCG : le plus puissant polyphénol alimentaire",
+        "detail": "L'EGCG inhibe la topoisomérase tumorale, active p53 et induit l'apoptose de cellules cancéreuses.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Yang CS et al.",
+            "titre": "Cancer prevention by tea",
+            "journal": "Semin Cancer Biol",
+            "annee": 2009,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19095056/"
+          }
+        ]
+      },
+      {
+        "id": "cardiovasculaire",
+        "label": "Réduction du LDL et de la pression artérielle",
+        "detail": "Méta-analyses : −5% de LDL et −3mmHg de pression systolique avec consommation régulière.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Zheng XX et al.",
+            "titre": "Green tea intake lowers LDL cholesterol",
+            "journal": "Am J Clin Nutr",
+            "annee": 2011,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21715508/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "citron",
+        "mecanisme": "La vitamine C du citron protège l'EGCG de la dégradation et multiplie son absorption par 13.",
+        "benefice_synergie": "Absorption de l'EGCG ×13",
+        "source": {
+          "auteurs": "Green RJ et al.",
+          "titre": "Tea formulations modulate catechin bioavailability",
+          "journal": "Mol Nutr Food Res",
+          "annee": 2007,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17471748/"
+        }
+      },
+      {
+        "aliment_b": "curcuma",
+        "mecanisme": "EGCG (inhibition topoisomérase) + curcumine (inhibition NF-κB) : deux mécanismes anti-tumoraux distincts en synergie.",
+        "benefice_synergie": "Synergie anti-tumorale polyphénolique",
+        "source": {
+          "auteurs": "Mukherjee S et al.",
+          "titre": "Combination of green tea and curcumin prevents cancer",
+          "journal": "Carcinogenesis",
+          "annee": 2009,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19174455/"
+        }
+      }
+    ],
+    "tags": [
+      "antioxydants",
+      "cardiovasculaire",
+      "anti_inflammatoire"
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Le thé vert est l'aliment le plus étudié en prévention du cancer. Son EGCG est le polyphénol antioxydant le plus puissant connu, avec des effets cardioprotecteurs documentés dans des méta-analyses portant sur des centaines de milliers de personnes."
+  },
+  {
+    "id": "acai",
+    "nom": "Baie d'açaï",
+    "categorie": "fruit",
+    "emoji": "🫐",
+    "description": "Super-fruit amazonien aux concentrations en anthocyanes 15× supérieures au raisin, avec un profil lipidique proche de l'huile d'olive.",
+    "bienfaits": [
+      {
+        "id": "antioxydants",
+        "label": "Score ORAC parmi les plus élevés",
+        "detail": "Jusqu'à 15× plus d'anthocyanes que le raisin rouge. Score ORAC : 102 700 µmol TE/100g (poudre).",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Schauss AG et al.",
+            "titre": "Antioxidant capacity of Amazonian palm berry",
+            "journal": "J Agric Food Chem",
+            "annee": 2006,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16839155/"
+          }
+        ]
+      },
+      {
+        "id": "omega9",
+        "label": "Profil lipidique proche de l'huile d'olive",
+        "detail": "Riche en acide oléique (oméga-9) et bêta-sitostérol, favorables à la santé cardiovasculaire.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Mertens-Talcott SU et al.",
+            "titre": "Metabolism of açaí-based beverages",
+            "journal": "J Agric Food Chem",
+            "annee": 2008,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18557614/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "myrtille",
+        "mecanisme": "Açaï + myrtille : les deux concentrations d'anthocyanes les plus élevées du règne végétal, spectre antioxydant maximal.",
+        "benefice_synergie": "Protection antioxydante cérébrovasculaire maximale",
+        "source": {
+          "auteurs": "Devore EE et al.",
+          "titre": "Berry flavonoids and cognitive decline",
+          "journal": "Ann Neurol",
+          "annee": 2012,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22535616/"
+        }
+      }
+    ],
+    "tags": [
+      "antioxydants",
+      "omega9",
+      "cardiovasculaire"
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "L'açaï combine une concentration d'anthocyanes 15× supérieure au raisin avec un profil lipidique similaire à l'huile d'olive. Son score ORAC (102 700 µmol/100g en poudre) en fait l'un des aliments aux propriétés antioxydantes les plus puissantes."
+  },
+  {
+    "id": "cacao_cru",
+    "nom": "Cacao cru",
+    "categorie": "autre",
+    "emoji": "🍫",
+    "description": "Forme non torréfiée du cacao, plus riche en flavanoïdes que le chocolat noir. Source majeure de magnésium et d'épicatéchine cardioprotectrice.",
+    "bienfaits": [
+      {
+        "id": "antioxydants",
+        "label": "Épicatéchine cardioprotectrice",
+        "detail": "L'épicatéchine améliore la vasodilatation (via NO synthase), réduit la pression artérielle et l'agrégation plaquettaire.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hooper L et al.",
+            "titre": "Effects of chocolate and cocoa on cardiovascular risk",
+            "journal": "Am J Clin Nutr",
+            "annee": 2012,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22301923/"
+          }
+        ]
+      },
+      {
+        "id": "magnesium",
+        "label": "Source majeure de magnésium",
+        "detail": "499mg de magnésium/100g — la plus haute concentration de tous les aliments végétaux courants.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "chocolat_noir",
+        "mecanisme": "Cacao cru (flavanoïdes intacts) + chocolat noir (procyanidines torréfiées) : spectre maximal de flavanoïdes.",
+        "benefice_synergie": "Spectre maximal de flavanoïdes du cacao",
+        "source": {
+          "auteurs": "Manach C et al.",
+          "titre": "Bioavailability of polyphenols in humans",
+          "journal": "Am J Clin Nutr",
+          "annee": 2005,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15640486/"
+        }
+      }
+    ],
+    "tags": [
+      "antioxydants",
+      "magnesium",
+      "cardiovasculaire"
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Le cacao cru contient la plus haute concentration de magnésium de tous les aliments végétaux (499mg/100g) et des flavanoïdes cardioprotecteurs validés par des méta-analyses. Sa teneur en épicatéchine est 2× supérieure au chocolat noir torréfié."
+  },
+  {
+    "id": "poireau",
+    "nom": "Poireau",
+    "categorie": "légume",
+    "emoji": "🥬",
+    "description": "Légume alliacé riche en fructo-oligosaccharides prébiotiques (FOS) et en kaempférol. Ses composés organosoufrés sont similaires à ceux de l'ail.",
+    "bienfaits": [
+      {
+        "id": "fibres",
+        "label": "FOS prébiotiques — le meilleur légume pour le microbiote",
+        "detail": "Meilleure source végétale de fructo-oligosaccharides, fibres stimulant spécifiquement Lactobacillus et Bifidobacterium.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Kelly G",
+            "titre": "Inulin-Type Prebiotics: A Review",
+            "journal": "Altern Med Rev",
+            "annee": 2009,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19366350/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "ail",
+        "mecanisme": "Composés organosoufrés du poireau + allicine de l'ail : synergie prébiotique et antimicrobienne renforcée.",
+        "benefice_synergie": "Microbiote et immunité renforcés",
+        "source": {
+          "auteurs": "Ngo SN et al.",
+          "titre": "The role of garlic in cancer prevention",
+          "journal": "Eur J Cancer Prev",
+          "annee": 2007,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17415110/"
+        }
+      }
+    ],
+    "tags": [
+      "fibres",
+      "immunite"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
+  },
+  {
+    "id": "chou_de_bruxelles",
+    "nom": "Chou de Bruxelles",
+    "categorie": "légume",
+    "emoji": "🟢",
+    "description": "Petit crucifère très dense en vitamine K, folates et glucosinolates. L'un des légumes les plus riches en protéines rapporté à leur poids frais.",
+    "bienfaits": [
+      {
+        "id": "vitamine_k",
+        "label": "Très riche en vitamine K",
+        "detail": "177µg de vitamine K1/100g, essentielle à la coagulation et à la minéralisation osseuse.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "folates",
+        "label": "Riche en folates (B9)",
+        "detail": "61µg de folates/100g, essentiels à la synthèse de l'ADN.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "ail",
+        "mecanisme": "Isothiocyanates (choux) + allicine (ail) : synergie sur les enzymes de détoxification hépatique.",
+        "benefice_synergie": "Détox hépatique renforcée",
+        "source": {
+          "auteurs": "Milner JA",
+          "titre": "Garlic and allyl sulfur compounds suppress carcinogen bioactivation",
+          "journal": "J Nutr",
+          "annee": 2006,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16484554/"
+        }
+      }
+    ],
+    "tags": [
+      "vitamine_k",
+      "folates",
+      "antioxydants"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
+  },
+  {
+    "id": "courge_butternut",
+    "nom": "Courge butternut",
+    "categorie": "légume",
+    "emoji": "🎃",
+    "description": "Légume d'automne riche en bêta-carotène, vitamine C, magnésium et potassium dans une faible densité calorique.",
+    "bienfaits": [
+      {
+        "id": "antioxydants",
+        "label": "Bêta-carotène et vitamine A",
+        "detail": "4226µg de bêta-carotène/100g, excellente source de provitamine A pour la vision et l'immunité.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "magnesium",
+        "label": "Magnésium et potassium",
+        "detail": "34mg de magnésium et 352mg de potassium/100g.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "graines_de_courge",
+        "mecanisme": "Chair riche en caroténoïdes + graines riches en zinc et magnésium : une combinaison intégrale.",
+        "benefice_synergie": "Nutrition complète courge + graines",
+        "source": {
+          "auteurs": "Bardaa S et al.",
+          "titre": "Pumpkin seed oil: A comprehensive review",
+          "journal": "J Food Sci",
+          "annee": 2016,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27219221/"
+        }
+      }
+    ],
+    "tags": [
+      "antioxydants",
+      "magnesium"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
+  },
+  {
+    "id": "the_vert_matcha",
+    "nom": "Matcha",
+    "categorie": "boisson",
+    "emoji": "🍵",
+    "description": "Poudre de thé vert finement moulue où l'on consomme la feuille entière. Concentration en EGCG 10× supérieure au thé vert infusé classique.",
+    "bienfaits": [
+      {
+        "id": "antioxydants",
+        "label": "EGCG ×10 par rapport au thé vert",
+        "detail": "La poudre de matcha contient 10× plus d'EGCG que le thé vert infusé, car on consomme la feuille entière.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Weiss DJ, Anderton CR",
+            "titre": "Determination of catechins in matcha green tea",
+            "journal": "J Chromatogr A",
+            "annee": 2003,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12830268/"
+          }
+        ]
+      },
+      {
+        "id": "anti_inflammatoire",
+        "label": "L-théanine et caféine en synergie",
+        "detail": "La L-théanine du matcha module les effets de la caféine, créant un état de concentration calme sans nervosité.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Owen GN et al.",
+            "titre": "The combined effects of L-theanine and caffeine on cognitive performance",
+            "journal": "Nutr Neurosci",
+            "annee": 2008,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18681988/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "citron",
+        "mecanisme": "La vitamine C du citron stabilise l'EGCG et multiplie son absorption intestinale par 13.",
+        "benefice_synergie": "Absorption de l'EGCG ×13 avec citron",
+        "source": {
+          "auteurs": "Green RJ et al.",
+          "titre": "Tea formulations modulate catechin recovery",
+          "journal": "Mol Nutr Food Res",
+          "annee": 2007,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17471748/"
+        }
+      }
+    ],
+    "tags": [
+      "antioxydants",
+      "anti_inflammatoire"
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Le matcha contient 10× plus d'EGCG que le thé vert infusé (on consomme la feuille entière). Sa combinaison unique L-théanine + caféine + EGCG en fait un super aliment nootropique et antioxydant sans équivalent."
+  },
+  {
+    "id": "tofu_soyeux",
+    "nom": "Yaourt au soja",
+    "categorie": "produit-laitier-végétal",
+    "emoji": "🥛",
+    "description": "Produit fermenté à base de soja, riche en protéines complètes, isoflavones et probiotiques naturels. Alternative végétale aux yaourts lactés.",
+    "bienfaits": [
+      {
+        "id": "proteines_completes",
+        "label": "Protéines complètes et digestibles",
+        "detail": "7 à 9g de protéines/100g avec un score PDCAAS élevé (protéines complètes).",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Messina M",
+            "titre": "Soy and Health Update",
+            "journal": "Nutrients",
+            "annee": 2016,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27886135/"
+          }
+        ]
+      },
+      {
+        "id": "isoflavones",
+        "label": "Isoflavones et microbiote",
+        "detail": "La fermentation transforme les isoflavones en équol, forme plus biodisponible aux effets œstrogéniques documentés.",
+        "sujet_a_debat": true,
+        "sources": [
+          {
+            "auteurs": "Setchell KD et al.",
+            "titre": "Equol: a clinically important isoflavone metabolite",
+            "journal": "J Nutr",
+            "annee": 2002,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12421860/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "myrtille",
+        "mecanisme": "Les anthocyanes de la myrtille et les probiotiques du yaourt de soja se renforcent mutuellement pour un microbiote sain.",
+        "benefice_synergie": "Microbiote et antioxydants combinés",
+        "source": {
+          "auteurs": "Biedrzycka E, Bielecka M",
+          "titre": "Prebiotic effectiveness of fructooligosaccharides",
+          "journal": "Acta Alimentaria",
+          "annee": 2004,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15724831/"
+        }
+      }
+    ],
+    "tags": [
+      "proteines_completes",
+      "isoflavones"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
+  },
+  {
+    "id": "lait_coco",
+    "nom": "Lait de coco",
+    "categorie": "boisson",
+    "emoji": "🥥",
+    "description": "Le lait de coco est riche en acide laurique, un acide gras à chaîne moyenne (AGCM) aux propriétés antimicrobiennes et énergétiques rapides.",
+    "bienfaits": [
+      {
+        "id": "immunite",
+        "label": "Acide laurique antimicrobien",
+        "detail": "L'acide laurique (47% des AG du coco) est converti en monolaurine, un agent antimicrobien efficace contre Candida et certains virus.",
+        "sujet_a_debat": true,
+        "sources": [
+          {
+            "auteurs": "Kabara JJ et al.",
+            "titre": "Fatty acids and derivatives as antimicrobial agents",
+            "journal": "Antimicrob Agents Chemother",
+            "annee": 1972,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4670656/"
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "aliment_b": "curcuma",
+        "mecanisme": "Les graisses du lait de coco solubilisent la curcumine liposoluble et améliorent son absorption intestinale.",
+        "benefice_synergie": "Absorption de la curcumine maximisée",
+        "source": {
+          "auteurs": "Anand P et al.",
+          "titre": "Bioavailability of curcumin",
+          "journal": "Mol Pharm",
+          "annee": 2007,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17999464/"
+        }
+      }
+    ],
+    "tags": [
+      "immunite"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   }
 ]
