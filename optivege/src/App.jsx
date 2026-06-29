@@ -7,6 +7,7 @@ import FoodDetailPage from './pages/FoodDetailPage'
 import BenefitSearchPage from './pages/BenefitSearchPage'
 import RecipesPage from './pages/RecipesPage'
 import SuperAlimentsPage from './pages/SuperAlimentsPage'
+import LexiquePage from './pages/LexiquePage'
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
             <Route path="/recettes" element={<RecipesPage />} />
             <Route path="/recettes/:id" element={<RecipesPage />} />
             <Route path="/super-aliments" element={<SuperAlimentsPage />} />
+            <Route path="/lexique" element={<LexiquePage />} />
             <Route path="*" element={
               <div className="max-w-xl mx-auto px-4 py-20 text-center">
                 <div className="text-5xl mb-4">🌿</div>

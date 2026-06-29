@@ -4,6 +4,7 @@ import SynergyCard from './SynergyCard'
 import SourceCitation from '../ui/SourceCitation'
 import DebateWarning from '../ui/DebateWarning'
 import Badge from '../ui/Badge'
+import TermeLink from '../ui/TermeLink'
 import recipesData from '../../data/recipes.json'
 
 const BENEFIT_EMOJI = {
@@ -34,7 +35,7 @@ export default function FoodDetail({ food }) {
             </span>
           </div>
         </div>
-        <p className="text-gray-700 leading-relaxed text-base">{food.description}</p>
+        <p className="text-gray-700 leading-relaxed text-base"><TermeLink>{food.description}</TermeLink></p>
         {food.tags?.length > 0 && (
           <div className="flex flex-wrap gap-2 mt-4">
             {food.tags.map(tag => (
@@ -68,7 +69,7 @@ export default function FoodDetail({ food }) {
                   <span className="text-lg">{BENEFIT_EMOJI[bienfait.id] || '✨'}</span>
                   <h3 className="font-semibold text-green-dark">{bienfait.label}</h3>
                 </div>
-                <p className="text-sm text-gray-700 leading-relaxed mb-3">{bienfait.detail}</p>
+                <p className="text-sm text-gray-700 leading-relaxed mb-3"><TermeLink>{bienfait.detail}</TermeLink></p>
                 <div className="flex flex-col gap-1">
                   {bienfait.sources?.map((s, i) => <SourceCitation key={i} source={s} />)}
                 </div>

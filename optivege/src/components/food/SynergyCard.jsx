@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import SourceCitation from '../ui/SourceCitation'
 import DebateWarning from '../ui/DebateWarning'
+import TermeLink from '../ui/TermeLink'
 
 // Card de synergie alimentaire avec mécanisme et source scientifique
 export default function SynergyCard({ synergie }) {
@@ -26,7 +27,7 @@ export default function SynergyCard({ synergie }) {
           </div>
 
           <p className="text-sm text-gray-700 leading-relaxed mb-2">
-            {synergie.mecanisme}
+            <TermeLink>{synergie.mecanisme}</TermeLink>
           </p>
 
           <div className="flex flex-wrap items-center gap-3">

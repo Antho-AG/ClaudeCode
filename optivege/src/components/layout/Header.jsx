@@ -6,6 +6,7 @@ const NAV_LINKS = [
   { to: '/super-aliments', label: '⭐ Super Aliments' },
   { to: '/bienfaits', label: '💪 Bienfaits' },
   { to: '/recettes', label: '🍽️ Recettes' },
+  { to: '/lexique', label: '📖 Lexique' },
 ]
 
 export default function Header() {

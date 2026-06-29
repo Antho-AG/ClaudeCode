@@ -46,4 +46,9 @@
   .section-title {
     @apply text-2xl font-heading font-semibold text-green-dark mb-4;
   }
+
+  .terme-link {
+    @apply text-green-main underline underline-offset-2 decoration-dotted
+           hover:text-green-dark hover:decoration-solid cursor-help transition-colors;
+  }
 }
