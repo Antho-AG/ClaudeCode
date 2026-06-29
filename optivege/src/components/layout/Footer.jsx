@@ -11,7 +11,7 @@ export default function Footer() {
           </div>
           <p className="text-green-300 text-sm leading-relaxed">
             L'application de référence sur la synergie alimentaire végétale.
-            Toutes les données sont sourcées scientifiquement.
+            Données sourcées scientifiquement (CIQUAL 2020, USDA, PubMed).
           </p>
         </div>
 
