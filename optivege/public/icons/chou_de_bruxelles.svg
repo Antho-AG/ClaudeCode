@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<rect width="1024" height="1024" fill="#F5F7EF"/>
+<!-- soft background accents -->
+<ellipse cx="512" cy="760" rx="210" ry="95" fill="#D7DECF"/>
+<rect x="270" y="230" width="484" height="92" rx="46" fill="#C7D1BE"/>
+<!-- brussels sprout body -->
+<g>
+<circle cx="512" cy="520" r="215" fill="#02A269"/>
+<path d="M355 500c40-120 165-170 290-120-20 55-65 95-130 120-55 20-110 20-160 0z" fill="#0CB07A"/>
+<path d="M345 575c65-45 145-55 225-25 55 20 95 55 120 115-135 45-285-5-345-90z" fill="#007548"/>
+<path d="M438 360c25 45 35 90 20 150-15 55-45 90-85 120-60-95-40-220 65-270z" fill="#0AA96E"/>
+<path d="M590 360c75 45 110 150 65 270-40-30-70-65-85-120-15-60-5-105 20-150z" fill="#006E45"/>
+<path d="M410 700c55-30 130-45 205-30-30 70-95 120-180 130-25-25-30-65-25-100z" fill="#8FB987" opacity="0.55"/>
+<!-- bottom leaves -->
+<path d="M280 760c80-70 170-85 255-35-40 80-110 125-220 125z" fill="#C7D1BE"/>
+<path d="M744 760c-80-70-170-85-255-35 40 80 110 125 220 125z" fill="#C7D1BE"/>
+</g>
+</svg>
