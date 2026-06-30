@@ -1,10 +1,20 @@
 import { useRef } from 'react'
 
-function formatLine(item) {
-  if (item.amount !== null && item.amountDisplay) {
-    return `${item.amountDisplay}${item.unit ? ' ' + item.unit : ''} ${item.nom}`
+function quantityLabel(item) {
+  if (item.amount !== null) {
+    const disp = item.amountDisplay || String(item.amount)
+    if (item.unit) return `${disp} ${item.unit}`
+    // No unit → pieces
+    const n = parseFloat(disp)
+    return `${disp} pièce${n > 1 ? 's' : ''}`
   }
-  return item.raw ? `${item.raw} ${item.nom}` : item.nom
+  // Non-numeric raw string ("Sel, poivre", "Optionnel", "Quelques feuilles"…)
+  return item.raw || ''
+}
+
+function formatLine(item) {
+  const qty = quantityLabel(item)
+  return qty ? `${qty} ${item.nom}`.trim() : item.nom
 }
 
 function buildTextList(groups, nbRepas, nbPersonnes) {
@@ -104,15 +114,10 @@ export default function ShoppingList({ groups, totalItems, checkedItems, onToggl
                           className={`text-sm flex-1 transition-colors ${checked ? 'line-through text-gray-400' : 'text-gray-700'}`}
                           style={{ fontFamily: 'Inter, sans-serif' }}
                         >
-                          {item.amount !== null && item.amountDisplay && (
-                            <span className="font-semibold text-green-dark mr-1">
-                              {item.amountDisplay}{item.unit ? ' ' + item.unit : ''}
-                            </span>
-                          )}
+                          <span className="font-semibold text-green-dark mr-1">
+                            {quantityLabel(item)}
+                          </span>
                           {item.nom}
-                          {item.amount === null && item.raw && item.raw !== item.nom && (
-                            <span className="text-gray-400 ml-1 text-xs">({item.raw})</span>
-                          )}
                         </span>
                       </label>
                     )

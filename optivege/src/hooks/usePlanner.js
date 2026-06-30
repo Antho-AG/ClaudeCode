@@ -18,11 +18,20 @@ function loadFromStorage() {
 const FRAC_MAP = { '½': 0.5, '¼': 0.25, '¾': 0.75, '⅓': 0.333, '⅔': 0.667 }
 
 export function parseIngredient(quantiteStr) {
-  if (!quantiteStr) return { amount: null, unit: null, raw: quantiteStr }
+  // Absent or empty → treat as 1 piece
+  if (!quantiteStr || String(quantiteStr).trim() === '') {
+    return { amount: 1, unit: null, raw: null }
+  }
   let s = String(quantiteStr).trim()
-  for (const [frac, val] of Object.entries(FRAC_MAP)) s = s.replace(frac, String(val))
 
-  // "200g" | "200 g" | "1 c.s." | "2 betteraves" | "1"
+  // Replace unicode fractions before anything else
+  for (const [frac, val] of Object.entries(FRAC_MAP)) {
+    s = s.replace(frac, val + ' ')
+  }
+  s = s.trim()
+
+  // Match leading number (int or decimal) optionally followed by unit
+  // "200g" "200 g" "1 c.s." "2 betteraves" "1" "0.5 c.c."
   const m = s.match(/^(\d+(?:[.,]\d+)?)\s*(.*)$/)
   if (m) {
     return {
@@ -31,6 +40,7 @@ export function parseIngredient(quantiteStr) {
       raw: quantiteStr,
     }
   }
+  // Non-numeric string ("Sel, poivre", "Optionnel", "Épices", "Quelques feuilles"…)
   return { amount: null, unit: null, raw: quantiteStr }
 }
 
@@ -44,10 +54,12 @@ function roundSmart(n, unit) {
 }
 
 function displayAmount(n, unit) {
-  if (n >= 1 || !unit) return String(n)
-  if (Math.abs(n - 0.5) < 0.05) return '½'
-  if (Math.abs(n - 0.25) < 0.05) return '¼'
-  if (Math.abs(n - 0.75) < 0.05) return '¾'
+  // Fractions only make sense for sub-1 values without a weight/volume unit
+  if (!unit) {
+    if (Math.abs(n - 0.5) < 0.05) return '½'
+    if (Math.abs(n - 0.25) < 0.05) return '¼'
+    if (Math.abs(n - 0.75) < 0.05) return '¾'
+  }
   return String(n)
 }
 
