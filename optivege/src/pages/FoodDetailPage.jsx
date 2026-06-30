@@ -41,11 +41,28 @@ export default function FoodDetailPage() {
       cardRef.current.style.position = 'absolute'
       cardRef.current.style.zIndex = ''
 
-      // Déclencher le téléchargement
-      const link = document.createElement('a')
-      link.download = `${food.nom.toLowerCase().replace(/\s+/g, '-')}-optivege.png`
-      link.href = canvas.toDataURL('image/png')
-      link.click()
+      const slug = food.nom.toLowerCase().replace(/\s+/g, '-')
+      const isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent)
+      const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'))
+      const file = new File([blob], `optivege-${slug}.png`, { type: 'image/png' })
+      const canShareFiles = navigator.canShare?.({ files: [file] })
+
+      if (isMobile && canShareFiles) {
+        try {
+          await navigator.share({
+            files: [file],
+            title: `${food.nom} — OptiVégé`,
+            url: window.location.href,
+          })
+        } catch {
+          // L'utilisateur a annulé le panneau natif — rien à faire
+        }
+      } else {
+        const link = document.createElement('a')
+        link.download = `${slug}-optivege.png`
+        link.href = canvas.toDataURL('image/png')
+        link.click()
+      }
     } catch (e) {
       console.error('Erreur génération image:', e)
     } finally {
