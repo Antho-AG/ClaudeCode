@@ -7,6 +7,7 @@ const NAV_LINKS = [
   { to: '/bienfaits', label: '💪 Bienfaits' },
   { to: '/recettes', label: '🍽️ Recettes' },
   { to: '/lexique', label: '📖 Lexique' },
+  { to: '/planifier', label: '🗓️ Planifier' },
 ]
 
 export default function Header() {
