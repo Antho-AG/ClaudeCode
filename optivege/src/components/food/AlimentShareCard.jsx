@@ -46,13 +46,27 @@ function getTopNutriments(teneurs, n = 3) {
     .slice(0, n)
 }
 
-// Coupe au premier "." complet, sinon à 120 caractères
-function truncateAtSentence(text, maxChars = 120) {
+// Coupe au premier "." trouvé ; sinon à 100 chars sans couper un mot
+function truncateAtSentence(text) {
   if (!text) return ''
   const dot = text.indexOf('.')
-  if (dot !== -1 && dot <= maxChars) return text.slice(0, dot + 1)
-  if (text.length <= maxChars) return text
-  return text.slice(0, maxChars - 1) + '…'
+  if (dot !== -1) return text.slice(0, dot + 1)
+  if (text.length <= 100) return text
+  const cut = text.lastIndexOf(' ', 100)
+  return text.slice(0, cut > 0 ? cut : 100) + '…'
+}
+
+const CATEGORY_PLAT = {
+  'légume-feuille': 'salade', 'légume': 'poêlée', 'légumineuse': 'bowl',
+  'légumineuse transformée': 'plat chaud', 'pseudo-céréale': 'bowl',
+  'céréale': 'porridge', 'oléagineux': 'encas', 'graine': 'salade',
+  'fruit': 'smoothie', 'algue': 'soupe miso', 'épice': 'curry',
+  'champignon': 'poêlée', 'boisson': 'infusion', 'autre': 'préparation',
+}
+
+function buildConseil(food, synergie) {
+  const plat = CATEGORY_PLAT[food.categorie] || 'plat'
+  return `Idéal dans un${plat.startsWith('a') || plat.startsWith('i') ? "'" : 'e '} ${plat} avec ${synergie.aliment_associe_nom.toLowerCase()} ${synergie.aliment_associe_emoji} frais.`
 }
 
 const AlimentShareCard = forwardRef(function AlimentShareCard({ food }, ref) {
@@ -227,14 +241,8 @@ const AlimentShareCard = forwardRef(function AlimentShareCard({ food }, ref) {
               backgroundColor: 'white', borderRadius: '16px',
               padding: '18px 22px',
             }}>
-              <div style={{
-                fontSize: '22px', fontWeight: 'bold', color: '#0F2E1E',
-                fontFamily: 'Georgia', marginBottom: '6px',
-              }}>
-                {food.nom} + {synergie.aliment_associe_nom} {synergie.aliment_associe_emoji}
-              </div>
-              <div style={{ fontSize: '17px', color: '#555', fontFamily: 'Arial', lineHeight: 1.5 }}>
-                Ajoutez <strong>{synergie.aliment_associe_nom}</strong> à vos {food.nom.toLowerCase()} pour optimiser l'apport en <strong>{synergie.nutriment_cle}</strong>.
+              <div style={{ fontSize: '20px', color: '#333', fontFamily: 'Arial', lineHeight: 1.6 }}>
+                {buildConseil(food, synergie)}
               </div>
             </div>
           </div>
