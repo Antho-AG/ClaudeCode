@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,33 +6,61 @@
 
 @layer base {
   body {
-    @apply bg-cream text-gray-800 font-sans;
+    @apply text-gray-800 font-sans;
+    background: linear-gradient(160deg, #F0FAF6 0%, #FAFCFB 100%);
+    min-height: 100vh;
     -webkit-font-smoothing: antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
   }
 
   h1, h2, h3 {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: 'DM Serif Display', Georgia, serif;
     @apply text-green-dark;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply bg-green-dark text-white px-5 py-2.5 rounded-xl font-semibold
-           hover:bg-green-mid transition-colors duration-200 shadow-sm;
+    @apply bg-green-dark text-white px-5 py-2.5 rounded-xl font-semibold shadow-sm;
+    font-family: 'Inter', sans-serif;
+    transition: background 150ms ease, transform 150ms ease, box-shadow 150ms ease;
+  }
+  .btn-primary:hover {
+    @apply bg-green-mid;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(15, 110, 86, 0.25);
+  }
+  .btn-primary:active {
+    transform: translateY(0);
   }
 
   .btn-secondary {
-    @apply bg-white border-2 border-green-main text-green-dark px-5 py-2.5
-           rounded-xl font-semibold hover:bg-green-bg transition-colors duration-200;
+    @apply bg-white border-2 border-green-main text-green-dark px-5 py-2.5 rounded-xl font-semibold;
+    font-family: 'Inter', sans-serif;
+    transition: background 150ms ease, transform 150ms ease, box-shadow 150ms ease;
+  }
+  .btn-secondary:hover {
+    @apply bg-green-bg;
+    transform: translateY(-1px);
+  }
+  .btn-secondary:active {
+    transform: translateY(0);
   }
 
   .card {
-    @apply bg-white rounded-2xl shadow-sm border border-green-pale p-5;
+    @apply bg-white rounded-2xl p-5;
+    border: none;
+    box-shadow: 0 2px 12px rgba(15, 110, 86, 0.08), 0 1px 3px rgba(0,0,0,0.04);
+    transition: box-shadow 150ms ease, transform 150ms ease;
+  }
+  .card:hover {
+    box-shadow: 0 6px 24px rgba(15, 110, 86, 0.13), 0 2px 6px rgba(0,0,0,0.06);
+    transform: translateY(-2px);
   }
 
   .badge {
     @apply inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm font-medium;
+    font-family: 'Inter', sans-serif;
   }
 
   .badge-green {
@@ -45,10 +73,38 @@
 
   .section-title {
     @apply text-2xl font-heading font-semibold text-green-dark mb-4;
+    font-family: 'DM Serif Display', Georgia, serif;
   }
 
   .terme-link {
-    @apply text-green-main underline underline-offset-2 decoration-dotted
-           hover:text-green-dark hover:decoration-solid cursor-help transition-colors;
+    @apply text-green-main underline underline-offset-2 decoration-dotted cursor-help;
+    transition: color 150ms ease;
+  }
+  .terme-link:hover {
+    @apply text-green-dark decoration-solid;
+  }
+
+  /* Barre AJR */
+  .ajr-bar-track {
+    height: 6px;
+    background: #E8F7F2;
+    border-radius: 99px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .ajr-bar-fill {
+    height: 6px;
+    border-radius: 99px;
+    transition: width 600ms ease;
+  }
+  .ajr-bar-fill--low    { background: #A8D5C2; }
+  .ajr-bar-fill--mid    { background: #1D9E75; }
+  .ajr-bar-fill--high   { background: #0F6E56; }
+
+  /* Cards à fond dégradé (super aliments, synergie du jour…) */
+  .card-gradient {
+    background: linear-gradient(135deg, #E8F7F2 0%, #F5FBF8 100%);
+    border: none;
+    box-shadow: 0 2px 12px rgba(15, 110, 86, 0.08), 0 1px 3px rgba(0,0,0,0.04);
   }
 }
