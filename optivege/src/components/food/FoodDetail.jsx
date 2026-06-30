@@ -5,6 +5,7 @@ import SourceCitation from '../ui/SourceCitation'
 import DebateWarning from '../ui/DebateWarning'
 import Badge from '../ui/Badge'
 import TermeLink from '../ui/TermeLink'
+import { AFFILIATE_LINKS } from '../../data/affiliateLinks'
 import recipesData from '../../data/recipes.json'
 
 const ARTICLES_BLOG = [
@@ -83,6 +84,21 @@ export default function FoodDetail({ food }) {
           <h2 className="section-title">📊 Teneurs nutritionnelles</h2>
           <NutritionTable teneurs={food.teneurs} />
         </section>
+      )}
+
+      {/* Lien affilié */}
+      {AFFILIATE_LINKS[food.id] && (
+        <a
+          href={AFFILIATE_LINKS[food.id].url}
+          target="_blank"
+          rel="noopener sponsored"
+          className="flex items-center gap-2 text-sm rounded-xl px-4 py-2.5 border-l-4 hover:opacity-80 transition-opacity"
+          style={{ backgroundColor: '#E8F7F2', borderLeftColor: '#1D9E75', color: '#0F6E56' }}
+        >
+          <span>🛒</span>
+          <span>Acheter en bio · <span className="font-medium">{AFFILIATE_LINKS[food.id].label}</span></span>
+          <span className="ml-auto text-xs opacity-60">via optivege.fr →</span>
+        </a>
       )}
 
       {/* Section C — Bienfaits détaillés */}
