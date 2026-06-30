@@ -20,27 +20,26 @@ export default function FoodDetailPage() {
     if (!cardRef.current || generating) return
     setGenerating(true)
     try {
-      // Rendre visible temporairement pour la capture
+      // Rendre visible pour la capture (opacity:0 génère du noir avec html2canvas)
       cardRef.current.style.left = '0'
       cardRef.current.style.position = 'fixed'
       cardRef.current.style.top = '0'
-      cardRef.current.style.zIndex = '-1'
-      cardRef.current.style.opacity = '0'
+      cardRef.current.style.zIndex = '9999'
 
       const html2canvas = (await import('html2canvas')).default
       const canvas = await html2canvas(cardRef.current, {
-        scale: 1,
+        scale: 2,
         width: 1080,
         height: 1350,
         useCORS: true,
         backgroundColor: null,
+        logging: false,
       })
 
       // Remettre hors écran
       cardRef.current.style.left = '-9999px'
       cardRef.current.style.position = 'absolute'
       cardRef.current.style.zIndex = ''
-      cardRef.current.style.opacity = ''
 
       // Déclencher le téléchargement
       const link = document.createElement('a')
@@ -78,7 +77,7 @@ export default function FoodDetailPage() {
             className="flex items-center gap-1.5 text-sm font-medium px-3 py-1.5 rounded-lg border transition-colors"
             style={{ borderColor: '#1D9E75', color: generating ? '#999' : '#1D9E75' }}
           >
-            {generating ? '⏳ Génération…' : '📸 Créer une image'}
+            {generating ? '⏳ Génération…' : '📤 Partager cet aliment'}
           </button>
         </div>
       </div>
