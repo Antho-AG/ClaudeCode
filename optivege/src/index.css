@@ -7,7 +7,7 @@
 @layer base {
   body {
     @apply text-gray-800 font-sans;
-    background: linear-gradient(160deg, #F0FAF6 0%, #FAFCFB 100%);
+    background: linear-gradient(160deg, #F0FAF6 0%, #FAFDF9 40%, #FEFEFE 100%);
     min-height: 100vh;
     -webkit-font-smoothing: antialiased;
     font-family: 'Inter', system-ui, sans-serif;
