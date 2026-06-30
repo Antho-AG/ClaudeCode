@@ -8,6 +8,7 @@ const NAV_LINKS = [
   { to: '/recettes', label: '🍽️ Recettes' },
   { to: '/lexique', label: '📖 Lexique' },
   { to: '/planifier', label: '🗓️ Planifier' },
+  { to: '/creer', label: '✨ Créer' },
 ]
 
 export default function Header() {
