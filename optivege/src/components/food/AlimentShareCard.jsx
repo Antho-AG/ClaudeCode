@@ -64,145 +64,153 @@ const AlimentShareCard = forwardRef(function AlimentShareCard({ food }, ref) {
         height: '1350px',
         backgroundColor: bg,
         fontFamily: 'Georgia, serif',
-        display: 'flex',
-        flexDirection: 'column',
-        padding: '80px 90px',
         boxSizing: 'border-box',
         overflow: 'hidden',
       }}
     >
       {/* Bande décorative en haut */}
-      <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '12px', backgroundColor: '#1D9E75' }} />
+      <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '10px', backgroundColor: '#1D9E75' }} />
 
-      {/* En-tête */}
-      <div style={{ textAlign: 'center', marginBottom: '52px', marginTop: '20px' }}>
-        <div style={{ fontSize: '120px', lineHeight: 1.1, marginBottom: '20px' }}>
-          {food.emoji}
-        </div>
+      {/* Bande décorative en bas */}
+      <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: '10px', backgroundColor: '#1D9E75' }} />
+
+      {/* Footer ancré en bas */}
+      <div style={{
+        position: 'absolute', bottom: '28px', left: 0, right: 0,
+        textAlign: 'center', padding: '0 90px',
+      }}>
+        <div style={{ height: '2px', backgroundColor: '#1D9E75', opacity: 0.3, marginBottom: '20px' }} />
         <div style={{
-          fontSize: '76px', fontWeight: 'bold', color: '#0F2E1E',
-          lineHeight: 1.05, fontFamily: 'Georgia, serif',
-          letterSpacing: '-2px',
-        }}>
-          {food.nom}
-        </div>
-        <div style={{
-          marginTop: '14px', fontSize: '26px', color: '#0F6E56',
-          fontFamily: 'Arial, sans-serif', fontWeight: '500',
-          textTransform: 'capitalize', letterSpacing: '1px',
-        }}>
-          {food.categorie}
-        </div>
-      </div>
-
-      {/* Séparateur */}
-      <div style={{ height: '3px', backgroundColor: '#1D9E75', marginBottom: '48px', borderRadius: '2px' }} />
-
-      {/* Points forts nutritionnels */}
-      {topNutriments.length > 0 && (
-        <div style={{ marginBottom: '48px' }}>
-          <div style={{
-            fontSize: '22px', fontFamily: 'Arial, sans-serif', fontWeight: '700',
-            color: '#0F6E56', textTransform: 'uppercase', letterSpacing: '3px',
-            marginBottom: '28px',
-          }}>
-            ✦ Points forts nutritionnels
-          </div>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
-            {topNutriments.map(n => (
-              <div key={n.key} style={{
-                display: 'flex', alignItems: 'center', gap: '20px',
-                backgroundColor: 'rgba(29,158,117,0.08)', borderRadius: '16px',
-                padding: '18px 28px',
-              }}>
-                <div style={{
-                  width: '52px', height: '52px', borderRadius: '50%',
-                  backgroundColor: '#1D9E75',
-                  display: 'flex', alignItems: 'center', justifyContent: 'center',
-                  flexShrink: 0,
-                }}>
-                  <span style={{ color: 'white', fontSize: '22px', fontFamily: 'Arial', fontWeight: 'bold' }}>
-                    {n.pct > 99 ? '✓' : `${n.pct}%`}
-                  </span>
-                </div>
-                <div>
-                  <div style={{ fontSize: '30px', fontWeight: 'bold', color: '#0F2E1E', fontFamily: 'Georgia' }}>
-                    {n.valeur} {n.unite.split('/')[0]}
-                  </div>
-                  <div style={{ fontSize: '22px', color: '#0F6E56', fontFamily: 'Arial' }}>
-                    {n.label} · {n.pct}% des AJR
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* Séparateur */}
-      <div style={{ height: '2px', backgroundColor: '#1D9E75', opacity: 0.3, marginBottom: '44px' }} />
-
-      {/* Synergie clé */}
-      {synergie && (
-        <div style={{ marginBottom: '44px' }}>
-          <div style={{
-            fontSize: '22px', fontFamily: 'Arial, sans-serif', fontWeight: '700',
-            color: '#0F6E56', textTransform: 'uppercase', letterSpacing: '3px',
-            marginBottom: '24px',
-          }}>
-            ✦ Synergie clé
-          </div>
-          <div style={{
-            backgroundColor: 'white', borderRadius: '20px',
-            padding: '28px 32px', borderLeft: '6px solid #1D9E75',
-          }}>
-            <div style={{
-              fontSize: '30px', fontWeight: 'bold', color: '#0F2E1E',
-              fontFamily: 'Georgia', marginBottom: '10px',
-            }}>
-              {food.nom} + {synergie.aliment_associe_nom} {synergie.aliment_associe_emoji}
-            </div>
-            {synergie.gain_estime && (
-              <div style={{
-                fontSize: '24px', color: '#1D9E75', fontFamily: 'Arial',
-                fontWeight: '600', marginBottom: '10px',
-              }}>
-                📈 {synergie.gain_estime}
-              </div>
-            )}
-            <div style={{
-              fontSize: '22px', color: '#444', fontFamily: 'Arial',
-              lineHeight: 1.5,
-            }}>
-              {synergie.mecanisme?.length > 120
-                ? synergie.mecanisme.slice(0, 117) + '…'
-                : synergie.mecanisme}
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Spacer */}
-      <div style={{ flex: 1 }} />
-
-      {/* Séparateur */}
-      <div style={{ height: '2px', backgroundColor: '#1D9E75', opacity: 0.3, marginBottom: '32px' }} />
-
-      {/* Footer */}
-      <div style={{ textAlign: 'center' }}>
-        <div style={{
-          fontSize: '28px', fontFamily: 'Arial, sans-serif', fontWeight: '800',
+          fontSize: '24px', fontFamily: 'Arial, sans-serif', fontWeight: '800',
           color: '#0F6E56', letterSpacing: '6px', textTransform: 'uppercase',
         }}>
           OPTIVEGE.FR
         </div>
-        <div style={{ fontSize: '20px', color: '#888', fontFamily: 'Arial', marginTop: '6px' }}>
+        <div style={{ fontSize: '17px', color: '#888', fontFamily: 'Arial', marginTop: '5px' }}>
           Synergie alimentaire végétale · Données CIQUAL 2020 & PubMed
         </div>
       </div>
 
-      {/* Bande décorative en bas */}
-      <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: '12px', backgroundColor: '#1D9E75' }} />
+      {/* Contenu principal — padding interne, hauteur calculée pour laisser la place au footer */}
+      <div style={{
+        position: 'absolute',
+        top: '10px',
+        left: 0,
+        right: 0,
+        bottom: '110px',
+        padding: '52px 76px 0',
+        overflow: 'hidden',
+        display: 'flex',
+        flexDirection: 'column',
+      }}>
+        {/* En-tête */}
+        <div style={{ textAlign: 'center', marginBottom: '36px' }}>
+          <div style={{ fontSize: '96px', lineHeight: 1.1, marginBottom: '14px' }}>
+            {food.emoji}
+          </div>
+          <div style={{
+            fontSize: '64px', fontWeight: 'bold', color: '#0F2E1E',
+            lineHeight: 1.05, fontFamily: 'Georgia, serif',
+            letterSpacing: '-1.5px',
+          }}>
+            {food.nom}
+          </div>
+          <div style={{
+            marginTop: '10px', fontSize: '22px', color: '#0F6E56',
+            fontFamily: 'Arial, sans-serif', fontWeight: '500',
+            textTransform: 'capitalize', letterSpacing: '1px',
+          }}>
+            {food.categorie}
+          </div>
+        </div>
+
+        {/* Séparateur */}
+        <div style={{ height: '3px', backgroundColor: '#1D9E75', marginBottom: '32px', borderRadius: '2px', flexShrink: 0 }} />
+
+        {/* Points forts nutritionnels */}
+        {topNutriments.length > 0 && (
+          <div style={{ marginBottom: '32px', flexShrink: 0 }}>
+            <div style={{
+              fontSize: '18px', fontFamily: 'Arial, sans-serif', fontWeight: '700',
+              color: '#0F6E56', textTransform: 'uppercase', letterSpacing: '3px',
+              marginBottom: '18px',
+            }}>
+              ✦ Points forts nutritionnels
+            </div>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              {topNutriments.map(n => (
+                <div key={n.key} style={{
+                  display: 'flex', alignItems: 'center', gap: '16px',
+                  backgroundColor: 'rgba(29,158,117,0.08)', borderRadius: '14px',
+                  padding: '14px 22px',
+                }}>
+                  <div style={{
+                    width: '44px', height: '44px', borderRadius: '50%',
+                    backgroundColor: '#1D9E75',
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    flexShrink: 0,
+                  }}>
+                    <span style={{ color: 'white', fontSize: '18px', fontFamily: 'Arial', fontWeight: 'bold' }}>
+                      {n.pct > 99 ? '✓' : `${n.pct}%`}
+                    </span>
+                  </div>
+                  <div>
+                    <div style={{ fontSize: '26px', fontWeight: 'bold', color: '#0F2E1E', fontFamily: 'Georgia' }}>
+                      {n.valeur} {n.unite.split('/')[0]}
+                    </div>
+                    <div style={{ fontSize: '18px', color: '#0F6E56', fontFamily: 'Arial' }}>
+                      {n.label} · {n.pct}% des AJR
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Séparateur */}
+        <div style={{ height: '2px', backgroundColor: '#1D9E75', opacity: 0.3, marginBottom: '28px', flexShrink: 0 }} />
+
+        {/* Synergie clé */}
+        {synergie && (
+          <div style={{ flexShrink: 0 }}>
+            <div style={{
+              fontSize: '18px', fontFamily: 'Arial, sans-serif', fontWeight: '700',
+              color: '#0F6E56', textTransform: 'uppercase', letterSpacing: '3px',
+              marginBottom: '16px',
+            }}>
+              ✦ Synergie clé
+            </div>
+            <div style={{
+              backgroundColor: 'white', borderRadius: '18px',
+              padding: '22px 26px', borderLeft: '6px solid #1D9E75',
+            }}>
+              <div style={{
+                fontSize: '26px', fontWeight: 'bold', color: '#0F2E1E',
+                fontFamily: 'Georgia', marginBottom: '8px',
+              }}>
+                {food.nom} + {synergie.aliment_associe_nom} {synergie.aliment_associe_emoji}
+              </div>
+              {synergie.gain_estime && (
+                <div style={{
+                  fontSize: '20px', color: '#1D9E75', fontFamily: 'Arial',
+                  fontWeight: '600', marginBottom: '8px',
+                }}>
+                  📈 {synergie.gain_estime}
+                </div>
+              )}
+              <div style={{
+                fontSize: '18px', color: '#444', fontFamily: 'Arial',
+                lineHeight: 1.5,
+              }}>
+                {synergie.mecanisme?.length > 120
+                  ? synergie.mecanisme.slice(0, 117) + '…'
+                  : synergie.mecanisme}
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   )
 })
