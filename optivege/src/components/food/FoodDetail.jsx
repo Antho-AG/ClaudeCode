@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import FoodIcon from './FoodIcon'
 import NutritionTable from './NutritionTable'
 import SynergyCard from './SynergyCard'
 import SourceCitation from '../ui/SourceCitation'
@@ -55,7 +56,7 @@ export default function FoodDetail({ food }) {
       {/* Section A — Présentation */}
       <section>
         <div className="flex items-center gap-4 mb-4">
-          <span className="text-6xl">{food.emoji}</span>
+          <FoodIcon food={food} size={64} />
           <div>
             <h1 className="text-3xl font-heading font-bold text-green-dark">{food.nom}</h1>
             <span className="text-sm text-gray-500 capitalize bg-green-bg px-3 py-1 rounded-full">

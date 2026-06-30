@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import Badge from '../ui/Badge'
+import FoodIcon from './FoodIcon'
 
 const BENEFIT_EMOJI = {
   fer: '⚙️', proteines: '💪', calcium: '🦴', omega3: '🐟',
@@ -24,7 +25,7 @@ export default function FoodCard({ food }) {
       )}
 
       <div className="flex items-start gap-3">
-        <span className="text-4xl">{food.emoji}</span>
+        <FoodIcon food={food} size={40} />
         <div className="flex-1 min-w-0">
           <h3 className="font-heading font-semibold text-green-dark group-hover:text-green-mid transition-colors">
             {food.nom}
