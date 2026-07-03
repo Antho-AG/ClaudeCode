@@ -232,7 +232,7 @@ export function computeSuggestions(chosenFoods, maxCount = 6) {
 
 // ── Score ───────────────────────────────────────────────────────────────────
 export function computeScore(activeSynergies) {
-  return Math.min(activeSynergies.length * 10, 100)
+  return Math.min(activeSynergies.length * 20, 100)
 }
 
 export function scoreBadge(score) {
