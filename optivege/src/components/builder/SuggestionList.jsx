@@ -64,7 +64,7 @@ function SuggestionCard({ candidate, onPick }) {
         ) : null}
         {count > 1 && (
           <p className="text-xs mt-1" style={{ color: '#E76F51', fontFamily: 'Inter, sans-serif' }}>
-            Synergie avec {synLinks.map(l => l.fromFood.nom).join(' & ')}
+            Synergie avec {[...new Set(synLinks.map(l => l.fromFood.nom))].join(' & ')}
           </p>
         )}
       </div>
