@@ -56,9 +56,9 @@ function extractKeyValue(gain) {
   return null
 }
 
-// Circle diameter and overlap
-const D = 120          // px — diameter of each circle
-const OVERLAP = D * 0.25  // 25% overlap = 30px
+// Circle diameter — enlarged for long food names
+const D = 130          // px — diameter of each circle
+const OVERLAP = D * 0.25  // 25% overlap
 
 export default function SynergyVenn({ synergy, isCombo }) {
   const { foodA, foodB, syn } = synergy
@@ -134,13 +134,14 @@ export default function SynergyVenn({ synergy, isCombo }) {
         }}>
           <span style={{ fontSize: 24, lineHeight: 1 }}>{foodA.emoji}</span>
           <span style={{
-            fontSize: 12,
+            fontSize: 10,
             fontWeight: 700,
             color: '#0F6E56',
             textAlign: 'center',
-            lineHeight: 1.25,
-            maxWidth: D * 0.65,
+            lineHeight: 1.3,
+            maxWidth: D * 0.68,
             wordBreak: 'break-word',
+            overflow: 'visible',
           }}>
             {foodA.nom}
           </span>
@@ -166,13 +167,14 @@ export default function SynergyVenn({ synergy, isCombo }) {
         }}>
           <span style={{ fontSize: 24, lineHeight: 1 }}>{foodB.emoji}</span>
           <span style={{
-            fontSize: 12,
+            fontSize: 10,
             fontWeight: 700,
             color: '#0F6E56',
             textAlign: 'center',
-            lineHeight: 1.25,
-            maxWidth: D * 0.65,
+            lineHeight: 1.3,
+            maxWidth: D * 0.68,
             wordBreak: 'break-word',
+            overflow: 'visible',
           }}>
             {foodB.nom}
           </span>
