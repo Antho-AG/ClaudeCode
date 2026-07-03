@@ -1,12 +1,15 @@
 import { scoreBadge } from '../../hooks/useSynergyBuilder'
+import SynergyVenn from './SynergyVenn'
 
 export default function CreationCard({ chosenFoods, activeSynergies, score, onReset, onAddToPlanner, onCopy }) {
   const badge = scoreBadge(score)
-  const combos = activeSynergies.filter(s => {
-    // A combo = one food is synergistic with 2+ others
-    const aLinks = activeSynergies.filter(x => x.foodA.id === s.foodA.id || x.foodB.id === s.foodA.id)
-    return aLinks.length >= 3
-  })
+
+  // A food involved in 3+ synergy pairs triggers the "combo" badge
+  const comboFoodIds = new Set()
+  for (const s of activeSynergies) {
+    const aCount = activeSynergies.filter(x => x.foodA.id === s.foodA.id || x.foodB.id === s.foodA.id).length
+    if (aCount >= 3) comboFoodIds.add(s.foodA.id)
+  }
 
   async function handleCopy() {
     await onCopy()
@@ -49,42 +52,25 @@ export default function CreationCard({ chosenFoods, activeSynergies, score, onRe
         </div>
       </div>
 
-      {/* Active synergies */}
+      {/* Active synergies — Venn diagrams */}
       {activeSynergies.length > 0 && (
-        <div className="card">
+        <div>
           <h3 className="font-heading text-lg text-green-dark mb-3">
             Synergies actives <span className="text-green-main text-base">({activeSynergies.length})</span>
           </h3>
-          <div className="space-y-3">
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
+            gap: 12,
+          }}>
             {activeSynergies.map((s, i) => (
-              <div key={i} className="flex items-start gap-3 p-3 rounded-xl" style={{ background: '#F5FBF8' }}>
-                <div className="flex items-center gap-1 text-sm flex-shrink-0 font-medium text-green-dark" style={{ fontFamily: 'Inter, sans-serif' }}>
-                  <span>{s.foodA.emoji}</span>
-                  <span>+</span>
-                  <span>{s.foodB.emoji}</span>
-                </div>
-                <div className="flex-1 min-w-0">
-                  <p className="text-sm font-semibold text-green-dark" style={{ fontFamily: 'Inter, sans-serif' }}>
-                    {s.foodA.nom} + {s.foodB.nom}
-                  </p>
-                  <p className="text-xs text-gray-600 mt-0.5" style={{ fontFamily: 'Inter, sans-serif' }}>
-                    → {s.syn.nutriment_cle}
-                    {s.syn.gain_estime && <span className="text-green-main font-medium ml-1">· {s.syn.gain_estime}</span>}
-                  </p>
-                </div>
-              </div>
+              <SynergyVenn
+                key={i}
+                synergy={s}
+                isCombo={comboFoodIds.has(s.foodA.id) || comboFoodIds.has(s.foodB.id)}
+              />
             ))}
           </div>
-        </div>
-      )}
-
-      {/* Combo bonus */}
-      {combos.length > 0 && (
-        <div className="card" style={{ border: '2px solid #E76F51', background: '#FFF8F5' }}>
-          <h3 className="font-heading text-lg mb-2" style={{ color: '#C85A3C' }}>✨ Combo bonus</h3>
-          <p className="text-sm text-gray-600" style={{ fontFamily: 'Inter, sans-serif' }}>
-            Certains aliments de votre assiette créent une synergie en réseau — chaque ingrédient amplifie les autres !
-          </p>
         </div>
       )}
 
