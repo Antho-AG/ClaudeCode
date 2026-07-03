@@ -105,33 +105,129 @@ function synergyNutrientScore(candidate) {
   return best // -1 if no data → sorts last
 }
 
+// ── Reverse synergy index: targetId → [{sourceFood, syn}] ──────────────────
+const REVERSE_SYNERGY = new Map() // targetId → [{sourceFood, syn}]
+for (const food of foodsData) {
+  for (const syn of food.synergies || []) {
+    const tid = syn.aliment_associe_id
+    if (!REVERSE_SYNERGY.has(tid)) REVERSE_SYNERGY.set(tid, [])
+    REVERSE_SYNERGY.get(tid).push({ sourceFood: food, syn })
+  }
+}
+
+// Priority categories for level-3 fallback (category diversity)
+const CATEGORY_PRIORITY = [
+  'épice', 'légume', 'légume-feuille', 'fruit', 'oléagineux',
+  'champignon', 'algue', 'condiment', 'céréale',
+]
+
 // ── Suggestions: foods that synergise with what's already chosen ───────────
 export function computeSuggestions(chosenFoods, maxCount = 6) {
   const chosenIds = new Set(chosenFoods.map(f => f.id))
-  const candidates = new Map() // id → { food, count, synLinks }
+  const excluded = new Set(chosenIds) // never suggest already-chosen foods
+
+  // ── Level 1: bidirectional direct synergies ────────────────────────────
+  const candidates = new Map() // id → { food, count, synLinks, level }
+
+  function addCandidate(targetId, fromFood, syn) {
+    if (excluded.has(targetId)) return
+    const target = FOOD_MAP.get(targetId)
+    if (!target) return
+    if (!candidates.has(targetId)) {
+      candidates.set(targetId, { food: target, count: 0, synLinks: [], level: 1 })
+    }
+    const c = candidates.get(targetId)
+    c.count++
+    c.synLinks.push({ fromFood, syn })
+  }
 
   for (const food of chosenFoods) {
+    // Forward: food → its synergy targets
     for (const syn of food.synergies || []) {
-      const targetId = syn.aliment_associe_id
-      if (chosenIds.has(targetId)) continue
-      const target = FOOD_MAP.get(targetId)
-      if (!target) continue
-
-      if (!candidates.has(targetId)) {
-        candidates.set(targetId, { food: target, count: 0, synLinks: [] })
+      addCandidate(syn.aliment_associe_id, food, syn)
+    }
+    // Reverse: other foods that point to this food
+    for (const { sourceFood, syn } of REVERSE_SYNERGY.get(food.id) || []) {
+      if (excluded.has(sourceFood.id)) continue
+      // The sourceFood synergizes with food → suggest sourceFood
+      if (!candidates.has(sourceFood.id)) {
+        candidates.set(sourceFood.id, { food: sourceFood, count: 0, synLinks: [], level: 1 })
       }
-      const c = candidates.get(targetId)
+      const c = candidates.get(sourceFood.id)
       c.count++
       c.synLinks.push({ fromFood: food, syn })
     }
   }
 
-  const selected = [...candidates.values()]
-    .sort((a, b) => b.count - a.count)
-    .slice(0, maxCount)
+  const level1 = [...candidates.values()]
+    .sort((a, b) => b.count - a.count || synergyNutrientScore(b) - synergyNutrientScore(a))
 
-  // Re-sort selected candidates by nutritional efficacy of the key synergy nutrient
-  return selected.sort((a, b) => synergyNutrientScore(b) - synergyNutrientScore(a))
+  if (level1.length >= maxCount) {
+    return level1.slice(0, maxCount).sort((a, b) => synergyNutrientScore(b) - synergyNutrientScore(a))
+  }
+
+  // ── Level 2: nutritional complementarity ────────────────────────────────
+  // Find nutrients already covered by chosen foods
+  const coveredBienfaits = new Set(chosenFoods.flatMap(f => f.bienfaits?.map(b => b.id) || []))
+  const coveredTeneurs = new Set(chosenFoods.flatMap(f => Object.keys(f.teneurs || {}).filter(k => k !== 'source_teneurs')))
+
+  // Priority nutrients not yet represented
+  const PRIORITY_NUTRIENTS = [
+    'omega3', 'calcium', 'vitamine_d', 'magnesium', 'zinc',
+    'vitamine_e', 'vitamine_k', 'folates', 'potassium', 'anthocyanes',
+    'beta_carotene', 'vitamine_c', 'fer',
+  ]
+  const uncoveredPriority = PRIORITY_NUTRIENTS.filter(n => !coveredTeneurs.has(n))
+
+  const level2candidates = []
+  for (const food of foodsData) {
+    if (excluded.has(food.id) || candidates.has(food.id)) continue
+    const foodTeneurs = Object.keys(food.teneurs || {}).filter(k => k !== 'source_teneurs')
+    const foodBienfaits = food.bienfaits?.map(b => b.id) || []
+    // Score: how many uncovered priority nutrients does this food bring?
+    const newNutrients = uncoveredPriority.filter(n => foodTeneurs.includes(n) || foodBienfaits.includes(n))
+    if (newNutrients.length > 0) {
+      level2candidates.push({
+        food,
+        count: 0,
+        synLinks: [],
+        level: 2,
+        l2score: newNutrients.length,
+      })
+    }
+  }
+  level2candidates.sort((a, b) => b.l2score - a.l2score)
+
+  const combined = [...level1]
+  const needed = maxCount - combined.length
+  combined.push(...level2candidates.slice(0, needed))
+
+  if (combined.length >= maxCount) {
+    return combined.slice(0, maxCount).sort((a, b) =>
+      a.level - b.level || synergyNutrientScore(b) - synergyNutrientScore(a)
+    )
+  }
+
+  // ── Level 3: category diversity ─────────────────────────────────────────
+  const chosenCats = new Set(chosenFoods.map(f => f.categorie))
+  const alreadySuggested = new Set(combined.map(c => c.food.id))
+
+  const level3candidates = []
+  for (const cat of CATEGORY_PRIORITY) {
+    if (chosenCats.has(cat)) continue
+    const reps = foodsData.filter(f =>
+      f.categorie === cat && !excluded.has(f.id) && !alreadySuggested.has(f.id)
+    )
+    if (reps.length > 0) {
+      level3candidates.push({ food: reps[0], count: 0, synLinks: [], level: 3 })
+    }
+  }
+
+  combined.push(...level3candidates.slice(0, maxCount - combined.length))
+
+  return combined.slice(0, maxCount).sort((a, b) =>
+    a.level - b.level || synergyNutrientScore(b) - synergyNutrientScore(a)
+  )
 }
 
 // ── Score ───────────────────────────────────────────────────────────────────

@@ -8,9 +8,8 @@ function comboLabel(count) {
 
 function SuggestionCard({ candidate, onPick }) {
   const [imgErr, setImgErr] = useState(false)
-  const { food, count, synLinks } = candidate
+  const { food, count, synLinks, level } = candidate
   const combo = comboLabel(count)
-  // Use the first synergy description as the short label
   const firstSyn = synLinks[0]?.syn
 
   return (
@@ -47,14 +46,22 @@ function SuggestionCard({ candidate, onPick }) {
         <p className="font-semibold text-green-dark text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
           {food.nom}
         </p>
-        {firstSyn && (
+        {firstSyn ? (
           <p className="text-xs text-gray-500 mt-0.5 leading-snug" style={{ fontFamily: 'Inter, sans-serif' }}>
             🔗 {firstSyn.nutriment_cle}
             {firstSyn.gain_estime && (
               <span className="ml-1 text-green-main font-medium">· {firstSyn.gain_estime}</span>
             )}
           </p>
-        )}
+        ) : level === 2 ? (
+          <p className="text-xs text-gray-400 mt-0.5" style={{ fontFamily: 'Inter, sans-serif' }}>
+            🧩 Complément nutritionnel
+          </p>
+        ) : level === 3 ? (
+          <p className="text-xs text-gray-400 mt-0.5" style={{ fontFamily: 'Inter, sans-serif' }}>
+            🌿 Diversité de l'assiette
+          </p>
+        ) : null}
         {count > 1 && (
           <p className="text-xs mt-1" style={{ color: '#E76F51', fontFamily: 'Inter, sans-serif' }}>
             Synergie avec {synLinks.map(l => l.fromFood.nom).join(' & ')}
@@ -68,7 +75,8 @@ function SuggestionCard({ candidate, onPick }) {
 }
 
 export default function SuggestionList({ suggestions, onPick, stepNumber, canFinish, onFinalize, maxReached }) {
-  if (suggestions.length === 0 && !maxReached) {
+  // Only show "no more suggestions" if we have 5+ ingredients AND all fallbacks are exhausted
+  if (suggestions.length === 0 && (maxReached || stepNumber >= 5)) {
     return (
       <div className="text-center py-8 text-gray-400 text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
         Aucune suggestion supplémentaire — votre assiette est déjà très synergique !
