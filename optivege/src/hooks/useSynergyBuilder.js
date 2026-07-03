@@ -31,6 +31,80 @@ export function computeActiveSynergies(chosenFoods) {
   return result
 }
 
+// ── Nutrient key → teneurs field + AJR reference (per 100g) ────────────────
+// AJR sources: EFSA/ANSES reference values
+const NUTRIENT_MAP = {
+  vitamine_c:   { key: 'vitamine_c',   ajr: 80   },   // mg
+  fer:          { key: 'fer',          ajr: 14   },   // mg
+  zinc:         { key: 'zinc',         ajr: 10   },   // mg
+  calcium:      { key: 'calcium',      ajr: 1000 },   // mg
+  magnesium:    { key: 'magnesium',    ajr: 375  },   // mg
+  vitamine_d:   { key: 'vitamine_d',   ajr: 15   },   // µg
+  vitamine_e:   { key: 'vitamine_e',   ajr: 12   },   // mg
+  vitamine_k:   { key: 'vitamine_k',   ajr: 75   },   // µg
+  vitamine_b6:  { key: 'vitamine_b6',  ajr: 1.4  },   // mg
+  folates:      { key: 'folates',      ajr: 200  },   // µg
+  potassium:    { key: 'potassium',    ajr: 2000 },   // mg
+  selenium:     { key: 'selenium',     ajr: 55   },   // µg
+  omega3:       { key: 'omega3_ala',   ajr: 2000 },   // mg
+  beta_carotene:{ key: 'beta_carotene',ajr: 5000 },   // µg
+  anthocyanes:  { key: 'anthocyanes',  ajr: 50   },   // mg (no official AJR, estimate)
+  curcumine:    { key: 'curcumine',    ajr: 200  },   // mg (estimate)
+  lipides:      { key: 'lipides',      ajr: 70000},   // mg (~70g)
+  proteines:    { key: 'proteines',    ajr: 50   },   // g → handled separately
+}
+
+// Map common nutriment_cle substrings to nutrient keys
+const SYNERGY_KEYWORD_MAP = [
+  ['vitamine c',    'vitamine_c'],
+  ['fer',           'fer'],
+  ['zinc',          'zinc'],
+  ['calcium',       'calcium'],
+  ['magnesium',     'magnesium'],
+  ['vitamine d',    'vitamine_d'],
+  ['vitamine e',    'vitamine_e'],
+  ['vitamine k',    'vitamine_k'],
+  ['vitamine b',    'vitamine_b6'],
+  ['folates',       'folates'],
+  ['potassium',     'potassium'],
+  ['selenium',      'selenium'],
+  ['oméga',         'omega3'],
+  ['omega',         'omega3'],
+  ['ala',           'omega3'],
+  ['bêta-carotène', 'beta_carotene'],
+  ['beta-carotene', 'beta_carotene'],
+  ['caroténoïde',   'beta_carotene'],
+  ['anthocyan',     'anthocyanes'],
+  ['curcumin',      'curcumine'],
+  ['lipide',        'lipides'],
+  ['graisse',       'lipides'],
+  ['protéine',      'proteines'],
+]
+
+function resolveNutrientKey(nutrimentCle) {
+  const lower = nutrimentCle.toLowerCase()
+  for (const [keyword, nutrientId] of SYNERGY_KEYWORD_MAP) {
+    if (lower.includes(keyword)) return nutrientId
+  }
+  return null
+}
+
+function synergyNutrientScore(candidate) {
+  // Take the best AJR % across all synergy links for this candidate
+  let best = -1
+  for (const { syn } of candidate.synLinks) {
+    const nutrientId = resolveNutrientKey(syn.nutriment_cle)
+    if (!nutrientId) continue
+    const mapping = NUTRIENT_MAP[nutrientId]
+    if (!mapping) continue
+    const teneur = candidate.food.teneurs?.[mapping.key]
+    if (!teneur || teneur.valeur == null) continue
+    const pct = (teneur.valeur / mapping.ajr) * 100
+    if (pct > best) best = pct
+  }
+  return best // -1 if no data → sorts last
+}
+
 // ── Suggestions: foods that synergise with what's already chosen ───────────
 export function computeSuggestions(chosenFoods, maxCount = 6) {
   const chosenIds = new Set(chosenFoods.map(f => f.id))
@@ -52,9 +126,12 @@ export function computeSuggestions(chosenFoods, maxCount = 6) {
     }
   }
 
-  return [...candidates.values()]
+  const selected = [...candidates.values()]
     .sort((a, b) => b.count - a.count)
     .slice(0, maxCount)
+
+  // Re-sort selected candidates by nutritional efficacy of the key synergy nutrient
+  return selected.sort((a, b) => synergyNutrientScore(b) - synergyNutrientScore(a))
 }
 
 // ── Score ───────────────────────────────────────────────────────────────────
