@@ -4,15 +4,14 @@ import foodsData from '../data/foods.json'
 const FOOD_MAP = new Map(foodsData.map(f => [f.id, f]))
 
 // ── Protein filter ──────────────────────────────────────────────────────────
-const PROTEIN_CATS = new Set(['légumineuse', 'légumineuse transformée', 'pseudo-céréale'])
-const PROTEIN_IDS  = new Set(['spiruline', 'levure_nutritionnelle', 'chlorelle'])
+const PROTEINES_BASE = new Set([
+  'lentille', 'lentille_corail', 'pois_chiche',
+  'haricot_noir', 'haricot_rouge', 'haricot_blanc',
+  'edamame', 'quinoa', 'tofu', 'tempeh',
+  'riz_complet', 'sarrasin', 'amarante', 'teff',
+])
 
-export const proteinSources = foodsData.filter(f =>
-  PROTEIN_CATS.has(f.categorie) ||
-  PROTEIN_IDS.has(f.id) ||
-  f.tags?.includes('proteines') ||
-  f.tags?.includes('proteines_completes')
-)
+export const proteinSources = foodsData.filter(f => PROTEINES_BASE.has(f.id))
 
 // ── Active synergies between chosen foods ───────────────────────────────────
 export function computeActiveSynergies(chosenFoods) {
