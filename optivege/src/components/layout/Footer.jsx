@@ -21,6 +21,10 @@ export default function Footer() {
             <li><Link to="/aliments" className="text-gray-300 hover:text-white transition-colors">🥦 Recherche par aliment</Link></li>
             <li><Link to="/bienfaits" className="text-gray-300 hover:text-white transition-colors">💪 Recherche par bienfait</Link></li>
             <li><Link to="/recettes" className="text-gray-300 hover:text-white transition-colors">🍽️ Recettes</Link></li>
+            <li><Link to="/super-aliments" className="text-gray-300 hover:text-white transition-colors">⭐ Super Aliments</Link></li>
+            <li><Link to="/lexique" className="text-gray-300 hover:text-white transition-colors">📖 Lexique</Link></li>
+            <li><Link to="/planifier" className="text-gray-300 hover:text-white transition-colors">🗓️ Planifier</Link></li>
+            <li><Link to="/creer" className="text-gray-300 hover:text-white transition-colors">✨ Créer</Link></li>
           </ul>
         </div>
 

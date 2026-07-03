@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import lexiqueData from '../data/lexique.json'
+import useMeta from '../hooks/useMeta'
 
 const CATEGORIES = [...new Set(lexiqueData.map(t => t.categorie))].sort()
 
@@ -17,6 +18,10 @@ function groupByLetter(terms) {
 }
 
 export default function LexiquePage() {
+  useMeta({
+    title: 'Lexique de nutrition végétale — Définitions scientifiques | Optivege',
+    description: 'Glossaire complet des termes de nutrition végétale : définitions scientifiques, mécanismes biochimiques et références PubMed.',
+  })
   const location = useLocation()
   const [search, setSearch] = useState('')
   const [categorie, setCategorie] = useState('')

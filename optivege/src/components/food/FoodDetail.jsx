@@ -196,16 +196,11 @@ export default function FoodDetail({ food }) {
         </section>
       )}
 
-      {/* Bouton favoris — désactivé en Phase 1 */}
+      {/* Favoris — à venir */}
       <div className="flex justify-center">
-        <button
-          disabled
-          title="Créez un compte pour sauvegarder vos favoris"
-          className="flex items-center gap-2 px-5 py-2.5 border-2 border-gray-200 rounded-xl text-gray-400 cursor-not-allowed text-sm"
-        >
-          ❤️ Sauvegarder en favoris
-          <span className="text-xs">(Compte requis)</span>
-        </button>
+        <span className="text-xs text-gray-300" style={{ fontFamily: 'Inter, sans-serif' }}>
+          🔖 Favoris — fonctionnalité à venir
+        </span>
       </div>
     </div>
   )
