@@ -29,6 +29,12 @@ const NUTRIENT_KEYWORDS = [
   ['curcumin',   'curcumine'],
 ]
 
+function shortName(nom) {
+  if (nom.startsWith('Graines de ')) return 'Gr. de ' + nom.slice('Graines de '.length)
+  if (nom.length > 14) return nom.slice(0, 13).trimEnd() + '.'
+  return nom
+}
+
 function resolveTheme(nutrimentCle) {
   const lower = nutrimentCle.toLowerCase()
   for (const [kw, id] of NUTRIENT_KEYWORDS) {
@@ -143,7 +149,7 @@ export default function SynergyVenn({ synergy, isCombo }) {
             wordBreak: 'break-word',
             overflow: 'visible',
           }}>
-            {foodA.nom}
+            {shortName(foodA.nom)}
           </span>
         </div>
 
@@ -176,7 +182,7 @@ export default function SynergyVenn({ synergy, isCombo }) {
             wordBreak: 'break-word',
             overflow: 'visible',
           }}>
-            {foodB.nom}
+            {shortName(foodB.nom)}
           </span>
         </div>
 
