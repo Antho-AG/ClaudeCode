@@ -1,0 +1,45 @@
+.dashboard-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    'todo'
+    'mindmaps'
+    'nba'
+    'football'
+    'turf'
+    'autres'
+    'journal';
+}
+
+@media (min-width: 1024px) {
+  .dashboard-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      'todo nba turf'
+      'journal football football'
+      'mindmaps autres autres';
+  }
+}
+
+.area-todo {
+  grid-area: todo;
+}
+.area-nba {
+  grid-area: nba;
+}
+.area-turf {
+  grid-area: turf;
+}
+.area-journal {
+  grid-area: journal;
+}
+.area-football {
+  grid-area: football;
+}
+.area-mindmaps {
+  grid-area: mindmaps;
+}
+.area-autres {
+  grid-area: autres;
+}
