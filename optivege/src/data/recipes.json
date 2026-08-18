@@ -1676,5 +1676,867 @@
       "epinard",
       "citron"
     ]
+  },
+  {
+    "id": "bowl_mais_avocat_haricot_noir",
+    "nom": "Bowl Maïs, Avocat & Haricot Noir",
+    "emoji": "🌽",
+    "temps": "20 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": [
+      "zeaxanthine",
+      "proteines",
+      "fibres",
+      "bonnes_graisses"
+    ],
+    "categorie_synergie": "Zéaxanthine + Graisses saines",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Maïs",
+        "aliment_2": "Avocat",
+        "benefice": "Absorption zéaxanthine ×3 à ×4",
+        "mecanisme": "Les lipides mono-insaturés de l'avocat solubilisent la zéaxanthine liposoluble du maïs, multipliant son absorption intestinale.",
+        "source": "Unlu NZ et al., J Nutr, 2005"
+      },
+      {
+        "aliment_1": "Maïs",
+        "aliment_2": "Haricot noir",
+        "benefice": "Complémentarité protéique optimale",
+        "mecanisme": "Le maïs est riche en méthionine mais pauvre en lysine ; le haricot noir est l'inverse. Combinés, ils forment un profil protéique complet équivalent aux protéines animales.",
+        "source": "FAO (2013). Dietary protein quality evaluation in human nutrition."
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "300g",
+        "nom": "Maïs en grains (frais ou surgelé)"
+      },
+      {
+        "quantite": "1 boîte (240g)",
+        "nom": "Haricots noirs cuits",
+        "note": "rincés et égouttés"
+      },
+      {
+        "quantite": "1",
+        "nom": "Avocat mûr"
+      },
+      {
+        "quantite": "1/2",
+        "nom": "Citron vert (jus)"
+      },
+      {
+        "quantite": "1/2",
+        "nom": "Oignon rouge"
+      },
+      {
+        "quantite": "1 poignée",
+        "nom": "Coriandre fraîche"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Cumin en poudre"
+      },
+      {
+        "quantite": "Sel, poivre",
+        "nom": "Assaisonnement"
+      }
+    ],
+    "etapes": [
+      "Cuire le maïs 5 min à la poêle sans matière grasse jusqu'à légère coloration.",
+      "Émincer finement l'oignon rouge. Hacher la coriandre.",
+      "Dans un bol, mélanger maïs, haricots noirs, oignon et coriandre.",
+      "Ajouter le cumin, sel, poivre et jus de citron vert. Mélanger.",
+      "Trancher l'avocat en lamelles et disposer sur le bowl au moment de servir.",
+      "Servir immédiatement pour que l'avocat reste bien vert."
+    ],
+    "conseil_cuisson": "Torréfier le maïs à sec avant d'ajouter l'avocat pour concentrer les arômes sans altérer les lipides de l'avocat.",
+    "note_nutritionnelle": "Ce bowl apporte un profil protéique complet (tous les acides aminés essentiels) et optimise l'absorption des caroténoïdes maculaires (zéaxanthine, lutéine) grâce aux graisses de l'avocat.",
+    "variantes": "Ajouter du riz complet pour un repas plus consistant. Remplacer la coriandre par du persil si souhaité.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses",
+        "titre": "CIQUAL 2020",
+        "journal": "Anses",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
+  },
+  {
+    "id": "curry_poivre_noir_curcuma_pois_chiches",
+    "nom": "Curry Doré Pois Chiches & Poivre Noir",
+    "emoji": "🫙",
+    "temps": "30 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": [
+      "curcumine",
+      "anti_inflammatoire",
+      "proteines",
+      "pipérine"
+    ],
+    "categorie_synergie": "Pipérine + Curcumine",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Poivre noir",
+        "aliment_2": "Curcuma",
+        "benefice": "+2000% biodisponibilité curcumine",
+        "mecanisme": "La pipérine du poivre noir inhibe les enzymes hépatiques (CYP3A4) et intestinales qui métabolisent rapidement la curcumine, multipliant sa concentration sanguine par 20.",
+        "source": "Shoba G. et al., Planta Med, 1998"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "400g",
+        "nom": "Pois chiches cuits"
+      },
+      {
+        "quantite": "2 c.c.",
+        "nom": "Curcuma en poudre"
+      },
+      {
+        "quantite": "1/2 c.c.",
+        "nom": "Poivre noir fraîchement moulu",
+        "note": "clé de la synergie"
+      },
+      {
+        "quantite": "400ml",
+        "nom": "Lait de coco"
+      },
+      {
+        "quantite": "1",
+        "nom": "Oignon"
+      },
+      {
+        "quantite": "2",
+        "nom": "Gousses d'ail"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Gingembre frais râpé"
+      },
+      {
+        "quantite": "2 c.s.",
+        "nom": "Huile d'olive"
+      },
+      {
+        "quantite": "Sel",
+        "nom": "Assaisonnement"
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon émincé dans l'huile d'olive 5 min à feu moyen.",
+      "Ajouter l'ail et le gingembre, cuire 1 min en remuant.",
+      "Incorporer le curcuma et le poivre noir, mélanger 30 secondes pour activer les arômes.",
+      "Ajouter les pois chiches et le lait de coco. Porter à ébullition.",
+      "Laisser mijoter 15 min à feu doux pour que les saveurs se mélangent.",
+      "Rectifier l'assaisonnement et servir avec du riz complet ou du pain."
+    ],
+    "conseil_cuisson": "Le poivre noir doit impérativement être ajouté avec le curcuma — c'est la cuisson ensemble qui active la synergie pipérine-curcumine.",
+    "note_nutritionnelle": "Sans poivre noir, seulement 1% de la curcumine est absorbée. Avec poivre, jusqu'à 20% — une différence fondamentale pour les effets anti-inflammatoires.",
+    "variantes": "Ajouter des épinards en fin de cuisson pour un apport en fer. Remplacer les pois chiches par du tofu ferme.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses",
+        "titre": "CIQUAL 2020",
+        "journal": "Anses",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
+  },
+  {
+    "id": "riz_complet_noix_bresil",
+    "nom": "Riz Complet aux Noix du Brésil & Légumes Rôtis",
+    "emoji": "🌰",
+    "temps": "35 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": [
+      "selenium",
+      "thyroide",
+      "antioxydants",
+      "fibres"
+    ],
+    "categorie_synergie": "Sélénium + Iode",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Noix du Brésil",
+        "aliment_2": "Riz complet",
+        "benefice": "Fonction thyroïdienne optimisée",
+        "mecanisme": "Le sélénium des noix du Brésil active les désiodases (enzymes convertisSant T4 en T3 active). Le riz complet apporte les minéraux cofacteurs de cette conversion.",
+        "source": "Rayman MP. The importance of selenium to human health. Lancet, 2000"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "180g",
+        "nom": "Riz complet (sec)"
+      },
+      {
+        "quantite": "4",
+        "nom": "Noix du Brésil",
+        "note": "2 suffisent pour couvrir l'AJR en sélénium"
+      },
+      {
+        "quantite": "1",
+        "nom": "Courgette"
+      },
+      {
+        "quantite": "1",
+        "nom": "Poivron rouge"
+      },
+      {
+        "quantite": "200g",
+        "nom": "Brocoli"
+      },
+      {
+        "quantite": "2 c.s.",
+        "nom": "Huile d'olive"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Paprika fumé"
+      },
+      {
+        "quantite": "Sel, poivre",
+        "nom": "Assaisonnement"
+      }
+    ],
+    "etapes": [
+      "Cuire le riz complet selon les instructions (environ 30 min).",
+      "Préchauffer le four à 200°C. Couper les légumes en morceaux.",
+      "Mélanger les légumes avec l'huile, le paprika, sel et poivre.",
+      "Rôtir 20-25 min au four jusqu'à légère caramélisation.",
+      "Concasser grossièrement les noix du Brésil.",
+      "Servir le riz chaud avec les légumes rôtis, parsemer de noix du Brésil concassées.",
+      "Ne pas cuire les noix — la chaleur dégrade le sélénium."
+    ],
+    "conseil_cuisson": "Ajouter les noix du Brésil toujours en finition, jamais à la cuisson — le sélénium est thermosensible et se dégrade à haute température.",
+    "note_nutritionnelle": "2 noix du Brésil couvrent 100% de l'AJR en sélénium (55 µg). Au-delà de 6-8 noix/jour, un excès de sélénium devient toxique — à consommer avec modération.",
+    "variantes": "Remplacer le riz complet par du quinoa pour un profil protéique plus complet.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses",
+        "titre": "CIQUAL 2020",
+        "journal": "Anses",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
+  },
+  {
+    "id": "poele_champignons_ail_persil",
+    "nom": "Poêlée de Champignons à l'Ail & au Persil",
+    "emoji": "🍄",
+    "temps": "15 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": [
+      "immunite",
+      "vitamine_k",
+      "antioxydants",
+      "fibres"
+    ],
+    "categorie_synergie": "Immunité synergique",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Champignon de Paris",
+        "aliment_2": "Ail",
+        "benefice": "Immunostimulation synergique",
+        "mecanisme": "Les bêta-glucanes des champignons activent les macrophages et cellules NK. L'allicine de l'ail potentialise cette activation immunitaire par action sur les lymphocytes T.",
+        "source": "Wasser SP. Medicinal mushrooms as a source of antitumor and immunomodulating polysaccharides. Appl Microbiol Biotechnol, 2002"
+      },
+      {
+        "aliment_1": "Champignon de Paris",
+        "aliment_2": "Persil",
+        "benefice": "Apport vitamine K + antioxydants",
+        "mecanisme": "Le persil est l'une des sources les plus concentrées en vitamine K1 (1640 µg/100g). Associé aux champignons riches en ergothionéine (antioxydant unique), le duo protège les cellules immunitaires.",
+        "source": "CIQUAL 2020"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "400g",
+        "nom": "Champignons de Paris"
+      },
+      {
+        "quantite": "3",
+        "nom": "Gousses d'ail"
+      },
+      {
+        "quantite": "1 bouquet",
+        "nom": "Persil frais",
+        "note": "clé nutritionnelle de la recette"
+      },
+      {
+        "quantite": "2 c.s.",
+        "nom": "Huile d'olive"
+      },
+      {
+        "quantite": "1 c.s.",
+        "nom": "Jus de citron"
+      },
+      {
+        "quantite": "Sel, poivre",
+        "nom": "Assaisonnement"
+      }
+    ],
+    "etapes": [
+      "Nettoyer les champignons avec un papier humide, les trancher.",
+      "Chauffer l'huile d'olive à feu vif dans une grande poêle.",
+      "Faire sauter les champignons sans les remuer 3 min pour les dorer.",
+      "Ajouter l'ail haché, mélanger et cuire encore 2 min.",
+      "Hors du feu, ajouter le persil haché frais et le jus de citron.",
+      "Assaisonner et servir immédiatement en accompagnement ou sur toast."
+    ],
+    "conseil_cuisson": "Ne pas saler les champignons avant cuisson — le sel fait sortir l'eau et les empêche de dorer. Et ajouter le persil hors du feu pour préserver sa vitamine K et C.",
+    "note_nutritionnelle": "Une portion de persil frais (15g) couvre déjà 25% de l'AJR en vitamine K. Cette recette est un excellent accompagnement immunostimulant en automne et hiver.",
+    "variantes": "Ajouter une cuillère de tahini pour un apport en calcium. Servir sur des lentilles pour une synergie fer-vitamine C avec le persil.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses",
+        "titre": "CIQUAL 2020",
+        "journal": "Anses",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
+  },
+  {
+    "id": "salade_wakame_tofu_sesame",
+    "nom": "Salade Wakamé, Tofu & Sésame",
+    "emoji": "🌿",
+    "temps": "15 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": [
+      "calcium",
+      "iode",
+      "vitamine_k",
+      "proteines"
+    ],
+    "categorie_synergie": "Calcium + Vitamine K",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Algue Wakamé",
+        "aliment_2": "Tofu",
+        "benefice": "Densité osseuse maximisée",
+        "mecanisme": "La vitamine K1 du wakamé active l'ostéocalcine, protéine qui fixe le calcium dans les os. Le tofu apporte le calcium (350mg/100g) et les isoflavones qui réduisent la résorption osseuse.",
+        "source": "Booth SL. Roles for vitamin K beyond coagulation. Annu Rev Nutr, 2009"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "20g",
+        "nom": "Algue wakamé séchée",
+        "note": "gonfle ×5 à la réhydratation"
+      },
+      {
+        "quantite": "200g",
+        "nom": "Tofu ferme"
+      },
+      {
+        "quantite": "2 c.s.",
+        "nom": "Graines de sésame"
+      },
+      {
+        "quantite": "2 c.s.",
+        "nom": "Sauce soja (tamari)"
+      },
+      {
+        "quantite": "1 c.s.",
+        "nom": "Huile de sésame"
+      },
+      {
+        "quantite": "1 c.s.",
+        "nom": "Vinaigre de riz"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Miel ou sirop d'érable"
+      },
+      {
+        "quantite": "1",
+        "nom": "Citron vert (jus)"
+      },
+      {
+        "quantite": "1",
+        "nom": "Oignon vert"
+      }
+    ],
+    "etapes": [
+      "Réhydrater le wakamé 10 min dans de l'eau froide. Égoutter et couper en morceaux.",
+      "Couper le tofu en cubes. Le faire dorer à la poêle avec un peu d'huile 5 min.",
+      "Préparer la vinaigrette : mélanger tamari, huile de sésame, vinaigre, jus de citron vert et miel.",
+      "Dans un saladier, mélanger wakamé réhydraté, tofu doré, oignon vert émincé.",
+      "Verser la vinaigrette, mélanger délicatement.",
+      "Parsemer de graines de sésame et servir frais."
+    ],
+    "conseil_cuisson": "Ne pas cuire le wakamé — il se consomme réhydraté à froid pour préserver son iode et sa vitamine K.",
+    "note_nutritionnelle": "Le wakamé est l'une des sources marines d'iode les plus concentrées (500-1000 µg/100g). À consommer 2-3 fois/semaine maximum pour ne pas dépasser l'apport tolérable en iode (600 µg/j).",
+    "variantes": "Remplacer le tofu par de l'edamame. Ajouter des carottes râpées pour un apport en bêta-carotène.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses",
+        "titre": "CIQUAL 2020",
+        "journal": "Anses",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
+  },
+  {
+    "id": "tabboule_persil_lentilles",
+    "nom": "Taboulé au Persil & Lentilles Corail",
+    "emoji": "🌿",
+    "temps": "25 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": [
+      "fer",
+      "vitamine_c",
+      "vitamine_k",
+      "proteines"
+    ],
+    "categorie_synergie": "Vitamine C + Fer",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Persil",
+        "aliment_2": "Lentille",
+        "benefice": "+150 à +300% absorption du fer",
+        "mecanisme": "Le persil frais contient 133mg de vitamine C pour 100g. Cette vitamine C réductrice convertit le fer non-héminique des lentilles (Fe³⁺) en forme soluble absorbable (Fe²⁺), neutralisant simultanément les phytates inhibiteurs.",
+        "source": "Hallberg L. et al., Hum Nutr Appl Nutr, 1986"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "150g",
+        "nom": "Lentilles corail (sèches)"
+      },
+      {
+        "quantite": "1 gros bouquet",
+        "nom": "Persil frais",
+        "note": "clé de la synergie — ne pas réduire"
+      },
+      {
+        "quantite": "2",
+        "nom": "Tomates"
+      },
+      {
+        "quantite": "1/2",
+        "nom": "Concombre"
+      },
+      {
+        "quantite": "1",
+        "nom": "Citron (jus)"
+      },
+      {
+        "quantite": "3 c.s.",
+        "nom": "Huile d'olive"
+      },
+      {
+        "quantite": "1/4 c.c.",
+        "nom": "Cannelle"
+      },
+      {
+        "quantite": "Sel, poivre",
+        "nom": "Assaisonnement"
+      }
+    ],
+    "etapes": [
+      "Cuire les lentilles corail 12-15 min dans l'eau bouillante. Égoutter et laisser refroidir.",
+      "Hacher finement le persil (tiges fines incluses, riches en fer).",
+      "Couper tomates et concombre en petits dés.",
+      "Mélanger lentilles refroidies, persil, tomates, concombre.",
+      "Assaisonner avec jus de citron, huile d'olive, cannelle, sel et poivre.",
+      "Laisser reposer 15 min au frais avant de servir pour que les saveurs se développent."
+    ],
+    "conseil_cuisson": "Ne jamais chauffer le persil — la vitamine C est détruite dès 60°C. Le persil doit être ajouté uniquement sur des lentilles refroidies.",
+    "note_nutritionnelle": "Le persil est l'un des légumes les plus riches en vitamine C (133mg/100g) et en vitamine K (1640 µg/100g). Ce taboulé couvre 80% de l'AJR en vitamine C avec seulement 50g de persil.",
+    "variantes": "Ajouter de la menthe fraîche pour une note fraîche. Remplacer les lentilles corail par des lentilles vertes (cuisson plus longue mais texture plus ferme).",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses",
+        "titre": "CIQUAL 2020",
+        "journal": "Anses",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
+  },
+  {
+    "id": "soupe_carottes_huile_olive",
+    "nom": "Soupe de Carottes à l'Huile d'Olive Extra-Vierge",
+    "emoji": "🫒",
+    "temps": "30 min",
+    "difficulte": "Facile",
+    "portions": 3,
+    "bienfaits_cles": [
+      "beta_carotene",
+      "anti_inflammatoire",
+      "oleocanthal",
+      "vitamine_a"
+    ],
+    "categorie_synergie": "Caroténoïdes + Graisses saines",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Huile d'olive",
+        "aliment_2": "Carotte",
+        "benefice": "+200 à +400% d'absorption du bêta-carotène",
+        "mecanisme": "Le bêta-carotène est liposoluble — il ne peut être absorbé qu'en présence de lipides. L'huile d'olive extra-vierge apporte les graisses mono-insaturées nécessaires ET son oléocanthal synergise avec les caroténoïdes sur le plan anti-inflammatoire.",
+        "source": "Unlu NZ et al., Am J Clin Nutr, 2005"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "600g",
+        "nom": "Carottes"
+      },
+      {
+        "quantite": "3 c.s.",
+        "nom": "Huile d'olive extra-vierge",
+        "note": "obligatoire pour la synergie — ne pas réduire"
+      },
+      {
+        "quantite": "1",
+        "nom": "Oignon"
+      },
+      {
+        "quantite": "2",
+        "nom": "Gousses d'ail"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Gingembre frais râpé"
+      },
+      {
+        "quantite": "700ml",
+        "nom": "Bouillon de légumes"
+      },
+      {
+        "quantite": "1 pincée",
+        "nom": "Cumin"
+      },
+      {
+        "quantite": "Sel, poivre noir",
+        "nom": "Assaisonnement"
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon et l'ail dans 1 c.s. d'huile d'olive 3 min.",
+      "Ajouter les carottes pelées et coupées, le gingembre et le cumin. Faire revenir 2 min.",
+      "Verser le bouillon, porter à ébullition puis mijoter 20 min jusqu'à ce que les carottes soient tendres.",
+      "Mixer la soupe en veloutée lisse.",
+      "Servir avec un filet généreux d'huile d'olive extra-vierge (2 c.s. restantes) à cru sur la soupe.",
+      "Poivrer généreusement — le poivre potentialise aussi les polyphénols de l'huile."
+    ],
+    "conseil_cuisson": "L'huile d'olive doit être ajoutée à la fois en cuisson (pour libérer le bêta-carotène) ET en finition à cru (pour préserver l'oléocanthal, détruit au-delà de 180°C).",
+    "note_nutritionnelle": "Une assiette de soupe de carottes sans matière grasse n'apporte presque rien en bêta-carotène. Avec 3 c.s. d'huile d'olive, on absorbe 4× plus de provitamine A, essentielle à la vision et l'immunité.",
+    "variantes": "Ajouter une noix du Brésil râpée en finition pour le sélénium. Remplacer les carottes par du potimarron (même synergie).",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses",
+        "titre": "CIQUAL 2020",
+        "journal": "Anses",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
+  },
+  {
+    "id": "poele_petits_pois_carottes_menthe",
+    "nom": "Poêlée Petits Pois & Carottes à la Menthe",
+    "emoji": "🫛",
+    "temps": "15 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": [
+      "proteines",
+      "beta_carotene",
+      "fibres",
+      "vitamine_c"
+    ],
+    "categorie_synergie": "Protéines + Phytonutriments",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Petits pois",
+        "aliment_2": "Carotte",
+        "benefice": "Profil nutritionnel complet",
+        "mecanisme": "Les petits pois apportent protéines végétales (5g/100g) et lysine. Les carottes complètent avec le bêta-carotène (provitamine A) et les fibres solubles. Les lipides légers de l'huile d'olive améliorent l'absorption du bêta-carotène.",
+        "source": "CIQUAL 2020 / EFSA Dietary Reference Values"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "300g",
+        "nom": "Petits pois surgelés"
+      },
+      {
+        "quantite": "200g",
+        "nom": "Carottes"
+      },
+      {
+        "quantite": "1",
+        "nom": "Échalote"
+      },
+      {
+        "quantite": "1 c.s.",
+        "nom": "Huile d'olive"
+      },
+      {
+        "quantite": "Quelques feuilles",
+        "nom": "Menthe fraîche"
+      },
+      {
+        "quantite": "1 c.s.",
+        "nom": "Jus de citron"
+      },
+      {
+        "quantite": "Sel, poivre",
+        "nom": "Assaisonnement"
+      }
+    ],
+    "etapes": [
+      "Couper les carottes en rondelles fines. Émincer l'échalote.",
+      "Faire revenir l'échalote dans l'huile d'olive 2 min.",
+      "Ajouter les carottes, cuire 5 min à feu moyen.",
+      "Ajouter les petits pois surgelés, couvrir et cuire 4-5 min.",
+      "Hors du feu, ajouter le jus de citron et la menthe ciselée.",
+      "Assaisonner et servir."
+    ],
+    "conseil_cuisson": "Les petits pois ne doivent pas trop cuire — 4-5 min suffisent pour conserver leur vitamine C et leur couleur verte lumineuse.",
+    "note_nutritionnelle": "Les petits pois surgelés conservent 85% de leurs nutriments grâce à la surgélation rapide après récolte — souvent plus nutritifs que les petits pois frais hors saison.",
+    "variantes": "Ajouter des lentilles vertes pour augmenter les protéines. Servir sur du riz complet ou de l'épeautre.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses",
+        "titre": "CIQUAL 2020",
+        "journal": "Anses",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
+  },
+  {
+    "id": "porridge_pruneau_avoine",
+    "nom": "Porridge au Pruneau & Graines de Lin",
+    "emoji": "🫐",
+    "temps": "10 min",
+    "difficulte": "Facile",
+    "portions": 2,
+    "bienfaits_cles": [
+      "fer",
+      "fibres",
+      "antioxydants",
+      "transit"
+    ],
+    "categorie_synergie": "Vitamine C + Fer",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Pruneau",
+        "aliment_2": "Orange",
+        "benefice": "+200% absorption du fer",
+        "mecanisme": "Le pruneau est riche en fer non-héminique (0,9mg/100g) et en acide ascorbique. Ajouté au porridge d'avoine (également riche en fer), le jus d'orange amplifie l'absorption du fer végétal par réduction du Fe³⁺ en Fe²⁺.",
+        "source": "Hurrell R. & Egli I., Am J Clin Nutr, 2010"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "80g",
+        "nom": "Flocons d'avoine"
+      },
+      {
+        "quantite": "6",
+        "nom": "Pruneaux dénoyautés"
+      },
+      {
+        "quantite": "300ml",
+        "nom": "Lait végétal (amande ou avoine)"
+      },
+      {
+        "quantite": "1",
+        "nom": "Orange (jus + zeste)",
+        "note": "clé de la synergie fer"
+      },
+      {
+        "quantite": "1 c.s.",
+        "nom": "Graines de lin moulues"
+      },
+      {
+        "quantite": "1 c.c.",
+        "nom": "Cannelle"
+      },
+      {
+        "quantite": "1 c.s.",
+        "nom": "Sirop d'érable (optionnel)"
+      }
+    ],
+    "etapes": [
+      "Chauffer le lait végétal dans une casserole à feu moyen.",
+      "Ajouter les flocons d'avoine et la cannelle, cuire 5 min en remuant.",
+      "Couper les pruneaux en morceaux et les incorporer.",
+      "Hors du feu, ajouter le jus et le zeste d'orange et les graines de lin.",
+      "Servir dans des bols, sucrer légèrement au sirop d'érable si souhaité."
+    ],
+    "conseil_cuisson": "Ajouter le jus d'orange hors du feu pour préserver la vitamine C, dont l'effet sur l'absorption du fer est détruit par la chaleur.",
+    "note_nutritionnelle": "Le pruneau est l'un des fruits les plus riches en antioxydants (ORAC 8059 µmol TE/100g), supérieur à la myrtille. Il contient aussi du sorbitol, qui régule naturellement le transit intestinal.",
+    "variantes": "Remplacer l'orange par du cassis (encore plus riche en vitamine C). Ajouter des noix du Brésil concassées pour le sélénium.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses",
+        "titre": "CIQUAL 2020",
+        "journal": "Anses",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
+  },
+  {
+    "id": "smoothie_cassis_epinards",
+    "nom": "Smoothie Cassis & Épinards (Fer Express)",
+    "emoji": "🍇",
+    "temps": "5 min",
+    "difficulte": "Facile",
+    "portions": 1,
+    "bienfaits_cles": [
+      "fer",
+      "vitamine_c",
+      "anthocyanes",
+      "antioxydants"
+    ],
+    "categorie_synergie": "Vitamine C + Fer exceptionnel",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Cassis",
+        "aliment_2": "Épinard",
+        "benefice": "+200 à +400% d'absorption du fer",
+        "mecanisme": "Le cassis contient 180mg de vitamine C pour 100g — soit 2× plus que l'orange. Cette concentration exceptionnelle maximise la conversion du fer non-héminique des épinards (Fe³⁺ → Fe²⁺), tout en neutralisant les oxalates inhibiteurs.",
+        "source": "Hallberg L. et al., Am J Clin Nutr, 1989"
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "150g",
+        "nom": "Cassis surgelé"
+      },
+      {
+        "quantite": "50g",
+        "nom": "Épinards frais (jeunes pousses)"
+      },
+      {
+        "quantite": "1",
+        "nom": "Banane mûre"
+      },
+      {
+        "quantite": "200ml",
+        "nom": "Lait végétal ou eau"
+      },
+      {
+        "quantite": "1 c.s.",
+        "nom": "Graines de chia"
+      },
+      {
+        "quantite": "Optionnel",
+        "nom": "1 c.c. de miel"
+      }
+    ],
+    "etapes": [
+      "Placer tous les ingrédients dans un blender.",
+      "Mixer 60 secondes à haute puissance jusqu'à consistance lisse.",
+      "Servir immédiatement — la vitamine C s'oxyde rapidement.",
+      "Ne pas filtrer — les fibres des épinards ralentissent l'absorption du sucre."
+    ],
+    "conseil_cuisson": "Consommer immédiatement après préparation — la vitamine C du cassis se dégrade en 15-20 min une fois mixée. Ne pas stocker ce smoothie.",
+    "note_nutritionnelle": "Ce smoothie est l'un des apports en vitamine C les plus concentrés possibles : 150g de cassis couvre 270% de l'AJR en vitamine C. Idéal en cas d'anémie ferriprive ou en période de convalescence.",
+    "variantes": "Remplacer les épinards par des lentilles cuites refroidies (plus de fer). Ajouter un demi-avocat pour un smoothie plus rassasiant.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses",
+        "titre": "CIQUAL 2020",
+        "journal": "Anses",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
+  },
+  {
+    "id": "salade_epeautre_lentilles_herbes",
+    "nom": "Salade d'Épeautre & Lentilles aux Herbes",
+    "emoji": "🌾",
+    "temps": "40 min",
+    "difficulte": "Facile",
+    "portions": 3,
+    "bienfaits_cles": [
+      "proteines",
+      "acides_amines",
+      "fibres",
+      "magnesium"
+    ],
+    "categorie_synergie": "Protéines complètes",
+    "synergies_utilisees": [
+      {
+        "aliment_1": "Épeautre",
+        "aliment_2": "Lentille",
+        "benefice": "Profil protéique complet",
+        "mecanisme": "L'épeautre est riche en acides aminés soufrés (méthionine, cystéine) mais pauvre en lysine. Les lentilles sont l'inverse. Combinés dans le même repas, ils forment un profil en acides aminés essentiels comparable aux protéines animales.",
+        "source": "FAO (2013). Dietary protein quality evaluation in human nutrition. FAO Food and Nutrition Paper 92."
+      }
+    ],
+    "ingredients": [
+      {
+        "quantite": "150g",
+        "nom": "Épeautre (grain entier, sec)"
+      },
+      {
+        "quantite": "150g",
+        "nom": "Lentilles vertes (sèches)"
+      },
+      {
+        "quantite": "1 bouquet",
+        "nom": "Persil frais"
+      },
+      {
+        "quantite": "Quelques feuilles",
+        "nom": "Menthe fraîche"
+      },
+      {
+        "quantite": "1",
+        "nom": "Citron (jus)"
+      },
+      {
+        "quantite": "3 c.s.",
+        "nom": "Huile d'olive"
+      },
+      {
+        "quantite": "1",
+        "nom": "Échalote"
+      },
+      {
+        "quantite": "Sel, poivre",
+        "nom": "Assaisonnement"
+      }
+    ],
+    "etapes": [
+      "Faire tremper l'épeautre 2h (ou une nuit) pour réduire les phytates. Cuire 30-35 min dans l'eau bouillante.",
+      "Cuire les lentilles séparément 20-25 min. Égoutter et laisser refroidir.",
+      "Émincer finement l'échalote, hacher persil et menthe.",
+      "Mélanger épeautre et lentilles refroidis dans un grand saladier.",
+      "Ajouter l'échalote, les herbes, le jus de citron et l'huile d'olive.",
+      "Assaisonner, mélanger et laisser reposer 10 min avant de servir."
+    ],
+    "conseil_cuisson": "Tremper l'épeautre avant cuisson réduit les phytates de 30-50%, améliorant l'absorption du fer, du zinc et du magnésium qu'il contient.",
+    "note_nutritionnelle": "Cette salade apporte 18g de protéines par portion avec un score PDCAAS (qualité protéique) proche de 1 — équivalent à une source animale. Elle est aussi riche en magnésium (85mg/portion), important pour la synthèse protéique.",
+    "variantes": "Ajouter des tomates cerises et des olives pour un profil méditerranéen. Remplacer l'épeautre par du kamut ou du blé entier.",
+    "sources_nutritionnelles": [
+      {
+        "auteurs": "Anses",
+        "titre": "CIQUAL 2020",
+        "journal": "Anses",
+        "annee": 2020,
+        "url": "https://ciqual.anses.fr/"
+      }
+    ]
   }
 ]
