@@ -7131,5 +7131,1144 @@
     ],
     "super_aliment": false,
     "super_aliment_raison": null
+  },
+  {
+    "id": "poivre_noir",
+    "nom": "Poivre noir",
+    "categorie": "épice",
+    "emoji": "🫙",
+    "description": "L'épice la plus consommée au monde. Sa molécule active, la pipérine, inhibe les enzymes hépatiques de dégradation et multiplie la biodisponibilité de nombreux nutriments — dont la curcumine — jusqu'à 2000%.",
+    "bienfaits": [
+      {
+        "id": "anti_inflammatoire",
+        "label": "Amplificateur de biodisponibilité (pipérine)",
+        "detail": "La pipérine inhibe la glucuronidation hépatique, ralentissant l'élimination de la curcumine et d'autres phytonutriments. Même à 5mg (une pincée), elle augmente l'absorption de la curcumine de 2000%.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Shoba G et al.",
+            "titre": "Influence of piperine on the pharmacokinetics of curcumin",
+            "journal": "Planta Med",
+            "annee": 1998,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9619120/"
+          }
+        ]
+      },
+      {
+        "id": "antioxydants",
+        "label": "Antioxydant (pipérine, flavonoïdes)",
+        "detail": "La pipérine possède des propriétés antioxydantes directes et stimule les enzymes antioxydantes endogènes (superoxyde dismutase, catalase).",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Mittal R, Gupta RL.",
+            "titre": "In vitro antioxidant activity of piperine",
+            "journal": "Methods Find Exp Clin Pharmacol",
+            "annee": 2000,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11034067/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 251,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 10.4,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 38.3,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 3.3,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 25.3,
+        "unite": "g/100g"
+      },
+      "magnesium": {
+        "valeur": 171,
+        "unite": "mg/100g"
+      },
+      "fer": {
+        "valeur": 9.7,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "curcuma",
+        "aliment_associe_nom": "Curcuma",
+        "aliment_associe_emoji": "🟡",
+        "nutriment_cle": "Pipérine + Curcumine",
+        "mecanisme": "La pipérine du poivre inhibe la glucuronidation hépatique de la curcumine, bloquant sa dégradation et multipliant sa biodisponibilité par 20.",
+        "gain_estime": "+2000% biodisponibilité curcumine",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Shoba G et al.",
+            "titre": "Influence of piperine on the pharmacokinetics of curcumin",
+            "journal": "Planta Med",
+            "annee": 1998,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9619120/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "anti_inflammatoire",
+      "antioxydants"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
+  },
+  {
+    "id": "noix_du_bresil",
+    "nom": "Noix du Brésil",
+    "categorie": "oléagineux",
+    "emoji": "🌰",
+    "description": "La source alimentaire la plus concentrée en sélénium au monde : une seule noix (5g) couvre 100% des apports journaliers recommandés. Ce minéral est indispensable à la synthèse des sélénoprotéines, enzymes antioxydantes majeures.",
+    "bienfaits": [
+      {
+        "id": "selenium",
+        "label": "Champion du sélénium (1 noix = AJR)",
+        "detail": "1917µg de sélénium/100g — une seule noix de 5g apporte ~96µg, soit 175% des AJR (55µg/j). Le sélénium active la glutathion peroxydase et les thiorédoxine réductases, enzymes clés de la défense antioxydante.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Dumont E et al.",
+            "titre": "Selenium content of Brazil nuts from two geographic locations",
+            "journal": "Food Chem",
+            "annee": 2006,
+            "url": "https://doi.org/10.1016/j.foodchem.2005.10.056"
+          }
+        ]
+      },
+      {
+        "id": "antioxydants",
+        "label": "Antioxydant puissant (vitamine E + sélénium)",
+        "detail": "7.9mg de vitamine E/100g et sélénium agissent en synergie pour protéger les membranes cellulaires de la lipoperoxydation.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 656,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 14.3,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 12.3,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 66.4,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 7.5,
+        "unite": "g/100g"
+      },
+      "selenium": {
+        "valeur": 1917,
+        "unite": "µg/100g"
+      },
+      "magnesium": {
+        "valeur": 376,
+        "unite": "mg/100g"
+      },
+      "vitamine_e": {
+        "valeur": 7.9,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "riz_complet",
+        "aliment_associe_nom": "Riz complet",
+        "aliment_associe_emoji": "🍚",
+        "nutriment_cle": "Iode + Sélénium du riz",
+        "mecanisme": "Le sélénium des noix du Brésil optimise la conversion de la thyroxine (T4) en triiodothyronine (T3), hormone thyroïdienne active. Associé à une alimentation riche en iode, il couvre les deux cofacteurs de la fonction thyroïdienne.",
+        "gain_estime": "Fonction thyroïdienne optimisée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Rayman MP.",
+            "titre": "Selenium and human health",
+            "journal": "Lancet",
+            "annee": 2012,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22381456/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "antioxydants",
+      "selenium"
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Une seule noix couvre 100% des AJR en sélénium, minéral essentiel à la protection antioxydante et à la fonction thyroïdienne."
+  },
+  {
+    "id": "champignon_paris",
+    "nom": "Champignon de Paris",
+    "categorie": "champignon",
+    "emoji": "🍄",
+    "description": "Le champignon le plus consommé en France. Exposé à la lumière UV, il synthétise de la vitamine D2, devenant l'une des rares sources végétales de cette vitamine. Riche en sélénium et en bêta-glucanes immunostimulants.",
+    "bienfaits": [
+      {
+        "id": "vitamine_d",
+        "label": "Source de vitamine D (si exposé UV)",
+        "detail": "Exposé à la lumière UV pendant 15 minutes (chapeau vers le bas), le champignon peut contenir jusqu'à 25µg de vitamine D2/100g. Les champignons vendus en supermarché n'ont généralement pas été exposés.",
+        "sujet_a_debat": true,
+        "sources": [
+          {
+            "auteurs": "Cardwell G et al.",
+            "titre": "A Review of Mushrooms as a Potential Source of Dietary Vitamin D",
+            "journal": "Nutrients",
+            "annee": 2018,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30322118/"
+          }
+        ]
+      },
+      {
+        "id": "selenium",
+        "label": "Source de sélénium",
+        "detail": "26µg de sélénium/100g, soit 47% des AJR, pour la défense antioxydante et la fonction thyroïdienne.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "immunite",
+        "label": "Bêta-glucanes immunostimulants",
+        "detail": "Les bêta-glucanes des champignons activent les macrophages et les cellules NK, renforçant l'immunité innée.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Akramiene D et al.",
+            "titre": "Effects of beta-glucans on the immune system",
+            "journal": "Medicina",
+            "annee": 2007,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17895634/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 22,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 3.1,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 3.3,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.3,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 1,
+        "unite": "g/100g"
+      },
+      "selenium": {
+        "valeur": 26,
+        "unite": "µg/100g"
+      },
+      "vitamine_d": {
+        "valeur": 0.2,
+        "unite": "µg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "ail",
+        "aliment_associe_nom": "Ail",
+        "aliment_associe_emoji": "🧄",
+        "nutriment_cle": "Immunité synergique",
+        "mecanisme": "Les bêta-glucanes du champignon activent les macrophages, tandis que l'allicine de l'ail stimule les lymphocytes NK. Leur combinaison produit une réponse immunitaire innée et adaptative renforcée.",
+        "gain_estime": "Immunostimulation synergique",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Percival SS.",
+            "titre": "Aged Garlic Extract Modifies Human Immunity",
+            "journal": "J Nutr",
+            "annee": 2016,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26764327/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "immunite",
+      "selenium",
+      "vitamine_d"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
+  },
+  {
+    "id": "algue_wakame",
+    "nom": "Algue Wakamé",
+    "categorie": "algue",
+    "emoji": "🌿",
+    "description": "Algue brune japonaise parmi les plus riches en iode alimentaire. Contient de la fucoxanthine, un caroténoïde unique aux propriétés anti-obésité documentées, et du calcium hautement biodisponible.",
+    "bienfaits": [
+      {
+        "id": "iode",
+        "label": "Source majeure d'iode",
+        "detail": "1300µg d'iode/100g — les AJR étant 150µg/j, une portion de 10g apporte près de l'AJR complet. L'iode est indispensable à la synthèse des hormones thyroïdiennes T3 et T4.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "calcium",
+        "label": "Calcium très biodisponible",
+        "detail": "150mg de calcium/100g (réhydraté) avec une biodisponibilité supérieure au calcium laitier grâce à l'absence de phosphore inhibiteur.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "anti_inflammatoire",
+        "label": "Fucoxanthine anti-inflammatoire",
+        "detail": "La fucoxanthine inhibe NF-κB et réduit l'expression des cytokines pro-inflammatoires (TNF-α, IL-6). Des essais cliniques montrent une réduction de la graisse viscérale.",
+        "sujet_a_debat": true,
+        "sources": [
+          {
+            "auteurs": "Maeda H et al.",
+            "titre": "Fucoxanthin from edible seaweed promotes selective breast fat metabolism",
+            "journal": "Biochem Biophys Res Commun",
+            "annee": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16223453/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 45,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 3,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 9.1,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.6,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 0.5,
+        "unite": "g/100g"
+      },
+      "calcium": {
+        "valeur": 150,
+        "unite": "mg/100g"
+      },
+      "magnesium": {
+        "valeur": 107,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "tofu",
+        "aliment_associe_nom": "Tofu",
+        "aliment_associe_emoji": "🫙",
+        "nutriment_cle": "Calcium + Vitamine K",
+        "mecanisme": "Le calcium de l'algue wakamé et la vitamine K2 naturellement présente dans les aliments fermentés à base de soja optimisent la fixation osseuse du calcium. La combinaison miso-wakamé est traditionnellement consommée au Japon.",
+        "gain_estime": "Densité osseuse maximisée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Iwamoto J et al.",
+            "titre": "Vitamin K2 and bone quality",
+            "journal": "Yonsei Med J",
+            "annee": 2004,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15227749/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "iode",
+      "calcium",
+      "anti_inflammatoire"
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Unique source végétale d'iode accessible, indispensable à la fonction thyroïdienne, avec un profil minéral (calcium, magnésium) exceptionnel."
+  },
+  {
+    "id": "persil",
+    "nom": "Persil",
+    "categorie": "condiment",
+    "emoji": "🌿",
+    "description": "L'herbe aromatique la plus riche en vitamine K et en vitamine C. 30g de persil frais (une petite poignée) couvrent les AJR en vitamine K et apportent autant de vitamine C qu'une demi-orange.",
+    "bienfaits": [
+      {
+        "id": "vitamine_k",
+        "label": "Champion de la vitamine K (os et coagulation)",
+        "detail": "1640µg de vitamine K/100g — une petite poignée (20g) apporte 328µg, soit 4× les AJR. La vitamine K active l'ostéocalcine qui fixe le calcium dans l'os.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "vitamine_c",
+        "label": "Riche en vitamine C",
+        "detail": "133mg de vitamine C/100g, soit 166% des AJR pour 100g. Pour une herbe consommée crue, c'est une contribution non négligeable.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "fer",
+        "label": "Source de fer non-héminique",
+        "detail": "5,5mg de fer/100g — remarquable pour une herbe aromatique. Sa vitamine C améliore l'absorption de son propre fer.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 36,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 3,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 6.3,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.8,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 3.3,
+        "unite": "g/100g"
+      },
+      "vitamine_c": {
+        "valeur": 133,
+        "unite": "mg/100g"
+      },
+      "vitamine_k": {
+        "valeur": 1640,
+        "unite": "µg/100g"
+      },
+      "fer": {
+        "valeur": 5.5,
+        "unite": "mg/100g"
+      },
+      "folates": {
+        "valeur": 152,
+        "unite": "µg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "lentille",
+        "aliment_associe_nom": "Lentille",
+        "aliment_associe_emoji": "🫘",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "La vitamine C du persil (133mg/100g) convertit le fer non-héminique des lentilles en forme ferreuse (Fe²⁺), multiplie son absorption par 2 à 3. Utilisation traditionnelle dans les taboulés et salades de lentilles.",
+        "gain_estime": "+150 à +300% absorption fer",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hurrell R, Egli I.",
+            "titre": "Iron bioavailability and dietary reference values",
+            "journal": "Am J Clin Nutr",
+            "annee": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20200263/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "vitamine_c",
+      "vitamine_k",
+      "fer",
+      "folates"
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Herbe aromatique extraordinairement dense : 1640µg de vitamine K et 133mg de vitamine C pour 100g — une poignée dans votre plat suffit à couvrir vos AJR en vitamine K."
+  },
+  {
+    "id": "huile_olive",
+    "nom": "Huile d'olive",
+    "categorie": "autre",
+    "emoji": "🫒",
+    "description": "Pierre angulaire du régime méditerranéen. Son acide oléique (oméga-9) est anti-inflammatoire, et ses polyphénols — notamment l'oléocanthal — inhibent les COX-1 et COX-2 comme l'ibuprofène, à doses alimentaires.",
+    "bienfaits": [
+      {
+        "id": "cardiovasculaire",
+        "label": "Cardioprotecteur (oléocanthal, oméga-9)",
+        "detail": "L'acide oléique réduit le LDL oxydé et les marqueurs inflammatoires cardiovasculaires. L'étude PREDIMED (7447 participants) montre -30% d'événements cardiovasculaires majeurs avec l'huile d'olive vierge extra.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Estruch R et al.",
+            "titre": "Primary Prevention of Cardiovascular Disease with a Mediterranean Diet",
+            "journal": "NEJM",
+            "annee": 2013,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23432189/"
+          }
+        ]
+      },
+      {
+        "id": "anti_inflammatoire",
+        "label": "Anti-inflammatoire (oléocanthal)",
+        "detail": "L'oléocanthal (1-3mg/10ml) inhibe les COX-1 et COX-2 de façon comparable à 10% d'une dose d'ibuprofène. Effet cumulatif à long terme sur l'inflammation chronique.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Beauchamp GK et al.",
+            "titre": "Phytochemistry: ibuprofen-like activity in extra-virgin olive oil",
+            "journal": "Nature",
+            "annee": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16135920/"
+          }
+        ]
+      },
+      {
+        "id": "omega9",
+        "label": "Riche en oméga-9 (acide oléique)",
+        "detail": "73g d'acide oléique/100g — les acides gras mono-insaturés améliorent le profil lipidique et la sensibilité à l'insuline.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 900,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 0,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 0,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 100,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 0,
+        "unite": "g/100g"
+      },
+      "vitamine_e": {
+        "valeur": 14.4,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "curcuma",
+        "aliment_associe_nom": "Curcuma",
+        "aliment_associe_emoji": "🟡",
+        "nutriment_cle": "Lipides + Curcumine",
+        "mecanisme": "La curcumine est liposoluble et très peu absorbée à froid. L'huile d'olive (en cuisson douce ou vinaigrette) solubilise la curcumine dans les micelles lipidiques, augmentant sa biodisponibilité intestinale.",
+        "gain_estime": "Absorption curcumine améliorée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Cuomo J et al.",
+            "titre": "Comparative absorption of a standardized curcuminoid mixture",
+            "journal": "J Nat Prod",
+            "annee": 2011,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21194249/"
+          }
+        ]
+      },
+      {
+        "aliment_associe_id": "carotte",
+        "aliment_associe_nom": "Carotte",
+        "aliment_associe_emoji": "🥕",
+        "nutriment_cle": "Caroténoïdes + Graisses saines",
+        "mecanisme": "Les caroténoïdes de la carotte sont liposolubles. En vinaigrette à l'huile d'olive, leur absorption est multipliée par 5 à 10 par rapport à une carotte nature ou à l'eau.",
+        "gain_estime": "+200 à +400% d'absorption du bêta-carotène",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Brown MJ et al.",
+            "titre": "Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings",
+            "journal": "Am J Clin Nutr",
+            "annee": 2004,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15321799/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "cardiovasculaire",
+      "anti_inflammatoire",
+      "omega9"
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "L'aliment cardioprotecteur le plus étudié au monde : l'étude PREDIMED démontre -30% d'événements cardiovasculaires. Son oléocanthal est un anti-inflammatoire naturel comparable à l'ibuprofène."
+  },
+  {
+    "id": "petits_pois",
+    "nom": "Petits pois",
+    "categorie": "légumineuse",
+    "emoji": "🫛",
+    "description": "Légumineuse fraîche exceptionnellement riche en protéines pour un légume (5g/100g) et en vitamine K. Contient des phytoestrogènes légers et une forte densité en fibres solubles favorisant le microbiome.",
+    "bienfaits": [
+      {
+        "id": "proteines",
+        "label": "Protéines végétales complètes",
+        "detail": "5,4g de protéines/100g (cuits) — remarquable pour un légume. Le profil en acides aminés inclut de la lysine, rare dans les légumes.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "vitamine_k",
+        "label": "Vitamine K pour la santé osseuse",
+        "detail": "25µg de vitamine K/100g, contribuant à la carboxylation de l'ostéocalcine et à la minéralisation osseuse.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "fibres",
+        "label": "Fibres solubles pour le microbiome",
+        "detail": "5,5g de fibres/100g, majoritairement solubles (pectines), nourrissant les bifidobactéries et produisant des acides gras à chaîne courte protecteurs du côlon.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 80,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 5.4,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 14.4,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.4,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 5.5,
+        "unite": "g/100g"
+      },
+      "vitamine_k": {
+        "valeur": 25,
+        "unite": "µg/100g"
+      },
+      "vitamine_c": {
+        "valeur": 14,
+        "unite": "mg/100g"
+      },
+      "magnesium": {
+        "valeur": 33,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "carotte",
+        "aliment_associe_nom": "Carotte",
+        "aliment_associe_emoji": "🥕",
+        "nutriment_cle": "Protéines + Phytonutriments complémentaires",
+        "mecanisme": "Les petits pois apportent protéines et lysine, la carotte apporte bêta-carotène et pectines. Ensemble, ils forment un profil nutritionnel complet — base de nombreux plats végétariens traditionnels.",
+        "gain_estime": "Profil nutritionnel complet",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "proteines",
+      "fibres",
+      "vitamine_k"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
+  },
+  {
+    "id": "pruneau",
+    "nom": "Pruneau",
+    "categorie": "fruit",
+    "emoji": "🫐",
+    "description": "Fruit séché le plus riche en antioxydants (ORAC 8059µmol/100g). Ses fibres solubles et son sorbitol naturel en font le régulateur digestif le plus étudié. Sa densité en fer et en vitamine K est remarquable pour un fruit.",
+    "bienfaits": [
+      {
+        "id": "antioxydants",
+        "label": "Antioxydant #1 des fruits séchés",
+        "detail": "Indice ORAC de 8059µmol TE/100g — le pruneau dépasse les myrtilles et les dattes. Ses acide chlorogénique et néochlorogénique sont des polyphénols anti-inflammatoires puissants.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA",
+            "titre": "Oxygen Radical Absorbance Capacity (ORAC) of Selected Foods",
+            "journal": "USDA",
+            "annee": 2010,
+            "url": "https://www.ars.usda.gov/"
+          }
+        ]
+      },
+      {
+        "id": "fibres",
+        "label": "Régulateur digestif (fibres + sorbitol)",
+        "detail": "7.1g de fibres/100g et 14.7g de sorbitol, polyol à effet laxatif osmotique doux. 3 essais randomisés confirment l'efficacité sur la constipation chronique vs psyllium.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Lever E et al.",
+            "titre": "Prunes vs psyllium for treatment of constipation",
+            "journal": "Aliment Pharmacol Ther",
+            "annee": 2014,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24090144/"
+          }
+        ]
+      },
+      {
+        "id": "fer",
+        "label": "Source de fer non-héminique",
+        "detail": "0,93mg de fer/100g. Consommé avec une source de vitamine C, le pruneau devient une bonne source de fer végétal pour les femmes.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 240,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 2.2,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 63.9,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.4,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 7.1,
+        "unite": "g/100g"
+      },
+      "fer": {
+        "valeur": 0.93,
+        "unite": "mg/100g"
+      },
+      "vitamine_k": {
+        "valeur": 59.5,
+        "unite": "µg/100g"
+      },
+      "potassium": {
+        "valeur": 732,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "orange",
+        "aliment_associe_nom": "Orange",
+        "aliment_associe_emoji": "🍊",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "La vitamine C de l'orange réduit le fer du pruneau en forme ferreuse (Fe²⁺) et chélate les tanins inhibiteurs. Combinaison idéale en jus ou en salade de fruits.",
+        "gain_estime": "+200% absorption fer",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hallberg L et al.",
+            "titre": "The role of vitamin C in iron absorption",
+            "journal": "Int J Vitam Nutr Res Suppl",
+            "annee": 1989,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2507689/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "antioxydants",
+      "fibres",
+      "fer"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
+  },
+  {
+    "id": "cassis",
+    "nom": "Cassis",
+    "categorie": "fruit",
+    "emoji": "🍇",
+    "description": "Petit fruit noir à la densité nutritionnelle exceptionnelle. Champion européen de la vitamine C (181mg/100g, soit 2× le kiwi et 3× l'orange) et des anthocyanes anti-inflammatoires. Son indice ORAC est parmi les plus élevés des fruits frais.",
+    "bienfaits": [
+      {
+        "id": "vitamine_c",
+        "label": "Champion européen de la vitamine C",
+        "detail": "181mg de vitamine C/100g — 226% des AJR. Le cassis contient 2× plus de vitamine C que le kiwi et 3× plus que l'orange, tout en étant frais (et non séché).",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "anthocyanes",
+        "label": "Record d'anthocyanes anti-inflammatoires",
+        "detail": "190-270mg d'anthocyanes/100g (delphinidin, cyanidin). Ces pigments inhibent NF-κB, protègent les vaisseaux sanguins et réduisent l'agrégation plaquettaire.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Gopalan A et al.",
+            "titre": "Anthocyanins in blackcurrant",
+            "journal": "Food Funct",
+            "annee": 2012,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22614185/"
+          }
+        ]
+      },
+      {
+        "id": "immunite",
+        "label": "Immunostimulant naturel",
+        "detail": "La combinaison vitamine C + polyphénols du cassis renforce l'immunité innée. Des études montrent une réduction de la durée des rhumes.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Tiralongo E et al.",
+            "titre": "Blackcurrant supplementation reduces the duration of common cold",
+            "journal": "Nutrients",
+            "annee": 2016,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26933228/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 63,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 1.4,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 15.4,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.4,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 4.3,
+        "unite": "g/100g"
+      },
+      "vitamine_c": {
+        "valeur": 181,
+        "unite": "mg/100g"
+      },
+      "vitamine_e": {
+        "valeur": 1,
+        "unite": "mg/100g"
+      },
+      "potassium": {
+        "valeur": 322,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "epinard",
+        "aliment_associe_nom": "Épinard",
+        "aliment_associe_emoji": "🥬",
+        "nutriment_cle": "Vitamine C + Fer exceptionnel",
+        "mecanisme": "Avec 181mg de vitamine C/100g, le cassis est l'amplificateur de fer le plus puissant des fruits. Ajouté à une salade d'épinards (2,7mg Fe/100g), il maximise l'absorption du fer non-héminique.",
+        "gain_estime": "+200 à +400% d'absorption du fer",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hurrell R, Egli I.",
+            "titre": "Iron bioavailability and dietary reference values",
+            "journal": "Am J Clin Nutr",
+            "annee": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20200263/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "vitamine_c",
+      "anthocyanes",
+      "antioxydants",
+      "immunite"
+    ],
+    "super_aliment": true,
+    "super_aliment_raison": "Champion européen de la vitamine C (181mg/100g) et recordman des anthocyanes : un fruit deux fois plus concentré en vitamine C que le kiwi, avec des propriétés immunostimulantes cliniquement documentées."
+  },
+  {
+    "id": "epeautre",
+    "nom": "Épeautre",
+    "categorie": "céréale",
+    "emoji": "🌾",
+    "description": "Ancêtre du blé moderne conservant une enveloppe protectrice (balle) qui préserve ses nutriments. Riche en magnésium, en zinc et en fibres, l'épeautre a un index glycémique modéré et une teneur en gluten différente du blé, souvent mieux tolérée.",
+    "bienfaits": [
+      {
+        "id": "magnesium",
+        "label": "Riche en magnésium",
+        "detail": "136mg de magnésium/100g (grains entiers), soit 36% des AJR. Le magnésium intervient dans plus de 300 réactions enzymatiques et réduit la fatigue.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "fibres",
+        "label": "Fibres pour la satiété et le microbiome",
+        "detail": "10.7g de fibres/100g (grains entiers) — nettement supérieur au blé raffiné (2.7g). Ces fibres fermentent dans le côlon en acides gras à chaîne courte protecteurs.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "energie",
+        "label": "Énergie durable (IG modéré)",
+        "detail": "Index glycémique de 40-50 (vs 70-75 pour le pain blanc), grâce à sa haute teneur en fibres et à la structure physique de ses grains qui ralentit la digestion.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Foster-Powell K et al.",
+            "titre": "International table of glycemic index and glycemic load values",
+            "journal": "Am J Clin Nutr",
+            "annee": 2002,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12081815/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 338,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 14.6,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 70.2,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 2.4,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 10.7,
+        "unite": "g/100g"
+      },
+      "magnesium": {
+        "valeur": 136,
+        "unite": "mg/100g"
+      },
+      "zinc": {
+        "valeur": 3.3,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "lentille",
+        "aliment_associe_nom": "Lentille",
+        "aliment_associe_emoji": "🫘",
+        "nutriment_cle": "Protéines complètes cumulées",
+        "mecanisme": "L'épeautre est riche en méthionine et cystéine (acides aminés soufrés) mais pauvre en lysine ; les lentilles sont l'inverse. Leur association forme un profil protéique complet, comparable aux protéines animales.",
+        "gain_estime": "Profil protéique complet",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Young VR, Pellett PL.",
+            "titre": "Plant proteins in relation to human protein and amino acid nutrition",
+            "journal": "Am J Clin Nutr",
+            "annee": 1994,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8172124/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "magnesium",
+      "fibres",
+      "energie",
+      "proteines"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   }
 ]
