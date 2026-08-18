@@ -6999,5 +6999,137 @@
     ],
     "super_aliment": false,
     "super_aliment_raison": null
+  },
+  {
+    "id": "mais",
+    "nom": "Maïs",
+    "categorie": "légume",
+    "emoji": "🌽",
+    "description": "Céréale-légume riche en lutéine et zéaxanthine, deux caroténoïdes protecteurs de la rétine. Sa teneur en fibres et en magnésium en fait un aliment intéressant pour l'énergie et la santé digestive.",
+    "bienfaits": [
+      {
+        "id": "antioxydants",
+        "label": "Lutéine et zéaxanthine pour la vue",
+        "detail": "Le maïs contient 644µg de lutéine+zéaxanthine/100g, deux caroténoïdes qui s'accumulent dans la macula et protègent contre la DMLA et la cataracte.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020 — Maïs doux en conserve",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "energie",
+        "label": "Source d'énergie progressive",
+        "detail": "86 kcal/100g avec 19g de glucides complexes et 2,7g de fibres pour une énergie durable.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "magnesium",
+        "label": "Source de magnésium",
+        "detail": "37mg de magnésium/100g, contribuant à la fonction musculaire et nerveuse.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 86,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 3.2,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 19,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 1.2,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 2.7,
+        "unite": "g/100g"
+      },
+      "magnesium": {
+        "valeur": 37,
+        "unite": "mg/100g"
+      },
+      "beta_carotene": {
+        "valeur": 47,
+        "unite": "µg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "avocat",
+        "aliment_associe_nom": "Avocat",
+        "aliment_associe_emoji": "🥑",
+        "nutriment_cle": "Zéaxanthine + Graisses saines",
+        "mecanisme": "La lutéine et la zéaxanthine du maïs sont liposolubles : les graisses mono-insaturées de l'avocat multiplient leur absorption intestinale par 3 à 4.",
+        "gain_estime": "Absorption zéaxanthine ×3 à ×4",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Unlu NZ et al.",
+            "titre": "Carotenoid absorption from salad and salsa by humans is enhanced by the addition of avocado or avocado oil",
+            "journal": "J Nutr",
+            "annee": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15735074/"
+          }
+        ]
+      },
+      {
+        "aliment_associe_id": "haricot_noir",
+        "aliment_associe_nom": "Haricot noir",
+        "aliment_associe_emoji": "🫘",
+        "nutriment_cle": "Protéines complémentaires",
+        "mecanisme": "Le maïs est pauvre en lysine mais riche en méthionine ; le haricot noir est l'inverse. Associés (comme dans les plats traditionnels latino-américains), ils forment un profil protéique complet.",
+        "gain_estime": "Complémentarité protéique optimale",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Young VR, Pellett PL.",
+            "titre": "Plant proteins in relation to human protein and amino acid nutrition",
+            "journal": "Am J Clin Nutr",
+            "annee": 1994,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8172124/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "antioxydants",
+      "energie",
+      "fibres",
+      "magnesium"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null
   }
 ]
