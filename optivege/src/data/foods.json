@@ -962,7 +962,11 @@
       "proteines"
     ],
     "super_aliment": true,
-    "super_aliment_raison": "Densité record en oméga-3 ALA (17,8 g/100g), calcium (631 mg/100g) et fibres (34 g/100g) pour un aliment de cette taille."
+    "super_aliment_raison": "Densité record en oméga-3 ALA (17,8 g/100g), calcium (631 mg/100g) et fibres (34 g/100g) pour un aliment de cette taille.",
+    "portionUsuelle": {
+      "grammes": 15,
+      "label": "1 cuillère à soupe"
+    }
   },
   {
     "id": "citron",
@@ -1166,7 +1170,11 @@
       "antioxydants"
     ],
     "super_aliment": false,
-    "super_aliment_raison": null
+    "super_aliment_raison": null,
+    "portionUsuelle": {
+      "grammes": 25,
+      "label": "1 poignée"
+    }
   },
   {
     "id": "curcuma",
@@ -1267,7 +1275,11 @@
       "antioxydants"
     ],
     "super_aliment": true,
-    "super_aliment_raison": "La curcumine est l'un des composés anti-inflammatoires les plus étudiés au monde (+13 000 études PubMed), avec synergie poivre noir x20."
+    "super_aliment_raison": "La curcumine est l'un des composés anti-inflammatoires les plus étudiés au monde (+13 000 études PubMed), avec synergie poivre noir x20.",
+    "portionUsuelle": {
+      "grammes": 3,
+      "label": "1 cuillère à café"
+    }
   },
   {
     "id": "lentille_corail",
@@ -2772,7 +2784,11 @@
       "fibres"
     ],
     "super_aliment": true,
-    "super_aliment_raison": "Seul oléagineux à ratio oméga-3/oméga-6 favorable, avec polyphénols cardioprotecteurs validés par l'étude PREDIMED."
+    "super_aliment_raison": "Seul oléagineux à ratio oméga-3/oméga-6 favorable, avec polyphénols cardioprotecteurs validés par l'étude PREDIMED.",
+    "portionUsuelle": {
+      "grammes": 25,
+      "label": "1 poignée (≈5 cerneaux)"
+    }
   },
   {
     "id": "graines_de_lin",
@@ -2881,7 +2897,11 @@
       "antioxydants"
     ],
     "super_aliment": true,
-    "super_aliment_raison": "Source végétale la plus riche en ALA oméga-3 (22,8 g/100g) et en lignanes (précurseurs phytooestrogènes à action protectrice)."
+    "super_aliment_raison": "Source végétale la plus riche en ALA oméga-3 (22,8 g/100g) et en lignanes (précurseurs phytooestrogènes à action protectrice).",
+    "portionUsuelle": {
+      "grammes": 15,
+      "label": "1 cuillère à soupe"
+    }
   },
   {
     "id": "spiruline",
@@ -2986,7 +3006,11 @@
       "calcium"
     ],
     "super_aliment": true,
-    "super_aliment_raison": "Aliment le plus dense en protéines complètes et en fer du règne végétal (28 mg/100g), avec phycocyanine aux propriétés antioxydantes uniques."
+    "super_aliment_raison": "Aliment le plus dense en protéines complètes et en fer du règne végétal (28 mg/100g), avec phycocyanine aux propriétés antioxydantes uniques.",
+    "portionUsuelle": {
+      "grammes": 4,
+      "label": "1 cuillère à café (dose journalière)"
+    }
   },
   {
     "id": "levure_nutritionnelle",
@@ -3086,7 +3110,11 @@
       "fibres"
     ],
     "super_aliment": false,
-    "super_aliment_raison": null
+    "super_aliment_raison": null,
+    "portionUsuelle": {
+      "grammes": 10,
+      "label": "1 cuillère à soupe"
+    }
   },
   {
     "id": "chocolat_noir",
@@ -3185,7 +3213,11 @@
       "flavanols"
     ],
     "super_aliment": true,
-    "super_aliment_raison": "Les flavanols du cacao (>85%) ont l'une des plus hautes concentrations de polyphénols alimentaires, avec bénéfices cognitifs et cardiovasculaires."
+    "super_aliment_raison": "Les flavanols du cacao (>85%) ont l'une des plus hautes concentrations de polyphénols alimentaires, avec bénéfices cognitifs et cardiovasculaires.",
+    "portionUsuelle": {
+      "grammes": 20,
+      "label": "2 carrés"
+    }
   },
   {
     "id": "gingembre",
@@ -3284,7 +3316,11 @@
       "antioxydants"
     ],
     "super_aliment": true,
-    "super_aliment_raison": "Le gingérol est un anti-nausée validé cliniquement et un puissant anti-inflammatoire digestif. Effets supérieurs à de nombreux médicaments de confort."
+    "super_aliment_raison": "Le gingérol est un anti-nausée validé cliniquement et un puissant anti-inflammatoire digestif. Effets supérieurs à de nombreux médicaments de confort.",
+    "portionUsuelle": {
+      "grammes": 2,
+      "label": "1 cuillère à café"
+    }
   },
   {
     "id": "ail",
@@ -3394,7 +3430,11 @@
       "cardiovasculaire",
       "antimicrobien"
     ],
-    "recette_idee_id": null
+    "recette_idee_id": null,
+    "portionUsuelle": {
+      "grammes": 5,
+      "label": "1 gousse"
+    }
   },
   {
     "id": "chou_rouge",
@@ -4296,7 +4336,11 @@
       "fer",
       "proteines"
     ],
-    "recette_idee_id": null
+    "recette_idee_id": null,
+    "portionUsuelle": {
+      "grammes": 15,
+      "label": "1 cuillère à soupe"
+    }
   },
   {
     "id": "graines_de_chanvre",
@@ -4561,7 +4605,11 @@
       "fer",
       "omega9"
     ],
-    "recette_idee_id": null
+    "recette_idee_id": null,
+    "portionUsuelle": {
+      "grammes": 25,
+      "label": "1 poignée"
+    }
   },
   {
     "id": "noisette",
@@ -4728,7 +4776,11 @@
       "magnesium",
       "antioxydants"
     ],
-    "recette_idee_id": null
+    "recette_idee_id": null,
+    "portionUsuelle": {
+      "grammes": 15,
+      "label": "1 cuillère à soupe"
+    }
   },
   {
     "id": "pistache",
@@ -5765,7 +5817,11 @@
       "fer",
       "chlorophylle"
     ],
-    "recette_idee_id": null
+    "recette_idee_id": null,
+    "portionUsuelle": {
+      "grammes": 4,
+      "label": "1 cuillère à café"
+    }
   },
   {
     "id": "abricot_sec",
@@ -6482,7 +6538,11 @@
       "antioxydants"
     ],
     "super_aliment": true,
-    "super_aliment_raison": "La cannelle possède un score antioxydant ORAC parmi les plus élevés de tous les aliments et son effet hypoglycémiant est validé dans plusieurs méta-analyses. Quelques grammes suffisent à un effet métabolique mesurable."
+    "super_aliment_raison": "La cannelle possède un score antioxydant ORAC parmi les plus élevés de tous les aliments et son effet hypoglycémiant est validé dans plusieurs méta-analyses. Quelques grammes suffisent à un effet métabolique mesurable.",
+    "portionUsuelle": {
+      "grammes": 2.5,
+      "label": "1 cuillère à café"
+    }
   },
   {
     "id": "the_vert",
@@ -6554,7 +6614,11 @@
       "anti_inflammatoire"
     ],
     "super_aliment": true,
-    "super_aliment_raison": "Le thé vert est l'aliment le plus étudié en prévention du cancer. Son EGCG est le polyphénol antioxydant le plus puissant connu, avec des effets cardioprotecteurs documentés dans des méta-analyses portant sur des centaines de milliers de personnes."
+    "super_aliment_raison": "Le thé vert est l'aliment le plus étudié en prévention du cancer. Son EGCG est le polyphénol antioxydant le plus puissant connu, avec des effets cardioprotecteurs documentés dans des méta-analyses portant sur des centaines de milliers de personnes.",
+    "portionUsuelle": {
+      "grammes": 2,
+      "label": "1 infusion (feuilles sèches)"
+    }
   },
   {
     "id": "acai",
@@ -6674,7 +6738,11 @@
       "cardiovasculaire"
     ],
     "super_aliment": true,
-    "super_aliment_raison": "Le cacao cru contient la plus haute concentration de magnésium de tous les aliments végétaux (499mg/100g) et des flavanoïdes cardioprotecteurs validés par des méta-analyses. Sa teneur en épicatéchine est 2× supérieure au chocolat noir torréfié."
+    "super_aliment_raison": "Le cacao cru contient la plus haute concentration de magnésium de tous les aliments végétaux (499mg/100g) et des flavanoïdes cardioprotecteurs validés par des méta-analyses. Sa teneur en épicatéchine est 2× supérieure au chocolat noir torréfié.",
+    "portionUsuelle": {
+      "grammes": 10,
+      "label": "1 cuillère à soupe"
+    }
   },
   {
     "id": "poireau",
@@ -7227,7 +7295,11 @@
       "antioxydants"
     ],
     "super_aliment": false,
-    "super_aliment_raison": null
+    "super_aliment_raison": null,
+    "portionUsuelle": {
+      "grammes": 2,
+      "label": "1 pincée généreuse"
+    }
   },
   {
     "id": "noix_du_bresil",
@@ -7328,7 +7400,11 @@
       "selenium"
     ],
     "super_aliment": true,
-    "super_aliment_raison": "Une seule noix couvre 100% des AJR en sélénium, minéral essentiel à la protection antioxydante et à la fonction thyroïdienne."
+    "super_aliment_raison": "Une seule noix couvre 100% des AJR en sélénium, minéral essentiel à la protection antioxydante et à la fonction thyroïdienne.",
+    "portionUsuelle": {
+      "grammes": 5,
+      "label": "1 noix"
+    }
   },
   {
     "id": "champignon_paris",
@@ -7554,7 +7630,11 @@
       "anti_inflammatoire"
     ],
     "super_aliment": true,
-    "super_aliment_raison": "Unique source végétale d'iode accessible, indispensable à la fonction thyroïdienne, avec un profil minéral (calcium, magnésium) exceptionnel."
+    "super_aliment_raison": "Unique source végétale d'iode accessible, indispensable à la fonction thyroïdienne, avec un profil minéral (calcium, magnésium) exceptionnel.",
+    "portionUsuelle": {
+      "grammes": 8,
+      "label": "1 portion réhydratée"
+    }
   },
   {
     "id": "persil",
@@ -7676,7 +7756,11 @@
       "folates"
     ],
     "super_aliment": true,
-    "super_aliment_raison": "Herbe aromatique extraordinairement dense : 1640µg de vitamine K et 133mg de vitamine C pour 100g — une poignée dans votre plat suffit à couvrir vos AJR en vitamine K."
+    "super_aliment_raison": "Herbe aromatique extraordinairement dense : 1640µg de vitamine K et 133mg de vitamine C pour 100g — une poignée dans votre plat suffit à couvrir vos AJR en vitamine K.",
+    "portionUsuelle": {
+      "grammes": 4,
+      "label": "1 cuillère à soupe hachée"
+    }
   },
   {
     "id": "huile_olive",
@@ -7803,7 +7887,11 @@
       "omega9"
     ],
     "super_aliment": true,
-    "super_aliment_raison": "L'aliment cardioprotecteur le plus étudié au monde : l'étude PREDIMED démontre -30% d'événements cardiovasculaires. Son oléocanthal est un anti-inflammatoire naturel comparable à l'ibuprofène."
+    "super_aliment_raison": "L'aliment cardioprotecteur le plus étudié au monde : l'étude PREDIMED démontre -30% d'événements cardiovasculaires. Son oléocanthal est un anti-inflammatoire naturel comparable à l'ibuprofène.",
+    "portionUsuelle": {
+      "grammes": 12,
+      "label": "1 cuillère à soupe"
+    }
   },
   {
     "id": "petits_pois",

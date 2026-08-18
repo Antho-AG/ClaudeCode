@@ -32,12 +32,13 @@ function barColor(pct) {
   return '#A8D5C2'
 }
 
-export default function NutritionTable({ teneurs }) {
+export default function NutritionTable({ teneurs, portionUsuelle }) {
   const [expanded, setExpanded] = useState(false)
 
   if (!teneurs) return null
 
   const { source_teneurs, ...values } = teneurs
+  const portionRatio = portionUsuelle ? portionUsuelle.grammes / 100 : null
   const priorityKeys = PRIORITY.filter(k => values[k])
   const otherKeys = Object.keys(values).filter(k => !PRIORITY.includes(k))
   const displayKeys = expanded ? [...priorityKeys, ...otherKeys] : priorityKeys
@@ -53,7 +54,12 @@ export default function NutritionTable({ teneurs }) {
         {/* En-tête */}
         <div className="flex justify-between items-center px-5 py-3" style={{ background: 'linear-gradient(135deg, #E8F7F2 0%, #F5FBF8 100%)' }}>
           <span className="text-xs font-semibold uppercase tracking-widest text-green-dark" style={{ fontFamily: 'Inter, sans-serif' }}>Nutriment</span>
-          <span className="text-xs font-semibold uppercase tracking-widest text-green-dark" style={{ fontFamily: 'Inter, sans-serif' }}>Valeur · % AJR*</span>
+          <div className="flex gap-4 items-baseline">
+            {portionUsuelle && (
+              <span className="text-xs font-semibold text-orange-500" style={{ fontFamily: 'Inter, sans-serif' }}>{portionUsuelle.label}</span>
+            )}
+            <span className="text-xs font-semibold uppercase tracking-widest text-green-dark" style={{ fontFamily: 'Inter, sans-serif' }}>Pour 100g · % AJR*</span>
+          </div>
         </div>
 
         {/* Lignes */}
@@ -71,14 +77,24 @@ export default function NutritionTable({ teneurs }) {
                     <span className="text-sm text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>
                       {LABELS[key] || key}
                     </span>
-                    <span className="text-sm font-medium text-gray-900 ml-4 whitespace-nowrap" style={{ fontFamily: 'Inter, sans-serif' }}>
-                      {typeof item.valeur === 'number' ? item.valeur : item.valeur} {item.unite}
-                      {pct !== null && (
-                        <span className="ml-2 text-xs font-semibold" style={{ color: barColor(pct) }}>
-                          · {pct}%
+                    <div className="flex items-baseline gap-3 ml-4">
+                      {portionRatio !== null && typeof item.valeur === 'number' && (
+                        <span className="text-xs font-medium text-orange-500 whitespace-nowrap" style={{ fontFamily: 'Inter, sans-serif' }}>
+                          {Math.round(item.valeur * portionRatio * 10) / 10} {item.unite}
+                          {pct !== null && (
+                            <span className="ml-1 text-orange-400">({Math.round(pct * portionRatio)}%)</span>
+                          )}
                         </span>
                       )}
-                    </span>
+                      <span className="text-sm font-medium text-gray-900 whitespace-nowrap" style={{ fontFamily: 'Inter, sans-serif' }}>
+                        {typeof item.valeur === 'number' ? item.valeur : item.valeur} {item.unite}
+                        {pct !== null && (
+                          <span className="ml-2 text-xs font-semibold" style={{ color: barColor(pct) }}>
+                            · {pct}%
+                          </span>
+                        )}
+                      </span>
+                    </div>
                   </div>
                   {fillPct !== null && (
                     <div className="ajr-bar-track">
@@ -115,6 +131,11 @@ export default function NutritionTable({ teneurs }) {
       {source_teneurs && (
         <p className="mt-2 text-xs text-gray-400" style={{ fontFamily: 'Inter, sans-serif' }}>
           📊 Source : {source_teneurs} — *AJR selon Anses 2021 (adulte moyen)
+        </p>
+      )}
+      {portionUsuelle && (
+        <p className="mt-1 text-xs text-gray-400 italic" style={{ fontFamily: 'Inter, sans-serif' }}>
+          ℹ️ Les %AJR pour 100g sont une référence scientifique standard (CIQUAL). Cet aliment étant consommé en petite quantité, les valeurs pour {portionUsuelle.label} ({portionUsuelle.grammes}g) sont affichées en orange à titre indicatif.
         </p>
       )}
     </div>

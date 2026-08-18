@@ -83,7 +83,7 @@ export default function FoodDetail({ food }) {
       {food.teneurs && (
         <section>
           <h2 className="section-title">📊 Teneurs nutritionnelles</h2>
-          <NutritionTable teneurs={food.teneurs} />
+          <NutritionTable teneurs={food.teneurs} portionUsuelle={food.portionUsuelle} />
         </section>
       )}
 

@@ -30,19 +30,30 @@ const NUTRIMENT_LABELS = {
   omega3_ala: 'Oméga-3 ALA', vitamine_k: 'Vitamine K1',
 }
 
-function getTopNutriments(teneurs, n = 3) {
+function getTopNutriments(teneurs, portionUsuelle, n = 3) {
   if (!teneurs) return []
   const { source_teneurs, calories, glucides, lipides, ...rest } = teneurs
+  const ratio = portionUsuelle ? portionUsuelle.grammes / 100 : 1
+  const usePortion = portionUsuelle && portionUsuelle.grammes < 30
   return Object.entries(rest)
     .filter(([key, item]) => item && typeof item.valeur === 'number' && AJR[key])
-    .map(([key, item]) => ({
-      key,
-      label: NUTRIMENT_LABELS[key] || key,
-      valeur: item.valeur,
-      unite: item.unite,
-      pct: Math.round((item.valeur / AJR[key]) * 100),
-    }))
-    .sort((a, b) => b.pct - a.pct)
+    .map(([key, item]) => {
+      const valeurRef = item.valeur
+      const valeurPortion = Math.round(valeurRef * ratio * 10) / 10
+      const pctRef = Math.round((valeurRef / AJR[key]) * 100)
+      const pctPortion = Math.round((valeurRef * ratio / AJR[key]) * 100)
+      return {
+        key,
+        label: NUTRIMENT_LABELS[key] || key,
+        valeur: usePortion ? valeurPortion : valeurRef,
+        valeurRef,
+        pct: usePortion ? pctPortion : pctRef,
+        pctRef,
+        unite: item.unite,
+        usePortion,
+      }
+    })
+    .sort((a, b) => b.pctRef - a.pctRef)
     .slice(0, n)
 }
 
@@ -73,7 +84,7 @@ const AlimentShareCard = forwardRef(function AlimentShareCard({ food }, ref) {
   if (!food) return null
 
   const bg = CATEGORY_BG[food.categorie] || '#F0FBF6'
-  const topNutriments = getTopNutriments(food.teneurs)
+  const topNutriments = getTopNutriments(food.teneurs, food.portionUsuelle)
   const synergie = food.synergies?.[0]
 
   return (
@@ -183,6 +194,11 @@ const AlimentShareCard = forwardRef(function AlimentShareCard({ food }, ref) {
                     <div style={{ fontSize: '17px', color: '#0F6E56', fontFamily: 'Arial' }}>
                       {n.label} · {n.pct}% des AJR
                     </div>
+                    {n.usePortion && (
+                      <div style={{ fontSize: '13px', color: '#888', fontFamily: 'Arial', marginTop: '2px' }}>
+                        {n.pctRef}% pour 100g (réf. CIQUAL)
+                      </div>
+                    )}
                   </div>
                 </div>
               ))}
