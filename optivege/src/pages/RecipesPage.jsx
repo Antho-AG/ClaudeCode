@@ -5,14 +5,30 @@ import RecipeCard from '../components/recipes/RecipeCard'
 import RecipeDetail from '../components/recipes/RecipeDetail'
 import { useAllRecipes, useRecipe } from '../hooks/useFoodData'
 
+// link: '/bienfaits/id' | '/lexique#id' | null
 const BENEFIT_FILTERS = [
-  { id: 'all', label: 'Toutes' },
-  { id: 'fer', label: '⚙️ Fer' },
-  { id: 'proteines', label: '💪 Protéines' },
-  { id: 'calcium', label: '🦴 Calcium' },
-  { id: 'omega3', label: '🐟 Oméga-3' },
-  { id: 'antioxydants', label: '🛡️ Antioxydants' },
-  { id: 'anti_inflammatoire', label: '🔥 Anti-inflam.' },
+  { id: 'all', label: 'Toutes', link: null },
+  { id: 'fer', label: '⚙️ Fer', link: '/bienfaits/fer' },
+  { id: 'antioxydants', label: '🛡️ Antioxydants', link: '/bienfaits/antioxydants' },
+  { id: 'fibres', label: '🌿 Fibres', link: '/bienfaits/fibres' },
+  { id: 'proteines', label: '💪 Protéines', link: '/bienfaits/proteines', merge: ['proteines_completes'] },
+  { id: 'calcium', label: '🦴 Calcium', link: '/bienfaits/calcium' },
+  { id: 'vitamine_c', label: '🍋 Vitamine C', link: '/bienfaits/vitamine_c' },
+  { id: 'omega3', label: '🐟 Oméga-3', link: '/bienfaits/omega3' },
+  { id: 'vitamine_k', label: '🦴 Vitamine K', link: '/bienfaits/vitamine_k' },
+  { id: 'anti_inflammatoire', label: '🔥 Anti-inflammatoire', link: '/bienfaits/anti_inflammatoire' },
+  { id: 'folates', label: '🧬 Folates', link: '/bienfaits/folates' },
+  { id: 'beta_carotene', label: '🥕 Bêta-carotène', link: null },
+  { id: 'immunite', label: '🛡️ Immunité', link: '/bienfaits/immunite' },
+  { id: 'vitamine_b12', label: '🌱 Vitamine B12', link: '/bienfaits/vitamine_b12' },
+  { id: 'selenium', label: '✨ Sélénium', link: '/bienfaits/selenium' },
+  { id: 'iode', label: '🌊 Iode', link: '/bienfaits/iode' },
+  { id: 'omega9', label: '🫒 Oméga-9', link: null },
+  { id: 'zeaxanthine', label: '👁️ Zéaxanthine', link: '/lexique#zeaxanthine' },
+  { id: 'curcumine', label: '🟡 Curcumine', link: '/lexique#curcumine' },
+  { id: 'thyroide', label: '🦋 Thyroïde', link: null },
+  { id: 'oleocanthal', label: '💚 Oléocanthal', link: '/lexique#oleocanthal' },
+  { id: 'anthocyanes', label: '🫐 Anthocyanes', link: '/lexique#anthocyanes' },
 ]
 
 const DIFFICULTY_FILTERS = ['Toutes', 'Très facile', 'Facile', 'Moyen']
@@ -22,8 +38,12 @@ function RecipeList() {
   const [difficultyFilter, setDifficultyFilter] = useState('Toutes')
   const recipes = useAllRecipes()
 
+  const activeFilter = BENEFIT_FILTERS.find(f => f.id === benefitFilter)
   const filtered = recipes.filter(r => {
-    const matchBenefit = benefitFilter === 'all' || r.bienfaits_cles?.includes(benefitFilter)
+    const bc = r.bienfaits_cles ?? []
+    const matchBenefit = benefitFilter === 'all' ||
+      bc.includes(benefitFilter) ||
+      (activeFilter?.merge ?? []).some(m => bc.includes(m))
     const matchDiff = difficultyFilter === 'Toutes' || r.difficulte === difficultyFilter
     return matchBenefit && matchDiff
   })
@@ -39,19 +59,31 @@ function RecipeList() {
       <div className="mb-4">
         <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Filtrer par bienfait</p>
         <div className="flex flex-wrap gap-2">
-          {BENEFIT_FILTERS.map(f => (
-            <button
-              key={f.id}
-              onClick={() => setBenefitFilter(f.id)}
-              className={`px-3 py-1.5 rounded-xl text-sm font-medium transition-colors ${
-                benefitFilter === f.id
-                  ? 'bg-green-dark text-white'
-                  : 'bg-white border border-green-pale text-gray-600 hover:border-green-main'
-              }`}
-            >
-              {f.label}
-            </button>
-          ))}
+          {BENEFIT_FILTERS.map(f => {
+            const isActive = benefitFilter === f.id
+            return (
+              <div key={f.id} className={`flex items-center rounded-xl text-sm font-medium transition-colors border ${
+                isActive ? 'bg-green-dark text-white border-green-dark' : 'bg-white border-green-pale text-gray-600'
+              }`}>
+                <button
+                  onClick={() => setBenefitFilter(f.id)}
+                  className={`px-3 py-1.5 ${f.link && !isActive ? 'pr-1' : ''}`}
+                >
+                  {f.label}
+                </button>
+                {f.link && !isActive && (
+                  <Link
+                    to={f.link}
+                    className="pr-2.5 text-green-main hover:text-green-dark"
+                    title="En savoir plus"
+                    onClick={e => e.stopPropagation()}
+                  >
+                    <span className="text-xs">→</span>
+                  </Link>
+                )}
+              </div>
+            )
+          })}
         </div>
       </div>
 
