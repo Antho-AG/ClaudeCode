@@ -2,385 +2,838 @@
   {
     "id": "ala",
     "terme": "ALA",
-    "termes_variants": ["ALA", "acide alpha-linolénique"],
+    "termes_variants": [
+      "ALA",
+      "acide alpha-linolénique"
+    ],
     "categorie": "Acides gras",
     "definition": "Acide alpha-linolénique — acide gras oméga-3 à chaîne courte présent dans les graines de lin, chia et les noix. L'ALA est un acide gras essentiel (le corps ne peut pas le synthétiser) et le précurseur des oméga-3 à longue chaîne EPA et DHA, bien que la conversion soit faible (< 15%).",
-    "termes_associes": ["EPA", "DHA", "oméga-3"]
+    "termes_associes": [
+      "EPA",
+      "DHA",
+      "oméga-3"
+    ]
   },
   {
     "id": "agcc",
     "terme": "AGCC",
-    "termes_variants": ["AGCC", "acides gras à chaîne courte"],
+    "termes_variants": [
+      "AGCC",
+      "acides gras à chaîne courte"
+    ],
     "categorie": "Métabolites",
     "definition": "Acides Gras à Chaîne Courte (butyrate, propionate, acétate) — produits par la fermentation des fibres alimentaires par le microbiote intestinal. Le butyrate est la source d'énergie principale des colonocytes et joue un rôle protecteur contre le cancer colorectal.",
-    "termes_associes": ["microbiote", "prébiotique", "fibres"]
+    "termes_associes": [
+      "microbiote",
+      "prébiotique",
+      "fibres"
+    ]
   },
   {
     "id": "allicine",
     "terme": "Allicine",
-    "termes_variants": ["allicine", "allicines"],
+    "termes_variants": [
+      "allicine",
+      "allicines"
+    ],
     "categorie": "Composés soufrés",
     "definition": "Composé organosoufrés formé dans l'ail lorsque l'alliine (acide aminé soufré) entre en contact avec l'alliinase (enzyme) lors du broyage ou de la découpe. L'allicine est instable et se décompose rapidement en d'autres composés soufrés bioactifs. Elle possède des propriétés antimicrobiennes, antifongiques et cardiovasculaires documentées.",
-    "termes_associes": ["composés organosoufrés", "ail"]
+    "termes_associes": [
+      "composés organosoufrés",
+      "ail"
+    ]
   },
   {
     "id": "anthocyanes",
     "terme": "Anthocyanes",
-    "termes_variants": ["anthocyanes", "anthocyanine", "anthocyanines", "anthocyane"],
+    "termes_variants": [
+      "anthocyanes",
+      "anthocyanine",
+      "anthocyanines",
+      "anthocyane"
+    ],
     "categorie": "Polyphénols",
     "definition": "Pigments polyphénoliques responsables des couleurs rouge, violette et bleue des fruits et légumes (myrtille, cerise, raisin noir, açaï). Les anthocyanes sont de puissants antioxydants qui protègent l'ADN du stress oxydatif, réduisent l'inflammation (inhibition de NF-κB) et sont associés à une meilleure santé cardiovasculaire et cognitive.",
-    "termes_associes": ["polyphénols", "antioxydant", "NF-κB"]
+    "termes_associes": [
+      "polyphénols",
+      "antioxydant",
+      "NF-κB"
+    ]
   },
   {
     "id": "antioxydant",
     "terme": "Antioxydant",
-    "termes_variants": ["antioxydant", "antioxydants", "antioxydante", "antioxydantes"],
+    "termes_variants": [
+      "antioxydant",
+      "antioxydants",
+      "antioxydante",
+      "antioxydantes"
+    ],
     "categorie": "Mécanismes",
     "definition": "Molécule capable de neutraliser les radicaux libres (espèces réactives de l'oxygène, ROS) en leur cédant un électron sans devenir elle-même instable. Le stress oxydatif — excès de ROS — est impliqué dans le vieillissement cellulaire, les maladies cardiovasculaires et certains cancers. Les antioxydants alimentaires incluent les vitamines C et E, les caroténoïdes et les polyphénols.",
-    "termes_associes": ["radicaux libres", "ROS", "polyphénols", "ORAC"]
+    "termes_associes": [
+      "radicaux libres",
+      "ROS",
+      "polyphénols",
+      "ORAC"
+    ]
   },
   {
     "id": "apoptose",
     "terme": "Apoptose",
-    "termes_variants": ["apoptose"],
+    "termes_variants": [
+      "apoptose"
+    ],
     "categorie": "Biologie cellulaire",
     "definition": "Mort cellulaire programmée — processus naturel par lequel une cellule endommagée ou en fin de vie se détruit elle-même de façon ordonnée. L'apoptose est un mécanisme de protection contre le cancer : les cellules tumorales cherchent à l'éviter. De nombreux composés alimentaires (EGCG, curcumine, sulforaphane) réactivent ce mécanisme dans les cellules cancéreuses.",
-    "termes_associes": ["EGCG", "curcumine", "sulforaphane", "NF-κB"]
+    "termes_associes": [
+      "EGCG",
+      "curcumine",
+      "sulforaphane",
+      "NF-κB"
+    ]
   },
   {
     "id": "beta_carotene",
     "terme": "Bêta-carotène",
-    "termes_variants": ["bêta-carotène", "beta-carotène", "β-carotène"],
+    "termes_variants": [
+      "bêta-carotène",
+      "beta-carotène",
+      "β-carotène"
+    ],
     "categorie": "Caroténoïdes",
     "definition": "Pigment orange-rouge de la famille des caroténoïdes, précurseur de la vitamine A (provitamine A). Le corps le convertit en rétinol selon les besoins. Le bêta-carotène est un antioxydant liposoluble protégeant les membranes cellulaires du stress oxydatif. Sa biodisponibilité est multipliée par 3 à 5 en présence de graisses alimentaires.",
-    "termes_associes": ["caroténoïdes", "vitamine A", "biodisponibilité", "antioxydant"]
+    "termes_associes": [
+      "caroténoïdes",
+      "vitamine A",
+      "biodisponibilité",
+      "antioxydant"
+    ]
   },
   {
     "id": "biodisponibilite",
     "terme": "Biodisponibilité",
-    "termes_variants": ["biodisponibilité", "biodisponible", "biodisponibles"],
+    "termes_variants": [
+      "biodisponibilité",
+      "biodisponible",
+      "biodisponibles"
+    ],
     "categorie": "Nutrition",
     "definition": "Fraction d'un nutriment ingéré qui atteint effectivement la circulation sanguine et les tissus cibles. La biodisponibilité dépend de la matrice alimentaire, de la présence d'autres nutriments, du mode de cuisson et du microbiote intestinal. Ex : la curcumine a une biodisponibilité < 1% seule, mais elle est multipliée par 20 avec la pipérine.",
-    "termes_associes": ["curcumine", "pipérine", "synergie", "microbiote"]
+    "termes_associes": [
+      "curcumine",
+      "pipérine",
+      "synergie",
+      "microbiote"
+    ]
   },
   {
     "id": "carotenoides",
     "terme": "Caroténoïdes",
-    "termes_variants": ["caroténoïdes", "caroténoïde", "carotenoides"],
+    "termes_variants": [
+      "caroténoïdes",
+      "caroténoïde",
+      "carotenoides"
+    ],
     "categorie": "Pigments",
     "definition": "Famille de pigments naturels liposolubles (solubles dans les graisses) comprenant le bêta-carotène, le lycopène, la lutéine et la zéaxanthine. Ce sont de puissants antioxydants concentrés dans les légumes et fruits colorés. Leur absorption nécessite obligatoirement la présence de graisses alimentaires dans le repas.",
-    "termes_associes": ["bêta-carotène", "lycopène", "lutéine", "antioxydant", "biodisponibilité"]
+    "termes_associes": [
+      "bêta-carotène",
+      "lycopène",
+      "lutéine",
+      "antioxydant",
+      "biodisponibilité"
+    ]
   },
   {
     "id": "cox",
     "terme": "COX-2",
-    "termes_variants": ["COX-2", "COX-1", "COX"],
+    "termes_variants": [
+      "COX-2",
+      "COX-1",
+      "COX"
+    ],
     "categorie": "Enzymes",
     "definition": "Cyclo-oxygénase 2 — enzyme pro-inflammatoire induite lors d'une agression tissulaire. Elle convertit l'acide arachidonique en prostaglandines, médiateurs chimiques de l'inflammation, de la douleur et de la fièvre. Les AINS (ibuprofène, aspirine) inhibent COX-1 et COX-2. Plusieurs composés végétaux (gingérols, curcumine, quercétine) inhibent sélectivement COX-2.",
-    "termes_associes": ["inflammation", "NF-κB", "gingérols", "curcumine", "quercétine"]
+    "termes_associes": [
+      "inflammation",
+      "NF-κB",
+      "gingérols",
+      "curcumine",
+      "quercétine"
+    ]
   },
   {
     "id": "curcumine",
     "terme": "Curcumine",
-    "termes_variants": ["curcumine", "curcuminoïdes", "curcuminoïde"],
+    "termes_variants": [
+      "curcumine",
+      "curcuminoïdes",
+      "curcuminoïde"
+    ],
     "categorie": "Polyphénols",
     "definition": "Principal polyphénol du curcuma (Curcuma longa), responsable de sa couleur jaune. La curcumine inhibe de nombreuses voies pro-inflammatoires (NF-κB, COX-2, TNF-α) et est l'un des composés les plus étudiés en oncologie préventive. Sa biodisponibilité est très faible (< 1%) mais multipliée par 20 avec la pipérine du poivre noir.",
-    "termes_associes": ["biodisponibilité", "pipérine", "NF-κB", "COX-2", "polyphénols"]
+    "termes_associes": [
+      "biodisponibilité",
+      "pipérine",
+      "NF-κB",
+      "COX-2",
+      "polyphénols"
+    ]
   },
   {
     "id": "dha",
     "terme": "DHA",
-    "termes_variants": ["DHA", "acide docosahexaénoïque"],
+    "termes_variants": [
+      "DHA",
+      "acide docosahexaénoïque"
+    ],
     "categorie": "Acides gras",
     "definition": "Acide docosahexaénoïque — oméga-3 à longue chaîne (22 carbones) constituant essentiel des membranes neuronales et de la rétine. Le DHA représente 40% des acides gras polyinsaturés du cerveau. Les sources végétales directes sont rares (algues marines), la majorité provient de la conversion d'ALA, peu efficace.",
-    "termes_associes": ["ALA", "EPA", "oméga-3", "nori"]
+    "termes_associes": [
+      "ALA",
+      "EPA",
+      "oméga-3",
+      "nori"
+    ]
   },
   {
     "id": "egcg",
     "terme": "EGCG",
-    "termes_variants": ["EGCG", "épigallocatéchine gallate", "épigallocatéchine"],
+    "termes_variants": [
+      "EGCG",
+      "épigallocatéchine gallate",
+      "épigallocatéchine"
+    ],
     "categorie": "Polyphénols",
     "definition": "Épigallocatéchine-3-gallate — principal polyphénol du thé vert et du matcha, et l'un des antioxydants les plus puissants connus. L'EGCG inhibe la topoisomérase II (enzyme nécessaire à la réplication de l'ADN tumoral), active la protéine suppresseur de tumeur p53 et induit l'apoptose. Sa concentration dans le matcha est 10× supérieure au thé vert infusé.",
-    "termes_associes": ["antioxydant", "apoptose", "polyphénols", "thé vert", "matcha"]
+    "termes_associes": [
+      "antioxydant",
+      "apoptose",
+      "polyphénols",
+      "thé vert",
+      "matcha"
+    ]
   },
   {
     "id": "epa",
     "terme": "EPA",
-    "termes_variants": ["EPA", "acide eicosapentaénoïque"],
+    "termes_variants": [
+      "EPA",
+      "acide eicosapentaénoïque"
+    ],
     "categorie": "Acides gras",
     "definition": "Acide eicosapentaénoïque — oméga-3 à longue chaîne (20 carbones) aux puissants effets anti-inflammatoires. L'EPA inhibe la synthèse de prostaglandines pro-inflammatoires et favorise la production de résolvines qui éteignent l'inflammation. Principale source végétale directe : algues marines (nori, chlorelle).",
-    "termes_associes": ["ALA", "DHA", "oméga-3", "anti-inflammatoire"]
+    "termes_associes": [
+      "ALA",
+      "DHA",
+      "oméga-3",
+      "anti-inflammatoire"
+    ]
   },
   {
     "id": "flavanoides",
     "terme": "Flavanoïdes",
-    "termes_variants": ["flavanoïdes", "flavanoïde", "flavonoïdes", "flavonoïde", "flavonoides"],
+    "termes_variants": [
+      "flavanoïdes",
+      "flavanoïde",
+      "flavonoïdes",
+      "flavonoïde",
+      "flavonoides"
+    ],
     "categorie": "Polyphénols",
     "definition": "Sous-famille des polyphénols comprenant les flavanols (catéchines, EGCG), flavonols (quercétine, kaempférol), anthocyanes et isoflavones. Les flavanoïdes sont les polyphénols les plus abondants dans l'alimentation végétale. Ils agissent comme antioxydants, anti-inflammatoires et modulateurs du microbiote intestinal.",
-    "termes_associes": ["polyphénols", "anthocyanes", "quercétine", "EGCG", "isoflavones"]
+    "termes_associes": [
+      "polyphénols",
+      "anthocyanes",
+      "quercétine",
+      "EGCG",
+      "isoflavones"
+    ]
   },
   {
     "id": "folates",
     "terme": "Folates",
-    "termes_variants": ["folates", "folate", "vitamine B9", "B9"],
+    "termes_variants": [
+      "folates",
+      "folate",
+      "vitamine B9",
+      "B9"
+    ],
     "categorie": "Vitamines",
     "definition": "Vitamine B9 — indispensable à la synthèse de l'ADN et à la division cellulaire. Les folates alimentaires (naturels) se distinguent de l'acide folique (forme synthétique). Essentiels pendant la grossesse pour prévenir les malformations du tube neural. Sources végétales exceptionnelles : épinard, kale, chou de Bruxelles, lentilles.",
-    "termes_associes": ["ADN", "vitamine B12"]
+    "termes_associes": [
+      "ADN",
+      "vitamine B12"
+    ]
   },
   {
     "id": "glucosinolates",
     "terme": "Glucosinolates",
-    "termes_variants": ["glucosinolates", "glucosinolate"],
+    "termes_variants": [
+      "glucosinolates",
+      "glucosinolate"
+    ],
     "categorie": "Composés soufrés",
     "definition": "Composés organosoufrés précurseurs d'isothiocyanates, présents exclusivement dans les légumes crucifères (brocoli, chou-fleur, kale, roquette). Lors de la mastication, la myrosinase (enzyme) convertit les glucosinolates en isothiocyanates bioactifs, notamment le sulforaphane, aux propriétés anti-tumorales documentées.",
-    "termes_associes": ["isothiocyanates", "sulforaphane", "brocoli", "crucifères"]
+    "termes_associes": [
+      "isothiocyanates",
+      "sulforaphane",
+      "brocoli",
+      "crucifères"
+    ]
   },
   {
     "id": "inflammation",
     "terme": "Inflammation",
-    "termes_variants": ["inflammation", "inflammatoire", "inflammatoires", "anti-inflammatoire", "anti-inflammatoires", "anti_inflammatoire"],
+    "termes_variants": [
+      "inflammation",
+      "inflammatoire",
+      "inflammatoires",
+      "anti-inflammatoire",
+      "anti-inflammatoires",
+      "anti_inflammatoire"
+    ],
     "categorie": "Physiologie",
     "definition": "Réponse immunitaire de l'organisme face à une agression (infection, blessure). L'inflammation aiguë est protectrice et transitoire. L'inflammation chronique de bas grade — souvent silencieuse — est un facteur commun aux maladies cardiovasculaires, au diabète de type 2, à certains cancers et aux maladies neurodégénératives. Elle est modulée par l'alimentation.",
-    "termes_associes": ["NF-κB", "COX-2", "cytokines", "curcumine", "oméga-3"]
+    "termes_associes": [
+      "NF-κB",
+      "COX-2",
+      "cytokines",
+      "curcumine",
+      "oméga-3"
+    ]
+  },
+  {
+    "id": "iode",
+    "terme": "Iode",
+    "termes_variants": [
+      "Iode",
+      "iodure"
+    ],
+    "categorie": "Minéral",
+    "definition": "Oligo-élément essentiel à la synthèse des hormones thyroïdiennes (T3 et T4), qui régulent le métabolisme basal, la croissance et le développement neurologique. Une carence en iode est la première cause évitable de retard mental dans le monde. Les algues marines comme le wakamé concentrent l'iode de l'eau de mer à des niveaux très élevés (jusqu'à 1000 µg/100g). L'apport journalier recommandé est de 150 µg/j (OMS).",
+    "termes_associes": [
+      "Sélénium",
+      "Magnésium"
+    ],
+    "sources": [
+      "https://www.who.int/health-topics/iodine-deficiency",
+      "EFSA Panel on Nutrition (2014). Scientific Opinion on Dietary Reference Values for iodine. EFSA Journal, 12(5), 3660."
+    ]
   },
   {
     "id": "isoflavones",
     "terme": "Isoflavones",
-    "termes_variants": ["isoflavones", "isoflavone"],
+    "termes_variants": [
+      "isoflavones",
+      "isoflavone"
+    ],
     "categorie": "Polyphénols",
     "definition": "Polyphénols phyto-œstrogènes présents principalement dans le soja et ses dérivés (tofu, tempeh, edamame). Les isoflavones (génistéine, daidzéine) se lient faiblement aux récepteurs aux œstrogènes, avec des effets variables selon le microbiote. Le tempeh (fermenté) a une biodisponibilité des isoflavones supérieure au tofu.",
-    "termes_associes": ["phyto-œstrogènes", "soja", "microbiote", "biodisponibilité"]
+    "termes_associes": [
+      "phyto-œstrogènes",
+      "soja",
+      "microbiote",
+      "biodisponibilité"
+    ]
   },
   {
     "id": "isothiocyanates",
     "terme": "Isothiocyanates",
-    "termes_variants": ["isothiocyanates", "isothiocyanate"],
+    "termes_variants": [
+      "isothiocyanates",
+      "isothiocyanate"
+    ],
     "categorie": "Composés soufrés",
     "definition": "Composés soufrés bioactifs formés à partir des glucosinolates lors de la découpe ou mastication des crucifères. Le sulforaphane (isothiocyanate du brocoli) est le plus étudié : il induit les enzymes de détoxification de phase 2, inhibe l'angiogenèse tumorale et active le facteur Nrf2 (régulateur antioxydant cellulaire).",
-    "termes_associes": ["glucosinolates", "sulforaphane", "Nrf2", "brocoli"]
+    "termes_associes": [
+      "glucosinolates",
+      "sulforaphane",
+      "Nrf2",
+      "brocoli"
+    ]
   },
   {
     "id": "luteine",
     "terme": "Lutéine",
-    "termes_variants": ["lutéine", "luteine"],
+    "termes_variants": [
+      "lutéine",
+      "luteine"
+    ],
     "categorie": "Caroténoïdes",
     "definition": "Caroténoïde xanthophylle concentré dans la macula de l'œil, où il filtre la lumière bleue et protège contre le stress oxydatif rétinien. La lutéine est associée à une réduction du risque de dégénérescence maculaire liée à l'âge (DMLA) dans de nombreuses études épidémiologiques. Sources végétales : kale, épinard, maïs, courgette.",
-    "termes_associes": ["zéaxanthine", "caroténoïdes", "antioxydant"]
+    "termes_associes": [
+      "zéaxanthine",
+      "caroténoïdes",
+      "antioxydant"
+    ]
   },
   {
     "id": "lycopene",
     "terme": "Lycopène",
-    "termes_variants": ["lycopène", "lycopene"],
+    "termes_variants": [
+      "lycopène",
+      "lycopene"
+    ],
     "categorie": "Caroténoïdes",
     "definition": "Caroténoïde rouge présent principalement dans la tomate, le pamplemousse rose et la pastèque. Le lycopène est le caroténoïde le plus puissant pour neutraliser l'oxygène singulet (ROS). Sa concentration augmente significativement à la cuisson. Il est associé à une réduction du risque de cancer de la prostate dans plusieurs méta-analyses.",
-    "termes_associes": ["caroténoïdes", "antioxydant", "ROS", "tomate"]
+    "termes_associes": [
+      "caroténoïdes",
+      "antioxydant",
+      "ROS",
+      "tomate"
+    ]
   },
   {
     "id": "magnesium",
     "terme": "Magnésium",
-    "termes_variants": ["magnésium", "magnesium"],
+    "termes_variants": [
+      "magnésium",
+      "magnesium"
+    ],
     "categorie": "Minéraux",
     "definition": "Minéral essentiel cofacteur de plus de 300 enzymes. Le magnésium intervient dans la synthèse d'ATP (énergie cellulaire), la transmission neuromusculaire, la régulation de la glycémie et la santé osseuse. La carence est fréquente dans les pays occidentaux (~75% des adultes sous les AJR). Sources végétales : cacao cru, amandes, graines de courge, épinards.",
-    "termes_associes": ["ATP", "cofacteur"]
+    "termes_associes": [
+      "ATP",
+      "cofacteur"
+    ]
   },
   {
     "id": "microbiote",
     "terme": "Microbiote",
-    "termes_variants": ["microbiote", "microbiome", "flore intestinale"],
+    "termes_variants": [
+      "microbiote",
+      "microbiome",
+      "flore intestinale"
+    ],
     "categorie": "Microbiologie",
     "definition": "Ensemble des micro-organismes (bactéries, archées, champignons, virus) vivant dans le tractus digestif. Le microbiote intestinal humain compte environ 38 000 milliards de bactéries et joue un rôle majeur dans l'immunité, la digestion, la synthèse de vitamines (B12, K2) et la santé mentale (axe intestin-cerveau). Il est modulé par l'alimentation, notamment les fibres prébiotiques.",
-    "termes_associes": ["prébiotique", "probiotique", "AGCC", "fibres"]
+    "termes_associes": [
+      "prébiotique",
+      "probiotique",
+      "AGCC",
+      "fibres"
+    ]
   },
   {
     "id": "nfkb",
     "terme": "NF-κB",
-    "termes_variants": ["NF-κB", "NF-kB", "NF-kappaB"],
+    "termes_variants": [
+      "NF-κB",
+      "NF-kB",
+      "NF-kappaB"
+    ],
     "categorie": "Biologie cellulaire",
     "definition": "Nuclear Factor kappa B — facteur de transcription pro-inflammatoire central. Activé par les infections, le stress oxydatif et certains aliments (sucres rapides, acides gras saturés), NF-κB déclenche l'expression de gènes codant pour des cytokines pro-inflammatoires (TNF-α, IL-6, IL-1β) et favorise la survie des cellules tumorales. La curcumine, la quercétine et l'EGCG sont parmi ses inhibiteurs alimentaires les plus puissants.",
-    "termes_associes": ["inflammation", "cytokines", "curcumine", "quercétine", "EGCG", "antioxydant"]
+    "termes_associes": [
+      "inflammation",
+      "cytokines",
+      "curcumine",
+      "quercétine",
+      "EGCG",
+      "antioxydant"
+    ]
   },
   {
     "id": "nrf2",
     "terme": "Nrf2",
-    "termes_variants": ["Nrf2", "NRF2"],
+    "termes_variants": [
+      "Nrf2",
+      "NRF2"
+    ],
     "categorie": "Biologie cellulaire",
     "definition": "Nuclear factor erythroid 2-related factor 2 — facteur de transcription antioxydant majeur. Nrf2 active les gènes des enzymes de détoxification de phase 2 (glutathion peroxydase, superoxyde dismutase) en réponse au stress oxydatif. Le sulforaphane du brocoli est le plus puissant activateur alimentaire de Nrf2 connu.",
-    "termes_associes": ["sulforaphane", "antioxydant", "isothiocyanates"]
+    "termes_associes": [
+      "sulforaphane",
+      "antioxydant",
+      "isothiocyanates"
+    ]
+  },
+  {
+    "id": "oleocanthal",
+    "terme": "Oléocanthal",
+    "termes_variants": [
+      "Oléocanthal",
+      "oleocanthal",
+      "deacetoxy-ligstroside aglycon"
+    ],
+    "categorie": "Polyphénol",
+    "definition": "Phénol naturellement présent dans l'huile d'olive vierge extra, responsable de la sensation piquante en fond de gorge. Il inhibe les enzymes COX-1 et COX-2 (cyclooxygénases) de façon similaire à l'ibuprofène, conférant à l'huile d'olive des propriétés anti-inflammatoires dose-dépendantes. Des études in vitro suggèrent également un effet pro-apoptotique sur les cellules cancéreuses. La teneur en oléocanthal varie selon le cultivar, la région et la fraîcheur de l'huile.",
+    "termes_associes": [
+      "Polyphénols",
+      "COX-2",
+      "Inflammation",
+      "Antioxydant"
+    ],
+    "sources": [
+      "Beauchamp GK et al. (2005). Ibuprofen-like activity in extra-virgin olive oil. Nature, 437, 45–46.",
+      "Scotece M et al. (2012). New player in arthritis research: oleocanthal. Inflammopharmacology, 20(2), 69–78."
+    ]
   },
   {
     "id": "omega3",
     "terme": "Oméga-3",
-    "termes_variants": ["oméga-3", "omega-3", "oméga 3", "acides gras oméga-3"],
+    "termes_variants": [
+      "oméga-3",
+      "omega-3",
+      "oméga 3",
+      "acides gras oméga-3"
+    ],
     "categorie": "Acides gras",
     "definition": "Famille d'acides gras polyinsaturés essentiels comprenant l'ALA (végétal), l'EPA et le DHA (marins). Les oméga-3 sont anti-inflammatoires, cardioprotecteurs et neuroprotecteurs. Le rapport oméga-6/oméga-3 idéal est < 4:1 ; il est souvent > 15:1 dans l'alimentation occidentale moderne.",
-    "termes_associes": ["ALA", "EPA", "DHA", "anti-inflammatoire"]
+    "termes_associes": [
+      "ALA",
+      "EPA",
+      "DHA",
+      "anti-inflammatoire"
+    ]
   },
   {
     "id": "orac",
     "terme": "ORAC",
-    "termes_variants": ["ORAC", "score ORAC"],
+    "termes_variants": [
+      "ORAC",
+      "score ORAC"
+    ],
     "categorie": "Mesures",
     "definition": "Oxygen Radical Absorbance Capacity — mesure standardisée de la capacité d'un aliment à neutraliser les radicaux libres in vitro. Exprimé en µmol TE (équivalents Trolox) par 100g. La cannelle (267 536), l'açaï en poudre (102 700) et le cacao cru (95 500) ont des scores parmi les plus élevés. Note : le score ORAC in vitro ne prédit pas directement l'effet antioxydant in vivo.",
-    "termes_associes": ["antioxydant", "radicaux libres", "polyphénols"]
+    "termes_associes": [
+      "antioxydant",
+      "radicaux libres",
+      "polyphénols"
+    ]
   },
   {
     "id": "phytosterols",
     "terme": "Phytostérols",
-    "termes_variants": ["phytostérols", "phytostérol", "bêta-sitostérol"],
+    "termes_variants": [
+      "phytostérols",
+      "phytostérol",
+      "bêta-sitostérol"
+    ],
     "categorie": "Lipides",
     "definition": "Stérols d'origine végétale structurellement similaires au cholestérol animal. Les phytostérols (bêta-sitostérol, campestérol) entrent en compétition avec le cholestérol alimentaire pour l'absorption intestinale, réduisant le LDL de 5 à 15% dans les méta-analyses. Présents en concentration dans l'avocat, les graines de sésame et l'açaï.",
-    "termes_associes": ["cholestérol", "cardiovasculaire", "avocat"]
+    "termes_associes": [
+      "cholestérol",
+      "cardiovasculaire",
+      "avocat"
+    ]
   },
   {
     "id": "piperine",
     "terme": "Pipérine",
-    "termes_variants": ["pipérine", "piperine"],
+    "termes_variants": [
+      "pipérine",
+      "piperine"
+    ],
     "categorie": "Alcaloïdes",
     "definition": "Alcaloïde responsable du goût piquant du poivre noir. La pipérine inhibe la glucuronidation hépatique (enzyme de dégradation des xénobiotiques), ralentissant ainsi l'élimination de certains composés dont la curcumine. Cette synergie curcuma + poivre noir augmente la biodisponibilité de la curcumine de 2000% (×20).",
-    "termes_associes": ["curcumine", "biodisponibilité", "curcuma"]
+    "termes_associes": [
+      "curcumine",
+      "biodisponibilité",
+      "curcuma"
+    ]
   },
   {
     "id": "polyphenols",
     "terme": "Polyphénols",
-    "termes_variants": ["polyphénols", "polyphénol", "polyphenols", "polyphenol"],
+    "termes_variants": [
+      "polyphénols",
+      "polyphénol",
+      "polyphenols",
+      "polyphenol"
+    ],
     "categorie": "Micronutriments",
     "definition": "Grande famille de molécules végétales (>8000 composés identifiés) caractérisées par plusieurs noyaux phénoliques. Ils incluent les flavanoïdes, anthocyanes, stilbènes (resvératrol), lignanes et acides phénoliques. Les polyphénols sont les principaux antioxydants et anti-inflammatoires des végétaux, modulant de nombreuses voies de signalisation cellulaire.",
-    "termes_associes": ["flavanoïdes", "anthocyanes", "resvératrol", "quercétine", "curcumine", "EGCG"]
+    "termes_associes": [
+      "flavanoïdes",
+      "anthocyanes",
+      "resvératrol",
+      "quercétine",
+      "curcumine",
+      "EGCG"
+    ]
   },
   {
     "id": "prebiotique",
     "terme": "Prébiotique",
-    "termes_variants": ["prébiotique", "prébiotiques", "prebiotique", "prebiotiques"],
+    "termes_variants": [
+      "prébiotique",
+      "prébiotiques",
+      "prebiotique",
+      "prebiotiques"
+    ],
     "categorie": "Nutrition",
     "definition": "Substrat sélectivement utilisé par les micro-organismes bénéfiques du microbiote intestinal, conférant un bénéfice pour la santé de l'hôte (définition ISAPP 2017). Les principaux prébiotiques alimentaires sont l'inuline et les FOS (fructo-oligosaccharides) présents dans l'ail, le poireau, l'oignon, la banane verte et l'asperge.",
-    "termes_associes": ["microbiote", "fibres", "AGCC", "probiotique"]
+    "termes_associes": [
+      "microbiote",
+      "fibres",
+      "AGCC",
+      "probiotique"
+    ]
   },
   {
     "id": "probiotique",
     "terme": "Probiotique",
-    "termes_variants": ["probiotique", "probiotiques"],
+    "termes_variants": [
+      "probiotique",
+      "probiotiques"
+    ],
     "categorie": "Nutrition",
     "definition": "Micro-organismes vivants qui, administrés en quantité adéquate, confèrent un bénéfice sur la santé de l'hôte (OMS 2001). Les probiotiques alimentaires (Lactobacillus, Bifidobacterium) sont présents dans les aliments fermentés : miso, tempeh, kéfir, yaourt. Ils renforcent la barrière intestinale, modulent l'immunité et produisent des vitamines.",
-    "termes_associes": ["microbiote", "prébiotique", "fermentation", "miso"]
+    "termes_associes": [
+      "microbiote",
+      "prébiotique",
+      "fermentation",
+      "miso"
+    ]
   },
   {
     "id": "quercetine",
     "terme": "Quercétine",
-    "termes_variants": ["quercétine", "quercetine"],
+    "termes_variants": [
+      "quercétine",
+      "quercetine"
+    ],
     "categorie": "Polyphénols",
     "definition": "Flavonol présent en grande quantité dans l'oignon rouge, la pomme (avec la peau), les câpres et les myrtilles. La quercétine inhibe NF-κB, réduit la libération d'histamine (propriétés anti-allergiques), inhibe la prolifération de certaines cellules tumorales et possède des effets antiviraux documentés.",
-    "termes_associes": ["polyphénols", "NF-κB", "flavanoïdes", "anti-inflammatoire"]
+    "termes_associes": [
+      "polyphénols",
+      "NF-κB",
+      "flavanoïdes",
+      "anti-inflammatoire"
+    ]
   },
   {
     "id": "resveratrol",
     "terme": "Resvératrol",
-    "termes_variants": ["resvératrol", "resveratrol"],
+    "termes_variants": [
+      "resvératrol",
+      "resveratrol"
+    ],
     "categorie": "Polyphénols",
     "definition": "Stilbène produit par les plantes en réponse aux stress (champignons, UV). Présent dans le raisin noir, les myrtilles et les cacahuètes. Le resvératrol active la sirtuine SIRT1 (enzyme de longévité liée à la restriction calorique), réduit l'inflammation et l'agrégation plaquettaire. Ses effets in vivo chez l'humain sont encore à confirmer à large échelle.",
-    "termes_associes": ["polyphénols", "SIRT1", "cardiovasculaire", "antioxydant"]
+    "termes_associes": [
+      "polyphénols",
+      "SIRT1",
+      "cardiovasculaire",
+      "antioxydant"
+    ]
   },
   {
     "id": "ros",
     "terme": "ROS",
-    "termes_variants": ["ROS", "radicaux libres", "radical libre", "espèces réactives de l'oxygène"],
+    "termes_variants": [
+      "ROS",
+      "radicaux libres",
+      "radical libre",
+      "espèces réactives de l'oxygène"
+    ],
     "categorie": "Chimie",
     "definition": "Reactive Oxygen Species (espèces réactives de l'oxygène) — molécules instables portant un électron non apparié (O₂•⁻, H₂O₂, •OH). Produits naturellement par le métabolisme cellulaire et en excès lors d'un stress (pollution, tabac, inflammation), les ROS endommagent l'ADN, les lipides et les protéines. Les antioxydants alimentaires les neutralisent.",
-    "termes_associes": ["antioxydant", "ORAC", "stress oxydatif"]
+    "termes_associes": [
+      "antioxydant",
+      "ORAC",
+      "stress oxydatif"
+    ]
   },
   {
     "id": "selenium",
     "terme": "Sélénium",
-    "termes_variants": ["sélénium", "selenium"],
+    "termes_variants": [
+      "sélénium",
+      "selenium"
+    ],
     "categorie": "Minéraux",
     "definition": "Oligo-élément essentiel cofacteur des sélénoprotéines, dont la glutathion peroxydase (enzyme antioxydante majeure) et la thiorédoxine réductase. Le sélénium est indispensable à la fonction thyroïdienne, à l'immunité et à la spermatogenèse. Les sources végétales varient selon la teneur des sols. La spiruline et les noix du Brésil (non végétales) en sont des sources concentrées.",
-    "termes_associes": ["antioxydant", "glutathion", "spiruline"]
+    "termes_associes": [
+      "antioxydant",
+      "glutathion",
+      "spiruline"
+    ]
   },
   {
     "id": "sulforaphane",
     "terme": "Sulforaphane",
-    "termes_variants": ["sulforaphane"],
+    "termes_variants": [
+      "sulforaphane"
+    ],
     "categorie": "Isothiocyanates",
     "definition": "Isothiocyanate le plus étudié, présent dans le brocoli (et ses pousses). Le sulforaphane est le plus puissant activateur alimentaire du facteur Nrf2, induisant les enzymes de détoxification de phase 2. Il inhibe également NF-κB et l'angiogenèse tumorale. Les pousses de brocoli contiennent 50 à 100× plus de sulforaphane que le brocoli mature.",
-    "termes_associes": ["isothiocyanates", "Nrf2", "NF-κB", "glucosinolates", "brocoli"]
+    "termes_associes": [
+      "isothiocyanates",
+      "Nrf2",
+      "NF-κB",
+      "glucosinolates",
+      "brocoli"
+    ]
   },
   {
     "id": "synergie",
     "terme": "Synergie",
-    "termes_variants": ["synergie", "synergies", "synergique", "synergiques"],
+    "termes_variants": [
+      "synergie",
+      "synergies",
+      "synergique",
+      "synergiques"
+    ],
     "categorie": "Nutrition",
     "definition": "En nutrition, phénomène par lequel l'effet combiné de deux aliments ou nutriments est supérieur à la somme de leurs effets séparés. Ex : curcuma + poivre noir (biodisponibilité ×20), vitamine C + fer non-héminique (absorption ×2 à ×4), EGCG du thé vert + citron (absorption ×13). Les synergies peuvent agir sur la biodisponibilité, les voies métaboliques ou les mécanismes moléculaires.",
-    "termes_associes": ["biodisponibilité", "curcumine", "pipérine", "EGCG"]
+    "termes_associes": [
+      "biodisponibilité",
+      "curcumine",
+      "pipérine",
+      "EGCG"
+    ]
   },
   {
     "id": "vitamine_c",
     "terme": "Vitamine C",
-    "termes_variants": ["vitamine C", "acide ascorbique"],
+    "termes_variants": [
+      "vitamine C",
+      "acide ascorbique"
+    ],
     "categorie": "Vitamines",
     "definition": "Acide ascorbique — vitamine hydrosoluble essentielle à la synthèse du collagène, à la fonction immunitaire et à l'absorption du fer non-héminique. Antioxydant majeur neutralisant les ROS dans le milieu aqueux. Indispensable (les humains ne peuvent pas la synthétiser). Sources végétales : poivron rouge (183mg/100g), kiwi, brocoli, citron.",
-    "termes_associes": ["fer non-héminique", "antioxydant", "collagène", "ROS"]
+    "termes_associes": [
+      "fer non-héminique",
+      "antioxydant",
+      "collagène",
+      "ROS"
+    ]
   },
   {
     "id": "vitamine_k",
     "terme": "Vitamine K",
-    "termes_variants": ["vitamine K", "vitamine K1", "vitamine K2", "phylloquinone", "ménaquinone"],
+    "termes_variants": [
+      "vitamine K",
+      "vitamine K1",
+      "vitamine K2",
+      "phylloquinone",
+      "ménaquinone"
+    ],
     "categorie": "Vitamines",
     "definition": "Vitamine liposoluble existant sous deux formes : K1 (phylloquinone, végétaux à feuilles vertes) et K2 (ménaquinone, fermentation bactérienne, natto). Essentielle à la coagulation sanguine (activation des facteurs de coagulation) et à la minéralisation osseuse (activation de l'ostéocalcine). La K2 a une meilleure biodisponibilité et demi-vie que la K1.",
-    "termes_associes": ["calcium", "biodisponibilité", "fermentation"]
+    "termes_associes": [
+      "calcium",
+      "biodisponibilité",
+      "fermentation"
+    ]
   },
   {
     "id": "zinc",
     "terme": "Zinc",
-    "termes_variants": ["zinc"],
+    "termes_variants": [
+      "zinc"
+    ],
     "categorie": "Minéraux",
     "definition": "Oligo-élément essentiel cofacteur de plus de 300 enzymes. Le zinc est indispensable à l'immunité (développement des lymphocytes T), à la cicatrisation, à la synthèse des protéines et à la fonction reproductive masculine. Sa biodisponibilité dans les végétaux est réduite par les phytates — le trempage et la germination des légumineuses l'améliorent significativement.",
-    "termes_associes": ["phytates", "biodisponibilité", "immunité"]
+    "termes_associes": [
+      "phytates",
+      "biodisponibilité",
+      "immunité"
+    ]
   },
   {
     "id": "zeaxanthine",
     "terme": "Zéaxanthine",
-    "termes_variants": ["zéaxanthine", "zeaxanthine"],
+    "termes_variants": [
+      "zéaxanthine",
+      "zeaxanthine"
+    ],
     "categorie": "Caroténoïdes",
     "definition": "Caroténoïde xanthophylle concentré avec la lutéine dans la macula rétinienne. La zéaxanthine filtre les longueurs d'onde bleues dangereuses et neutralise les ROS photogénérés dans la rétine. L'apport combiné lutéine + zéaxanthine est associé à une réduction significative du risque de DMLA.",
-    "termes_associes": ["lutéine", "caroténoïdes", "antioxydant"]
+    "termes_associes": [
+      "lutéine",
+      "caroténoïdes",
+      "antioxydant"
+    ]
   },
   {
     "id": "phytates",
     "terme": "Phytates",
-    "termes_variants": ["phytates", "phytate", "acide phytique"],
+    "termes_variants": [
+      "phytates",
+      "phytate",
+      "acide phytique"
+    ],
     "categorie": "Antinutriments",
     "definition": "Acide phytique (IP6) — composé stockant le phosphore dans les graines, légumineuses et céréales complètes. Les phytates chélateurs des minéraux (zinc, fer, calcium, magnésium) réduisent leur absorption. Le trempage, la germination et la fermentation activent la phytase (enzyme dégradant les phytates), améliorant significativement la biodisponibilité minérale.",
-    "termes_associes": ["zinc", "fer non-héminique", "biodisponibilité", "antinutriments"]
+    "termes_associes": [
+      "zinc",
+      "fer non-héminique",
+      "biodisponibilité",
+      "antinutriments"
+    ]
   },
   {
     "id": "fer_non_heminique",
     "terme": "Fer non-héminique",
-    "termes_variants": ["fer non-héminique", "fer non héminique", "fer végétal"],
+    "termes_variants": [
+      "fer non-héminique",
+      "fer non héminique",
+      "fer végétal"
+    ],
     "categorie": "Minéraux",
     "definition": "Forme de fer présente dans les végétaux (Fe³⁺), par opposition au fer héminique (Fe²⁺) des produits animaux. Le fer non-héminique a une biodisponibilité plus faible (2 à 15%) mais variable selon le contexte : elle est multipliée par 2 à 4 en présence de vitamine C, et réduite par les phytates, les tannins et le calcium.",
-    "termes_associes": ["vitamine C", "phytates", "biodisponibilité", "tannins"]
+    "termes_associes": [
+      "vitamine C",
+      "phytates",
+      "biodisponibilité",
+      "tannins"
+    ]
   },
   {
     "id": "cytokines",
     "terme": "Cytokines",
-    "termes_variants": ["cytokines", "cytokine", "TNF-α", "IL-6", "IL-1β", "interleukine"],
+    "termes_variants": [
+      "cytokines",
+      "cytokine",
+      "TNF-α",
+      "IL-6",
+      "IL-1β",
+      "interleukine"
+    ],
     "categorie": "Immunologie",
     "definition": "Protéines de signalisation du système immunitaire régulant l'inflammation. Les cytokines pro-inflammatoires (TNF-α, IL-6, IL-1β) sont induites par NF-κB lors d'une agression. En excès chronique, elles contribuent aux maladies métaboliques et cardiovasculaires. Plusieurs composés végétaux (curcumine, EGCG, oméga-3) réduisent leur expression.",
-    "termes_associes": ["NF-κB", "inflammation", "curcumine", "oméga-3"]
+    "termes_associes": [
+      "NF-κB",
+      "inflammation",
+      "curcumine",
+      "oméga-3"
+    ]
   },
   {
     "id": "chlorophylle",
     "terme": "Chlorophylle",
-    "termes_variants": ["chlorophylle", "chlorophylles"],
+    "termes_variants": [
+      "chlorophylle",
+      "chlorophylles"
+    ],
     "categorie": "Pigments",
     "definition": "Pigment vert responsable de la photosynthèse, présent dans tous les végétaux à feuilles vertes. Structurellement analogue à l'hémoglobine (magnésium au centre vs fer). La chlorophylle alimentaire possède des propriétés désodorisantes, anti-mutagènes (chélation de substances carcinogènes) et potentiellement détoxifiantes. Sources concentrées : spiruline, chlorelle, kale, épinard.",
-    "termes_associes": ["magnésium", "spiruline", "chlorelle", "détox"]
+    "termes_associes": [
+      "magnésium",
+      "spiruline",
+      "chlorelle",
+      "détox"
+    ]
   },
   {
     "id": "lignanes",
     "terme": "Lignanes",
-    "termes_variants": ["lignanes", "lignane"],
+    "termes_variants": [
+      "lignanes",
+      "lignane"
+    ],
     "categorie": "Polyphénols",
     "definition": "Polyphénols phyto-œstrogènes présents principalement dans les graines de lin (secoisolaricirésinol), les graines de sésame et les céréales complètes. Dans le côlon, le microbiote convertit les lignanes alimentaires en entérolignanes (entérodiol, entérolactone) aux effets œstrogéniques faibles. Associés à une réduction du risque de cancer du sein hormono-dépendant.",
-    "termes_associes": ["polyphénols", "phyto-œstrogènes", "microbiote", "graines de lin"]
+    "termes_associes": [
+      "polyphénols",
+      "phyto-œstrogènes",
+      "microbiote",
+      "graines de lin"
+    ]
   }
 ]
