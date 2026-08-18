@@ -5,9 +5,18 @@
     "emoji": "⚙️",
     "description": "Minéral essentiel au transport de l'oxygène dans le sang via l'hémoglobine, à la respiration cellulaire (myoglobine) et au fonctionnement de nombreuses enzymes. La carence en fer est la déficience nutritionnelle la plus répandue dans le monde.",
     "role": "Transport de l'O₂, synthèse d'ADN, production d'énergie cellulaire",
-    "ajr": { "valeur": "11 mg/j (homme adulte) — 16 mg/j (femme adulte)", "source": "Anses 2021" },
+    "ajr": {
+      "valeur": "11 mg/j (homme adulte) — 16 mg/j (femme adulte)",
+      "source": "Anses 2021"
+    },
     "note": "Le fer végétal (non-héminique) est moins absorbé que le fer animal. Son absorption est modulable par l'alimentation.",
-    "aliments_top": ["epinard", "lentille", "graines_de_chia", "pois_chiche", "tofu"],
+    "aliments_top": [
+      "epinard",
+      "lentille",
+      "graines_de_chia",
+      "pois_chiche",
+      "tofu"
+    ],
     "conseil_synergie_global": "Toujours accompagner une source de fer végétal d'un aliment riche en vitamine C (citron, poivron rouge, kiwi). La cuisson à la vapeur préserve mieux la vitamine C que l'ébullition. Éviter le thé et le café pendant le repas (tanins inhibiteurs).",
     "sources": [
       {
@@ -33,9 +42,18 @@
     "emoji": "💪",
     "description": "Macronutriments structurels essentiels à la croissance musculaire, à la réparation tissulaire, à la synthèse d'enzymes et d'hormones. Les protéines végétales, souvent incomplètes seules, peuvent couvrir tous les besoins par complémentarité.",
     "role": "Construction et réparation des tissus, enzymes, hormones, anticorps",
-    "ajr": { "valeur": "0,83 g/kg de poids corporel/j", "source": "Anses 2019" },
+    "ajr": {
+      "valeur": "0,83 g/kg de poids corporel/j",
+      "source": "Anses 2019"
+    },
     "note": "Les protéines végétales sont dites 'incomplètes' car généralement déficitaires en un ou plusieurs acides aminés essentiels. La complémentarité (légumineuses + céréales) résout ce problème.",
-    "aliments_top": ["tofu", "lentille", "pois_chiche", "quinoa", "amande"],
+    "aliments_top": [
+      "tofu",
+      "lentille",
+      "pois_chiche",
+      "quinoa",
+      "amande"
+    ],
     "conseil_synergie_global": "Associer légumineuses (riches en lysine) et céréales (riches en méthionine) pour obtenir un profil complet en acides aminés. Cette complémentarité peut s'étaler sur la journée, pas nécessairement au même repas.",
     "sources": [
       {
@@ -61,9 +79,18 @@
     "emoji": "🦴",
     "description": "Minéral le plus abondant du corps humain, essentiel à la solidité des os et des dents, à la contraction musculaire, à la transmission nerveuse et à la coagulation sanguine.",
     "role": "Structure osseuse et dentaire, contraction musculaire, signal cellulaire",
-    "ajr": { "valeur": "950 mg/j (adulte)", "source": "Anses 2021" },
+    "ajr": {
+      "valeur": "950 mg/j (adulte)",
+      "source": "Anses 2021"
+    },
     "note": "La biodisponibilité du calcium végétal varie selon la présence d'oxalates (spinards, oseille — réduit absorption) et de vitamine K (crucifères — améliore fixation osseuse).",
-    "aliments_top": ["tofu", "amande", "brocoli", "graines_de_chia", "epinard"],
+    "aliments_top": [
+      "tofu",
+      "amande",
+      "brocoli",
+      "graines_de_chia",
+      "epinard"
+    ],
     "conseil_synergie_global": "Associer calcium végétal (tofu, chou kale, brocoli) avec des aliments riches en vitamine K (légumes verts à feuilles) et éviter l'excès de phytates (tremper les légumineuses avant cuisson). La vitamine D est indispensable à l'absorption intestinale du calcium.",
     "sources": [
       {
@@ -89,9 +116,17 @@
     "emoji": "🐟",
     "description": "Acides gras polyinsaturés essentiels (ALA, EPA, DHA) impliqués dans la santé cardiovasculaire, le développement cérébral, la régulation de l'inflammation et la santé oculaire. Les végétaux apportent l'ALA, précurseur des EPA/DHA.",
     "role": "Santé cardiovasculaire, fonction cérébrale, régulation de l'inflammation",
-    "ajr": { "valeur": "ALA : 1,8 g/j (homme) — 1,5 g/j (femme)", "source": "Anses 2019" },
+    "ajr": {
+      "valeur": "ALA : 1,8 g/j (homme) — 1,5 g/j (femme)",
+      "source": "Anses 2019"
+    },
     "note": "Les végétaux n'apportent que l'ALA (acide alpha-linolénique). La conversion en EPA/DHA est limitée (environ 5-15%). Les végétaliens devraient envisager des algues riches en DHA.",
-    "aliments_top": ["graines_de_chia", "graines_de_lin", "noix", "avocat"],
+    "aliments_top": [
+      "graines_de_chia",
+      "graines_de_lin",
+      "noix",
+      "avocat"
+    ],
     "conseil_synergie_global": "Pour optimiser la conversion ALA → EPA/DHA, limiter l'excès d'oméga-6 (rapport oméga-6/oméga-3 idéalement < 5:1). Curcuma + poivre noir réduit l'inflammation systémique et peut améliorer l'utilisation des oméga-3.",
     "sources": [
       {
@@ -117,8 +152,17 @@
     "emoji": "🛡️",
     "description": "Molécules qui neutralisent les radicaux libres et le stress oxydatif, réduisant ainsi les dommages cellulaires associés au vieillissement et à de nombreuses maladies chroniques. Incluent vitamines C, E, caroténoïdes, polyphénols.",
     "role": "Protection cellulaire contre le stress oxydatif, réduction de l'inflammation",
-    "ajr": { "valeur": "Pas d'AJR unique — varie selon la molécule", "source": "Anses" },
-    "aliments_top": ["myrtille", "brocoli", "citron", "curcuma", "amande"],
+    "ajr": {
+      "valeur": "Pas d'AJR unique — varie selon la molécule",
+      "source": "Anses"
+    },
+    "aliments_top": [
+      "myrtille",
+      "brocoli",
+      "citron",
+      "curcuma",
+      "amande"
+    ],
     "conseil_synergie_global": "La synergie antioxydante est maximale avec la diversité : associer antioxydants hydrosolubles (vitamine C, anthocyanes) et liposolubles (vitamine E, caroténoïdes). Les graisses saines (avocat, huile d'olive) améliorent l'absorption des antioxydants liposolubles.",
     "sources": [
       {
@@ -130,5 +174,673 @@
       }
     ],
     "recette_optimisee_id": "salade_pois_chiche_poivron"
+  },
+  {
+    "id": "magnesium",
+    "label": "Magnésium",
+    "emoji": "⚡",
+    "description": "Cofacteur de plus de 300 enzymes, impliqué dans la production d'énergie cellulaire (ATP), la contraction musculaire, la transmission nerveuse et la régulation de la glycémie. Environ 75% des adultes en France consomment en dessous des apports recommandés.",
+    "role": "Énergie cellulaire (ATP), contraction musculaire, transmission nerveuse",
+    "ajr": {
+      "valeur": "380 mg/j (homme adulte) — 300 mg/j (femme adulte)",
+      "source": "Anses 2021"
+    },
+    "note": "Les aliments ultra-transformés et les cuissons prolongées réduisent fortement la teneur en magnésium. Privilégier les céréales complètes, légumineuses et oléagineux non raffinés.",
+    "aliments_top": [
+      "quinoa",
+      "riz_complet",
+      "sarrasin",
+      "chocolat_noir",
+      "graines_de_courge"
+    ],
+    "conseil_synergie_global": "Le magnésium est mieux absorbé en présence de vitamine B6 (banane, légumineuses). Éviter un excès de calcium ou de phosphore au même repas, qui compétitionnent avec son absorption. La cuisson à la vapeur préserve mieux le magnésium que l'ébullition.",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Références nutritionnelles en magnésium",
+        "journal": "Anses",
+        "annee": 2021,
+        "url": "https://www.anses.fr/fr"
+      },
+      {
+        "auteurs": "de Baaij JH et al.",
+        "titre": "Magnesium in man: implications for health and disease",
+        "journal": "Physiol Rev",
+        "annee": 2015,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25540137/"
+      }
+    ],
+    "recette_optimisee_id": "bowl_proteines_complet_lentille_quinoa"
+  },
+  {
+    "id": "zinc",
+    "label": "Zinc",
+    "emoji": "🔷",
+    "description": "Oligo-élément essentiel à l'immunité, à la cicatrisation, à la synthèse des protéines et à la fonction reproductive. Sa biodisponibilité dans les végétaux est réduite par les phytates des légumineuses et céréales — le trempage et la germination l'améliorent.",
+    "role": "Immunité, cicatrisation, synthèse protéique, fertilité",
+    "ajr": {
+      "valeur": "9,4 à 14 mg/j (homme) — 7,5 à 11 mg/j (femme), selon apport en phytates",
+      "source": "Anses 2021"
+    },
+    "note": "Les végétariens ont des besoins en zinc plus élevés (×1,5) car les phytates des légumineuses et céréales en réduisent l'absorption. Le trempage et la fermentation sont les antidotes les plus efficaces.",
+    "aliments_top": [
+      "graines_de_courge",
+      "noix_de_cajou",
+      "pois_chiche",
+      "lentille",
+      "quinoa"
+    ],
+    "conseil_synergie_global": "Faire tremper légumineuses et céréales au moins 8 heures avant cuisson réduit les phytates de 30 à 50%, améliorant significativement la biodisponibilité du zinc. La vitamine C n'améliore pas l'absorption du zinc (contrairement au fer).",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Références nutritionnelles en zinc",
+        "journal": "Anses",
+        "annee": 2021,
+        "url": "https://www.anses.fr/fr"
+      },
+      {
+        "auteurs": "Gibson RS et al.",
+        "titre": "A review of phytate, iron, zinc, and calcium concentrations in plant-based complementary foods used in low-income countries",
+        "journal": "Food Nutr Bull",
+        "annee": 2010,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21049845/"
+      }
+    ]
+  },
+  {
+    "id": "iode",
+    "label": "Iode",
+    "emoji": "🌊",
+    "description": "Oligo-élément indispensable à la synthèse des hormones thyroïdiennes, qui régulent le métabolisme, la croissance et le développement neurologique. La carence en iode est la première cause évitable de retard mental dans le monde — les algues marines en sont la principale source végétale concentrée.",
+    "role": "Synthèse des hormones thyroïdiennes, métabolisme, développement neurologique",
+    "ajr": {
+      "valeur": "150 µg/j (adulte)",
+      "source": "Anses 2021"
+    },
+    "note": "Les végétaliens sans consommation d'algues ni de sel iodé risquent la carence. Le wakamé peut en contenir jusqu'à 1000 µg/100g — à consommer 2-3 fois/semaine maximum pour ne pas dépasser l'apport tolérable (600 µg/j).",
+    "aliments_top": [
+      "nori",
+      "algue_wakame",
+      "spiruline"
+    ],
+    "conseil_synergie_global": "Associer les algues iodées à des aliments riches en sélénium (noix du Brésil) : le sélénium active les désiodases, enzymes qui convertissent la T4 en T3 active. L'iode et le sélénium fonctionnent en tandem pour la santé thyroïdienne.",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Références nutritionnelles en iode",
+        "journal": "Anses",
+        "annee": 2021,
+        "url": "https://www.anses.fr/fr"
+      },
+      {
+        "auteurs": "WHO",
+        "titre": "Iodine deficiency disorders",
+        "journal": "WHO",
+        "annee": 2004,
+        "url": "https://www.who.int/health-topics/iodine-deficiency"
+      }
+    ],
+    "recette_optimisee_id": "salade_wakame_tofu_sesame"
+  },
+  {
+    "id": "selenium",
+    "label": "Sélénium",
+    "emoji": "✨",
+    "description": "Cofacteur des sélénoprotéines, dont la glutathion peroxydase, l'une des enzymes antioxydantes majeures du corps ; indispensable à la thyroïde et à l'immunité. Les sources végétales varient fortement selon la teneur en sélénium des sols — la noix du Brésil et la spiruline en sont des sources concentrées.",
+    "role": "Antioxydant enzymatique, fonction thyroïdienne, immunité",
+    "ajr": {
+      "valeur": "70 µg/j (adulte)",
+      "source": "Anses 2021"
+    },
+    "note": "2 noix du Brésil suffisent à couvrir l'AJR en sélénium. Au-delà de 6-8 noix par jour de manière régulière, un excès de sélénium devient toxique (sélénose). Les sols européens sont pauvres en sélénium, ce qui réduit la teneur des céréales locales.",
+    "aliments_top": [
+      "noix_du_bresil",
+      "champignon_paris",
+      "spiruline",
+      "riz_complet"
+    ],
+    "conseil_synergie_global": "Le sélénium travaille en synergie avec l'iode pour la synthèse des hormones thyroïdiennes. Il potentialise aussi l'action de la vitamine E (antioxydant liposoluble). Consommer les noix du Brésil non grillées pour préserver le sélénium.",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Références nutritionnelles en sélénium",
+        "journal": "Anses",
+        "annee": 2021,
+        "url": "https://www.anses.fr/fr"
+      },
+      {
+        "auteurs": "Rayman MP.",
+        "titre": "The importance of selenium to human health",
+        "journal": "Lancet",
+        "annee": 2000,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10963212/"
+      }
+    ],
+    "recette_optimisee_id": "riz_complet_noix_bresil"
+  },
+  {
+    "id": "vitamine_c",
+    "label": "Vitamine C",
+    "emoji": "🍋",
+    "description": "Antioxydant hydrosoluble essentiel à la synthèse du collagène, à la fonction immunitaire et à l'absorption du fer non-héminique des végétaux. Les besoins augmentent significativement chez les fumeurs.",
+    "role": "Synthèse du collagène, immunité, absorption du fer, antioxydant",
+    "ajr": {
+      "valeur": "110 mg/j (adulte)",
+      "source": "Anses 2021"
+    },
+    "note": "La vitamine C est thermosensible — la cuisson peut en détruire 30 à 80%. Toujours ajouter citron ou poivron crus hors du feu pour préserver la synergie avec le fer végétal.",
+    "aliments_top": [
+      "brocoli",
+      "citron",
+      "poivron_rouge",
+      "orange",
+      "kiwi"
+    ],
+    "conseil_synergie_global": "La vitamine C multiplie par 2 à 4 l'absorption du fer non-héminique des végétaux. Pour maximiser cet effet, la consommer dans le même repas que les légumineuses ou les légumes feuilles riches en fer. Éviter thé et café pendant le repas (les tanins inhibent l'absorption).",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Références nutritionnelles en vitamine C",
+        "journal": "Anses",
+        "annee": 2021,
+        "url": "https://www.anses.fr/fr"
+      },
+      {
+        "auteurs": "Hallberg L et al.",
+        "titre": "The role of vitamin C in iron absorption",
+        "journal": "Int J Vitam Nutr Res Suppl",
+        "annee": 1989,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2507689/"
+      }
+    ],
+    "recette_optimisee_id": "smoothie_kale_amande_citron"
+  },
+  {
+    "id": "vitamine_k",
+    "label": "Vitamine K",
+    "emoji": "🌿",
+    "description": "Vitamine liposoluble essentielle à la coagulation sanguine et à la minéralisation osseuse (activation de l'ostéocalcine), sous deux formes : K1 dans les légumes-feuilles, K2 issue de la fermentation bactérienne.",
+    "role": "Coagulation sanguine, santé osseuse (activation ostéocalcine)",
+    "ajr": {
+      "valeur": "79 µg/j (adulte)",
+      "source": "Anses 2021"
+    },
+    "note": "Les personnes sous anticoagulants (warfarine) doivent maintenir une consommation stable de vitamine K et consulter leur médecin avant d'augmenter leur consommation de légumes-feuilles.",
+    "aliments_top": [
+      "epinard",
+      "kale",
+      "concombre",
+      "chou_de_bruxelles",
+      "persil"
+    ],
+    "conseil_synergie_global": "La vitamine K est liposoluble — son absorption est doublée en présence de graisses alimentaires. Assaisonner les salades de légumes-feuilles avec de l'huile d'olive ou des oléagineux pour maximiser son absorption. La vitamine K2 (natto, tempeh fermenté) est mieux retenue dans les os que la K1.",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Références nutritionnelles en vitamine K",
+        "journal": "Anses",
+        "annee": 2021,
+        "url": "https://www.anses.fr/fr"
+      },
+      {
+        "auteurs": "Booth SL.",
+        "titre": "Roles for vitamin K beyond coagulation",
+        "journal": "Annu Rev Nutr",
+        "annee": 2009,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19400701/"
+      }
+    ],
+    "recette_optimisee_id": "poele_champignons_ail_persil"
+  },
+  {
+    "id": "vitamine_e",
+    "label": "Vitamine E",
+    "emoji": "🌻",
+    "description": "Antioxydant liposoluble qui protège les membranes cellulaires du stress oxydatif, concentré dans les oléagineux (amande, tournesol, noisette). Sa biodisponibilité est meilleure en présence de graisses alimentaires.",
+    "role": "Protection des membranes cellulaires, antioxydant liposoluble",
+    "ajr": {
+      "valeur": "10 mg/j (homme) — 9 mg/j (femme)",
+      "source": "Anses 2021"
+    },
+    "note": "La vitamine E dans les oléagineux est facilement détruite par la chaleur et l'oxygène. Consommer de préférence les amandes et noix non grillées, et éviter de chauffer les huiles riches en vitamine E (huile de tournesol) à haute température.",
+    "aliments_top": [
+      "amande",
+      "graines_de_tournesol",
+      "noisette",
+      "avocat",
+      "noix_de_cajou"
+    ],
+    "conseil_synergie_global": "La vitamine E travaille en tandem avec la vitamine C : la vitamine C régénère la vitamine E oxydée, prolongeant son action antioxydante. Associer oléagineux (vitamine E) et fruits ou jus riches en vitamine C dans le même repas. Le sélénium (noix du Brésil) potentialise également son action.",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Références nutritionnelles en vitamine E",
+        "journal": "Anses",
+        "annee": 2021,
+        "url": "https://www.anses.fr/fr"
+      },
+      {
+        "auteurs": "Brigelius-Flohé R, Traber MG.",
+        "titre": "Vitamin E: function and metabolism",
+        "journal": "FASEB J",
+        "annee": 1999,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10224227/"
+      }
+    ],
+    "recette_optimisee_id": "porridge_avoine_myrtille_amande"
+  },
+  {
+    "id": "vitamine_a",
+    "label": "Vitamine A",
+    "emoji": "👁️",
+    "description": "Vitamine liposoluble essentielle à la vision, à l'immunité et au renouvellement cellulaire. Les végétaux apportent sa forme précurseur, le bêta-carotène (provitamine A), que le corps convertit selon ses besoins.",
+    "role": "Vision, immunité, renouvellement cellulaire, croissance",
+    "ajr": {
+      "valeur": "750 µg/j (homme) — 650 µg/j (femme), en équivalents rétinol",
+      "source": "Anses 2021"
+    },
+    "note": "Le bêta-carotène végétal est converti en vitamine A de façon régulée — pas de risque de toxicité par excès (contrairement au rétinol animal). Mais cette conversion est liposoluble et nécessite la présence de matières grasses pour être efficace.",
+    "aliments_top": [
+      "mangue",
+      "carotte",
+      "patate_douce",
+      "kale",
+      "poivron_rouge"
+    ],
+    "conseil_synergie_global": "L'absorption du bêta-carotène est multipliée par 3 à 5 en présence de matières grasses. Assaisonner systématiquement les légumes orange et verts avec de l'huile d'olive ou de l'avocat. La cuisson légère (vapeur) améliore aussi sa biodisponibilité en rompant les parois cellulaires.",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Références nutritionnelles en vitamine A",
+        "journal": "Anses",
+        "annee": 2021,
+        "url": "https://www.anses.fr/fr"
+      },
+      {
+        "auteurs": "Unlu NZ et al.",
+        "titre": "Carotenoid absorption from salad and salsa by humans is enhanced by the addition of avocado or avocado oil",
+        "journal": "J Nutr",
+        "annee": 2005,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15735074/"
+      }
+    ],
+    "recette_optimisee_id": "soupe_carottes_huile_olive"
+  },
+  {
+    "id": "vitamine_b6",
+    "label": "Vitamine B6",
+    "emoji": "🧠",
+    "description": "Vitamine hydrosoluble impliquée dans le métabolisme des protéines et des acides aminés, la synthèse des neurotransmetteurs (sérotonine, dopamine) et la formation des globules rouges. Présente dans de nombreux végétaux.",
+    "role": "Métabolisme des protéines, synthèse de neurotransmetteurs, globules rouges",
+    "ajr": {
+      "valeur": "1,7 mg/j (homme) — 1,6 mg/j (femme)",
+      "source": "Anses 2021"
+    },
+    "note": "La vitamine B6 est sensible à la chaleur et à la lumière. La banane, la patate douce, l'avocat et les légumineuses en sont d'excellentes sources végétales, à consommer variées pour atteindre l'AJR sans difficulté.",
+    "aliments_top": [
+      "banane",
+      "patate_douce",
+      "avocat",
+      "pois_chiche",
+      "lentille"
+    ],
+    "conseil_synergie_global": "La vitamine B6 travaille en duo avec le magnésium pour la synthèse des neurotransmetteurs — associer légumineuses (B6 + magnésium) est particulièrement efficace. Elle améliore aussi l'absorption du magnésium, renforçant l'intérêt de ce duo pour la santé nerveuse.",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Références nutritionnelles en vitamine B6",
+        "journal": "Anses",
+        "annee": 2021,
+        "url": "https://www.anses.fr/fr"
+      }
+    ]
+  },
+  {
+    "id": "vitamine_b12",
+    "label": "Vitamine B12",
+    "emoji": "🌱",
+    "description": "Vitamine essentielle à la formation des globules rouges et au bon fonctionnement du système nerveux — la seule vitamine quasiment absente de l'alimentation végétale non enrichie. La levure nutritionnelle fortifiée et certaines algues en sont des sources végétales.",
+    "role": "Formation des globules rouges, myélinisation du système nerveux",
+    "ajr": {
+      "valeur": "4 µg/j (adulte)",
+      "source": "Anses 2021"
+    },
+    "note": "La B12 est le nutriment critique des régimes végétaliens — une carence prolongée est irréversible sur le plan neurologique. Tout végétalien doit prendre un complément de B12 ou consommer régulièrement des aliments fortifiés vérifiés.",
+    "aliments_top": [
+      "levure_nutritionnelle",
+      "nori",
+      "spiruline"
+    ],
+    "conseil_synergie_global": "La vitamine B12 s'absorbe mieux en petites doses réparties qu'en une grande dose quotidienne. Les folates (légumes-feuilles) et la B12 fonctionnent en tandem pour la synthèse de l'ADN — une carence en l'un masque parfois les symptômes d'une carence en l'autre.",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Références nutritionnelles en vitamine B12",
+        "journal": "Anses",
+        "annee": 2021,
+        "url": "https://www.anses.fr/fr"
+      },
+      {
+        "auteurs": "Pawlak R et al.",
+        "titre": "How prevalent is vitamin B12 deficiency among vegetarians?",
+        "journal": "Nutr Rev",
+        "annee": 2013,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23356638/"
+      }
+    ],
+    "recette_optimisee_id": "bowl_lentilles_levure_nutritionnelle"
+  },
+  {
+    "id": "folates",
+    "label": "Folates (Vitamine B9)",
+    "emoji": "🧬",
+    "description": "Vitamine indispensable à la synthèse de l'ADN et à la division cellulaire, particulièrement critique pendant la grossesse pour prévenir les malformations du tube neural. Sources végétales exceptionnelles : épinard, kale, lentilles, asperge.",
+    "role": "Synthèse de l'ADN, division cellulaire, prévention malformations fœtales",
+    "ajr": {
+      "valeur": "330 µg/j (adulte) — 600 µg/j pendant la grossesse",
+      "source": "Anses 2021"
+    },
+    "note": "Les folates sont très sensibles à la chaleur — une cuisson prolongée peut en détruire 50 à 90%. Privilégier les légumes verts à peine cuits à la vapeur ou crus pour maximiser l'apport.",
+    "aliments_top": [
+      "epinard",
+      "edamame",
+      "betterave",
+      "asperge",
+      "chou_de_bruxelles"
+    ],
+    "conseil_synergie_global": "Folates et vitamine B12 fonctionnent en tandem pour la synthèse de l'ADN et la méthylation — une carence en B12 peut masquer une carence en folates (et vice versa). Associer légumes verts riches en folates avec levure nutritionnelle ou algues nori (sources de B12).",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Références nutritionnelles en folates",
+        "journal": "Anses",
+        "annee": 2021,
+        "url": "https://www.anses.fr/fr"
+      },
+      {
+        "auteurs": "Blencowe H et al.",
+        "titre": "Folic acid to reduce neonatal mortality from neural tube disorders",
+        "journal": "Int J Epidemiol",
+        "annee": 2010,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20348114/"
+      }
+    ],
+    "recette_optimisee_id": "bowl_epinard_lentilles_citron"
+  },
+  {
+    "id": "vitamine_d",
+    "label": "Vitamine D",
+    "emoji": "☀️",
+    "description": "Vitamine liposoluble essentielle à l'absorption du calcium et à la santé osseuse, principalement synthétisée par exposition au soleil — rare dans l'alimentation végétale. Le shiitaké exposé aux UV est l'une des seules sources végétales notables.",
+    "role": "Absorption du calcium, santé osseuse, immunité, régulation hormonale",
+    "ajr": {
+      "valeur": "15 µg/j (adulte)",
+      "source": "Anses 2021"
+    },
+    "note": "En France, l'exposition solaire est insuffisante de novembre à mars. Les végétaliens sont particulièrement exposés à la carence en vitamine D — un complément est souvent recommandé en automne-hiver.",
+    "aliments_top": [
+      "champignon_shiitake",
+      "champignon_paris"
+    ],
+    "conseil_synergie_global": "La vitamine D est liposoluble — l'associer à des aliments gras (avocat, oléagineux, huile d'olive) améliore son absorption. Elle fonctionne en synergie avec le calcium et la vitamine K2 pour la minéralisation osseuse : ce trio est fondamental pour la santé des os.",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Références nutritionnelles en vitamine D",
+        "journal": "Anses",
+        "annee": 2021,
+        "url": "https://www.anses.fr/fr"
+      },
+      {
+        "auteurs": "Holick MF.",
+        "titre": "Vitamin D deficiency",
+        "journal": "N Engl J Med",
+        "annee": 2007,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17634462/"
+      }
+    ]
+  },
+  {
+    "id": "fibres",
+    "label": "Fibres",
+    "emoji": "🌿",
+    "description": "Glucides non digestibles qui nourrissent le microbiote intestinal par fermentation, régulent le transit et la glycémie, et contribuent à réduire le cholestérol LDL. Légumineuses, céréales complètes et légumes en sont les meilleures sources.",
+    "role": "Microbiote intestinal, transit, régulation glycémique, cholestérol",
+    "ajr": {
+      "valeur": "30 g/j (adulte)",
+      "source": "Anses 2021"
+    },
+    "note": "La plupart des Français consomment environ 20g de fibres par jour — soit 33% en dessous des recommandations. Une augmentation brutale peut provoquer ballonnements et inconforts — augmenter progressivement sur plusieurs semaines.",
+    "aliments_top": [
+      "lentille",
+      "pois_chiche",
+      "riz_complet",
+      "avoine",
+      "carotte"
+    ],
+    "conseil_synergie_global": "Associer fibres solubles (avoine, légumineuses, pomme) et insolubles (céréales complètes, légumes) pour bénéficier de leurs effets complémentaires : les solubles régulent le cholestérol et la glycémie, les insolubles accélèrent le transit. L'eau est indispensable — sans hydratation suffisante, un excès de fibres aggrave la constipation.",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Références nutritionnelles en fibres alimentaires",
+        "journal": "Anses",
+        "annee": 2021,
+        "url": "https://www.anses.fr/fr"
+      },
+      {
+        "auteurs": "Slavin J.",
+        "titre": "Fiber and prebiotics: mechanisms and health benefits",
+        "journal": "Nutrients",
+        "annee": 2013,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23609775/"
+      }
+    ]
+  },
+  {
+    "id": "potassium",
+    "label": "Potassium",
+    "emoji": "❤️",
+    "description": "Minéral essentiel à l'équilibre hydrique, à la transmission nerveuse et à la contraction musculaire, en équilibre avec le sodium pour la régulation de la tension artérielle. Banane, avocat et légumineuses en sont de bonnes sources végétales.",
+    "role": "Tension artérielle, équilibre hydrique, transmission nerveuse",
+    "ajr": {
+      "valeur": "3500 mg/j (adulte)",
+      "source": "Anses 2021"
+    },
+    "note": "Un apport élevé en potassium contrebalance l'effet hypertenseur du sodium — les régimes riches en fruits et légumes frais sont naturellement protecteurs sur la tension artérielle. Les personnes atteintes d'insuffisance rénale doivent en revanche surveiller leur apport.",
+    "aliments_top": [
+      "avocat",
+      "patate_douce",
+      "banane",
+      "lentille",
+      "betterave"
+    ],
+    "conseil_synergie_global": "Le duo potassium + magnésium (légumineuses, céréales complètes) est synergique pour la régulation de la tension artérielle et la fonction musculaire. Réduire le sel ajouté amplifie les bénéfices du potassium alimentaire. Éviter les cuissons à l'eau prolongées qui lessivaient le potassium dans l'eau de cuisson.",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Références nutritionnelles en potassium",
+        "journal": "Anses",
+        "annee": 2021,
+        "url": "https://www.anses.fr/fr"
+      }
+    ]
+  },
+  {
+    "id": "anti_inflammatoire",
+    "label": "Anti-inflammatoire",
+    "emoji": "🔥",
+    "description": "Capacité d'un aliment ou composé à réduire l'inflammation chronique de bas grade, un facteur commun aux maladies cardiovasculaires, au diabète de type 2 et aux maladies neurodégénératives. Curcumine, gingérols et oméga-3 comptent parmi les composés végétaux les mieux documentés.",
+    "role": "Réduction de l'inflammation chronique, protection cellulaire",
+    "ajr": {
+      "valeur": "Pas d'AJR unique — dépend du composé et de la dose étudiée",
+      "source": "Anses"
+    },
+    "aliments_top": [
+      "curcuma",
+      "gingembre",
+      "ail",
+      "cerise",
+      "myrtille"
+    ],
+    "conseil_synergie_global": "La synergie curcuma + poivre noir (+2000% biodisponibilité de la curcumine) est la plus documentée. Les oméga-3 (graines de lin, noix) agissent en synergie avec les polyphénols pour réduire les cytokines pro-inflammatoires. Privilégier la diversité : aucun aliment ne couvre tous les mécanismes anti-inflammatoires.",
+    "sources": [
+      {
+        "auteurs": "Shoba G et al.",
+        "titre": "Influence of piperine on the pharmacokinetics of curcumin in animals and human volunteers",
+        "journal": "Planta Med",
+        "annee": 1998,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9619120/"
+      },
+      {
+        "auteurs": "Calder PC.",
+        "titre": "Omega-3 fatty acids and inflammatory processes",
+        "journal": "Nutrients",
+        "annee": 2010,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22254027/"
+      }
+    ],
+    "recette_optimisee_id": "dhal_lentilles_corail_citron"
+  },
+  {
+    "id": "cardiovasculaire",
+    "label": "Cardiovasculaire",
+    "emoji": "💙",
+    "description": "Ensemble des effets protecteurs pour le cœur et les vaisseaux sanguins : réduction du cholestérol LDL, de la tension artérielle et de l'inflammation vasculaire. Huile d'olive, oléagineux et fibres solubles comptent parmi les leviers alimentaires les mieux étudiés.",
+    "role": "Réduction du cholestérol LDL, protection vasculaire, tension artérielle",
+    "ajr": {
+      "valeur": "Pas d'AJR unique — dépend du nutriment",
+      "source": "Anses"
+    },
+    "aliments_top": [
+      "ail",
+      "raisin",
+      "the_vert",
+      "huile_olive",
+      "noix"
+    ],
+    "conseil_synergie_global": "L'étude PREDIMED a montré qu'un régime méditerranéen riche en huile d'olive extra-vierge et en oléagineux réduit le risque cardiovasculaire de 30%. L'association fibres solubles (avoine, légumineuses) + stérols végétaux (avocat, sésame) réduit le cholestérol LDL de façon significative.",
+    "sources": [
+      {
+        "auteurs": "Estruch R et al.",
+        "titre": "Primary prevention of cardiovascular disease with a Mediterranean diet",
+        "journal": "N Engl J Med",
+        "annee": 2013,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23432189/"
+      }
+    ]
+  },
+  {
+    "id": "immunite",
+    "label": "Immunité",
+    "emoji": "🛡️",
+    "description": "Soutien aux défenses naturelles de l'organisme contre les infections, via des nutriments comme le zinc, le sélénium, la vitamine C, et des composés comme l'allicine de l'ail et les bêta-glucanes des champignons.",
+    "role": "Soutien aux défenses immunitaires, résistance aux infections",
+    "ajr": {
+      "valeur": "Pas d'AJR unique — dépend du nutriment",
+      "source": "Anses"
+    },
+    "aliments_top": [
+      "champignon_shiitake",
+      "champignon_paris",
+      "cassis",
+      "ail",
+      "gingembre"
+    ],
+    "conseil_synergie_global": "Les bêta-glucanes des champignons activent les macrophages et les cellules NK. L'allicine de l'ail potentialise cette activation immunitaire. Associer champignons + ail est l'une des synergies immunostimulantes les mieux documentées. La vitamine C (cassis, poivron) amplifie la réponse lymphocytaire.",
+    "sources": [
+      {
+        "auteurs": "Wasser SP.",
+        "titre": "Medicinal mushrooms as a source of antitumor and immunomodulating polysaccharides",
+        "journal": "Appl Microbiol Biotechnol",
+        "annee": 2002,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12172982/"
+      }
+    ],
+    "recette_optimisee_id": "poele_champignons_ail_persil"
+  },
+  {
+    "id": "digestion",
+    "label": "Digestion",
+    "emoji": "🌾",
+    "description": "Amélioration du confort et de l'efficacité digestive, via les fibres, des enzymes végétales (papaïne de la papaye, actinidine du kiwi) ou des composés prébiotiques qui nourrissent le microbiote intestinal.",
+    "role": "Transit intestinal, confort digestif, microbiote",
+    "ajr": {
+      "valeur": "Non applicable",
+      "source": "Anses"
+    },
+    "aliments_top": [
+      "papaye",
+      "kiwi",
+      "fenouil",
+      "gingembre",
+      "avoine"
+    ],
+    "conseil_synergie_global": "Les fibres prébiotiques (ail, poireau, asperge) nourrissent les bifidobactéries du microbiote. Les probiotiques (miso, tempeh) ajoutent des bactéries bénéfiques. Associer prébiotiques + probiotiques (synbiotiques) est plus efficace que chacun séparément pour restaurer la diversité du microbiote.",
+    "sources": [
+      {
+        "auteurs": "Slavin J.",
+        "titre": "Fiber and prebiotics: mechanisms and health benefits",
+        "journal": "Nutrients",
+        "annee": 2013,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23609775/"
+      }
+    ]
+  },
+  {
+    "id": "energie",
+    "label": "Énergie",
+    "emoji": "⚡",
+    "description": "Soutien au métabolisme énergétique cellulaire, notamment via le magnésium (cofacteur de la synthèse d'ATP), le fer (transport de l'oxygène vers les cellules) et les glucides complexes à index glycémique modéré.",
+    "role": "Métabolisme énergétique, production d'ATP, transport de l'oxygène",
+    "ajr": {
+      "valeur": "Non applicable — dépend du nutriment",
+      "source": "Anses"
+    },
+    "aliments_top": [
+      "datte",
+      "mais",
+      "epeautre",
+      "avoine",
+      "banane"
+    ],
+    "conseil_synergie_global": "Pour une énergie stable et durable, associer glucides complexes (céréales complètes) + protéines végétales (légumineuses) + matières grasses saines (oléagineux) : cette combinaison aplatit la courbe glycémique et évite les coups de barre. Le magnésium et le fer sont indispensables — une carence en l'un ou l'autre entraîne fatigue chronique.",
+    "sources": [
+      {
+        "auteurs": "Anses",
+        "titre": "Références nutritionnelles pour les macronutriments énergétiques",
+        "journal": "Anses",
+        "annee": 2021,
+        "url": "https://www.anses.fr/fr"
+      }
+    ]
+  },
+  {
+    "id": "detox",
+    "label": "Détox",
+    "emoji": "🧹",
+    "description": "Soutien aux mécanismes naturels de détoxification de l'organisme — notamment les enzymes de phase 2, activées par le sulforaphane des crucifères via le facteur Nrf2 — plutôt qu'un effet 'détox' au sens marketing du terme (le foie et les reins assurent seuls cette fonction).",
+    "role": "Activation des enzymes de détoxification hépatique (phase 2), protection cellulaire",
+    "ajr": {
+      "valeur": "Non applicable",
+      "source": "Anses"
+    },
+    "aliments_top": [
+      "chlorelle",
+      "brocoli",
+      "chou_de_bruxelles",
+      "ail",
+      "citron"
+    ],
+    "conseil_synergie_global": "Le sulforaphane du brocoli (50 à 100× plus concentré dans les pousses) est l'activateur alimentaire du facteur Nrf2 le plus puissant connu. La chlorelle se lie aux métaux lourds et facilite leur élimination. Associer brocoli légèrement vapeur + ail cru maximise l'activation des enzymes de détox.",
+    "sources": [
+      {
+        "auteurs": "Fahey JW et al.",
+        "titre": "Sulforaphane inhibits extracellular, intracellular, and antibiotic-resistant strains of Helicobacter pylori and prevents benzo[a]pyrene-induced stomach tumors",
+        "journal": "Proc Natl Acad Sci",
+        "annee": 2002,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12189204/"
+      }
+    ]
   }
 ]
