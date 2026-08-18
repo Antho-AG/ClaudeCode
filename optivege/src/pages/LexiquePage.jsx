@@ -134,6 +134,12 @@ export default function LexiquePage() {
                           </span>
                         </div>
                       </div>
+                      {terme.enBref && (
+                        <div className="flex items-start gap-2 mb-3 bg-orange-50 border border-orange-100 rounded-lg px-3 py-2">
+                          <span className="text-xs font-bold text-orange-500 shrink-0 mt-0.5">🎯 En bref</span>
+                          <p className="text-xs text-orange-700 leading-relaxed">{terme.enBref}</p>
+                        </div>
+                      )}
                       <p className="text-sm text-gray-700 leading-relaxed">
                         {terme.definition}
                       </p>

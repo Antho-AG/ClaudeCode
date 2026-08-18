@@ -12,7 +12,8 @@
       "EPA",
       "DHA",
       "oméga-3"
-    ]
+    ],
+    "enBref": "Présent dans les graines de lin, chia et les noix → oméga-3 végétal, mais converti à moins de 15% en EPA/DHA par le corps."
   },
   {
     "id": "agcc",
@@ -27,7 +28,8 @@
       "microbiote",
       "prébiotique",
       "fibres"
-    ]
+    ],
+    "enBref": "Produits quand le microbiote fermente les fibres → nourrissent et protègent les cellules du côlon."
   },
   {
     "id": "allicine",
@@ -41,7 +43,8 @@
     "termes_associes": [
       "composés organosoufrés",
       "ail"
-    ]
+    ],
+    "enBref": "Se forme quand on écrase ou coupe l'ail → propriétés antimicrobiennes et cardiovasculaires documentées."
   },
   {
     "id": "anthocyanes",
@@ -58,7 +61,8 @@
       "polyphénols",
       "antioxydant",
       "NF-κB"
-    ]
+    ],
+    "enBref": "Présentes dans myrtille, cerise, raisin noir, açaï → protègent l'ADN et réduisent l'inflammation."
   },
   {
     "id": "antioxydant",
@@ -76,7 +80,8 @@
       "ROS",
       "polyphénols",
       "ORAC"
-    ]
+    ],
+    "enBref": "Neutralise les radicaux libres responsables du vieillissement cellulaire — vitamine C, vitamine E, caroténoïdes et polyphénols en sont les principales sources."
   },
   {
     "id": "apoptose",
@@ -91,7 +96,8 @@
       "curcumine",
       "sulforaphane",
       "NF-κB"
-    ]
+    ],
+    "enBref": "Mécanisme naturel d'auto-destruction des cellules endommagées — curcumine, EGCG et sulforaphane le réactivent dans les cellules cancéreuses."
   },
   {
     "id": "beta_carotene",
@@ -108,7 +114,8 @@
       "vitamine A",
       "biodisponibilité",
       "antioxydant"
-    ]
+    ],
+    "enBref": "Présent dans carotte, patate douce, mangue → précurseur de la vitamine A, absorption multipliée par 3 à 5 avec un peu de matière grasse."
   },
   {
     "id": "biodisponibilite",
@@ -125,7 +132,8 @@
       "pipérine",
       "synergie",
       "microbiote"
-    ]
+    ],
+    "enBref": "La part d'un nutriment réellement absorbée par le corps — elle varie selon ce qu'on mange avec (ex : la curcumine seule est absorbée à moins de 1%, multipliée par 20 avec la pipérine)."
   },
   {
     "id": "carotenoides",
@@ -143,7 +151,8 @@
       "lutéine",
       "antioxydant",
       "biodisponibilité"
-    ]
+    ],
+    "enBref": "Famille de pigments (bêta-carotène, lycopène, lutéine...) des fruits et légumes colorés → leur absorption nécessite obligatoirement un peu de matière grasse."
   },
   {
     "id": "cox",
@@ -161,7 +170,8 @@
       "gingérols",
       "curcumine",
       "quercétine"
-    ]
+    ],
+    "enBref": "Enzyme qui déclenche l'inflammation et la douleur — gingembre, curcuma et oignon (quercétine) l'inhibent naturellement."
   },
   {
     "id": "curcumine",
@@ -179,7 +189,8 @@
       "NF-κB",
       "COX-2",
       "polyphénols"
-    ]
+    ],
+    "enBref": "Présente dans le curcuma → anti-inflammatoire puissant, mais absorbée à moins de 1% seule ; l'associer au poivre noir multiplie son absorption par 20."
   },
   {
     "id": "dha",
@@ -195,7 +206,8 @@
       "EPA",
       "oméga-3",
       "nori"
-    ]
+    ],
+    "enBref": "Oméga-3 essentiel au cerveau et à la rétine → les seules sources végétales directes sont les algues marines comme le nori."
   },
   {
     "id": "egcg",
@@ -213,7 +225,8 @@
       "polyphénols",
       "thé vert",
       "matcha"
-    ]
+    ],
+    "enBref": "Présent dans le thé vert (10× plus concentré dans le matcha) → l'un des antioxydants les plus puissants connus."
   },
   {
     "id": "epa",
@@ -229,7 +242,8 @@
       "DHA",
       "oméga-3",
       "anti-inflammatoire"
-    ]
+    ],
+    "enBref": "Oméga-3 anti-inflammatoire → sa seule source végétale directe est les algues marines (nori, chlorelle)."
   },
   {
     "id": "flavanoides",
@@ -249,7 +263,8 @@
       "quercétine",
       "EGCG",
       "isoflavones"
-    ]
+    ],
+    "enBref": "Grande famille de polyphénols (catéchines, quercétine, anthocyanes...) → antioxydants et régulateurs du microbiote."
   },
   {
     "id": "folates",
@@ -265,7 +280,8 @@
     "termes_associes": [
       "ADN",
       "vitamine B12"
-    ]
+    ],
+    "enBref": "Présents dans épinard, kale, lentilles → indispensables à la division cellulaire, essentiels pendant la grossesse."
   },
   {
     "id": "glucosinolates",
@@ -281,7 +297,8 @@
       "sulforaphane",
       "brocoli",
       "crucifères"
-    ]
+    ],
+    "enBref": "Présents dans brocoli, chou-fleur, kale → se transforment en sulforaphane (anti-tumoral) quand on les mâche ou les coupe."
   },
   {
     "id": "inflammation",
@@ -302,7 +319,8 @@
       "cytokines",
       "curcumine",
       "oméga-3"
-    ]
+    ],
+    "enBref": "Réponse naturelle de défense de l'organisme — quand elle devient chronique et silencieuse, elle favorise maladies cardiovasculaires et diabète ; l'alimentation la module directement."
   },
   {
     "id": "iode",
@@ -320,7 +338,8 @@
     "sources": [
       "https://www.who.int/health-topics/iodine-deficiency",
       "EFSA Panel on Nutrition (2014). Scientific Opinion on Dietary Reference Values for iodine. EFSA Journal, 12(5), 3660."
-    ]
+    ],
+    "enBref": "Indispensable aux hormones thyroïdiennes → les algues comme le wakamé en concentrent jusqu'à 1000 µg/100g, pour un besoin quotidien de 150 µg."
   },
   {
     "id": "isoflavones",
@@ -336,7 +355,8 @@
       "soja",
       "microbiote",
       "biodisponibilité"
-    ]
+    ],
+    "enBref": "Présentes dans le soja (tofu, tempeh, edamame) → phyto-œstrogènes mieux absorbés dans le tempeh fermenté que dans le tofu."
   },
   {
     "id": "isothiocyanates",
@@ -352,7 +372,8 @@
       "sulforaphane",
       "Nrf2",
       "brocoli"
-    ]
+    ],
+    "enBref": "Se forment quand on coupe ou mâche les crucifères → le sulforaphane, le plus étudié, active les défenses antioxydantes du corps."
   },
   {
     "id": "luteine",
@@ -367,7 +388,8 @@
       "zéaxanthine",
       "caroténoïdes",
       "antioxydant"
-    ]
+    ],
+    "enBref": "Présente dans kale, épinard, maïs → se concentre dans l'œil et réduit le risque de dégénérescence maculaire liée à l'âge."
   },
   {
     "id": "lycopene",
@@ -383,7 +405,8 @@
       "antioxydant",
       "ROS",
       "tomate"
-    ]
+    ],
+    "enBref": "Présent dans la tomate (surtout cuite) → le caroténoïde antioxydant le plus puissant contre le stress oxydatif, sa concentration augmente à la cuisson."
   },
   {
     "id": "magnesium",
@@ -397,7 +420,8 @@
     "termes_associes": [
       "ATP",
       "cofacteur"
-    ]
+    ],
+    "enBref": "Présent dans cacao cru, amandes, graines de courge → indispensable à l'énergie cellulaire ; environ 75% des adultes occidentaux sont sous les apports recommandés."
   },
   {
     "id": "microbiote",
@@ -414,7 +438,8 @@
       "probiotique",
       "AGCC",
       "fibres"
-    ]
+    ],
+    "enBref": "Les milliards de bactéries qui vivent dans l'intestin → elles fabriquent des vitamines, régulent l'immunité et sont nourries par les fibres prébiotiques."
   },
   {
     "id": "nfkb",
@@ -433,7 +458,8 @@
       "quercétine",
       "EGCG",
       "antioxydant"
-    ]
+    ],
+    "enBref": "Le signal qui allume l'inflammation dans les cellules — curcumine, EGCG (thé vert) et quercétine (oignon, pomme) l'éteignent."
   },
   {
     "id": "nrf2",
@@ -448,7 +474,8 @@
       "sulforaphane",
       "antioxydant",
       "isothiocyanates"
-    ]
+    ],
+    "enBref": "Le facteur qui active les défenses antioxydantes de la cellule — le sulforaphane du brocoli est son activateur alimentaire le plus puissant connu."
   },
   {
     "id": "oleocanthal",
@@ -469,7 +496,8 @@
     "sources": [
       "Beauchamp GK et al. (2005). Ibuprofen-like activity in extra-virgin olive oil. Nature, 437, 45–46.",
       "Scotece M et al. (2012). New player in arthritis research: oleocanthal. Inflammopharmacology, 20(2), 69–78."
-    ]
+    ],
+    "enBref": "Présent dans l'huile d'olive vierge extra (sensation piquante en fond de gorge) → anti-inflammatoire naturel agissant comme l'ibuprofène."
   },
   {
     "id": "omega3",
@@ -487,7 +515,8 @@
       "EPA",
       "DHA",
       "anti-inflammatoire"
-    ]
+    ],
+    "enBref": "Présents dans graines de lin, chia, noix (ALA) et algues (EPA/DHA) → anti-inflammatoires, mais souvent trop rares face aux oméga-6 dans l'alimentation occidentale."
   },
   {
     "id": "orac",
@@ -502,7 +531,8 @@
       "antioxydant",
       "radicaux libres",
       "polyphénols"
-    ]
+    ],
+    "enBref": "Score qui mesure la capacité antioxydante d'un aliment en laboratoire — cannelle, açaï et cacao cru dominent le classement, mais un score élevé ne garantit pas le même effet dans le corps."
   },
   {
     "id": "phytosterols",
@@ -518,7 +548,8 @@
       "cholestérol",
       "cardiovasculaire",
       "avocat"
-    ]
+    ],
+    "enBref": "Présents dans avocat, graines de sésame, açaï → réduisent le cholestérol LDL de 5 à 15% en entrant en compétition avec lui à l'absorption."
   },
   {
     "id": "piperine",
@@ -533,7 +564,8 @@
       "curcumine",
       "biodisponibilité",
       "curcuma"
-    ]
+    ],
+    "enBref": "Présente dans le poivre noir → multiplie par 20 (soit +2000%) l'absorption de la curcumine du curcuma."
   },
   {
     "id": "polyphenols",
@@ -553,7 +585,8 @@
       "quercétine",
       "curcumine",
       "EGCG"
-    ]
+    ],
+    "enBref": "Plus de 8000 molécules végétales identifiées (flavonoïdes, anthocyanes, curcumine, EGCG...) → les principaux antioxydants et anti-inflammatoires de l'alimentation végétale."
   },
   {
     "id": "prebiotique",
@@ -571,7 +604,8 @@
       "fibres",
       "AGCC",
       "probiotique"
-    ]
+    ],
+    "enBref": "Présent dans ail, poireau, oignon, asperge → nourrit spécifiquement les bonnes bactéries du microbiote intestinal."
   },
   {
     "id": "probiotique",
@@ -587,7 +621,8 @@
       "prébiotique",
       "fermentation",
       "miso"
-    ]
+    ],
+    "enBref": "Présents dans miso, tempeh, aliments fermentés → renforcent la barrière intestinale et l'immunité."
   },
   {
     "id": "quercetine",
@@ -603,7 +638,8 @@
       "NF-κB",
       "flavanoïdes",
       "anti-inflammatoire"
-    ]
+    ],
+    "enBref": "Présente dans l'oignon rouge et la pomme (avec la peau) → anti-inflammatoire et anti-allergique, réduit la libération d'histamine."
   },
   {
     "id": "resveratrol",
@@ -619,7 +655,8 @@
       "SIRT1",
       "cardiovasculaire",
       "antioxydant"
-    ]
+    ],
+    "enBref": "Présent dans le raisin noir et les myrtilles → active la 'protéine de longévité' SIRT1, mais ses effets chez l'humain restent encore à confirmer à large échelle."
   },
   {
     "id": "ros",
@@ -636,7 +673,8 @@
       "antioxydant",
       "ORAC",
       "stress oxydatif"
-    ]
+    ],
+    "enBref": "Les radicaux libres produits par le métabolisme et le stress (pollution, tabac) → endommagent l'ADN et les cellules ; les antioxydants alimentaires les neutralisent."
   },
   {
     "id": "selenium",
@@ -651,7 +689,8 @@
       "antioxydant",
       "glutathion",
       "spiruline"
-    ]
+    ],
+    "enBref": "Indispensable à la thyroïde et à l'immunité → la spiruline est l'une des rares sources végétales concentrées (les noix du Brésil, non végétales, en sont aussi riches)."
   },
   {
     "id": "sulforaphane",
@@ -667,7 +706,8 @@
       "NF-κB",
       "glucosinolates",
       "brocoli"
-    ]
+    ],
+    "enBref": "Présent dans le brocoli (50 à 100× plus concentré dans ses pousses) → le plus puissant activateur alimentaire connu des défenses antioxydantes de la cellule."
   },
   {
     "id": "synergie",
@@ -685,7 +725,8 @@
       "curcumine",
       "pipérine",
       "EGCG"
-    ]
+    ],
+    "enBref": "Quand deux aliments combinés font plus que la somme de leurs effets séparés — ex : curcuma + poivre noir (×20), fer + vitamine C (×2 à ×4), thé vert + citron (×13)."
   },
   {
     "id": "vitamine_c",
@@ -701,7 +742,8 @@
       "antioxydant",
       "collagène",
       "ROS"
-    ]
+    ],
+    "enBref": "Présente dans poivron rouge (183mg/100g), kiwi, brocoli, citron → booste l'absorption du fer non-héminique et soutient l'immunité."
   },
   {
     "id": "vitamine_k",
@@ -719,7 +761,8 @@
       "calcium",
       "biodisponibilité",
       "fermentation"
-    ]
+    ],
+    "enBref": "K1 dans les légumes-feuilles, K2 dans les aliments fermentés (natto) → essentielle à la coagulation sanguine et à la solidité des os."
   },
   {
     "id": "zinc",
@@ -733,7 +776,8 @@
       "phytates",
       "biodisponibilité",
       "immunité"
-    ]
+    ],
+    "enBref": "Indispensable à l'immunité et à la cicatrisation → son absorption dans les légumineuses est freinée par les phytates, mais améliorée par le trempage et la germination."
   },
   {
     "id": "zeaxanthine",
@@ -748,7 +792,8 @@
       "lutéine",
       "caroténoïdes",
       "antioxydant"
-    ]
+    ],
+    "enBref": "Concentrée avec la lutéine dans la macula de l'œil → filtre la lumière bleue et protège la rétine, surtout combinée à la lutéine."
   },
   {
     "id": "phytates",
@@ -765,7 +810,8 @@
       "fer non-héminique",
       "biodisponibilité",
       "antinutriments"
-    ]
+    ],
+    "enBref": "Présents dans légumineuses et céréales complètes → réduisent l'absorption du fer, du zinc et du calcium ; le trempage et la germination limitent cet effet."
   },
   {
     "id": "fer_non_heminique",
@@ -782,7 +828,8 @@
       "phytates",
       "biodisponibilité",
       "tannins"
-    ]
+    ],
+    "enBref": "Le fer des végétaux (lentilles, épinard...) → mal absorbé seul (2 à 15%), mais son absorption double ou quadruple avec de la vitamine C."
   },
   {
     "id": "cytokines",
@@ -802,7 +849,8 @@
       "inflammation",
       "curcumine",
       "oméga-3"
-    ]
+    ],
+    "enBref": "Messagers de l'inflammation du système immunitaire — curcumine, thé vert et oméga-3 réduisent leur production en excès."
   },
   {
     "id": "chlorophylle",
@@ -818,7 +866,8 @@
       "spiruline",
       "chlorelle",
       "détox"
-    ]
+    ],
+    "enBref": "Présente dans spiruline, chlorelle, kale, épinard → propriétés désodorisantes et potentiellement détoxifiantes."
   },
   {
     "id": "lignanes",
@@ -834,6 +883,7 @@
       "phyto-œstrogènes",
       "microbiote",
       "graines de lin"
-    ]
+    ],
+    "enBref": "Présents dans les graines de lin et de sésame → convertis par le microbiote en composés associés à une réduction du risque de cancer du sein hormono-dépendant."
   }
 ]
