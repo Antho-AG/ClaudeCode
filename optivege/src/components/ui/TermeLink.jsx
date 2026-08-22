@@ -18,7 +18,11 @@ const buildTermeMap = () => {
 const TERME_MAP = buildTermeMap()
 
 const ESCAPED = TERME_MAP.map(({ variant, id }) => ({
-  regex: new RegExp(`(${variant.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'),
+  // Lookbehind/lookahead Unicode-aware : refuse les lettres/chiffres accentués adjacents
+  regex: new RegExp(
+    `(?<![a-zA-ZÀ-ÿ0-9])(${variant.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})(?![a-zA-ZÀ-ÿ0-9])`,
+    'gi'
+  ),
   id,
 }))
 
