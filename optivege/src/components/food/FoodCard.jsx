@@ -23,6 +23,11 @@ export default function FoodCard({ food }) {
           ⭐ Super
         </div>
       )}
+      {food.quotidien && !food.super_aliment && (
+        <div className="absolute -top-2 -right-2 text-xs px-2 py-0.5 rounded-full font-bold shadow" style={{ background: '#FFF8E6', color: '#8B6F47' }}>
+          🧺 Quotidien
+        </div>
+      )}
 
       <div className="flex items-start gap-3">
         <FoodIcon food={food} size={40} />

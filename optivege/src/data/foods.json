@@ -8358,5 +8358,983 @@
     ],
     "super_aliment": false,
     "super_aliment_raison": null
+  },
+  {
+    "id": "haricot_vert",
+    "nom": "Haricot vert",
+    "categorie": "légume",
+    "emoji": "🫘",
+    "description": "Légume vert d'été parmi les plus consommés en France, le haricot vert est une bonne source de vitamine K et de fibres pour un apport calorique très faible. Sa teneur en vitamine K chute fortement si on le fait bouillir longtemps dans l'eau — la cuisson vapeur ou à l'étouffée préserve nettement mieux ses nutriments.",
+    "bienfaits": [
+      {
+        "id": "vitamine_k",
+        "label": "Bonne source de vitamine K",
+        "detail": "100g de haricots verts apportent environ 48 µg de vitamine K1 (phylloquinone), soit environ 61% des apports journaliers recommandés. La vitamine K est liposoluble — consommer les haricots verts avec un filet d'huile d'olive améliore son absorption.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA FoodData Central",
+            "titre": "Beans, snap, green, raw — Nutritional profile",
+            "journal": "FoodData Central — USDA",
+            "annee": 2020,
+            "url": "https://fdc.nal.usda.gov/"
+          }
+        ]
+      },
+      {
+        "id": "fibres",
+        "label": "Apport en fibres",
+        "detail": "Avec 3,2g de fibres pour 100g, le haricot vert contribue au bon fonctionnement du transit intestinal et à la satiété, pour seulement 30 kcal.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "USDA FoodData Central",
+            "titre": "Beans, snap, green, raw",
+            "journal": "USDA",
+            "annee": 2020,
+            "url": "https://fdc.nal.usda.gov/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 31,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 1.8,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 7.1,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.1,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 3.2,
+        "unite": "g/100g"
+      },
+      "fer": {
+        "valeur": 0.65,
+        "unite": "mg/100g"
+      },
+      "vitamine_c": {
+        "valeur": 9.7,
+        "unite": "mg/100g"
+      },
+      "vitamine_k": {
+        "valeur": 48,
+        "unite": "µg/100g"
+      },
+      "source_teneurs": "USDA FoodData Central 2020"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "huile_olive",
+        "aliment_associe_nom": "Huile d'olive",
+        "aliment_associe_emoji": "🫒",
+        "nutriment_cle": "Vitamine K (liposoluble)",
+        "mecanisme": "La vitamine K est liposoluble : sa biodisponibilité est significativement améliorée en présence de matière grasse. Un filet d'huile d'olive sur les haricots verts vapeur suit le même principe documenté pour le kale et les légumes-feuilles.",
+        "gain_estime": "Absorption de la vitamine K améliorée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Gijsbers BL et al.",
+            "titre": "Effect of food composition on vitamin K absorption in human volunteers",
+            "journal": "Br J Nutr",
+            "annee": 1996,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8687090/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "vitamine_k",
+      "fibres",
+      "fer"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "quotidien": true
+  },
+  {
+    "id": "cacahuete",
+    "nom": "Cacahuète (arachide)",
+    "categorie": "légumineuse",
+    "emoji": "🥜",
+    "description": "Botaniquement une légumineuse (pas un oléagineux), la cacahuète est riche en protéines et en magnésium, et contient du resvératrol — le même polyphénol cardioprotecteur associé au vin rouge — à une concentration comparable ou supérieure.",
+    "bienfaits": [
+      {
+        "id": "proteines",
+        "label": "Riche en protéines végétales",
+        "detail": "Avec environ 25g de protéines pour 100g, la cacahuète est l'une des légumineuses les plus concentrées en protéines. Elle partage ce profil avec les autres légumineuses mais avec une teneur en lipides insaturés plus élevée.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "Table CIQUAL 2020 — Arachide, grillée",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "antioxydants",
+        "label": "Source de resvératrol",
+        "detail": "La cacahuète contient environ 0,55 mg de resvératrol pour 100g (beurre de cacahuète : jusqu'à 3,25 mg/100g), un polyphénol aux propriétés cardioprotectrices étudié notamment pour son rôle dans l'activation des sirtuines. Comparable au vin rouge (0,02–0,58 mg/100 mL).",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "LaNutrition.fr",
+            "titre": "Dans les cacahuètes et le vin rouge, une molécule qui fait du bien",
+            "journal": "LaNutrition.fr",
+            "annee": 2024,
+            "url": "https://www.lanutrition.fr/les-news/dans-les-cacahuetes-et-le-vin-rouge-une-molecule-qui-fait-du-bien"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 567,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 25.8,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 16.1,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 49.2,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 8.5,
+        "unite": "g/100g"
+      },
+      "magnesium": {
+        "valeur": 168,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses (arachide, grillée)"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "riz_complet",
+        "aliment_associe_nom": "Riz complet",
+        "aliment_associe_emoji": "🍚",
+        "nutriment_cle": "Protéines complètes",
+        "mecanisme": "Association légumineuse + céréale complète : la cacahuète est riche en lysine (acide aminé limitant des céréales) et le riz complet apporte méthionine et cystéine (acides aminés limitants des légumineuses). Ensemble, ils couvrent le profil complet des acides aminés essentiels.",
+        "gain_estime": "Profil protéique complet",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Young VR, Pellett PL.",
+            "titre": "Plant proteins in relation to human protein and amino acid nutrition",
+            "journal": "Am J Clin Nutr",
+            "annee": 1994,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8172124/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "proteines",
+      "magnesium",
+      "antioxydants"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "quotidien": true
+  },
+  {
+    "id": "aubergine",
+    "nom": "Aubergine",
+    "categorie": "légume",
+    "emoji": "🍆",
+    "description": "Légume d'été à la chair fondante, l'aubergine doit sa couleur violette à la nasunine, un antioxydant concentré dans la peau qui protège les cellules du stress oxydatif — raison de plus pour ne jamais l'éplucher avant cuisson.",
+    "bienfaits": [
+      {
+        "id": "antioxydants",
+        "label": "Nasunine : antioxydant de la peau violette",
+        "detail": "La nasunine est un anthocyane concentré dans la peau violette de l'aubergine. Des études in vitro montrent sa capacité à protéger les membranes cellulaires du stress oxydatif, notamment en chélatant le fer libre pro-oxydant.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "LaNutrition.fr",
+            "titre": "Les atouts santé de l'aubergine",
+            "journal": "LaNutrition.fr",
+            "annee": 2023,
+            "url": "https://www.lanutrition.fr/bien-dans-son-assiette/aliments/legumes/aubergines/les-atouts-sante-de-laubergine"
+          }
+        ]
+      },
+      {
+        "id": "fibres",
+        "label": "Fibres solubles (pectines)",
+        "detail": "Avec 2,5g de fibres pour 100g, dont des pectines (fibres solubles), l'aubergine contribue à la régulation du transit et de la glycémie, pour seulement 18 kcal/100g.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "Table CIQUAL 2020 — Aubergine",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 18,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 0.9,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 3.6,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.1,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 2.5,
+        "unite": "g/100g"
+      },
+      "potassium": {
+        "valeur": 260,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses / LaNutrition.fr"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "huile_olive",
+        "aliment_associe_nom": "Huile d'olive",
+        "aliment_associe_emoji": "🫒",
+        "nutriment_cle": "Nasunine (liposoluble)",
+        "mecanisme": "Les anthocyanes liposolubles comme la nasunine voient leur biodisponibilité améliorée en présence de matière grasse. La ratatouille traditionnelle (aubergine + huile d'olive) combine intuitivement ces deux aliments depuis des siècles.",
+        "gain_estime": "Absorption des antioxydants améliorée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses / LaNutrition.fr",
+            "titre": "Aubergine — profil nutritionnel",
+            "journal": "LaNutrition.fr",
+            "annee": 2023,
+            "url": "https://www.lanutrition.fr/bien-dans-son-assiette/aliments/legumes/aubergines/les-atouts-sante-de-laubergine"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "antioxydants",
+      "fibres",
+      "potassium"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "quotidien": true
+  },
+  {
+    "id": "courgette",
+    "nom": "Courgette",
+    "categorie": "légume",
+    "emoji": "🥒",
+    "description": "L'un des légumes d'été les plus consommés en France, la courgette est peu calorique et apporte du potassium et de la vitamine C, surtout si elle est consommée avec sa peau, où se concentrent la majorité des antioxydants.",
+    "bienfaits": [
+      {
+        "id": "potassium",
+        "label": "Apport en potassium",
+        "detail": "La courgette apporte environ 260 mg de potassium pour 100g, contribuant à l'équilibre hydrique et à la régulation de la tension artérielle. À vérifier CIQUAL 2020 avant publication.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "Table CIQUAL 2020 — Courgette",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "vitamine_c",
+        "label": "Vitamine C (surtout dans la peau)",
+        "detail": "La courgette apporte environ 18 mg de vitamine C pour 100g, concentrée dans la peau. Conserver la peau et éviter la surcuisson préserve cet apport.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "Table CIQUAL 2020 — Courgette",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 17,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 1.2,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 3.1,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.2,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 1.1,
+        "unite": "g/100g"
+      },
+      "vitamine_c": {
+        "valeur": 18,
+        "unite": "mg/100g"
+      },
+      "potassium": {
+        "valeur": 260,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses (valeurs à recouper)"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Vitamine C",
+        "mecanisme": "Associer courgette et citron potentialise l'apport global en vitamine C du plat. La vitamine C du citron contribue aussi à l'absorption du fer présent dans les légumes verts de l'assiette.",
+        "gain_estime": "Apport vitamine C total augmenté",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "potassium",
+      "fibres",
+      "vitamine_c"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "quotidien": true
+  },
+  {
+    "id": "radis",
+    "nom": "Radis",
+    "categorie": "légume",
+    "emoji": "🌶️",
+    "description": "Légume racine cru emblématique des entrées françaises, le radis appartient à la même famille que le brocoli et le chou-fleur — il contient donc des glucosinolates, précurseurs de composés aux propriétés antioxydantes étudiées chez les crucifères.",
+    "bienfaits": [
+      {
+        "id": "antioxydants",
+        "label": "Glucosinolates des crucifères",
+        "detail": "Comme tous les crucifères (brocoli, chou-fleur, kale), le radis contient des glucosinolates qui, libérés par la myrosinase lors de la mastication ou de la découpe, produisent des composés bioactifs (isothiocyanates) aux propriétés antioxydantes et étudiés pour leur potentiel anticancéreux.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "Table CIQUAL 2020 — Radis",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "vitamine_c",
+        "label": "Source de vitamine C",
+        "detail": "Le radis apporte une quantité modérée de vitamine C, contribuant à la couverture des besoins quotidiens avec un apport calorique très faible (~16 kcal/100g). À vérifier CIQUAL 2020.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "Table CIQUAL 2020 — Radis",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 16,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 0.7,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 3.4,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.1,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 1.6,
+        "unite": "g/100g"
+      },
+      "vitamine_c": {
+        "valeur": 15,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses (valeurs à recouper)"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "huile_olive",
+        "aliment_associe_nom": "Huile d'olive",
+        "aliment_associe_emoji": "🫒",
+        "nutriment_cle": "Glucosinolates (crucifères)",
+        "mecanisme": "Comme pour le brocoli, la découpe ou la mastication du radis active la myrosinase qui libère les composés bioactifs. Ajouter une matière grasse (huile d'olive) améliore l'absorption des composés liposolubles issus de cette réaction.",
+        "gain_estime": "Biodisponibilité des composés actifs améliorée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "vitamine_c",
+      "antioxydants",
+      "fibres"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "quotidien": true
+  },
+  {
+    "id": "fenouil",
+    "nom": "Fenouil",
+    "categorie": "légume",
+    "emoji": "🌿",
+    "description": "Légume bulbe à la saveur anisée, le fenouil doit ses propriétés digestives à l'anéthol, un composé aromatique aux effets carminatifs (réduction des ballonnements) traditionnellement utilisé en tisane après les repas.",
+    "bienfaits": [
+      {
+        "id": "digestion",
+        "label": "Anéthol : effet carminatif",
+        "detail": "L'anéthol, composé aromatique principal du fenouil, exerce un effet carminatif reconnu : il relaxe la musculature lisse du tube digestif, réduisant les ballonnements et les spasmes intestinaux. Cet usage traditionnel est documenté dans plusieurs pharmacopées européennes.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "Table CIQUAL 2020 — Fenouil",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "potassium",
+        "label": "Bonne source de potassium",
+        "detail": "Le fenouil apporte environ 400 mg de potassium pour 100g, l'un des apports minéraux les plus élevés parmi les légumes d'été. À recouper avec CIQUAL 2020.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "Table CIQUAL 2020 — Fenouil",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 31,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 1.2,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 7.3,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.2,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 3.1,
+        "unite": "g/100g"
+      },
+      "potassium": {
+        "valeur": 400,
+        "unite": "mg/100g"
+      },
+      "vitamine_c": {
+        "valeur": 12,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses (valeurs à recouper)"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Vitamine C + composés aromatiques",
+        "mecanisme": "Association classique en salade fenouil-citron : la vitamine C du citron complète le profil antioxydant du fenouil, et l'acidité du citron équilibre la saveur anisée tout en favorisant la digestion.",
+        "gain_estime": "Apport vitamine C augmenté + digestion facilitée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "digestion",
+      "potassium",
+      "fibres"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "quotidien": true
+  },
+  {
+    "id": "blette",
+    "nom": "Blette (bette à carde)",
+    "categorie": "légume-feuille",
+    "emoji": "🥬",
+    "description": "Cousine directe de l'épinard au sein de la même famille botanique (Chénopodiacées), la blette partage un profil nutritionnel proche — vitamine K, magnésium, antioxydants — tout en étant beaucoup moins mise en avant alors qu'elle est couramment cultivée et consommée en France.",
+    "bienfaits": [
+      {
+        "id": "vitamine_k",
+        "label": "Riche en vitamine K",
+        "detail": "La blette figure parmi les légumes-feuilles les plus riches en vitamine K1 (phylloquinone), essentielle à la coagulation sanguine et à la minéralisation osseuse. Son profil est proche de l'épinard. À recouper avec CIQUAL 2020.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "Table CIQUAL 2020 — Blette / bette",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "magnesium",
+        "label": "Source de magnésium",
+        "detail": "Comme l'épinard, la blette est une source végétale intéressante de magnésium, impliqué dans la production d'énergie cellulaire et la transmission nerveuse. À recouper avec CIQUAL 2020.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "Table CIQUAL 2020 — Blette",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 19,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 1.8,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 3.7,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.2,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 1.6,
+        "unite": "g/100g"
+      },
+      "magnesium": {
+        "valeur": 81,
+        "unite": "mg/100g"
+      },
+      "vitamine_k": {
+        "valeur": 830,
+        "unite": "µg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses (valeurs à recouper)"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "huile_olive",
+        "aliment_associe_nom": "Huile d'olive",
+        "aliment_associe_emoji": "🫒",
+        "nutriment_cle": "Vitamine K (liposoluble)",
+        "mecanisme": "La vitamine K est liposoluble : son absorption est multipliée par la présence de matière grasse. Cuire ou assaisonner la blette avec de l'huile d'olive suit le même principe que pour le kale et les autres légumes-feuilles riches en vitamine K.",
+        "gain_estime": "Absorption de la vitamine K améliorée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Gijsbers BL et al.",
+            "titre": "Effect of food composition on vitamin K absorption in human volunteers",
+            "journal": "Br J Nutr",
+            "annee": 1996,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8687090/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "vitamine_k",
+      "magnesium",
+      "antioxydants"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "quotidien": true
+  },
+  {
+    "id": "poire",
+    "nom": "Poire",
+    "categorie": "fruit",
+    "emoji": "🍐",
+    "description": "L'un des fruits les plus consommés en France avec la pomme et la banane, la poire est riche en fibres solubles (pectine) et en potassium. Sa peau concentre l'essentiel de ses antioxydants — à ne pas éplucher.",
+    "bienfaits": [
+      {
+        "id": "fibres",
+        "label": "Fibres solubles (pectine)",
+        "detail": "Avec environ 3g de fibres pour 100g, dont une grande part de pectine (fibre soluble fermentescible), la poire nourrit le microbiote intestinal et contribue à la régulation de la glycémie et du cholestérol LDL. À recouper avec CIQUAL 2020.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "Table CIQUAL 2020 — Poire",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "potassium",
+        "label": "Apport en potassium",
+        "detail": "La poire apporte environ 120 mg de potassium pour 100g, contribuant à l'équilibre hydrique et à la régulation de la tension artérielle. À recouper avec CIQUAL 2020.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "Table CIQUAL 2020 — Poire",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 57,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 0.4,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 15.5,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.1,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 3.1,
+        "unite": "g/100g"
+      },
+      "potassium": {
+        "valeur": 120,
+        "unite": "mg/100g"
+      },
+      "vitamine_c": {
+        "valeur": 4,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses (valeurs à recouper)"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "noix",
+        "aliment_associe_nom": "Noix",
+        "aliment_associe_emoji": "🌰",
+        "nutriment_cle": "Fibres + Oméga-3",
+        "mecanisme": "La poire apporte des fibres solubles qui nourrissent le microbiote ; les noix apportent des oméga-3 (ALA) et des antioxydants (ellagitanins). L'association classique poire-noix en salade combine prébiotiques et acides gras essentiels.",
+        "gain_estime": "Microbiote + apport oméga-3",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "CIQUAL 2020",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "fibres",
+      "potassium",
+      "antioxydants"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "quotidien": true
+  },
+  {
+    "id": "peche",
+    "nom": "Pêche",
+    "categorie": "fruit",
+    "emoji": "🍑",
+    "description": "Fruit d'été emblématique, la pêche apporte vitamine C et potassium, avec des caroténoïdes qui donnent sa couleur orangée à la chair — une alternative estivale à l'abricot pour les apports en bêta-carotène.",
+    "bienfaits": [
+      {
+        "id": "vitamine_c",
+        "label": "Apport en vitamine C",
+        "detail": "La pêche apporte environ 7 mg de vitamine C pour 100g, contribuant à la couverture des besoins quotidiens (AJR : 110 mg/j) et à l'absorption du fer non-héminique. À recouper avec CIQUAL 2020.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "Table CIQUAL 2020 — Pêche",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "antioxydants",
+        "label": "Caroténoïdes de la chair orangée",
+        "detail": "La chair orangée des pêches est colorée par des caroténoïdes (bêta-carotène, bêta-cryptoxanthine), pigments antioxydants que le corps peut convertir partiellement en vitamine A. À recouper avec CIQUAL 2020.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "Table CIQUAL 2020 — Pêche",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 39,
+        "unite": "kcal/100g"
+      },
+      "proteines": {
+        "valeur": 0.9,
+        "unite": "g/100g"
+      },
+      "glucides": {
+        "valeur": 9.5,
+        "unite": "g/100g"
+      },
+      "lipides": {
+        "valeur": 0.3,
+        "unite": "g/100g"
+      },
+      "fibres": {
+        "valeur": 1.5,
+        "unite": "g/100g"
+      },
+      "vitamine_c": {
+        "valeur": 7,
+        "unite": "mg/100g"
+      },
+      "potassium": {
+        "valeur": 190,
+        "unite": "mg/100g"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses (valeurs à recouper)"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "amande",
+        "aliment_associe_nom": "Amande",
+        "aliment_associe_emoji": "🌰",
+        "nutriment_cle": "Vitamine C + Vitamine E",
+        "mecanisme": "La pêche apporte de la vitamine C (hydrosoluble) ; l'amande est l'une des meilleures sources de vitamine E (liposoluble). Ces deux antioxydants agissent en synergie : la vitamine C régénère la vitamine E oxydée, prolongeant son effet protecteur.",
+        "gain_estime": "Synergie antioxydante vitamine C / vitamine E",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Niki E.",
+            "titre": "Interaction of ascorbate and alpha-tocopherol",
+            "journal": "Ann N Y Acad Sci",
+            "annee": 1987,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3304115/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "vitamine_c",
+      "potassium",
+      "beta_carotene"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "quotidien": true
+  },
+  {
+    "id": "boulgour",
+    "nom": "Boulgour",
+    "categorie": "céréale",
+    "emoji": "🫙",
+    "description": "Base du taboulé et céréale complète très utilisée en cuisine méditerranéenne, le boulgour conserve son enveloppe fibreuse contrairement à la semoule blanche, avec un index glycémique modéré (≈48) et un bon apport en magnésium.",
+    "bienfaits": [
+      {
+        "id": "fibres",
+        "label": "Céréale complète riche en fibres",
+        "detail": "Le boulgour cuit apporte environ 4 à 5g de fibres pour 100g (18g cru), nettement plus que la semoule blanche. Ces fibres alimentaires favorisent le transit, la satiété et la stabilité glycémique. À recouper avec CIQUAL 2020.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "Table CIQUAL 2020 — Boulgour",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      },
+      {
+        "id": "magnesium",
+        "label": "Apport en magnésium",
+        "detail": "Comme la plupart des céréales complètes, le boulgour est une source intéressante de magnésium, cofacteur de plus de 300 enzymes impliquées dans la production d'énergie et la contraction musculaire. À recouper avec CIQUAL 2020.",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anses",
+            "titre": "Table CIQUAL 2020 — Boulgour cuit",
+            "journal": "Anses",
+            "annee": 2020,
+            "url": "https://ciqual.anses.fr/"
+          }
+        ]
+      }
+    ],
+    "teneurs": {
+      "calories": {
+        "valeur": 342,
+        "unite": "kcal/100g (cru)"
+      },
+      "proteines": {
+        "valeur": 12.3,
+        "unite": "g/100g (cru)"
+      },
+      "glucides": {
+        "valeur": 75.9,
+        "unite": "g/100g (cru)"
+      },
+      "lipides": {
+        "valeur": 1.3,
+        "unite": "g/100g (cru)"
+      },
+      "fibres": {
+        "valeur": 18.3,
+        "unite": "g/100g (cru)"
+      },
+      "magnesium": {
+        "valeur": 164,
+        "unite": "mg/100g (cru)"
+      },
+      "source_teneurs": "CIQUAL 2020 — Anses (valeurs cru, à recouper)"
+    },
+    "synergies": [
+      {
+        "aliment_associe_id": "persil",
+        "aliment_associe_nom": "Persil frais",
+        "aliment_associe_emoji": "🌿",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "La recette traditionnelle du taboulé associe boulgour et persil. Le persil est extrêmement riche en vitamine C (133 mg/100g), qui améliore l'absorption du fer non-héminique présent dans le boulgour complet — une synergie documentée pour toutes les associations végétal + vitamine C.",
+        "gain_estime": "+200 à +400% d'absorption du fer",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hallberg L, Brune M, Rossander L.",
+            "titre": "Effect of ascorbic acid on iron absorption from different types of meals",
+            "journal": "Hum Nutr Appl Nutr",
+            "annee": 1986,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3771220/"
+          }
+        ]
+      }
+    ],
+    "recette_idee_id": null,
+    "tags": [
+      "fibres",
+      "magnesium",
+      "proteines"
+    ],
+    "super_aliment": false,
+    "super_aliment_raison": null,
+    "quotidien": true
   }
 ]
