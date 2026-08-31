@@ -5,7 +5,7 @@ import TermeLink from '../ui/TermeLink'
 
 // Card de synergie alimentaire avec mécanisme et source scientifique
 export default function SynergyCard({ synergie }) {
-  if (!synergie) return null
+  if (!synergie || !synergie.aliment_associe_id) return null
 
   return (
     <div className="card border-l-4 border-l-green-main">

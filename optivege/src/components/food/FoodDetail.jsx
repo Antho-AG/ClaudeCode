@@ -28,7 +28,7 @@ const ARTICLES_BLOG = [
   {
     url: 'https://optivege.fr/calcium-vitamine-d3-k2',
     ancre: 'Calcium, D3 et K2 : la synergie osseuse',
-    aliments: ['brocoli', 'kale', 'amande', 'graine_de_sesame', 'teff', 'amarante'],
+    aliments: ['brocoli', 'kale', 'amande', 'graine_de_sesame', 'teff', 'amarante', 'persil'],
   },
 ]
 

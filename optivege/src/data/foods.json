@@ -621,6 +621,24 @@
             "url": "https://pubmed.ncbi.nlm.nih.gov/15735074/"
           }
         ]
+      },
+      {
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "La vitamine C du citron améliore l'absorption du fer non-héminique du quinoa (2,8 mg/100g). Le quinoa contient aussi des phytates qui peuvent réduire la biodisponibilité du fer — l'acide ascorbique contre-balance cet effet.",
+        "gain_estime": "+200 à +400% d'absorption du fer",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Hallberg L, Brune M, Rossander L.",
+            "titre": "Effect of ascorbic acid on iron absorption from different types of meals",
+            "journal": "Hum Nutr Appl Nutr",
+            "annee": 1986,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3771220/"
+          }
+        ]
       }
     ],
     "recette_idee_id": "bowl_quinoa_legumes_rotis",
@@ -6696,16 +6714,22 @@
     ],
     "synergies": [
       {
-        "aliment_b": "myrtille",
+        "aliment_associe_id": "myrtille",
+        "aliment_associe_nom": "Myrtille",
+        "aliment_associe_emoji": "🫐",
+        "nutriment_cle": "Anthocyanes",
         "mecanisme": "Açaï + myrtille : les deux concentrations d'anthocyanes les plus élevées du règne végétal, spectre antioxydant maximal.",
-        "benefice_synergie": "Protection antioxydante cérébrovasculaire maximale",
-        "source": {
-          "auteurs": "Devore EE et al.",
-          "titre": "Berry flavonoids and cognitive decline",
-          "journal": "Ann Neurol",
-          "annee": 2012,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/22535616/"
-        }
+        "gain_estime": "Protection antioxydante cérébrovasculaire maximale",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Devore EE et al.",
+            "titre": "Berry flavonoids and cognitive decline",
+            "journal": "Ann Neurol",
+            "annee": 2012,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22535616/"
+          }
+        ]
       }
     ],
     "tags": [
@@ -6756,16 +6780,22 @@
     ],
     "synergies": [
       {
-        "aliment_b": "chocolat_noir",
+        "aliment_associe_id": "chocolat_noir",
+        "aliment_associe_nom": "Chocolat noir",
+        "aliment_associe_emoji": "🍫",
+        "nutriment_cle": "Flavanoïdes",
         "mecanisme": "Cacao cru (flavanoïdes intacts) + chocolat noir (procyanidines torréfiées) : spectre maximal de flavanoïdes.",
-        "benefice_synergie": "Spectre maximal de flavanoïdes du cacao",
-        "source": {
-          "auteurs": "Manach C et al.",
-          "titre": "Bioavailability of polyphenols in humans",
-          "journal": "Am J Clin Nutr",
-          "annee": 2005,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/15640486/"
-        }
+        "gain_estime": "Spectre maximal de flavanoïdes du cacao",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Manach C et al.",
+            "titre": "Bioavailability of polyphenols in humans",
+            "journal": "Am J Clin Nutr",
+            "annee": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15640486/"
+          }
+        ]
       }
     ],
     "tags": [
@@ -6983,16 +7013,22 @@
     ],
     "synergies": [
       {
-        "aliment_b": "citron",
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "EGCG + Vitamine C",
         "mecanisme": "La vitamine C du citron stabilise l'EGCG et multiplie son absorption intestinale par 13.",
-        "benefice_synergie": "Absorption de l'EGCG ×13 avec citron",
-        "source": {
-          "auteurs": "Green RJ et al.",
-          "titre": "Tea formulations modulate catechin recovery",
-          "journal": "Mol Nutr Food Res",
-          "annee": 2007,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/17471748/"
-        }
+        "gain_estime": "Absorption de l'EGCG ×13",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Green RJ et al.",
+            "titre": "Tea formulations modulate catechin recovery",
+            "journal": "Mol Nutr Food Res",
+            "annee": 2007,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17471748/"
+          }
+        ]
       }
     ],
     "tags": [
@@ -7657,6 +7693,24 @@
             "url": "https://pubmed.ncbi.nlm.nih.gov/15227749/"
           }
         ]
+      },
+      {
+        "aliment_associe_id": "riz_complet",
+        "aliment_associe_nom": "Riz complet",
+        "aliment_associe_emoji": "🍚",
+        "nutriment_cle": "Iode + Sélénium",
+        "mecanisme": "L'iode (1300 µg/100g dans le wakamé) et le sélénium du riz complet sont tous deux indispensables à la synthèse et à l'activation des hormones thyroïdiennes : l'iode est incorporé dans la thyroxine (T4), le sélénium catalyse sa conversion en T3 active via la déiodinase.",
+        "gain_estime": "Fonction thyroïdienne optimisée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Rayman MP.",
+            "titre": "The importance of selenium to human health",
+            "journal": "Lancet",
+            "annee": 2000,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10963212/"
+          }
+        ]
       }
     ],
     "recette_idee_id": null,
@@ -7780,6 +7834,24 @@
             "journal": "Am J Clin Nutr",
             "annee": 2010,
             "url": "https://pubmed.ncbi.nlm.nih.gov/20200263/"
+          }
+        ]
+      },
+      {
+        "aliment_associe_id": "tofu",
+        "aliment_associe_nom": "Tofu",
+        "aliment_associe_emoji": "🧊",
+        "nutriment_cle": "Calcium + Vitamine K",
+        "mecanisme": "Le persil est la source végétale la plus concentrée en vitamine K1 (1640 µg/100g). La vitamine K active l'ostéocalcine, protéine qui fixe le calcium du tofu dans la matrice osseuse. Une pincée de persil frais sur du tofu sauté couvre l'intégralité des besoins journaliers en vitamine K.",
+        "gain_estime": "Fixation osseuse du calcium optimisée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Schurgers LJ, Vermeer C.",
+            "titre": "Determination of phylloquinone and menaquinones in food. Effect of food matrix on circulating vitamin K concentrations",
+            "journal": "Haemostasis",
+            "annee": 2000,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11356998/"
           }
         ]
       }
