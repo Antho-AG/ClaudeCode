@@ -5122,14 +5122,32 @@
         "aliment_associe_id": "citron",
         "aliment_associe_nom": "Citron",
         "aliment_associe_emoji": "🍋",
-        "nutriment_cle": "Vitamine C + Fer + Calcium",
-        "mecanisme": "La vitamine C du citron améliore l'absorption du fer de l'amarante (7,6 mg/100g) et facilite l'utilisation du calcium. Un simple filet de citron sur l'amarante cuite transforme ce repas en bombe nutritionnelle.",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "La vitamine C du citron améliore l'absorption du fer de l'amarante (7,6 mg/100g).",
         "gain_estime": "Absorption fer ×2 à ×3",
         "sources": [
           {
             "auteurs": "Hallberg L. et al.",
             "titre": "Hum Nutr Appl Nutr",
             "annee": 1986
+          }
+        ]
+      },
+      {
+        "aliment_associe_id": "kale",
+        "aliment_associe_nom": "Kale",
+        "aliment_associe_emoji": "🥬",
+        "nutriment_cle": "Calcium + Vitamine K",
+        "mecanisme": "Le kale apporte la vitamine K1 qui active l'ostéocalcine pour fixer le calcium de l'amarante dans les os. Un porridge d'amarante avec kale émincé et graines de sésame combine calcium, fer et vitamine K en un seul plat.",
+        "gain_estime": "Fixation osseuse du calcium optimisée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Schurgers LJ, Vermeer C.",
+            "titre": "Determination of phylloquinone and menaquinones in food. Effect of food matrix on circulating vitamin K concentrations",
+            "journal": "Haemostasis",
+            "annee": 2000,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11356998/"
           }
         ]
       }
@@ -5283,14 +5301,32 @@
         "aliment_associe_id": "citron",
         "aliment_associe_nom": "Citron",
         "aliment_associe_emoji": "🍋",
-        "nutriment_cle": "Vitamine C + Fer + Calcium",
-        "mecanisme": "Identique à l'amarante : la vitamine C du citron multiplie l'absorption du fer exceptionnel du teff et facilite l'utilisation du calcium.",
+        "nutriment_cle": "Vitamine C + Fer",
+        "mecanisme": "La vitamine C du citron multiplie l'absorption du fer exceptionnel du teff.",
         "gain_estime": "Absorption fer ×2 à ×3",
         "sources": [
           {
             "auteurs": "Hallberg L. et al.",
             "titre": "Hum Nutr Appl Nutr",
             "annee": 1986
+          }
+        ]
+      },
+      {
+        "aliment_associe_id": "kale",
+        "aliment_associe_nom": "Kale",
+        "aliment_associe_emoji": "🥬",
+        "nutriment_cle": "Calcium + Vitamine K",
+        "mecanisme": "Le kale apporte la vitamine K1 qui active l'ostéocalcine pour fixer le calcium du teff dans les os. Idéal dans un curry ou un porridge salé au kale vapeur.",
+        "gain_estime": "Fixation osseuse du calcium optimisée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Schurgers LJ, Vermeer C.",
+            "titre": "Determination of phylloquinone and menaquinones in food. Effect of food matrix on circulating vitamin K concentrations",
+            "journal": "Haemostasis",
+            "annee": 2000,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11356998/"
           }
         ]
       }
