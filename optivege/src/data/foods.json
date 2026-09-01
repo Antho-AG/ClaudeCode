@@ -6077,16 +6077,22 @@
     ],
     "synergies": [
       {
-        "aliment_b": "curcuma",
+        "aliment_associe_id": "curcuma",
+        "aliment_associe_nom": "Curcuma",
+        "aliment_associe_emoji": "🟡",
+        "nutriment_cle": "Synergie anti-tumorale renforcée",
         "mecanisme": "La curcumine et les isothiocyanates du chou-fleur ont des mécanismes anti-tumoraux complémentaires.",
-        "benefice_synergie": "Synergie anti-tumorale renforcée",
-        "source": {
-          "auteurs": "Canene-Adams K et al.",
-          "titre": "Combinations of tomato and broccoli enhance antitumor activity",
-          "journal": "Cancer Res",
-          "annee": 2007,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/17616703/"
-        }
+        "gain_estime": "Synergie anti-tumorale renforcée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Canene-Adams K et al.",
+            "titre": "Combinations of tomato and broccoli enhance antitumor activity",
+            "journal": "Cancer Res",
+            "annee": 2007,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17616703/"
+          }
+        ]
       }
     ],
     "tags": [
@@ -6136,16 +6142,22 @@
     ],
     "synergies": [
       {
-        "aliment_b": "avocat",
+        "aliment_associe_id": "avocat",
+        "aliment_associe_nom": "Avocat",
+        "aliment_associe_emoji": "🥑",
+        "nutriment_cle": "Absorption du bêta-carotène ×3 à ×5",
         "mecanisme": "Les lipides de l'avocat solubilisent le bêta-carotène, multipliant son absorption par 3 à 5.",
-        "benefice_synergie": "Absorption du bêta-carotène ×3 à ×5",
-        "source": {
-          "auteurs": "Unlu NZ et al.",
-          "titre": "Carotenoid absorption enhanced by avocado",
-          "journal": "J Nutr",
-          "annee": 2005,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/15735074/"
-        }
+        "gain_estime": "Absorption du bêta-carotène ×3 à ×5",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Unlu NZ et al.",
+            "titre": "Carotenoid absorption enhanced by avocado",
+            "journal": "J Nutr",
+            "annee": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15735074/"
+          }
+        ]
       }
     ],
     "tags": [
@@ -6195,16 +6207,22 @@
     ],
     "synergies": [
       {
-        "aliment_b": "brocoli",
+        "aliment_associe_id": "brocoli",
+        "aliment_associe_nom": "Brocoli",
+        "aliment_associe_emoji": "🥦",
+        "nutriment_cle": "Synergie anti-tumorale tomate + brocoli",
         "mecanisme": "Lycopène + sulforaphane : deux mécanismes anti-tumoraux distincts agissant en synergie documentée.",
-        "benefice_synergie": "Synergie anti-tumorale tomate + brocoli",
-        "source": {
-          "auteurs": "Canene-Adams K et al.",
-          "titre": "Combinations of tomato and broccoli enhance antitumor activity",
-          "journal": "Cancer Res",
-          "annee": 2007,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/17616703/"
-        }
+        "gain_estime": "Synergie anti-tumorale tomate + brocoli",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Canene-Adams K et al.",
+            "titre": "Combinations of tomato and broccoli enhance antitumor activity",
+            "journal": "Cancer Res",
+            "annee": 2007,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17616703/"
+          }
+        ]
       }
     ],
     "tags": [
@@ -6255,16 +6273,22 @@
     ],
     "synergies": [
       {
-        "aliment_b": "gingembre",
+        "aliment_associe_id": "gingembre",
+        "aliment_associe_nom": "Gingembre",
+        "aliment_associe_emoji": "🫚",
+        "nutriment_cle": "Anti-inflammatoire multi-voies",
         "mecanisme": "Les cucurbitacines (concombre) et gingérols (gingembre) ont des mécanismes anti-inflammatoires complémentaires.",
-        "benefice_synergie": "Anti-inflammatoire multi-voies",
-        "source": {
-          "auteurs": "Mashhadi NS et al.",
-          "titre": "Anti-Oxidative and Anti-Inflammatory Effects of Ginger",
-          "journal": "Int J Prev Med",
-          "annee": 2013,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23717767/"
-        }
+        "gain_estime": "Anti-inflammatoire multi-voies",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Mashhadi NS et al.",
+            "titre": "Anti-Oxidative and Anti-Inflammatory Effects of Ginger",
+            "journal": "Int J Prev Med",
+            "annee": 2013,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23717767/"
+          }
+        ]
       }
     ],
     "tags": [
@@ -6314,16 +6338,22 @@
     ],
     "synergies": [
       {
-        "aliment_b": "cannelle",
+        "aliment_associe_id": "cannelle",
+        "aliment_associe_nom": "Cannelle",
+        "aliment_associe_emoji": "🌿",
+        "nutriment_cle": "Régulation glycémique synergique",
         "mecanisme": "La quercétine de la pomme et les polyphénols de la cannelle réduisent ensemble la glycémie postprandiale.",
-        "benefice_synergie": "Régulation glycémique synergique",
-        "source": {
-          "auteurs": "Johnston CS et al.",
-          "titre": "Vinegar improves insulin sensitivity",
-          "journal": "Diabetes Care",
-          "annee": 2004,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/15277160/"
-        }
+        "gain_estime": "Régulation glycémique synergique",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Johnston CS et al.",
+            "titre": "Vinegar improves insulin sensitivity",
+            "journal": "Diabetes Care",
+            "annee": 2004,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15277160/"
+          }
+        ]
       }
     ],
     "tags": [
@@ -6373,16 +6403,22 @@
     ],
     "synergies": [
       {
-        "aliment_b": "gingembre",
+        "aliment_associe_id": "gingembre",
+        "aliment_associe_nom": "Gingembre",
+        "aliment_associe_emoji": "🫚",
+        "nutriment_cle": "Anti-inflammatoire articulaire puissant",
         "mecanisme": "Cyanidines (cerise) + gingérols (gingembre) : double inhibition COX et cytokines pro-inflammatoires.",
-        "benefice_synergie": "Anti-inflammatoire articulaire puissant",
-        "source": {
-          "auteurs": "Mashhadi NS et al.",
-          "titre": "Anti-Inflammatory Effects of Ginger",
-          "journal": "Int J Prev Med",
-          "annee": 2013,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23717767/"
-        }
+        "gain_estime": "Anti-inflammatoire articulaire puissant",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Mashhadi NS et al.",
+            "titre": "Anti-Inflammatory Effects of Ginger",
+            "journal": "Int J Prev Med",
+            "annee": 2013,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23717767/"
+          }
+        ]
       }
     ],
     "tags": [
@@ -6432,16 +6468,22 @@
     ],
     "synergies": [
       {
-        "aliment_b": "noix",
+        "aliment_associe_id": "noix",
+        "aliment_associe_nom": "Noix de Grenoble",
+        "aliment_associe_emoji": "🌰",
+        "nutriment_cle": "Protection cardiovasculaire synergique",
         "mecanisme": "Resvératrol (raisin) + oméga-3 et vitamine E (noix) : effets cardiovasculaires complémentaires.",
-        "benefice_synergie": "Protection cardiovasculaire synergique",
-        "source": {
-          "auteurs": "Salas-Salvadó J et al.",
-          "titre": "Mediterranean Diet and Type 2 Diabetes",
-          "journal": "Diabetes Care",
-          "annee": 2011,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/21193617/"
-        }
+        "gain_estime": "Protection cardiovasculaire synergique",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Salas-Salvadó J et al.",
+            "titre": "Mediterranean Diet and Type 2 Diabetes",
+            "journal": "Diabetes Care",
+            "annee": 2011,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21193617/"
+          }
+        ]
       }
     ],
     "tags": [
@@ -6491,28 +6533,40 @@
     ],
     "synergies": [
       {
-        "aliment_b": "ail",
+        "aliment_associe_id": "ail",
+        "aliment_associe_nom": "Ail",
+        "aliment_associe_emoji": "🧄",
+        "nutriment_cle": "Cardioprotection et immunité synergiques",
         "mecanisme": "Quercétine (oignon) + allicine (ail) : synergie antimicrobienne et cardioprotectrice documentée.",
-        "benefice_synergie": "Cardioprotection et immunité synergiques",
-        "source": {
-          "auteurs": "Rivlin RS",
-          "titre": "Historical perspective on the use of garlic",
-          "journal": "J Nutr",
-          "annee": 2001,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/11238800/"
-        }
+        "gain_estime": "Cardioprotection et immunité synergiques",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Rivlin RS",
+            "titre": "Historical perspective on the use of garlic",
+            "journal": "J Nutr",
+            "annee": 2001,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11238800/"
+          }
+        ]
       },
       {
-        "aliment_b": "curcuma",
+        "aliment_associe_id": "curcuma",
+        "aliment_associe_nom": "Curcuma",
+        "aliment_associe_emoji": "🟡",
+        "nutriment_cle": "Anti-inflammatoire NF-κB maximal",
         "mecanisme": "Quercétine + curcumine : double inhibition de NF-κB avec des mécanismes moléculaires distincts.",
-        "benefice_synergie": "Anti-inflammatoire NF-κB maximal",
-        "source": {
-          "auteurs": "Bharti AC, Aggarwal BB",
-          "titre": "Nuclear factor-kappa B and cancer",
-          "journal": "Biochem Pharmacol",
-          "annee": 2002,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/12437924/"
-        }
+        "gain_estime": "Anti-inflammatoire NF-κB maximal",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Bharti AC, Aggarwal BB",
+            "titre": "Nuclear factor-kappa B and cancer",
+            "journal": "Biochem Pharmacol",
+            "annee": 2002,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12437924/"
+          }
+        ]
       }
     ],
     "tags": [
@@ -6563,28 +6617,40 @@
     ],
     "synergies": [
       {
-        "aliment_b": "avoine",
+        "aliment_associe_id": "avoine",
+        "aliment_associe_nom": "Avoine (flocons)",
+        "aliment_associe_emoji": "🌾",
+        "nutriment_cle": "Contrôle glycémique puissant",
         "mecanisme": "Cinnamaldéhyde (sensibilité insuline) + bêta-glucanes (ralentissement glucose) : double action hypoglycémiante.",
-        "benefice_synergie": "Contrôle glycémique puissant",
-        "source": {
-          "auteurs": "Vuksan V et al.",
-          "titre": "Reduction in postprandial glucose excursion",
-          "journal": "J Am Coll Nutr",
-          "annee": 2009,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/19714979/"
-        }
+        "gain_estime": "Contrôle glycémique puissant",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Vuksan V et al.",
+            "titre": "Reduction in postprandial glucose excursion",
+            "journal": "J Am Coll Nutr",
+            "annee": 2009,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19714979/"
+          }
+        ]
       },
       {
-        "aliment_b": "pomme",
+        "aliment_associe_id": "pomme",
+        "aliment_associe_nom": "Pomme",
+        "aliment_associe_emoji": "🍎",
+        "nutriment_cle": "Régulation glycémique renforcée",
         "mecanisme": "Polyphénols de la cannelle + quercétine de la pomme : synergie sur la glycémie postprandiale.",
-        "benefice_synergie": "Régulation glycémique renforcée",
-        "source": {
-          "auteurs": "Johnston CS et al.",
-          "titre": "Vinegar improves insulin sensitivity",
-          "journal": "Diabetes Care",
-          "annee": 2004,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/15277160/"
-        }
+        "gain_estime": "Régulation glycémique renforcée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Johnston CS et al.",
+            "titre": "Vinegar improves insulin sensitivity",
+            "journal": "Diabetes Care",
+            "annee": 2004,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15277160/"
+          }
+        ]
       }
     ],
     "tags": [
@@ -6638,28 +6704,40 @@
     ],
     "synergies": [
       {
-        "aliment_b": "citron",
+        "aliment_associe_id": "citron",
+        "aliment_associe_nom": "Citron",
+        "aliment_associe_emoji": "🍋",
+        "nutriment_cle": "Absorption de l'EGCG ×13",
         "mecanisme": "La vitamine C du citron protège l'EGCG de la dégradation et multiplie son absorption par 13.",
-        "benefice_synergie": "Absorption de l'EGCG ×13",
-        "source": {
-          "auteurs": "Green RJ et al.",
-          "titre": "Tea formulations modulate catechin bioavailability",
-          "journal": "Mol Nutr Food Res",
-          "annee": 2007,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/17471748/"
-        }
+        "gain_estime": "Absorption de l'EGCG ×13",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Green RJ et al.",
+            "titre": "Tea formulations modulate catechin bioavailability",
+            "journal": "Mol Nutr Food Res",
+            "annee": 2007,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17471748/"
+          }
+        ]
       },
       {
-        "aliment_b": "curcuma",
+        "aliment_associe_id": "curcuma",
+        "aliment_associe_nom": "Curcuma",
+        "aliment_associe_emoji": "🟡",
+        "nutriment_cle": "Synergie anti-tumorale polyphénolique",
         "mecanisme": "EGCG (inhibition topoisomérase) + curcumine (inhibition NF-κB) : deux mécanismes anti-tumoraux distincts en synergie.",
-        "benefice_synergie": "Synergie anti-tumorale polyphénolique",
-        "source": {
-          "auteurs": "Mukherjee S et al.",
-          "titre": "Combination of green tea and curcumin prevents cancer",
-          "journal": "Carcinogenesis",
-          "annee": 2009,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/19174455/"
-        }
+        "gain_estime": "Synergie anti-tumorale polyphénolique",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Mukherjee S et al.",
+            "titre": "Combination of green tea and curcumin prevents cancer",
+            "journal": "Carcinogenesis",
+            "annee": 2009,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19174455/"
+          }
+        ]
       }
     ],
     "tags": [
@@ -6835,16 +6913,22 @@
     ],
     "synergies": [
       {
-        "aliment_b": "ail",
+        "aliment_associe_id": "ail",
+        "aliment_associe_nom": "Ail",
+        "aliment_associe_emoji": "🧄",
+        "nutriment_cle": "Microbiote et immunité renforcés",
         "mecanisme": "Composés organosoufrés du poireau + allicine de l'ail : synergie prébiotique et antimicrobienne renforcée.",
-        "benefice_synergie": "Microbiote et immunité renforcés",
-        "source": {
-          "auteurs": "Ngo SN et al.",
-          "titre": "The role of garlic in cancer prevention",
-          "journal": "Eur J Cancer Prev",
-          "annee": 2007,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/17415110/"
-        }
+        "gain_estime": "Microbiote et immunité renforcés",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Ngo SN et al.",
+            "titre": "The role of garlic in cancer prevention",
+            "journal": "Eur J Cancer Prev",
+            "annee": 2007,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17415110/"
+          }
+        ]
       }
     ],
     "tags": [
@@ -6894,16 +6978,22 @@
     ],
     "synergies": [
       {
-        "aliment_b": "ail",
+        "aliment_associe_id": "ail",
+        "aliment_associe_nom": "Ail",
+        "aliment_associe_emoji": "🧄",
+        "nutriment_cle": "Détox hépatique renforcée",
         "mecanisme": "Isothiocyanates (choux) + allicine (ail) : synergie sur les enzymes de détoxification hépatique.",
-        "benefice_synergie": "Détox hépatique renforcée",
-        "source": {
-          "auteurs": "Milner JA",
-          "titre": "Garlic and allyl sulfur compounds suppress carcinogen bioactivation",
-          "journal": "J Nutr",
-          "annee": 2006,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/16484554/"
-        }
+        "gain_estime": "Détox hépatique renforcée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Milner JA",
+            "titre": "Garlic and allyl sulfur compounds suppress carcinogen bioactivation",
+            "journal": "J Nutr",
+            "annee": 2006,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16484554/"
+          }
+        ]
       }
     ],
     "tags": [
@@ -6954,16 +7044,22 @@
     ],
     "synergies": [
       {
-        "aliment_b": "graines_de_courge",
+        "aliment_associe_id": "graines_de_courge",
+        "aliment_associe_nom": "Graines de courge",
+        "aliment_associe_emoji": "🎃",
+        "nutriment_cle": "Nutrition complète courge + graines",
         "mecanisme": "Chair riche en caroténoïdes + graines riches en zinc et magnésium : une combinaison intégrale.",
-        "benefice_synergie": "Nutrition complète courge + graines",
-        "source": {
-          "auteurs": "Bardaa S et al.",
-          "titre": "Pumpkin seed oil: A comprehensive review",
-          "journal": "J Food Sci",
-          "annee": 2016,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/27219221/"
-        }
+        "gain_estime": "Nutrition complète courge + graines",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Bardaa S et al.",
+            "titre": "Pumpkin seed oil: A comprehensive review",
+            "journal": "J Food Sci",
+            "annee": 2016,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27219221/"
+          }
+        ]
       }
     ],
     "tags": [
@@ -7078,16 +7174,22 @@
     ],
     "synergies": [
       {
-        "aliment_b": "myrtille",
+        "aliment_associe_id": "myrtille",
+        "aliment_associe_nom": "Myrtille",
+        "aliment_associe_emoji": "🫐",
+        "nutriment_cle": "Microbiote et antioxydants combinés",
         "mecanisme": "Les anthocyanes de la myrtille et les probiotiques du yaourt de soja se renforcent mutuellement pour un microbiote sain.",
-        "benefice_synergie": "Microbiote et antioxydants combinés",
-        "source": {
-          "auteurs": "Biedrzycka E, Bielecka M",
-          "titre": "Prebiotic effectiveness of fructooligosaccharides",
-          "journal": "Acta Alimentaria",
-          "annee": 2004,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/15724831/"
-        }
+        "gain_estime": "Microbiote et antioxydants combinés",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Biedrzycka E, Bielecka M",
+            "titre": "Prebiotic effectiveness of fructooligosaccharides",
+            "journal": "Acta Alimentaria",
+            "annee": 2004,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15724831/"
+          }
+        ]
       }
     ],
     "tags": [
@@ -7122,16 +7224,22 @@
     ],
     "synergies": [
       {
-        "aliment_b": "curcuma",
+        "aliment_associe_id": "curcuma",
+        "aliment_associe_nom": "Curcuma",
+        "aliment_associe_emoji": "🟡",
+        "nutriment_cle": "Absorption de la curcumine maximisée",
         "mecanisme": "Les graisses du lait de coco solubilisent la curcumine liposoluble et améliorent son absorption intestinale.",
-        "benefice_synergie": "Absorption de la curcumine maximisée",
-        "source": {
-          "auteurs": "Anand P et al.",
-          "titre": "Bioavailability of curcumin",
-          "journal": "Mol Pharm",
-          "annee": 2007,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/17999464/"
-        }
+        "gain_estime": "Absorption de la curcumine maximisée",
+        "sujet_a_debat": false,
+        "sources": [
+          {
+            "auteurs": "Anand P et al.",
+            "titre": "Bioavailability of curcumin",
+            "journal": "Mol Pharm",
+            "annee": 2007,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17999464/"
+          }
+        ]
       }
     ],
     "tags": [
